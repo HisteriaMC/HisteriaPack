@@ -4,55 +4,106 @@
    "resource_pack_name" : "vanilla",
    "texture_data" : {
       "armchair" : {
-         "textures" : "textures/custom_blocks/armchair"
+         "textures" : "textures/blocks/armchair"
       },
       "big_pot" : {
-         "textures" : "textures/custom_blocks/big_pot"
+         "textures" : "textures/blocks/big_pot"
       },
-      "black_blue_tile_block" : {
-         "textures" : "textures/custom_blocks/black_blue_tile_block"
+      "blue_tile" : {
+         "textures" : "textures/blocks/blue_tile"
       },
-      "black_green_tile_block" : {
-         "textures" : "textures/custom_blocks/black_green_tile_block"
+      "green_tile" : {
+         "textures" : "textures/blocks/green_tile"
       },
-      "black_orange_tile_block" : {
-         "textures" : "textures/custom_blocks/black_orange_tile_block"
+      "orange_tile" : {
+         "textures" : "textures/blocks/orange_tile"
       },
-      "black_red_tile_block" : {
-         "textures" : "textures/custom_blocks/black_red_tile_block"
+      "red_tile" : {
+         "textures" : "textures/blocks/red_tile"
       },
-      "black_white_tile_block" : {
-         "textures" : "textures/custom_blocks/black_white_tile_block"
+      "black_tile" : {
+         "textures" : "textures/blocks/black_tile"
       },
       "book" : {
-         "textures" : "textures/custom_blocks/book"
+         "textures" : "textures/blocks/book"
       },
       "box" : {
-         "textures" : "textures/custom_blocks/box"
+         "textures" : "textures/blocks/box"
       },
       "chair" : {
-         "textures" : "textures/custom_blocks/chair"
+         "textures" : "textures/blocks/chair"
       },
       "compressed_bricks" : {
-         "textures" : "textures/custom_blocks/compressed_bricks"
+         "textures" : "textures/blocks/compressed_bricks"
       },
-      "etagere" : {
-         "textures" : "textures/custom_blocks/etagere"
+      "shelf" : {
+         "textures" : "textures/blocks/shelf"
       },
-      "girlande" : {
-         "textures" : "textures/custom_blocks/girlande"
+      "garland" : {
+         "textures" : "textures/blocks/garland"
       },
       "lamp" : {
-         "textures" : "textures/custom_blocks/lamp"
+         "textures" : "textures/blocks/lamp"
       },
       "orange_bush" : {
-         "textures" : "textures/custom_blocks/orange_bush"
+         "textures" : "textures/blocks/orange_bush"
       },
       "peony" : {
-         "textures" : "textures/custom_blocks/peony"
+         "textures" : "textures/blocks/peony_bush"
       },
       "table" : {
-         "textures" : "textures/custom_blocks/table"
+         "textures" : "textures/blocks/table"
+      },
+      "cave_block" : {
+         "textures" : "textures/blocks/cave_block"
+      },
+      "drawer_side" : {
+         "textures" : "textures/blocks/drawer_side"
+      },
+      "drawer_side2" : {
+         "textures" : "textures/blocks/drawer_side2"
+      },
+      "drawer_top_bottom" : {
+         "textures" : "textures/blocks/drawer_top_bottom"
+      },
+      "elevator_block_side" : {
+         "textures" : "textures/blocks/elevator_block_side"
+      },
+      "elevator_block_top" : {
+         "textures" : "textures/blocks/elevator_block_top"
+      },
+      "fertilized_dirt" : {
+         "textures" : "textures/blocks/fertilized_dirt"
+      },
+      "histerite_block" : {
+         "textures" : "textures/blocks/histerite_block"
+      },
+      "histerite_ore" : {
+         "textures" : "textures/blocks/histerite_ore"
+      },
+      "lucky_block" : {
+         "textures" : "textures/blocks/lucky_block"
+      },
+      "neon_block" : {
+         "textures" : "textures/blocks/neon_block"
+      },
+      "nocturite_block" : {
+         "textures" : "textures/blocks/nocturite_block"
+      },
+      "nocturite_plant0" : {
+         "textures" : "textures/blocks/nocturite_plant0"
+      },
+      "nocturite_plant1" : {
+         "textures" : "textures/blocks/nocturite_plant1"
+      },
+      "nocturite_plant2" : {
+         "textures" : "textures/blocks/nocturite_plant2"
+      },
+      "poisonous_obsidian" : {
+         "textures" : "textures/blocks/poisonous_obsidian"
+      },
+      "renforced_obsidian" : {
+         "textures" : "textures/blocks/renforced_obsidian"
       }
    },
    "texture_name" : "atlas.terrain"
