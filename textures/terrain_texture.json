@@ -24,8 +24,8 @@
       "black_tile" : {
          "textures" : "textures/blocks/black_tile"
       },
-      "book" : {
-         "textures" : "textures/blocks/book"
+      "book_pile" : {
+         "textures" : "textures/blocks/book_pile"
       },
       "box" : {
          "textures" : "textures/blocks/box"
@@ -39,16 +39,13 @@
       "shelf" : {
          "textures" : "textures/blocks/shelf"
       },
-      "garland" : {
-         "textures" : "textures/blocks/garland"
+      "tinsel" : {
+         "textures" : "textures/blocks/tinsel"
       },
       "lamp" : {
          "textures" : "textures/blocks/lamp"
       },
-      "orange_bush" : {
-         "textures" : "textures/blocks/orange_bush"
-      },
-      "peony" : {
+      "peony_bush" : {
          "textures" : "textures/blocks/peony_bush"
       },
       "table" : {

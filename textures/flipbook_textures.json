@@ -1,0 +1,12 @@
+[
+  {
+    "flipbook_texture": "textures/blocks/tinsel",
+    "atlas_tile": "tinsel",
+    "ticks_per_frame": 3
+  },
+  {
+    "flipbook_texture": "textures/blocks/neon_block",
+    "atlas_tile": "neon_block",
+    "ticks_per_frame": 4
+  }
+]
