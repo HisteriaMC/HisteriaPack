@@ -3,54 +3,6 @@
    "padding" : 8,
    "resource_pack_name" : "vanilla",
    "texture_data" : {
-      "armchair" : {
-         "textures" : "textures/blocks/armchair"
-      },
-      "big_pot" : {
-         "textures" : "textures/blocks/big_pot"
-      },
-      "blue_tile" : {
-         "textures" : "textures/blocks/blue_tile"
-      },
-      "green_tile" : {
-         "textures" : "textures/blocks/green_tile"
-      },
-      "orange_tile" : {
-         "textures" : "textures/blocks/orange_tile"
-      },
-      "red_tile" : {
-         "textures" : "textures/blocks/red_tile"
-      },
-      "black_tile" : {
-         "textures" : "textures/blocks/black_tile"
-      },
-      "book_pile" : {
-         "textures" : "textures/blocks/book_pile"
-      },
-      "box" : {
-         "textures" : "textures/blocks/box"
-      },
-      "chair" : {
-         "textures" : "textures/blocks/chair"
-      },
-      "compressed_bricks" : {
-         "textures" : "textures/blocks/compressed_bricks"
-      },
-      "shelf" : {
-         "textures" : "textures/blocks/shelf"
-      },
-      "tinsel" : {
-         "textures" : "textures/blocks/tinsel"
-      },
-      "lamp" : {
-         "textures" : "textures/blocks/lamp"
-      },
-      "peony_bush" : {
-         "textures" : "textures/blocks/peony_bush"
-      },
-      "table" : {
-         "textures" : "textures/blocks/table"
-      },
       "cave_block" : {
          "textures" : "textures/blocks/cave_block"
       },
