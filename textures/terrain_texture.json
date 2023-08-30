@@ -6,11 +6,11 @@
       "cave_block" : {
          "textures" : "textures/blocks/cave_block"
       },
-      "drawer_side" : {
-         "textures" : "textures/blocks/drawer_side"
+      "drawer_front" : {
+         "textures" : "textures/blocks/drawer_front"
       },
       "drawer_side2" : {
-         "textures" : "textures/blocks/drawer_side2"
+         "textures" : "textures/blocks/drawer_side"
       },
       "drawer_top_bottom" : {
          "textures" : "textures/blocks/drawer_top_bottom"
@@ -39,20 +39,20 @@
       "nocturite_block" : {
          "textures" : "textures/blocks/nocturite_block"
       },
-      "nocturite_plant0" : {
-         "textures" : "textures/blocks/nocturite_plant0"
+      "nocturite_plant_stage_1" : {
+         "textures" : "textures/blocks/nocturite_plant_stage_1"
       },
-      "nocturite_plant1" : {
-         "textures" : "textures/blocks/nocturite_plant1"
+      "nocturite_plant_stage_2" : {
+         "textures" : "textures/blocks/nocturite_plant_stage_2"
       },
-      "nocturite_plant2" : {
-         "textures" : "textures/blocks/nocturite_plant2"
+      "nocturite_plant_stage_3" : {
+         "textures" : "textures/blocks/nocturite_plant_stage_3"
       },
       "poisonous_obsidian" : {
          "textures" : "textures/blocks/poisonous_obsidian"
       },
-      "renforced_obsidian" : {
-         "textures" : "textures/blocks/renforced_obsidian"
+      "reinforced_obsidian" : {
+         "textures" : "textures/blocks/reinforced_obsidian"
       }
    },
    "texture_name" : "atlas.terrain"
