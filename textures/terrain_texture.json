@@ -33,6 +33,12 @@
       "lucky_block" : {
          "textures" : "textures/blocks/lucky_block"
       },
+      "lucky_block_top" : {
+         "textures" : "textures/blocks/lucky_block_top"
+      },
+      "lucky_block_bottom" : {
+         "textures" : "textures/blocks/lucky_block_bottom"
+      },
       "neon_block" : {
          "textures" : "textures/blocks/neon_block"
       },
