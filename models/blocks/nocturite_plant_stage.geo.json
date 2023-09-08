@@ -3,7 +3,7 @@
 	"minecraft:geometry": [
 		{
 			"description": {
-				"identifier": "geometry.nocturite_plant_stage_0_1",
+				"identifier": "geometry.nocturite_plant_stage",
 				"texture_width": 16,
 				"texture_height": 16,
 				"visible_bounds_width": 2,
