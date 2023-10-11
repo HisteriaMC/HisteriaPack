@@ -1,0 +1,7 @@
+[
+  {
+    "flipbook_texture": "textures/blocks/neon_block",
+    "atlas_tile": "neon_block",
+    "ticks_per_frame": 4
+  }
+]
