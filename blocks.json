@@ -1,0 +1,95 @@
+{
+    "histeria:box": {
+        "sound": "glass",
+        "textures" : "box"
+    },
+    "histeria:cave_block": {
+        "sound": "stone",
+        "textures": "cave_block"
+    },
+    "histeria:fertilized_dirt": {
+        "sound": "gravel",
+        "textures": "fertilized_dirt"
+    },
+    "histeria:histerite_block": {
+        "sound": "metal",
+        "textures": "histerite_block"
+    },
+    "histeria:histerite_ore": {
+        "sound": "stone",
+        "textures": "histerite_ore"
+    },
+    "histeria:lucky_block": {
+        "sound": "stone",
+        "textures": "lucky_block"
+    },
+    "histeria:nocturite_block": {
+        "sound": "metal",
+        "textures": "nocturite_block"
+    },
+    "histeria:poisonous_obsidian": {
+        "sound": "stone",
+        "textures": "poisonous_obsidian"
+    },
+    "histeria:random_ore": {
+        "sound": "stone",
+        "textures": "random_ore"
+    },
+    "histeria:reinforced_obsidian": {
+        "sound": "stone",
+        "textures": "reinforced_obsidian"
+    },
+    "histeria:nocturite_plant": {
+        "sound": "nether_wart",
+        "textures": "nocturite_plant"
+    },
+    "histeria:drawer": {
+        "sound": "wood",
+        "textures": {
+            "down": "drawer_top_bottom",
+            "east": "drawer_side",
+            "north": "drawer_front",
+            "south": "drawer_side",
+            "up": "drawer_top_bottom",
+            "west": "drawer_side"
+        }
+    },
+    "histeria:elevator": {
+        "sound": "metal",
+        "textures": {
+            "down": "elevator_top",
+            "side": "elevator_side",
+            "up": "elevator_top"
+        }
+    },
+    "histeria:neon_block": {
+        "sound": "stone",
+        "textures": "neon_block"
+    },
+    "histeria:bounce": {
+        "sound": "stone",
+        "textures": "bounce"
+    },
+    "histeria:spike": {
+        "sound": "stone",
+        "textures": "spike"
+    },
+    "histeria:histerite_anvil": {
+        "sound": "anvil",
+        "textures": {
+            "down": "histerite_anvil",
+            "side": "histerite_anvil"
+        }
+    },
+    "histeria:cobble_breaker" : {
+        "sound" : "stone",
+        "textures" : {
+            "down" : "cobble_breaker_bottom",
+            "east" : "cobble_breaker_other_side",
+            "north" : "cobble_breaker_side",
+            "south" : "cobble_breaker_side",
+            "up" : "cobble_breaker_top",
+            "west" : "cobble_breaker_other_side"
+        }
+    }
+}
