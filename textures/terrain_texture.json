@@ -59,6 +59,12 @@
       },
       "reinforced_obsidian" : {
          "textures" : "textures/blocks/reinforced_obsidian"
+      },
+      "box": {
+         "textures" : "textures/blocks/box"
+      },
+      "histerite_anvil": {
+         "textures" : "textures/blocks/histerite_anvil"
       }
    },
    "texture_name" : "atlas.terrain"
