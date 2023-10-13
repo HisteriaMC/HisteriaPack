@@ -21,7 +21,11 @@
     },
     "histeria:lucky_block": {
         "sound": "stone",
-        "textures": "lucky_block"
+        "textures": {
+            "down": "lucky_block_top_bottom",
+            "side": "lucky_block_side",
+            "up": "lucky_block_top_bottom"
+        }
     },
     "histeria:nocturite_block": {
         "sound": "metal",
@@ -57,9 +61,9 @@
     "histeria:elevator": {
         "sound": "metal",
         "textures": {
-            "down": "elevator_top",
+            "down": "elevator_top_bottom",
             "side": "elevator_side",
-            "up": "elevator_top"
+            "up": "elevator_top_bottom"
         }
     },
     "histeria:neon_block": {
