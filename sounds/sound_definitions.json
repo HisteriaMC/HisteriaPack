@@ -1,0 +1,47 @@
+{
+   "format_version" : "1.14.0",
+   "sound_definitions" : {
+      "random.execution1" : {
+         "__use_legacy_max_distance": "true",
+         "category": "player",
+         "sounds": [
+            "sounds/random/execution1"
+         ]
+      },
+      "random.execution2" : {
+         "__use_legacy_max_distance": "true",
+         "category": "player",
+         "sounds": [
+            "sounds/random/execution2"
+         ]
+      },
+      "random.lyre" : {
+         "__use_legacy_max_distance": "true",
+         "category": "player",
+         "sounds": [
+            "sounds/random/lyre"
+         ]
+      },
+      "random.lift1" : {
+         "__use_legacy_max_distance": "true",
+         "category": "player",
+         "sounds": [
+            "sounds/random/lift1"
+         ]
+      },
+      "random.lift2" : {
+         "__use_legacy_max_distance": "true",
+         "category": "player",
+         "sounds": [
+            "sounds/random/lift2"
+         ]
+      },
+      "random.blood_hit" : {
+         "__use_legacy_max_distance": "true",
+         "category": "player",
+         "sounds": [
+            "sounds/random/blood_hit"
+         ]
+      }
+   }
+}
