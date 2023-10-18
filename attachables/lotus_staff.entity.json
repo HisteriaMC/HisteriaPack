@@ -2,7 +2,7 @@
   "format_version": "1.10",
   "minecraft:attachable": {
     "description": {
-      "identifier": "custom:lotus_staff",
+      "identifier": "histeria:lotus_staff",
       "materials": {
         "default": "entity_alphatest",
         "enchanted": "entity_alphatest_glint"
