@@ -46,12 +46,11 @@ item.sponger.name=Eponge puissante
 item.lottery_ticket.name=§eTicket de loterie
 item.forge_note.name=Parchemin d'enchantement
 item.punching_ball.name=Punching Ball
-item.nether_wart.name=Graines en Nocturite
 
 [Clés]
 item.vote_key.name=Clé de Vote
 item.histerite_key.name=§bClé en Histerite
-item.nocturite_key.name=§dClé en Nocturite
+item.Nocturite_key.name=§dClé en Nocturite
 
 [Nocturite]
 item.nocturite_seeds.name=Graines de Nocturite
@@ -86,8 +85,6 @@ tile.noteblock.name=Cave Block
 tile.netherreactor.name=Obsidienne empoisonnée
 tile.glowingobsidian.name=Obsidienne réenforcée
 tile.redstone_lamp.name=Bloc à Neon
-tile.nether_wart_block.name=Bloc de Nocturite
-tile.nether_wart.name=Graines de Nocturite
 
 [Flèches]
 item.arrow_left.name=Flèche Gauche
@@ -115,18 +112,24 @@ item.omega_icon.name=Omega
 item.inter_icon.name=Interplanétaire
 item.vip_icon.name=VIP
 
-[Menus]
-menu.returnToMenu=§cQuitter :'(
-pauseScreen.quit=§cQuitter :'(
-deathScreen.quit.secondaryClient.confirmLeaveTitleWarning=§cQuitter :'(
-deathScreen.message=§4Vous êtes mort !
-deathScreen.quit=§cRage quit
-deathScreen.quit.confirm=§cÊtes-vous sûr de ragequit?
-deathScreen.quit.confirmToMainMenuWarning=§cÊtes-vous sûr de ragequit?
-deathScreen.quit.confirmToMainMenuTitleWarning=§cÊtes-vous sûr de ragequit?
-disconnectionScreen.cantConnect=Impossible de se connecter à Histeria. Si vous pensez que l'erreur vient de Histeria, merci de rejoindre discord.gg/histeria.
-
 [Autre]
 dayOneExperience.tab.marketplace=shop.histeria.fr
 trial.tour.marketplace=shop.histeria.fr
 menu.serverStore=shop.histeria.fr
+
+[Menus]
+menu.returnToMenu=Quitter
+pauseScreen.quit=Quitter
+deathScreen.quit.secondaryClient.confirmLeaveTitleWarning=§lQuitter
+deathScreen.message=§l§cVous êtes mort !
+deathScreen.quit=§l§cRage quit
+deathScreen.quit.confirm=§l§cÊtes-vous sûr de ragequit?
+deathScreen.quit.confirmToMainMenuWarning=§cÊtes-vous sûr de ragequit?
+deathScreen.quit.confirmToMainMenuTitleWarning=§cÊtes-vous sûr de ragequit?
+disconnectionScreen.cantConnect=Impossible de se connecter à Histeria. Si vous pensez que l'erreur vient de Histeria, merci de rejoindre discord.gg/histeria.
+
+[UI Colour]
+menu.store=§l§3shop.histeria.fr
+
+[Histeria Wiki UI]
+histeria.store=Rendez-vous sur §l§3shop.histeria.fr §rou §l§9discord.gg/histeria
