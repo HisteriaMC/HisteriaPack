@@ -239,13 +239,13 @@
     "nocturite_seeds": {
       "textures": "textures/items/craft/nocturite_seeds"
     },
-    "fossil_fish": {
+    "fish_fossil": {
       "textures": "textures/items/fossils/fish"
     },
     "skull_fossil": {
       "textures": "textures/items/fossils/skull"
     },
-    "fossil_shell": {
+    "shell_fossil": {
       "textures": "textures/items/fossils/shell"
     },
     "stone_vein_fossil": {
