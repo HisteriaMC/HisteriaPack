@@ -6,33 +6,20 @@
       "cave_block" : {
          "textures" : "textures/blocks/cave_block"
       },
-      "drawer": {
-         "textures" : [
-             "textures/blocks/drawer_top_bottom",
-             "textures/blocks/drawer_side",
-             "textures/blocks/drawer_front"
-         ]
+      "drawer_front" : {
+         "textures" : "textures/blocks/drawer_front"
       },
-      "drawer_front": {
-         "textures": [ "textures/blocks/drawer_front" ]
+      "drawer_side2" : {
+         "textures" : "textures/blocks/drawer_side"
       },
-      "drawer_side": {
-         "textures": [ "textures/blocks/drawer_side" ]
+      "drawer_top_bottom" : {
+         "textures" : "textures/blocks/drawer_top_bottom"
       },
-      "drawer_top_bottom": {
-         "textures": [ "textures/blocks/drawer_top_bottom" ]
+      "elevator_block_side" : {
+         "textures" : "textures/blocks/elevator_block_side"
       },
-      "elevator" : {
-         "textures" : [
-            "textures/blocks/elevator_top_bottom",
-            "textures/blocks/elevator_side"
-         ]
-      },
-      "elevator_side": {
-         "textures": [ "textures/blocks/elevator_side" ]
-      },
-      "elevator_top_bottom": {
-         "textures": [ "textures/blocks/elevator_top_bottom" ]
+      "elevator_block_top" : {
+         "textures" : "textures/blocks/elevator_block_top"
       },
       "fertilized_dirt" : {
          "textures" : "textures/blocks/fertilized_dirt"
@@ -43,17 +30,11 @@
       "histerite_ore" : {
          "textures" : "textures/blocks/histerite_ore"
       },
-      "lucky_block" : {
-         "textures" : [
-            "textures/blocks/lucky_block_side",
-            "textures/blocks/lucky_block_top_bottom"
-         ]
+      "lucky_block_top" : {
+         "textures" : "textures/blocks/lucky_block_top"
       },
-      "lucky_block_side" : {
-         "textures" : "textures/blocks/lucky_block_side"
-      },
-      "lucky_block_top_bottom" : {
-         "textures" : "textures/blocks/lucky_block_top_bottom"
+      "lucky_block_bottom" : {
+         "textures" : "textures/blocks/lucky_block_bottom"
       },
       "neon_block" : {
          "textures" : "textures/blocks/neon_block"
@@ -61,28 +42,32 @@
       "nocturite_block" : {
          "textures" : "textures/blocks/nocturite_block"
       },
-      "nocturite_plant": {
-         "textures": [
-             "textures/blocks/nocturite_plant_stage_0",
-             "textures/blocks/nocturite_plant_stage_1",
-             "textures/blocks/nocturite_plant_stage_1",
-             "textures/blocks/nocturite_plant_stage_2"
-         ]
-     },
+      "nocturite_plant_stage_0" : {
+         "textures" : "textures/blocks/nocturite_plant_stage_0"
+      },
+      "nocturite_plant_stage_1" : {
+         "textures" : "textures/blocks/nocturite_plant_stage_1"
+      },
+      "nocturite_plant_stage_2" : {
+         "textures" : "textures/blocks/nocturite_plant_stage_2"
+      },
+      "nocturite_plant_stage_3" : {
+         "textures" : "textures/blocks/nocturite_plant_stage_3"
+      },
       "poisonous_obsidian" : {
          "textures" : "textures/blocks/poisonous_obsidian"
       },
       "reinforced_obsidian" : {
          "textures" : "textures/blocks/reinforced_obsidian"
       },
-      "box" : {
-         "textures" : "textures/blocks/box"
+      "cobble_breaker_top": {
+         "textures" : "textures/blocks/cobble_breaker_top"
       },
-      "histerite_anvil" : {
-         "textures" : "textures/blocks/histerite_anvil"
+      "cobble_breaker_bottom": {
+         "textures" : "textures/blocks/cobble_breaker_bottom"
       },
-      "random_ore" : {
-         "textures" : "textures/blocks/random_ore"
+      "cobble_breaker_side": {
+         "textures" : "textures/blocks/cobble_breaker_side"
       }
    },
    "texture_name" : "atlas.terrain"
