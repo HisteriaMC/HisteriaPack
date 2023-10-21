@@ -95,5 +95,13 @@
             "up" : "cobble_breaker_top",
             "west" : "cobble_breaker_side"
         }
+    },
+    "histeria:histerite_chest" : {
+        "sound" : "stone",
+        "textures" : "histerite_chest"
+    },
+    "histeria:nocturite_chest" : {
+        "sound" : "stone",
+        "textures" : "nocturite_chest"
     }
 }
