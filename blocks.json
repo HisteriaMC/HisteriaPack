@@ -89,11 +89,11 @@
         "sound" : "stone",
         "textures" : {
             "down" : "cobble_breaker_bottom",
-            "east" : "cobble_breaker_other_side",
+            "east" : "cobble_breaker_side",
             "north" : "cobble_breaker_side",
             "south" : "cobble_breaker_side",
             "up" : "cobble_breaker_top",
-            "west" : "cobble_breaker_other_side"
+            "west" : "cobble_breaker_side"
         }
     }
 }
