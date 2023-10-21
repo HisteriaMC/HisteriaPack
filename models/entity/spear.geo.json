@@ -12,9 +12,8 @@
 			},
 			"bones": [
 				{
-					"name": "pole",
-					"pivot": [0, 24, 0],
-					"binding": "q.item_slot_to_bone_name(c.item_slot)",
+					"name": "bb_main",
+					"pivot": [0, 0, 0],
 					"cubes": [
 						{
 							"origin": [-1, 0, 0],
