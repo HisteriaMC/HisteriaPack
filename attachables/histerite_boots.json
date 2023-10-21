@@ -2,7 +2,7 @@
   "format_version": "1.8.0",
   "minecraft:attachable": {
     "description": {
-      "identifier": "custom:histerite_boots",
+      "identifier": "histeria:histerite_boots",
       "materials": {
         "default": "armor",
         "enchanted": "armor_enchanted"

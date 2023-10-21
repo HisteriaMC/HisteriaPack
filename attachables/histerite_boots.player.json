@@ -2,8 +2,8 @@
   "format_version": "1.10.0",
   "minecraft:attachable": {
     "description": {
-      "identifier": "custom:histerite_boots.player",
-      "item": { "custom:histerite_boots": "query.owner_identifier == 'minecraft:player'" },
+      "identifier": "histeria:histerite_boots.player",
+      "item": { "histeria:histerite_boots": "query.owner_identifier == 'minecraft:player'" },
       "materials": {
         "default": "armor",
         "enchanted": "armor_enchanted"
