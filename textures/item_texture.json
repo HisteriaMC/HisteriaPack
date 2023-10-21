@@ -231,27 +231,27 @@
       "textures": "textures/items/craft/histerite_core"
     },
     "histerite": {
-      "textures": "textures/items/craft/histerite"
+      "textures": "textures/items/craft/histerite_ingot"
     },
     "valid_mark": {
       "textures": "textures/items/decoration/valid_mark"
     },
-    "nether_wart": {
+    "nocturite_seeds": {
       "textures": "textures/items/craft/nocturite_seeds"
     },
     "fossil_fish": {
       "textures": "textures/items/fossils/fish"
     },
-    "fossil_skull": {
+    "skull_fossil": {
       "textures": "textures/items/fossils/skull"
     },
     "fossil_shell": {
       "textures": "textures/items/fossils/shell"
     },
-    "fossil_stone_vein": {
+    "stone_vein_fossil": {
       "textures": "textures/items/fossils/stone_vein"
     },
-    "fossil_cracked_stone": {
+    "cracked_stone_fossil": {
       "textures": "textures/items/fossils/cracked_stone"
     },
     "faction1_icon": {

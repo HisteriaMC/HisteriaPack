@@ -9,17 +9,14 @@
       "drawer_front" : {
          "textures" : "textures/blocks/drawer_front"
       },
-      "drawer_side2" : {
-         "textures" : "textures/blocks/drawer_side"
+      "drawer_top_bottom_side" : {
+         "textures" : "textures/blocks/drawer_top_bottom_side"
       },
-      "drawer_top_bottom" : {
-         "textures" : "textures/blocks/drawer_top_bottom"
+      "elevator_side" : {
+         "textures" : "textures/blocks/elevator_side"
       },
-      "elevator_block_side" : {
-         "textures" : "textures/blocks/elevator_block_side"
-      },
-      "elevator_block_top" : {
-         "textures" : "textures/blocks/elevator_block_top"
+      "elevator_top_bottom" : {
+         "textures" : "textures/blocks/elevator_top_bottom"
       },
       "fertilized_dirt" : {
          "textures" : "textures/blocks/fertilized_dirt"
@@ -30,11 +27,8 @@
       "histerite_ore" : {
          "textures" : "textures/blocks/histerite_ore"
       },
-      "lucky_block_top" : {
-         "textures" : "textures/blocks/lucky_block_top"
-      },
-      "lucky_block_bottom" : {
-         "textures" : "textures/blocks/lucky_block_bottom"
+      "lucky_block" : {
+         "textures" : "textures/blocks/lucky_block"
       },
       "neon_block" : {
          "textures" : "textures/blocks/neon_block"
@@ -68,6 +62,27 @@
       },
       "cobble_breaker_side": {
          "textures" : "textures/blocks/cobble_breaker_side"
+      },
+      "box" : {
+         "textures" : "textures/blocks/box"
+      },
+      "random_ore" : {
+         "textures" : "textures/blocks/random_ore"
+      },
+      "histerite_anvil" : {
+         "textures" : "textures/blocks/histerite_anvil"
+      },
+      "spike" : {
+         "textures" : "textures/blocks/spike"
+      },
+      "bounce" : {
+         "textures" : "textures/blocks/bounce"
+      },
+      "histerite_chest" : {
+         "textures" : "textures/blocks/histerite_chest"
+      },
+      "nocturite_chest" : {
+         "textures" : "textures/blocks/nocturite_chest"
       }
    },
    "texture_name" : "atlas.terrain"

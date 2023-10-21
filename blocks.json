@@ -21,11 +21,7 @@
     },
     "histeria:lucky_block": {
         "sound": "stone",
-        "textures": {
-            "down": "lucky_block_top_bottom",
-            "side": "lucky_block_side",
-            "up": "lucky_block_top_bottom"
-        }
+        "textures": "lucky_block"
     },
     "histeria:nocturite_block": {
         "sound": "metal",
@@ -50,12 +46,12 @@
     "histeria:drawer": {
         "sound": "wood",
         "textures": {
-            "down": "drawer_top_bottom",
-            "east": "drawer_side",
-            "north": "drawer_front",
-            "south": "drawer_side",
-            "up": "drawer_top_bottom",
-            "west": "drawer_side"
+            "down": "drawer_top_bottom_side",
+            "east": "drawer_top_bottom_side",
+            "north": "drawer_top_bottom_side",
+            "south": "drawer_front",
+            "up": "drawer_top_bottom_side",
+            "west": "drawer_top_bottom_side"
         }
     },
     "histeria:elevator": {
@@ -80,10 +76,7 @@
     },
     "histeria:histerite_anvil": {
         "sound": "anvil",
-        "textures": {
-            "down": "histerite_anvil",
-            "side": "histerite_anvil"
-        }
+        "textures": "histerite_anvil"
     },
     "histeria:cobble_breaker" : {
         "sound" : "stone",
