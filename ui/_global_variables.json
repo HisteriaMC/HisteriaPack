@@ -242,6 +242,7 @@
   "$d_color_format": [ 1.0, 0.333, 1.0 ], // Light Purple
   "$e_color_format": [ 1.0, 1.0, 0.333 ], // Yellow
   "$f_color_format": [ 1.0, 1.0, 1.0 ], // White
+  "$w_color_format": [ 0.325, 0.455, 0.486 ], // Bleu Chelou
 
   //////// Dropdown divider line color ////////
   "$dropdown_divider_color": [ 0.0, 0.0, 0.0 ],
@@ -273,9 +274,9 @@
   "$alert_label_background_color": [ 1.0, 0.862, 0.086, 0.5 ],
 
   //////// Dropdown item background colors ////////
-  "$dropdown_radio_background_unchecked_color": [ 0.43, 0.43, 0.43 ],
+  "$dropdown_radio_background_unchecked_color": [ 0.29, 0.29, 0.29 ],
   "$dropdown_radio_background_checked_color": [ 0.29, 0.29, 0.29 ],
-  "$dropdown_radio_background_hover_color": [ 0.12, 0.48, 0 ],
+  "$dropdown_radio_background_hover_color": [ 0.0, 0.388, 0.557 ],
 
   //////// Chemistry colors ////////
   "$proton_color": [ 0.321, 0.486, 0.886, 1.0 ],
@@ -334,7 +335,7 @@
   "$nested_transparent_label_default_color": [ 0.1, 0.1, 0.1 ],
   "$nested_transparent_label_default_pressed_color": [ 0.05, 0.05, 0.05 ],
 
-  "$nested_transparent_green_label_color": [ 0.0, 0.451, 0.02 ],
+  "$nested_transparent_green_label_color": [ 0, 0.596, 0.863 ], 
   "$nested_transparent_green_label_pressed_color": [ 0.0, 0.26, 0.0 ],
 
   "$nested_transparent_purple_label_color": [ 0.247, 0.098, 0.616 ],

@@ -2,7 +2,7 @@
     "namespace": "scoreboard",
     "scoreboard_sidebar_score": {
         "type": "label",
-        "layer": 2,
+        "layer": 8,
         "size": [
             "default",
             12
@@ -32,15 +32,15 @@
         "type": "label",
         "layer": 2,
         "text": "#player_name_sidebar",
-        "text_alignment": "left",
         "size": [
             "default",
-            12
+            10
         ],
-        "max_size": [100, 12],
-        "anchor_from": "top_right",
-        "anchor_to": "top_right",
-        "inherit_max_sibling_width": true,
+        "max_size": [
+            250,
+            10
+        ],
+        "font_scale_factor": 1.0,
         "locked_alpha": 1.0,
         "color": "$player_name_color",
         "bindings": [
@@ -89,7 +89,7 @@
                                 "text_alignment": "center",
                                 "inherit_max_sibling_width": true,
                                 "locked_alpha": 1.0,
-                                "layer": 1,
+                                "layer": 8,
                                 "color": "$objective_title_color",
                                 "bindings": [
                                     {
@@ -116,7 +116,7 @@
                                 ],
                                 "anchor_from": "top_middle",
                                 "anchor_to": "top_middle",
-                                "layer": 1,
+                                "layer": 8,
                                 "bindings": [
                                     {
                                         "binding_name": "#objective_sidebar_name",
