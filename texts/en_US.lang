@@ -1,7 +1,28 @@
-[Inventories]
+[Inventaires]
 container.enderchest=§9§k.§f.§c.§r  §cHistChest §9§k.§f.§c.§r
 
-[Armors]
+[Blocs]
+tile.histeria:elevator.name=Elevator
+tile.histeria:drawer.name=Drawer
+tile.histeria:histerite_anvil.name=Histerite Anil
+tile.histeria:fertilized_dirt.name=Fertilized dirt
+tile.histeria:reinforced_obsidian.name=Reinforced obsidian
+tile.histeria:poisonous_obsidian.name=Poisson obsidian
+tile.histeria:random_ore.name=Random ore
+tile.histeria:histerite_ore.name=Histerite Ore
+tile.histeria:box.name=Loot Box
+tile.histeria:cave_block.name=Cave Block
+tile.histeria:cobble_breaker.name=Cobblestone Breaker
+tile.histeria:histerite_block.name=Histerite Block
+tile.histeria:nocturite_block.name=Nocturite Block
+tile.histeria:nocturite_chest.name=Nocturite Chest
+tile.histeria:histerite_chest.name=Histerite Chest
+tile.histeria:lucky_block.name=Lucky Block
+tile.histeria:neon_block.name=Neon Block
+tile.histeria:spike.name=Spike
+tile.histeria:bounce.name=Bounce
+
+[Armures]
 item.nocturite_helmet.name=Nocturite Helmet
 item.nocturite_chestplate.name=Nocturite Chestplate
 item.nocturite_leggings.name=Nocturite Leggings
@@ -10,122 +31,113 @@ item.histerite_helmet.name=Histerite Helmet
 item.histerite_chestplate.name=Histerite Chestplate
 item.histerite_leggings.name=Histerite Leggings
 item.histerite_boots.name=Histerite Boots
-item.hood_helmet.name=Hood Helmet
+item.hood_helmet.name=Hood
+item.hades_crown.name=Hades Crown
+item.hermes_sandals.name=Hermes sandals
+item.ares_chestplate.name=Ares Chestplate
 
-[Sticks]
-item.heal_stick.name=Fighter Stick
-item.speed_stick.name=Speed Stick
-item.jump_stick.name=Jump Stick
-item.teleportation_stick.name=Teleport Stick
-
-[Items]
-item.emerald.name=Histerite
-item.histerite_stick.name=Histerite Stick
+[Crafts]
+item.compressed_cobblestone.name=Compressed Cobblestone
 item.histerite_compress.name=Compressed Histerite
 item.histerite_core.name=Histerite Core
-item.histerite.name=Histerite Ingot
-item.cake.name= §9§k.§4.§r§k. §r§c dadodasyra's CAKEOooo §9§k.§4.§r§k.
-item.compressed_cobblestone.name=Compressed Cobblestone
-item.histerite_apple.name=Histerite Apple
-item.item_pack.name=BackPack
-item.thunder_bolt.name=§bThunderBolt
-item.magic_lyre.name=§bMagic Lyre
-item.shuriken.name=Shuriken
-item.kill_tag.name=§bKilltag
-item.bank_note.name=BankNote
-item.chest_finder.name=Unclaim Finder
-item.drawer_upgrade.name=Drawer Upgrade
-item.dynamite.name=Dynamite
-item.grapnel.name=§bGrapple
-item.obsidian_breaker.name=Obsidian Breaker
-item.hang_glider.name=Glider
-item.chest_explorer.name=Chest Explorer
-item.skull.skeleton.name=Spike
-item.skull.zombie.name=Histerite Anvil
-item.sponger.name=Powered Sponge
-item.lottery_ticket.name=§eLottery Ticket
-item.forge_note.name=Forge Note
-item.punching_ball.name=Punching Ball
-item.nether_wart.name=Nocturite Seeds
-
-[Keys]
-item.vote_key.name=Vote Key
-item.histerite_key.name=§bHisterite Key
-item.nocturite_key.name=§dNocturite Key
-
-[Nocturite]
-item.nocturite_seeds.name=Nocturite Seeds
-item.nocturite_fruit.name=Nocturite Fruit
+item.histerite_ingot.name=Histerite Ingot
+item.histerite_stick.name=Histerite Stick
+item.nocturite_compress.name=Compressed Nocturite
+item.nocturite_core.name=Nocturite Core
 item.nocturite_crystal.name=Nocturite Crystal
-item.nocturite_compress.name=§bCompressed Nocturite
-item.nocturite_core.name=§dNocturite Core
+item.nocturite_fruit.name=Nocturite Fruit
+item.nocturite_seeds.name=Nocturite Seeds
 
-[Tools]
-item.spear.name=§bHisterite Spear
-item.xiphos.name=§bHisterite Xiphos
-item.harpè.name=§bHisterite Harpè
-item.lotus_staff.name=§bLotus Staff
-item.histerite_sword.name=§bHisterite Sword
-item.histerite_axe.name=§bHisterite Axe
-item.histerite_hoe.name=§bHisterite Hoe
-item.histerite_pickaxe.name=§bHisterite Pickaxe
-item.histerite_shovel.name=§bHisterite Shovel
-item.seed_planter.name=§bSeed Planter
-item.hammer.name=§bHammer
-
-[Blocks]
-tile.bone_block.name=Elevator
-tile.end_portal_frame.name=Reward Crate
-tile.hay_block.name=Drawer
-tile.sponge.dry.name=Lucky Block
-tile.redstone_lamp.name=Neon Block
-tile.soul_sand.name=Fertilized Dirt
-tile.emerald_ore.name=Histerite Ore
-tile.emerald_block.name=Histerite Block
-tile.lapis_ore.name=Lucky Ore
-tile.noteblock.name=Cave Block
-tile.netherreactor.name=Poisoned Obsidian
-tile.glowingobsidian.name=Reinforced Obsidian
-tile.nether_wart_block.name=Nocturite Block
-
-[Arrows]
-item.arrow_left.name=Left Arrow
-item.arrow_right.name=Right Arrow
-item.arrow_return.name=Return Arrow
-
-[Shop Categories]
+[Décoration]
 item.block_category.name=Block Category
 item.item_category.name=Item Category
-item.ore_category.name=Ore Category
+item.ore_category.name=Ores Category
 item.nature_category.name=Nature Category
 item.modded_item_category.name=Modded Items Category
 item.decoration_category.name=Decoration Category
 item.buy.name=Buy
 item.sell.name=Sell
-item.valid_mark.name=Validate
-
-[Throwables]
-entity.egg.name=Dynamite
-entity.snowball.name=Shuriken
-
-[Ranks]
+item.valid_mark.name=Accept
+item.arrow_left.name=Left Arrow
+item.arrow_right.name=Right Arrow
+item.arrow_return.name=Return Arrow
 item.donator_icon.name=Donator
 item.omega_icon.name=Omega
-item.inter_icon.name=Interplanétaire
+item.inter_icon.name=Interplanetary
 item.vip_icon.name=VIP
 
-[Screens]
-menu.returnToMenu=§cLeft :'(
-pauseScreen.quit=§cLeft :'(
-deathScreen.quit.secondaryClient.confirmLeaveTitleWarning=§cLeft :'(
-deathScreen.message=§4You are dead!
-deathScreen.quit=§cRage quit
-deathScreen.quit.confirm=§cAre you sure of ragequiting?
-deathScreen.quit.confirmToMainMenuWarning=§cAre you sure of ragequiting?
-deathScreen.quit.confirmToMainMenuTitleWarning=§cAre you sure of ragequiting?
-disconnectionScreen.cantConnect=Unable to connect to Histeria. If you think the error is from Histeria, please join discord.gg/histeria.
+[Fossils]
+item.cracked_stone.name=Cracked stone shell
+item.fish.name=Fish shell
+item.shell.name=Shell
+item.skull.name=Skull shell
+item.stone_vein.name=Stone Vein shell
 
-[Misc]
+[Clés]
+item.boss_key.name=Boss Key
+item.histerite_key.name=Histerite Key
+item.nocturite_key.name=Nocturite Key
+item.vote_key.name=Vote Key
+
+[Sticks]
+item.heal_stick.name=Heal stick
+item.jump_stick.name=Jump stick
+item.speed_stick.name=Speed stick
+item.sponger.name=Dryness stick
+item.tpstick.name=Teleportation stick
+
+[Tools]
+item.grapnel.name=Grapple
+item.hammer.name=Hammer
+item.harpe.name=Harpe
+item.histerite_axe.name=Histerite Axe
+item.histerite_hoe.name=Histerite Hoe
+item.histerite_pickaxe.name=Histerite Pickaxe
+item.histerite_shovel.name=Histerite Shovel
+item.histerite_sword.name=Histerite Sword
+item.lotus_staff.name=Lotus Staff
+item.seed_planter.name=Seed Planter
+item.spear.name=Spear
+item.xiphos.name=Xiphos
+
+[Utility]
+item.banknote.name=Bank Note
+item.chalice.name=Chalice
+item.chest_explorer.name=Chest Explorer
+item.chest_finder.name=Chest Finder
+item.drawer_upgrade.name=Drawer Upgrade
+item.dynamite.name=Dynamite
+item.fishing_rod_cast.name=Grapple
+item.forge_note.name=Parchment of Enchantment
+item.hang_glider.name=Glider
+item.histerite_apple.name=Histerite Apple
+item.histerite_totem.name=Histerite Totem
+item.item_pack.name=Bag
+item.killtag.name=Kill Tag
+item.lottery_ticket.name=Lottery ticket
+item.magic_lyre.name=Magic Lyre
+item.obsidian_breaker.name=Obsidian Breaker
+item.punching_ball.name=Punching Ball
+item.shuriken.name=Shuriken
+item.thunderbolt.name=Thunderbolt
+
+[Autre]
 dayOneExperience.tab.marketplace=shop.histeria.fr
 trial.tour.marketplace=shop.histeria.fr
 menu.serverStore=shop.histeria.fr
+
+[Menus]
+menu.returnToMenu=Left
+pauseScreen.quit=Left
+deathScreen.quit.secondaryClient.confirmLeaveTitleWarning=§lLeft
+deathScreen.message=§l§cYou are dead!
+deathScreen.quit=§l§cRage quit
+deathScreen.quit.confirm=§l§cAre you sure of ragequiting?
+deathScreen.quit.confirmToMainMenuWarning=§cAre you sure of ragequiting?
+deathScreen.quit.confirmToMainMenuTitleWarning=§cAre you sure of ragequiting?
+disconnectionScreen.cantConnect=Unable to connect to Histeria. If you think the error comes from Histeria, please join discord.gg/histeria.
+
+
+[Menu Pause]
+histeria.store=Visit §l§3shop.histeria.fr §rand §l§9discord.gg/histeria
+
