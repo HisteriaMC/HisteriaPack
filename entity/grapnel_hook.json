@@ -7,10 +7,10 @@
         "default": "egg"
       },
       "textures": {
-        "default": "textures/items/tools/grapnel"
+        "default": "textures/entity/grapnel_hook"
       },
       "geometry": {
-        "default": "geometry.item_sprite"
+        "default": "geometry.grapnel_hook"
       },
       "render_controllers": [ "controller.render.item_sprite" ],
       "animations": {
