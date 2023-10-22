@@ -2,7 +2,7 @@
 	"format_version": "1.10.0",
 	"minecraft:attachable": {
 		"description": {
-			"identifier": "myname:dynamite",
+			"identifier": "histeria:dynamite",
 			"render_controllers": ["controller.render.item_default"],
 			"materials": {
 				"default": "entity_alphatest",
