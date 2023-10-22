@@ -2,15 +2,15 @@
   "format_version": "1.10.0",
   "minecraft:client_entity": {
     "description": {
-      "identifier": "histeria:grapnel",
+      "identifier": "histeria:grapling_hook",
       "materials": {
         "default": "egg"
       },
       "textures": {
-        "default": "textures/entity/grapnel_hook"
+        "default": "textures/entity/grapling_hook"
       },
       "geometry": {
-        "default": "geometry.grapnel_hook"
+        "default": "geometry.grapling_hook"
       },
       "render_controllers": [ "controller.render.item_sprite" ],
       "animations": {
