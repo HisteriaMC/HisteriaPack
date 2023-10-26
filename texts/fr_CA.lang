@@ -23,103 +23,103 @@ tile.histeria:spike.name=Épine
 tile.histeria:bounce.name=Rebond
 
 [Armures]
-item.nocturite_helmet.name=Casque en Nocturite
-item.nocturite_chestplate.name=Plastron en Nocturite
-item.nocturite_leggings.name=Jambières en Nocturite
-item.nocturite_boots.name=Bottes en Nocturite
-item.histerite_helmet.name=Casque en Histerite
-item.histerite_chestplate.name=Plastron en Histerite
-item.histerite_leggings.name=Jambières en Histerite
-item.histerite_boots.name=Bottes en Histerite
-item.hood_helmet.name=Capuche
-item.hades_crown.name=Couronne d'Hadès
-item.hermes_sandals.name=Sandales d'Hermès
-item.ares_chestplate.name=Plastron d'Arès
+item.nocturite_helmet=Casque en Nocturite
+item.nocturite_chestplate=Plastron en Nocturite
+item.nocturite_leggings=Jambières en Nocturite
+item.nocturite_boots=Bottes en Nocturite
+item.histerite_helmet=Casque en Histerite
+item.histerite_chestplate=Plastron en Histerite
+item.histerite_leggings=Jambières en Histerite
+item.histerite_boots=Bottes en Histerite
+item.hood_helmet=Capuche
+item.hades_crown=Couronne d'Hadès
+item.hermes_sandals=Sandales d'Hermès
+item.ares_chestplate=Plastron d'Arès
 
 [Crafts]
-item.compressed_cobblestone.name=Pierre taillée compressée
-item.histerite_compress.name=Histerite compressée
-item.histerite_core.name=Noyau d'Histerite
-item.histerite_ingot.name=Lingot d'Histerite
-item.histerite_stick.name=Bâton d'Histerite
-item.nocturite_compress.name=Nocturite compressée
-item.nocturite_core.name=Noyau de Nocturite
-item.nocturite_crystal.name=Cristale de Nocturite
-item.nocturite_fruit.name=Fruit en Nocturite
-item.nocturite_seeds.name=Graines de Nocturite
+item.compressed_cobblestone=Pierre taillée compressée
+item.histerite_compress=Histerite compressée
+item.histerite_core=Noyau d'Histerite
+item.histerite_ingot=Lingot d'Histerite
+item.histerite_stick=Bâton d'Histerite
+item.nocturite_compress=Nocturite compressée
+item.nocturite_core=Noyau de Nocturite
+item.nocturite_crystal=Cristale de Nocturite
+item.nocturite_fruit=Fruit en Nocturite
+item.nocturite_seeds=Graines de Nocturite
 
 [Décoration]
-item.block_category.name=Categorie Bloc
-item.item_category.name=Categorie Item
-item.ore_category.name=Categorie Minerais
-item.nature_category.name=Categorie Nature
-item.modded_item_category.name=Categorie Item Moddés
-item.decoration_category.name=Categorie Décoration
-item.buy.name=Acheter
-item.sell.name=Vendre
-item.valid_mark.name=Valider
-item.arrow_left.name=Flèche Gauche
-item.arrow_right.name=Flèche Droite
-item.arrow_return.name=Flèche Retour
-item.donator_icon.name=Donateur
-item.omega_icon.name=Omega
-item.inter_icon.name=Interplanétaire
-item.vip_icon.name=VIP
+item.block_category=Categorie Bloc
+item.item_category=Categorie Item
+item.ore_category=Categorie Minerais
+item.nature_category=Categorie Nature
+item.modded_item_category=Categorie Item Moddés
+item.decoration_category=Categorie Décoration
+item.buy=Acheter
+item.sell=Vendre
+item.valid_mark=Valider
+item.arrow_left=Flèche Gauche
+item.arrow_right=Flèche Droite
+item.arrow_return=Flèche Retour
+item.donator_icon=Donateur
+item.omega_icon=Omega
+item.inter_icon=Interplanétaire
+item.vip_icon=VIP
 
 [Fossils]
-item.cracked_stone.name=Coquillage de pierre fissurée
-item.fish.name=Coquillage de poisson
-item.shell.name=Coquillage
-item.skull.name=Caquillage de crâne
-item.stone_vein.name=Coquille de veine de pierre
+item.cracked_stone=Coquillage de pierre fissurée
+item.fish=Coquillage de poisson
+item.shell=Coquillage
+item.skull=Caquillage de crâne
+item.stone_vein=Coquille de veine de pierre
 
 [Clés]
-item.boss_key.name=Clé de Boss
-item.histerite_key.name=Clé en Histerite
-item.nocturite_key.name=Clé en Nocturite
-item.vote_key.name=Clé de vote
+item.boss_key=Clé de Boss
+item.histerite_key=Clé en Histerite
+item.nocturite_key=Clé en Nocturite
+item.vote_key=Clé de vote
 
 [Sticks]
-item.heal_stick.name=Bâton de soin
-item.jump_stick.name=Bâton de saut
-item.speed_stick.name=Bâton de vitesse
-item.sponger.name=Bâton de sécheresse
-item.tpstick.name=Bâton de téléportation
+item.heal_stick=Bâton de soin
+item.jump_stick=Bâton de saut
+item.speed_stick=Bâton de vitesse
+item.sponger=Bâton de sécheresse
+item.tpstick=Bâton de téléportation
 
 [Tools]
-item.grapnel.name=Grappin
-item.hammer.name=Marteau
-item.harpe.name=Harpe
-item.histerite_axe.name=Hache en Histerite
-item.histerite_hoe.name=Houe en Histerite
-item.histerite_pickaxe.name=Pioche en Histerite
-item.histerite_shovel.name=Pelle en Histerite
-item.histerite_sword.name=Épée en Histerite
-item.lotus_staff.name=Bâton de Lotus
-item.seed_planter.name=Plantoir à graines
-item.spear.name=Lance
-item.xiphos.name=Xiphos
+item.grapnel=Grappin
+item.hammer=Marteau
+item.harpe=Harpe
+item.histerite_axe=Hache en Histerite
+item.histerite_hoe=Houe en Histerite
+item.histerite_pickaxe=Pioche en Histerite
+item.histerite_shovel=Pelle en Histerite
+item.histerite_sword=Épée en Histerite
+item.lotus_staff=Bâton de Lotus
+item.seed_planter=Plantoir à graines
+item.spear=Lance
+item.xiphos=Xiphos
 
 [Utility]
-item.banknote.name=Billet de banque
-item.chalice.name=Calice
-item.chest_explorer.name=Explorateur de coffre
-item.chest_finder.name=Chercheur de coffre
-item.drawer_upgrade.name=Amélioration de commode
-item.dynamite.name=Dynamite
-item.fishing_rod_cast.name=Grappin
-item.forge_note.name=Parchemin d'enchantement
-item.hang_glider.name=Planeur
-item.histerite_apple.name=Pomme en Histerite
-item.histerite_totem.name=Totem en Histerite
-item.item_pack.name=Sac à dos
-item.killtag.name=Kill Tag
-item.lottery_ticket.name=Ticket de loterie
-item.magic_lyre.name=Lyre magique
-item.obsidian_breaker.name=Casseur à obsidienne
-item.punching_ball.name=Boule de frappe
-item.shuriken.name=Shuriken
-item.thunderbolt.name=Coup de tonnerre
+item.banknote=Billet de banque
+item.chalice=Calice
+item.chest_explorer=Explorateur de coffre
+item.chest_finder=Chercheur de coffre
+item.drawer_upgrade=Amélioration de commode
+item.dynamite=Dynamite
+item.fishing_rod_cast=Grappin
+item.forge_note=Parchemin d'enchantement
+item.hang_glider=Planeur
+item.histerite_apple=Pomme en Histerite
+item.histerite_totem=Totem en Histerite
+item.item_pack=Sac à dos
+item.killtag=Kill Tag
+item.lottery_ticket=Ticket de loterie
+item.magic_lyre=Lyre magique
+item.obsidian_breaker=Casseur à obsidienne
+item.punching_ball=Boule de frappe
+item.shuriken=Shuriken
+item.thunderbolt=Coup de tonnerre
 
 [Autre]
 dayOneExperience.tab.marketplace=shop.histeria.fr
