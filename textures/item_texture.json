@@ -277,6 +277,18 @@
     },
     "minage5_icon": {
       "textures": "textures/items/decoration/minage5_icon"
+    },
+    "blue_candy": {
+      "textures": "textures/items/event/blue_candy"
+    },
+    "green_candy": {
+      "textures": "textures/items/event/green_candy"
+    },
+    "red_candy": {
+      "textures": "textures/items/event/red_candy"
+    },
+    "yellow_candy": {
+      "textures": "textures/items/event/yellow_candy"
     }
   }
 }
