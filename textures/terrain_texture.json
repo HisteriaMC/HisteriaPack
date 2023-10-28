@@ -83,6 +83,51 @@
       },
       "nocturite_chest" : {
          "textures" : "textures/blocks/nocturite_chest"
+      },
+      "armchair" : {
+         "textures" : "textures/blocks/armchair"
+      },
+      "big_pot" : {
+         "textures" : "textures/blocks/big_pot"
+      },
+      "black_tile" : {
+         "textures" : "textures/blocks/black_tile"
+      },
+      "blue_tile" : {
+         "textures" : "textures/blocks/blue_tile"
+      },
+      "book_pile" : {
+         "textures" : "textures/blocks/book_pile"
+      },
+      "chair" : {
+         "textures" : "textures/blocks/chair"
+      },
+      "compressed_bricks" : {
+         "textures" : "textures/blocks/compressed_bricks"
+      },
+      "green_tile" : {
+         "textures" : "textures/blocks/green_tile"
+      },
+      "lamp" : {
+         "textures" : "textures/blocks/lamp"
+      },
+      "orange_tile" : {
+         "textures" : "textures/blocks/orange_tile"
+      },
+      "peony_bush" : {
+         "textures" : "textures/blocks/peony_bush"
+      },
+      "red_tile" : {
+         "textures" : "textures/blocks/red_tile"
+      },
+      "shelf" : {
+         "textures" : "textures/blocks/shelf"
+      },
+      "table" : {
+         "textures" : "textures/blocks/table"
+      },
+      "tinsel" : {
+         "textures" : "textures/blocks/tinsel"
       }
    },
    "texture_name" : "atlas.terrain"
