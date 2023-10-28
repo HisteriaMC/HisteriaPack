@@ -120,8 +120,29 @@
       "red_tile" : {
          "textures" : "textures/blocks/red_tile"
       },
-      "shelf" : {
-         "textures" : "textures/blocks/shelf"
+      "shelf": {
+         "textures": [
+           {
+             "variations": [
+               {
+                 "path": "textures/blocks/shelf",
+                 "weight": 1
+               },
+               {
+                 "path": "textures/blocks/stone/shelf1",
+                 "weight": 1
+               },
+               {
+                 "path": "textures/blocks/stone/shelf2",
+                 "weight": 1
+               },
+               {
+                 "path": "textures/blocks/stone/shelf3",
+                 "weight": 1
+               } 
+             ]
+           }
+         ]
       },
       "table" : {
          "textures" : "textures/blocks/table"

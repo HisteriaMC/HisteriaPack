@@ -96,5 +96,66 @@
     "histeria:nocturite_chest" : {
         "sound" : "stone",
         "textures" : "nocturite_chest"
-    }
+	},
+	"histeria:shelf": {
+		"sound": "wood",
+		"textures": "shelf"
+    },
+	"histeria:armchair": {
+		"sound": "wood",
+		"textures": "armchair"
+    },
+	"histeria:big_pot": {
+		"sound": "stone",
+		"textures": "big_pot"
+    },
+	"histeria:black_tile": {
+		"sound": "stone",
+		"textures": "black_tile"
+    },
+	"histeria:blue_tile": {
+		"sound": "stone",
+		"textures": "blue_tile"
+    },
+	"histeria:book_pile": {
+		"sound": "wool",
+		"textures": "shelf"
+    },
+	"histeria:chair": {
+		"sound": "wood",
+		"textures": "chair"
+    },
+	"histeria:compressed_bricks": {
+		"sound": "stone",
+		"textures": "compressed_bricks"
+    },
+	"histeria:green_tile": {
+		"sound": "stone",
+		"textures": "green_tile"
+    },
+	"histeria:lamp": {
+		"sound": "stone",
+		"textures": "lamp"
+    },
+	"histeria:orange_tile": {
+		"sound": "wood",
+		"textures": "orange_tile"
+    },
+	"histeria:peony_bush": {
+		"sound": "grass",
+		"textures": "peony_bush"
+    },
+	"histeria:red_tile": {
+		"sound": "stone",
+		"textures": "red_tile"
+    },
+	"histeria:table": {
+		"sound": "wood",
+		"textures": "table"
+    },
+	"histeria:tinsel": {
+		"sound": "wood",
+		"textures": "tinsel"
+	}
 }
+            
