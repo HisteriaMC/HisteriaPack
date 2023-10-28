@@ -277,6 +277,18 @@
     },
     "minage5_icon": {
       "textures": "textures/items/decoration/minage5_icon"
+    },
+    "hera_duplicator": {
+      "textures": "textures/items/utility/hera_duplicator"
+    },
+    "hermes_caduceus": {
+      "textures": "textures/items/utility/hermes_caduceus"
+    },
+    "hestia_torch": {
+      "textures": "textures/items/utility/hestia_torch"
+    },
+    "love_philtre": {
+      "textures": "textures/items/utility/love_philtre"
     }
   }
 }
