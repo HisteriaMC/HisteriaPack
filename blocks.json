@@ -156,6 +156,10 @@
 	"histeria:tinsel": {
 		"sound": "wood",
 		"textures": "tinsel"
+    },
+	"histeria:stools": {
+		"sound": "wood",
+		"textures": "stools"
 	}
 }
             

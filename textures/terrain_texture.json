@@ -149,6 +149,9 @@
       },
       "tinsel" : {
          "textures" : "textures/blocks/tinsel"
+      },
+      "stools" : {
+         "textures" : "textures/blocks/stools"
       }
    },
    "texture_name" : "atlas.terrain"
