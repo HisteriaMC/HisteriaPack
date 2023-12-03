@@ -301,18 +301,6 @@
     },
     "snow_shovel": {
       "textures": "textures/items/event/snow_shovel"
-    },
-    "blue_candy": {
-      "textures": "textures/items/event/blue_candy"
-    },
-    "green_candy": {
-      "textures": "textures/items/event/green_candy"
-    },
-    "red_candy": {
-      "textures": "textures/items/event/red_candy"
-    },
-    "yellow_candy": {
-      "textures": "textures/items/event/yellow_candy"
     }
   }
 }
