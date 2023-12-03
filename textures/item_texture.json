@@ -278,8 +278,8 @@
     "minage5_icon": {
       "textures": "textures/items/decoration/minage5_icon"
     },
-    "barley_sugar": {
-      "textures": "textures/items/event/barley_sugar"
+    "candy_cane": {
+      "textures": "textures/items/event/candy_cane"
     },
     "bomb": {
       "textures": "textures/items/event/bomb"
