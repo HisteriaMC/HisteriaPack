@@ -277,6 +277,30 @@
     },
     "minage5_icon": {
       "textures": "textures/items/decoration/minage5_icon"
+    },
+    "barley_sugar": {
+      "textures": "textures/items/event/barley_sugar"
+    },
+    "bomb": {
+      "textures": "textures/items/event/bomb"
+    },
+    "christmas_ball": {
+      "textures": "textures/items/event/christmas_ball"
+    },
+    "christmas_rocket": {
+      "textures": "textures/items/event/christmas_rocket"
+    },
+    "christmas_star": {
+      "textures": "textures/items/event/christmas_star"
+    },
+    "leap": {
+      "textures": "textures/items/event/leap"
+    },
+    "snow_globe": {
+      "textures": "textures/items/event/snow_globe"
+    },
+    "snow_shovel": {
+      "textures": "textures/items/event/snow_shovel"
     }
   }
 }
