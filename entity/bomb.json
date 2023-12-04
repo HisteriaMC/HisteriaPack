@@ -4,7 +4,7 @@
     "description": {
       "identifier": "histeria:bomb",
       "materials": {
-        "default": "bomb"
+        "default": "egg"
       },
       "textures": {
         "default": "textures/entity/bomb"
