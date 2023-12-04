@@ -1,0 +1,21 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "histeria:leap",
+      "materials": {
+        "default": "egg"
+      },
+      "textures": {
+        "default": "textures/entity/leap"
+      },
+      "geometry": {
+        "default": "geometry.leap"
+      },
+      "render_controllers": [ "controller.render.item_sprite" ],
+      "animations": {
+        "flying": "animation.actor.billboard"
+      }
+    }
+  }
+}
