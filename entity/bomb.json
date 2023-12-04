@@ -1,0 +1,17 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "histeria:bomb",
+      "materials": {
+        "default": "bomb"
+      },
+      "textures": {
+        "default": "textures/entity/bomb"
+      },
+      "geometry": {
+        "default": "geometry.bomb"
+      }
+    }
+  }
+}
