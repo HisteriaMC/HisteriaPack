@@ -50,12 +50,12 @@
     "histeria:drawer": {
         "sound": "wood",
         "textures": {
-            "down": "drawer_top_bottom_side",
-            "east": "drawer_top_bottom_side",
-            "north": "drawer_top_bottom_side",
+            "down": "drawer_bottom",
+            "east": "drawer_side",
+            "north": "drawer_side",
             "south": "drawer_front",
-            "up": "drawer_top_bottom_side",
-            "west": "drawer_top_bottom_side"
+            "up": "drawer_top",
+            "west": "drawer_side"
         }
     },
     "histeria:elevator": {
