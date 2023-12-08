@@ -9,8 +9,14 @@
       "drawer_front" : {
          "textures" : "textures/blocks/drawer_front"
       },
-      "drawer_top_bottom_side" : {
-         "textures" : "textures/blocks/drawer_top_bottom_side"
+      "drawer_side" : {
+         "textures" : "textures/blocks/drawer_side"
+      },
+      "drawer_top" : {
+         "textures" : "textures/blocks/drawer_top"
+      },
+      "drawer_bottom" : {
+         "textures" : "textures/blocks/drawer_bottom"
       },
       "elevator_side" : {
          "textures" : "textures/blocks/elevator_side"
