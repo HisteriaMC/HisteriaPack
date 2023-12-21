@@ -102,6 +102,7 @@ item.histeria:xiphos=Xiphos
 
 [Utility]
 item.histeria:banknote=Billet de banque
+item.histeria:lumenn_check=Billet de Lumenn
 item.histeria:chalice=Calice
 item.histeria:chest_explorer=Explorateur de coffre
 item.histeria:chest_finder=Chercheur de coffre
