@@ -111,6 +111,9 @@
       "lamp" : {
          "textures" : "textures/blocks/lamp"
       },
+      "lamp_on" : {
+         "textures" : "textures/blocks/lamp_on"
+      },
       "orange_tile" : {
          "textures" : "textures/blocks/orange_tile"
       },
@@ -152,6 +155,51 @@
       },
       "stools" : {
          "textures" : "textures/blocks/stools"
+      },
+      "scoffed_brick" : {
+         "textures" : "textures/blocks/scoffed_brick"
+      },
+      "picrite_bricks" : {
+         "textures" : "textures/blocks/picrite_bricks"
+      },
+      "polished_gutter_wall" : {
+         "textures" : "textures/blocks/polished_gutter_wall"
+      },
+      "polished_picrite" : {
+         "textures" : "textures/blocks/polished_picrite"
+      },
+      "tansy" : {
+         "textures" : "textures/blocks/tansy"
+      },
+      "carnation_field" : {
+         "textures" : "textures/blocks/carnation_field"
+      },
+      "cloner" : {
+         "textures" : "textures/blocks/cloner"
+      },
+      "crate" : {
+         "textures" : "textures/blocks/crate"
+      },
+      "gutter_wall" : {
+         "textures" : "textures/blocks/gutter_wall"
+      },
+      "crate_side" : {
+         "textures" : "textures/blockscrate_side"
+      },
+      "crate_top" : {
+         "textures" : "textures/blocks/crate_top"
+      },
+      "crate_bottom" : {
+         "textures" : "textures/blocks/crate_bottom"
+      },
+      "empty_shelf" : {
+         "textures" : "textures/blocks/empty_shelf"
+      },
+      "couch" : {
+         "textures" : "textures/blocks/couch"
+      },
+      "bedside_cabinet" : {
+         "textures" : "textures/blocks/bedside_cabinet"
       }
    },
    "texture_name" : "atlas.terrain"
