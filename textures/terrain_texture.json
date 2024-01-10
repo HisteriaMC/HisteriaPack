@@ -83,6 +83,120 @@
       },
       "nocturite_chest" : {
          "textures" : "textures/blocks/nocturite_chest"
+      },
+      "armchair" : {
+         "textures" : "textures/blocks/armchair"
+      },
+      "big_pot" : {
+         "textures" : "textures/blocks/big_pot"
+      },
+      "black_tile" : {
+         "textures" : "textures/blocks/black_tile"
+      },
+      "blue_tile" : {
+         "textures" : "textures/blocks/blue_tile"
+      },
+      "book_pile" : {
+         "textures" : "textures/blocks/book_pile"
+      },
+      "chair" : {
+         "textures" : "textures/blocks/chair"
+      },
+      "compressed_bricks" : {
+         "textures" : "textures/blocks/compressed_bricks"
+      },
+      "green_tile" : {
+         "textures" : "textures/blocks/green_tile"
+      },
+      "lamp" : {
+         "textures" : "textures/blocks/lamp"
+      },
+      "lamp_on" : {
+         "textures" : "textures/blocks/lamp_on"
+      },
+      "orange_tile" : {
+         "textures" : "textures/blocks/orange_tile"
+      },
+      "peony_bush" : {
+         "textures" : "textures/blocks/peony_bush"
+      },
+      "red_tile" : {
+         "textures" : "textures/blocks/red_tile"
+      },
+      "shelf": {
+         "textures": [
+           {
+             "variations": [
+               {
+                 "path": "textures/blocks/shelf",
+                 "weight": 1
+               },
+               {
+                 "path": "textures/blocks/stone/shelf1",
+                 "weight": 1
+               },
+               {
+                 "path": "textures/blocks/stone/shelf2",
+                 "weight": 1
+               },
+               {
+                 "path": "textures/blocks/stone/shelf3",
+                 "weight": 1
+               } 
+             ]
+           }
+         ]
+      },
+      "table" : {
+         "textures" : "textures/blocks/table"
+      },
+      "tinsel" : {
+         "textures" : "textures/blocks/tinsel"
+      },
+      "stools" : {
+         "textures" : "textures/blocks/stools"
+      },
+      "scoffed_brick" : {
+         "textures" : "textures/blocks/scoffed_brick"
+      },
+      "picrite_bricks" : {
+         "textures" : "textures/blocks/picrite_bricks"
+      },
+      "polished_gutter_wall" : {
+         "textures" : "textures/blocks/polished_gutter_wall"
+      },
+      "polished_picrite" : {
+         "textures" : "textures/blocks/polished_picrite"
+      },
+      "tansy" : {
+         "textures" : "textures/blocks/tansy"
+      },
+      "carnation_field" : {
+         "textures" : "textures/blocks/carnation_field"
+      },
+      "cloner" : {
+         "textures" : "textures/blocks/cloner"
+      },
+      "gutter_wall" : {
+         "textures" : "textures/blocks/gutter_wall"
+      },
+      "crate_side" : {
+         "textures" : "textures/blockscrate_side"
+      },
+      "crate_top" : {
+         "textures" : "textures/blocks/crate_top"
+      },
+      "crate_bottom" : {
+         "textures" : "textures/blocks/crate_bottom"
+      },
+      "empty_shelf" : {
+         "textures" : "textures/blocks/empty_shelf"
+      },
+      "couch" : {
+         "textures" : "textures/blocks/couch"
+      },
+      "bedside_cabinet" : {
+         "textures" : "textures/blocks/bedside_cabinet"
       }
    },
    "texture_name" : "atlas.terrain"
