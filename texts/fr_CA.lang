@@ -23,103 +23,103 @@ tile.histeria:spike.name=Épine
 tile.histeria:bounce.name=Rebond
 
 [Armures]
-item.nocturite_helmet.name=Casque en Nocturite
-item.nocturite_chestplate.name=Plastron en Nocturite
-item.nocturite_leggings.name=Jambières en Nocturite
-item.nocturite_boots.name=Bottes en Nocturite
-item.histerite_helmet.name=Casque en Histerite
-item.histerite_chestplate.name=Plastron en Histerite
-item.histerite_leggings.name=Jambières en Histerite
-item.histerite_boots.name=Bottes en Histerite
-item.hood_helmet.name=Capuche
-item.hades_crown.name=Couronne d'Hadès
-item.hermes_sandals.name=Sandales d'Hermès
-item.ares_chestplate.name=Plastron d'Arès
+item.histeria:nocturite_helmet=Casque en Nocturite
+item.histeria:nocturite_chestplate=Plastron en Nocturite
+item.histeria:nocturite_leggings=Jambières en Nocturite
+item.histeria:nocturite_boots=Bottes en Nocturite
+item.histeria:histerite_helmet=Casque en Histerite
+item.histeria:histerite_chestplate=Plastron en Histerite
+item.histeria:histerite_leggings=Jambières en Histerite
+item.histeria:histerite_boots=Bottes en Histerite
+item.histeria:hood_helmet=Capuche
+item.histeria:hades_crown=Couronne d'Hadès
+item.histeria:hermes_sandals=Sandales d'Hermès
+item.histeria:ares_chestplate=Plastron d'Arès
 
 [Crafts]
-item.compressed_cobblestone.name=Pierre taillée compressée
-item.histerite_compress.name=Histerite compressée
-item.histerite_core.name=Noyau d'Histerite
-item.histerite_ingot.name=Lingot d'Histerite
-item.histerite_stick.name=Bâton d'Histerite
-item.nocturite_compress.name=Nocturite compressée
-item.nocturite_core.name=Noyau de Nocturite
-item.nocturite_crystal.name=Cristale de Nocturite
-item.nocturite_fruit.name=Fruit en Nocturite
-item.nocturite_seeds.name=Graines de Nocturite
+item.histeria:compressed_cobblestone=Pierre taillée compressée
+item.histeria:histerite_compress=Histerite compressée
+item.histeria:histerite_core=Noyau d'Histerite
+item.histeria:histerite_ingot=Lingot d'Histerite
+item.histeria:histerite_stick=Bâton d'Histerite
+item.histeria:nocturite_compress=Nocturite compressée
+item.histeria:nocturite_core=Noyau de Nocturite
+item.histeria:nocturite_crystal=Cristale de Nocturite
+item.histeria:nocturite_fruit=Fruit en Nocturite
+item.histeria:nocturite_seeds=Graines de Nocturite
 
 [Décoration]
-item.block_category.name=Categorie Bloc
-item.item_category.name=Categorie Item
-item.ore_category.name=Categorie Minerais
-item.nature_category.name=Categorie Nature
-item.modded_item_category.name=Categorie Item Moddés
-item.decoration_category.name=Categorie Décoration
-item.buy.name=Acheter
-item.sell.name=Vendre
-item.valid_mark.name=Valider
-item.arrow_left.name=Flèche Gauche
-item.arrow_right.name=Flèche Droite
-item.arrow_return.name=Flèche Retour
-item.donator_icon.name=Donateur
-item.omega_icon.name=Omega
-item.inter_icon.name=Interplanétaire
-item.vip_icon.name=VIP
+item.histeria:block_category=Categorie Bloc
+item.histeria:item_category=Categorie Item
+item.histeria:ore_category=Categorie Minerais
+item.histeria:nature_category=Categorie Nature
+item.histeria:modded_item_category=Categorie Item Moddés
+item.histeria:decoration_category=Categorie Décoration
+item.histeria:buy=Acheter
+item.histeria:sell=Vendre
+item.histeria:valid_mark=Valider
+item.histeria:arrow_left=Flèche Gauche
+item.histeria:arrow_right=Flèche Droite
+item.histeria:arrow_return=Flèche Retour
+item.histeria:donator_icon=Donateur
+item.histeria:omega_icon=Omega
+item.histeria:inter_icon=Interplanétaire
+item.histeria:vip_icon=VIP
 
 [Fossils]
-item.cracked_stone.name=Coquillage de pierre fissurée
-item.fish.name=Coquillage de poisson
-item.shell.name=Coquillage
-item.skull.name=Caquillage de crâne
-item.stone_vein.name=Coquille de veine de pierre
+item.histeria:cracked_stone=Coquillage de pierre fissurée
+item.histeria:fish=Coquillage de poisson
+item.histeria:shell=Coquillage
+item.histeria:skull=Caquillage de crâne
+item.histeria:stone_vein=Coquille de veine de pierre
 
 [Clés]
-item.boss_key.name=Clé de Boss
-item.histerite_key.name=Clé en Histerite
-item.nocturite_key.name=Clé en Nocturite
-item.vote_key.name=Clé de vote
+item.histeria:boss_key=Clé de Boss
+item.histeria:histerite_key=Clé en Histerite
+item.histeria:nocturite_key=Clé en Nocturite
+item.histeria:vote_key=Clé de vote
 
 [Sticks]
-item.heal_stick.name=Bâton de soin
-item.jump_stick.name=Bâton de saut
-item.speed_stick.name=Bâton de vitesse
-item.sponger.name=Bâton de sécheresse
-item.tpstick.name=Bâton de téléportation
+item.histeria:heal_stick=Bâton de soin
+item.histeria:jump_stick=Bâton de saut
+item.histeria:speed_stick=Bâton de vitesse
+item.histeria:sponger=Bâton de sécheresse
+item.histeria:tpstick=Bâton de téléportation
 
 [Tools]
-item.grapnel.name=Grappin
-item.hammer.name=Marteau
-item.harpe.name=Harpe
-item.histerite_axe.name=Hache en Histerite
-item.histerite_hoe.name=Houe en Histerite
-item.histerite_pickaxe.name=Pioche en Histerite
-item.histerite_shovel.name=Pelle en Histerite
-item.histerite_sword.name=Épée en Histerite
-item.lotus_staff.name=Bâton de Lotus
-item.seed_planter.name=Plantoir à graines
-item.spear.name=Lance
-item.xiphos.name=Xiphos
+item.histeria:grapnel=Grappin
+item.histeria:hammer=Marteau
+item.histeria:harpe=Harpe
+item.histeria:histerite_axe=Hache en Histerite
+item.histeria:histerite_hoe=Houe en Histerite
+item.histeria:histerite_pickaxe=Pioche en Histerite
+item.histeria:histerite_shovel=Pelle en Histerite
+item.histeria:histerite_sword=Épée en Histerite
+item.histeria:lotus_staff=Bâton de Lotus
+item.histeria:seed_planter=Plantoir à graines
+item.histeria:spear=Lance
+item.histeria:xiphos=Xiphos
 
 [Utility]
-item.banknote.name=Billet de banque
-item.chalice.name=Calice
-item.chest_explorer.name=Explorateur de coffre
-item.chest_finder.name=Chercheur de coffre
-item.drawer_upgrade.name=Amélioration de commode
-item.dynamite.name=Dynamite
-item.fishing_rod_cast.name=Grappin
-item.forge_note.name=Parchemin d'enchantement
-item.hang_glider.name=Planeur
-item.histerite_apple.name=Pomme en Histerite
-item.histerite_totem.name=Totem en Histerite
-item.item_pack.name=Sac à dos
-item.killtag.name=Kill Tag
-item.lottery_ticket.name=Ticket de loterie
-item.magic_lyre.name=Lyre magique
-item.obsidian_breaker.name=Casseur à obsidienne
-item.punching_ball.name=Boule de frappe
-item.shuriken.name=Shuriken
-item.thunderbolt.name=Coup de tonnerre
+item.histeria:banknote=Billet de banque
+item.histeria:chalice=Calice
+item.histeria:chest_explorer=Explorateur de coffre
+item.histeria:chest_finder=Chercheur de coffre
+item.histeria:drawer_upgrade=Amélioration de commode
+item.histeria:dynamite=Dynamite
+item.histeria:fishing_rod_cast=Grappin
+item.histeria:forge_note=Parchemin d'enchantement
+item.histeria:hang_glider=Planeur
+item.histeria:histerite_apple=Pomme en Histerite
+item.histeria:histerite_totem=Totem en Histerite
+item.histeria:item_pack=Sac à dos
+item.histeria:killtag=Kill Tag
+item.histeria:lottery_ticket=Ticket de loterie
+item.histeria:magic_lyre=Lyre magique
+item.histeria:obsidian_breaker=Casseur à obsidienne
+item.histeria:punching_ball=Boule de frappe
+item.histeria:shuriken=Shuriken
+item.histeria:thunderbolt=Coup de tonnerre
 
 [Autre]
 dayOneExperience.tab.marketplace=shop.histeria.fr

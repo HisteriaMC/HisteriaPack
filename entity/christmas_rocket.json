@@ -1,0 +1,21 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "histeria:christmas_rocket",
+      "materials": {
+        "default": "egg"
+      },
+      "textures": {
+        "default": "textures/entity/christmas_rocket"
+      },
+      "geometry": {
+        "default": "geometry.christmas_rocket"
+      },
+      "render_controllers": [ "controller.render.item_sprite" ],
+      "animations": {
+        "flying": "animation.actor.billboard"
+      }
+    }
+  }
+}

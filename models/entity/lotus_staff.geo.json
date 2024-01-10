@@ -6,14 +6,15 @@
 				"identifier": "geometry.lotus_staff",
 				"texture_width": 32,
 				"texture_height": 32,
-				"visible_bounds_width": 2,
+				"visible_bounds_width": 3,
 				"visible_bounds_height": 3.5,
 				"visible_bounds_offset": [0, 1.25, 0]
 			},
 			"bones": [
 				{
-					"name": "bb_main",
+					"name": "root_item",
 					"pivot": [0, 0, 0],
+					"binding": "q.item_slot_to_bone_name(context.item_slot)",
 					"cubes": [
 						{
 							"origin": [-1, 2, -1],

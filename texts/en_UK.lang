@@ -23,103 +23,103 @@ tile.histeria:spike.name=Spike
 tile.histeria:bounce.name=Bounce
 
 [Armures]
-item.nocturite_helmet.name=Nocturite Helmet
-item.nocturite_chestplate.name=Nocturite Chestplate
-item.nocturite_leggings.name=Nocturite Leggings
-item.nocturite_boots.name=Nocturite Boots
-item.histerite_helmet.name=Histerite Helmet
-item.histerite_chestplate.name=Histerite Chestplate
-item.histerite_leggings.name=Histerite Leggings
-item.histerite_boots.name=Histerite Boots
-item.hood_helmet.name=Hood
-item.hades_crown.name=Hades Crown
-item.hermes_sandals.name=Hermes sandals
-item.ares_chestplate.name=Ares Chestplate
+item.histeria:nocturite_helmet=Nocturite Helmet
+item.histeria:nocturite_chestplate=Nocturite Chestplate
+item.histeria:nocturite_leggings=Nocturite Leggings
+item.histeria:nocturite_boots=Nocturite Boots
+item.histeria:histerite_helmet=Histerite Helmet
+item.histeria:histerite_chestplate=Histerite Chestplate
+item.histeria:histerite_leggings=Histerite Leggings
+item.histeria:histerite_boots=Histerite Boots
+item.histeria:hood_helmet=Hood
+item.histeria:hades_crown=Hades Crown
+item.histeria:hermes_sandals=Hermes sandals
+item.histeria:ares_chestplate=Ares Chestplate
 
 [Crafts]
-item.compressed_cobblestone.name=Compressed Cobblestone
-item.histerite_compress.name=Compressed Histerite
-item.histerite_core.name=Histerite Core
-item.histerite_ingot.name=Histerite Ingot
-item.histerite_stick.name=Histerite Stick
-item.nocturite_compress.name=Compressed Nocturite
-item.nocturite_core.name=Nocturite Core
-item.nocturite_crystal.name=Nocturite Crystal
-item.nocturite_fruit.name=Nocturite Fruit
-item.nocturite_seeds.name=Nocturite Seeds
+item.histeria:compressed_cobblestone=Compressed Cobblestone
+item.histeria:histerite_compress=Compressed Histerite
+item.histeria:histerite_core=Histerite Core
+item.histeria:histerite_ingot=Histerite Ingot
+item.histeria:histerite_stick=Histerite Stick
+item.histeria:nocturite_compress=Compressed Nocturite
+item.histeria:nocturite_core=Nocturite Core
+item.histeria:nocturite_crystal=Nocturite Crystal
+item.histeria:nocturite_fruit=Nocturite Fruit
+item.histeria:nocturite_seeds=Nocturite Seeds
 
 [Décoration]
-item.block_category.name=Block Category
-item.item_category.name=Item Category
-item.ore_category.name=Ores Category
-item.nature_category.name=Nature Category
-item.modded_item_category.name=Modded Items Category
-item.decoration_category.name=Decoration Category
-item.buy.name=Buy
-item.sell.name=Sell
-item.valid_mark.name=Accept
-item.arrow_left.name=Left Arrow
-item.arrow_right.name=Right Arrow
-item.arrow_return.name=Return Arrow
-item.donator_icon.name=Donator
-item.omega_icon.name=Omega
-item.inter_icon.name=Interplanetary
-item.vip_icon.name=VIP
+item.histeria:block_category=Block Category
+item.histeria:item_category=Item Category
+item.histeria:ore_category=Ores Category
+item.histeria:nature_category=Nature Category
+item.histeria:modded_item_category=Modded Items Category
+item.histeria:decoration_category=Decoration Category
+item.histeria:buy=Buy
+item.histeria:sell=Sell
+item.histeria:valid_mark=Accept
+item.histeria:arrow_left=Left Arrow
+item.histeria:arrow_right=Right Arrow
+item.histeria:arrow_return=Return Arrow
+item.histeria:donator_icon=Donator
+item.histeria:omega_icon=Omega
+item.histeria:inter_icon=Interplanetary
+item.histeria:vip_icon=VIP
 
 [Fossils]
-item.cracked_stone.name=Cracked stone shell
-item.fish.name=Fish shell
-item.shell.name=Shell
-item.skull.name=Skull shell
-item.stone_vein.name=Stone Vein shell
+item.histeria:cracked_stone=Cracked stone shell
+item.histeria:fish=Fish shell
+item.histeria:shell=Shell
+item.histeria:skull=Skull shell
+item.histeria:stone_vein=Stone Vein shell
 
 [Clés]
-item.boss_key.name=Boss Key
-item.histerite_key.name=Histerite Key
-item.nocturite_key.name=Nocturite Key
-item.vote_key.name=Vote Key
+item.histeria:boss_key=Boss Key
+item.histeria:histerite_key=Histerite Key
+item.histeria:nocturite_key=Nocturite Key
+item.histeria:vote_key=Vote Key
 
 [Sticks]
-item.heal_stick.name=Heal stick
-item.jump_stick.name=Jump stick
-item.speed_stick.name=Speed stick
-item.sponger.name=Dryness stick
-item.tpstick.name=Teleportation stick
+item.histeria:heal_stick=Heal stick
+item.histeria:jump_stick=Jump stick
+item.histeria:speed_stick=Speed stick
+item.histeria:sponger=Dryness stick
+item.histeria:tpstick=Teleportation stick
 
 [Tools]
-item.grapnel.name=Grapple
-item.hammer.name=Hammer
-item.harpe.name=Harpe
-item.histerite_axe.name=Histerite Axe
-item.histerite_hoe.name=Histerite Hoe
-item.histerite_pickaxe.name=Histerite Pickaxe
-item.histerite_shovel.name=Histerite Shovel
-item.histerite_sword.name=Histerite Sword
-item.lotus_staff.name=Lotus Staff
-item.seed_planter.name=Seed Planter
-item.spear.name=Spear
-item.xiphos.name=Xiphos
+item.histeria:grapnel=Grapple
+item.histeria:hammer=Hammer
+item.histeria:harpe=Harpe
+item.histeria:histerite_axe=Histerite Axe
+item.histeria:histerite_hoe=Histerite Hoe
+item.histeria:histerite_pickaxe=Histerite Pickaxe
+item.histeria:histerite_shovel=Histerite Shovel
+item.histeria:histerite_sword=Histerite Sword
+item.histeria:lotus_staff=Lotus Staff
+item.histeria:seed_planter=Seed Planter
+item.histeria:spear=Spear
+item.histeria:xiphos=Xiphos
 
 [Utility]
-item.banknote.name=Bank Note
-item.chalice.name=Chalice
-item.chest_explorer.name=Chest Explorer
-item.chest_finder.name=Chest Finder
-item.drawer_upgrade.name=Drawer Upgrade
-item.dynamite.name=Dynamite
-item.fishing_rod_cast.name=Grapple
-item.forge_note.name=Parchment of Enchantment
-item.hang_glider.name=Glider
-item.histerite_apple.name=Histerite Apple
-item.histerite_totem.name=Histerite Totem
-item.item_pack.name=Bag
-item.killtag.name=Kill Tag
-item.lottery_ticket.name=Lottery ticket
-item.magic_lyre.name=Magic Lyre
-item.obsidian_breaker.name=Obsidian Breaker
-item.punching_ball.name=Punching Ball
-item.shuriken.name=Shuriken
-item.thunderbolt.name=Thunderbolt
+item.histeria:banknote=Bank Note
+item.histeria:chalice=Chalice
+item.histeria:chest_explorer=Chest Explorer
+item.histeria:chest_finder=Chest Finder
+item.histeria:drawer_upgrade=Drawer Upgrade
+item.histeria:dynamite=Dynamite
+item.histeria:fishing_rod_cast=Grapple
+item.histeria:forge_note=Parchment of Enchantment
+item.histeria:hang_glider=Glider
+item.histeria:histerite_apple=Histerite Apple
+item.histeria:histerite_totem=Histerite Totem
+item.histeria:item_pack=Bag
+item.histeria:killtag=Kill Tag
+item.histeria:lottery_ticket=Lottery ticket
+item.histeria:magic_lyre=Magic Lyre
+item.histeria:obsidian_breaker=Obsidian Breaker
+item.histeria:punching_ball=Punching Ball
+item.histeria:shuriken=Shuriken
+item.histeria:thunderbolt=Thunderbolt
 
 [Autre]
 dayOneExperience.tab.marketplace=shop.histeria.fr

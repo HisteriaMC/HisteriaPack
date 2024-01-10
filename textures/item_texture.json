@@ -1,5 +1,5 @@
 {
-  "resource_pack_name": "Histeria V6",
+  "resource_pack_name": "Histeria V6.5",
   "texture_name": "atlas.items",
   "texture_data": {
     "ares_chestplate": {
@@ -277,6 +277,42 @@
     },
     "minage5_icon": {
       "textures": "textures/items/decoration/minage5_icon"
+    },
+    "candy_cane": {
+      "textures": "textures/items/event/candy_cane"
+    },
+    "bomb": {
+      "textures": "textures/items/event/bomb"
+    },
+    "christmas_ball": {
+      "textures": "textures/items/event/christmas_ball"
+    },
+    "christmas_rocket": {
+      "textures": "textures/items/event/christmas_rocket"
+    },
+    "christmas_star": {
+      "textures": "textures/items/event/christmas_star"
+    },
+    "leap": {
+      "textures": "textures/items/event/leap"
+    },
+    "snow_globe": {
+      "textures": "textures/items/event/snow_globe"
+    },
+    "snow_shovel": {
+      "textures": "textures/items/event/snow_shovel"
+    },
+    "blue_candy": {
+      "textures": "textures/items/event/blue_candy"
+    },
+    "green_candy": {
+      "textures": "textures/items/event/green_candy"
+    },
+    "red_candy": {
+      "textures": "textures/items/event/candy_cane"
+    },
+    "yellow_candy": {
+      "textures": "textures/items/event/yellow_candy"
     }
   }
 }
