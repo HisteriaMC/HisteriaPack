@@ -177,9 +177,6 @@
       "cloner" : {
          "textures" : "textures/blocks/cloner"
       },
-      "crate" : {
-         "textures" : "textures/blocks/crate"
-      },
       "gutter_wall" : {
          "textures" : "textures/blocks/gutter_wall"
       },
