@@ -315,7 +315,7 @@
       "textures": "textures/items/event/yellow_candy"
     },
     "normal_bomb": {
-      "textures": "textures/items/utility/bomb"
+      "textures": "textures/items/event/normal_bomb"
     }
   }
 }
