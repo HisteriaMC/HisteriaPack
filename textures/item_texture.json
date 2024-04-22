@@ -333,13 +333,13 @@
       "textures": "textures/items/event/chocolate_staff"
     },
     "egg_basket": {
-      "textures": "textures/items/event/egg_basket",
+      "textures": "textures/items/event/egg_basket"
     },
     "bronze_medal": {
-      "textures": "textures/items/event/bronze_medal",
+      "textures": "textures/items/event/bronze_medal"
     },
     "gold_trophy": {
-      "textures": "textures/items/event/gold_trophy",
+      "textures": "textures/items/event/gold_trophy"
     },
     "silver_medal": {
       "textures": "textures/items/event/silver_medal"
