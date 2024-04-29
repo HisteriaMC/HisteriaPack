@@ -197,6 +197,9 @@
       },
       "bedside_cabinet" : {
          "textures" : "textures/blocks/bedside_cabinet"
+      },
+      "egg_basket" : {
+         "textures" : "textures/blocks/egg_basket"
       }
    },
    "texture_name" : "atlas.terrain"
