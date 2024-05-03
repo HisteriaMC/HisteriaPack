@@ -169,9 +169,9 @@
         "sound": "wood",
         "textures": "stools"
     },
-    "histeria:scoffed_brick": {
+    "histeria:scoffed_bricks": {
         "sound": "stone",
-        "textures": "scoffed_brick"
+        "textures": "scoffed_bricks"
     },
     "histeria:picrite_bricks": {
         "sound": "stone",

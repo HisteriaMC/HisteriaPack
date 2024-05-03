@@ -124,29 +124,16 @@
          "textures" : "textures/blocks/red_tile"
       },
       "shelf": {
-         "textures": [
-           {
-             "variations": [
-               {
-                 "path": "textures/blocks/shelf",
-                 "weight": 1
-               },
-               {
-                 "path": "textures/blocks/stone/shelf1",
-                 "weight": 1
-               },
-               {
-                 "path": "textures/blocks/stone/shelf2",
-                 "weight": 1
-               },
-               {
-                 "path": "textures/blocks/stone/shelf3",
-                 "weight": 1
-               } 
-             ]
-           }
-         ]
-      },
+         "textures": {
+           "variations": [
+             { "path": "textures/blocks/shelf" },
+             { "path": "textures/blocks/shelf1" },
+             { "path": "textures/blocks/shelf2" },
+             { "path": "textures/blocks/shelf3" }
+           ]
+         }
+       }
+     },
       "table" : {
          "textures" : "textures/blocks/table"
       },
@@ -156,8 +143,8 @@
       "stools" : {
          "textures" : "textures/blocks/stools"
       },
-      "scoffed_brick" : {
-         "textures" : "textures/blocks/scoffed_brick"
+      "scoffed_bricks" : {
+         "textures" : "textures/blocks/scoffed_bricks"
       },
       "picrite_bricks" : {
          "textures" : "textures/blocks/picrite_bricks"

@@ -6,7 +6,7 @@
 				"identifier": "geometry.empty_shelf",
 				"texture_width": 64,
 				"texture_height": 64,
-				"visible_bounds_width": 2,
+				"visible_bounds_width": 3,
 				"visible_bounds_height": 2.5,
 				"visible_bounds_offset": [0, 0.75, 0]
 			},
@@ -14,6 +14,7 @@
 				{
 					"name": "bb_main",
 					"pivot": [0, 0, 0],
+					"rotation": [0, 90, 0],
 					"cubes": [
 						{"origin": [-8, 15, -8], "size": [16, 1, 14], "uv": [0, 0]},
 						{"origin": [4, 2.5, -15], "size": [2, 5, 1], "pivot": [0, 0, 0], "rotation": [-45, 0, 0], "uv": [5, 5]},
