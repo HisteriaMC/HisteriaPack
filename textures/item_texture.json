@@ -334,6 +334,9 @@
     },
     "egg_basket": {
       "textures": "textures/items/event/egg_basket"
+    },
+    "bottled_experience": {
+      "textures": "textures/items/event/bottled_experience"
     }
   }
 }

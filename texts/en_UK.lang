@@ -120,6 +120,7 @@ item.histeria:obsidian_breaker=Obsidian Breaker
 item.histeria:punching_ball=Punching Ball
 item.histeria:shuriken=Shuriken
 item.histeria:thunderbolt=Thunderbolt
+item.histeria:bottled_experience=Bottled Experience
 
 [Autre]
 dayOneExperience.tab.marketplace=shop.histeria.fr
