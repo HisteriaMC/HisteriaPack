@@ -177,9 +177,9 @@
         "sound": "stone",
         "textures": "picrite_bricks"
     },
-    "histeria:polished_gutter_wall": {
+    "histeria:polished_gutter": {
         "sound": "stone",
-        "textures": "polished_gutter_wall"
+        "textures": "polished_gutter"
     },
     "histeria:polished_picrite": {
         "sound": "stone",
@@ -197,9 +197,9 @@
         "sound": "grass",
         "textures": "cloner"
     },
-    "histeria:gutter_wall": {
+    "histeria:gutter": {
         "sound": "stone",
-        "textures": "gutter_wall"
+        "textures": "gutter"
     },
     "histeria:crate" : {
         "sound" : "stone",

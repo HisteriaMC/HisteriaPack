@@ -125,15 +125,14 @@
       },
       "shelf": {
          "textures": {
-           "variations": [
-             { "path": "textures/blocks/shelf" },
-             { "path": "textures/blocks/shelf1" },
-             { "path": "textures/blocks/shelf2" },
-             { "path": "textures/blocks/shelf3" }
-           ]
+            "variations": [
+               { "path": "textures/blocks/shelf" },
+               { "path": "textures/blocks/shelf1" },
+               { "path": "textures/blocks/shelf2" },
+               { "path": "textures/blocks/shelf3" }
+            ]
          }
-       }
-     },
+      },
       "table" : {
          "textures" : "textures/blocks/table"
       },
@@ -149,8 +148,8 @@
       "picrite_bricks" : {
          "textures" : "textures/blocks/picrite_bricks"
       },
-      "polished_gutter_wall" : {
-         "textures" : "textures/blocks/polished_gutter_wall"
+      "polished_gutter" : {
+         "textures" : "textures/blocks/polished_gutter"
       },
       "polished_picrite" : {
          "textures" : "textures/blocks/polished_picrite"
@@ -164,11 +163,11 @@
       "cloner" : {
          "textures" : "textures/blocks/cloner"
       },
-      "gutter_wall" : {
-         "textures" : "textures/blocks/gutter_wall"
+      "gutter" : {
+         "textures" : "textures/blocks/gutter"
       },
       "crate_side" : {
-         "textures" : "textures/blockscrate_side"
+         "textures" : "textures/blocks/crate_side"
       },
       "crate_top" : {
          "textures" : "textures/blocks/crate_top"
