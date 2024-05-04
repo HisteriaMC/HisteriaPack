@@ -212,10 +212,6 @@
             "west" : "crate_side"
         }
     },
-    "histeria:empty_shelf": {
-        "sound": "wood",
-        "textures": "empty_shelf"
-    },
     "histeria:couch": {
         "sound": "wood",
         "textures": "couch"

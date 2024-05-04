@@ -175,9 +175,6 @@
       "crate_bottom" : {
          "textures" : "textures/blocks/crate_bottom"
       },
-      "empty_shelf" : {
-         "textures" : "textures/blocks/empty_shelf"
-      },
       "couch" : {
          "textures" : "textures/blocks/couch"
       },
