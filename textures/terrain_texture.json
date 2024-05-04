@@ -123,15 +123,14 @@
       "red_tile" : {
          "textures" : "textures/blocks/red_tile"
       },
-      "shelf": {
-         "textures": {
-            "variations": [
-               { "path": "textures/blocks/shelf" },
-               { "path": "textures/blocks/shelf1" },
-               { "path": "textures/blocks/shelf2" },
-               { "path": "textures/blocks/shelf3" }
-            ]
-         }
+      "red_tile1" : {
+         "textures" : "textures/blocks/red_tile1"
+      },
+      "red_tile2" : {
+         "textures" : "textures/blocks/red_tile2"
+      },
+      "red_tile3" : {
+         "textures" : "textures/blocks/red_tile3"
       },
       "table" : {
          "textures" : "textures/blocks/table"

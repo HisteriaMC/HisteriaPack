@@ -105,6 +105,18 @@
         "sound": "wood",
         "textures": "shelf"
     },
+    "histeria:shelf1": {
+        "sound": "wood",
+        "textures": "shelf1"
+    },
+    "histeria:shelf2": {
+        "sound": "wood",
+        "textures": "shelf2"
+    },
+    "histeria:shelf3": {
+        "sound": "wood",
+        "textures": "shelf3"
+    },
     "histeria:armchair": {
         "sound": "wood",
         "textures": "armchair"
