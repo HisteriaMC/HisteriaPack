@@ -43,9 +43,16 @@
         "sound": "nether_wart",
         "textures": "nocturite_plant"
     },
-    "histeria:event_magma": {
-        "sound": "stone",
-        "textures": "magma"
+    "histeria:molten_snow": {
+        "sound": "snow",
+        "textures": {
+            "down": "molten_snow_bottom",
+            "east": "molten_snow_side",
+            "north": "molten_snow_side",
+            "south": "molten_snow_side",
+            "up": "molten_snow_top",
+            "west": "molten_snow_side"
+        }
     },
     "histeria:drawer": {
         "sound": "wood",

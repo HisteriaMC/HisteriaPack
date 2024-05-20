@@ -6,18 +6,19 @@
 			"animation_length": 1,
 			"bones": {
 				"root_item": {
-					"rotation": [29.36231, -21.96659, -133.12768],
-					"position": [5, 24, 9]
+					"rotation": [55.64039, 54.62154, -78.5434],
+					"position": [12, 16, 19]
 				}
 			}
 		},
 		"animation.spear.third_person_hold": {
 			"loop": true,
-			"animation_length": 0.08333,
+			"animation_length": 1,
 			"bones": {
 				"root_item": {
-					"rotation": [90, -12.5, -90],
-					"position": [0.5, 20, 10]
+					"rotation": [82.5, 0, 0],
+					"position": [0, 21, 7],
+					"scale": 0.6
 				}
 			}
 		}

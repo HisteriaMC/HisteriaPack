@@ -1,5 +1,5 @@
 [Containers]
-container.enderchest=§9§k.§f.§c.§r  §cHisteria Chest §9§k.§f.§c.§r
+container.enderchest=§9§k.§f.§c.§r  §cHisteria Ender-Chest §9§k.§f.§c.§r
 
 [Tiles]
 tile.histeria:elevator.name=Ascenceur
@@ -10,11 +10,11 @@ tile.histeria:reinforced_obsidian.name=Obsidienne renforcée
 tile.histeria:poisonous_obsidian.name=Obsidienne empoisonnée
 tile.histeria:random_ore.name=Minerai aléatoire
 tile.histeria:histerite_ore.name=Minerai d'Histerite
-tile.histeria:box.name=Boite à butin
+tile.histeria:box.name=Boîte à butin
 tile.histeria:cave_block.name=Cave Block
 tile.histeria:cobble_breaker.name=Brise-roche
-tile.histeria:histerite_block.name=Bloc en Histerite
-tile.histeria:nocturite_block.name=Bloc en Nocturite
+tile.histeria:histerite_block.name=Bloc d'Histerite
+tile.histeria:nocturite_block.name=Bloc de Nocturite
 tile.histeria:nocturite_chest.name=Coffre en Nocturite
 tile.histeria:histerite_chest.name=Coffre en Histerite
 tile.histeria:lucky_block.name=Lucky Block
@@ -22,7 +22,7 @@ tile.histeria:neon_block.name=Bloc néon
 tile.histeria:spike.name=Épine
 tile.histeria:bounce.name=Rebond
 
-tile.histeria:event_magma.name=Neige en fusion
+tile.histeria:molten_snow.name=Neige en fusion
 tile.histeria:egg_basket.name=Panier d'oeufs
 
 [Armors]
@@ -122,10 +122,10 @@ item.histeria:histerite_shovel=Pelle en Histerite
 item.histeria:histerite_sword=Épée en Histerite
 item.histeria:lotus_staff=Sceptre du Lotus
 item.histeria:seed_planter=Planteur à graines
-item.histeria:spear=Lance
+item.histeria:spear=Lance de guerre
 item.histeria:xiphos=Xiphos
 
-[Utility]
+[Utilities]
 item.histeria:banknote=Billet de banque
 item.histeria:chalice=Calice
 item.histeria:chest_explorer=Explorateur de coffre
@@ -142,9 +142,9 @@ item.histeria:killtag=Kill-Tag
 item.histeria:lottery_ticket=Ticket de loterie
 item.histeria:magic_lyre=Lyre magique
 item.histeria:obsidian_breaker=Casseur à obsidienne
-item.histeria:punching_ball=Boule de frappe
+item.histeria:punching_ball=Punching-ball
 item.histeria:shuriken=Shuriken
-item.histeria:thunderbolt=Coup de tonnerre
+item.histeria:thunderbolt=Eclair divin
 
 [Others]
 dayOneExperience.tab.marketplace=shop.histeria.fr
@@ -158,7 +158,7 @@ deathScreen.quit.secondaryClient.confirmLeaveTitleWarning=§lQuitter
 deathScreen.message=§l§cVous êtes mort !
 deathScreen.quit=§l§cRage quit
 deathScreen.quit.confirm=§l§cÊtes-vous sûr de vouloir quitter ?
-deathScreen.quit.confirmToMainMenuWarning=§cÊtes-vous sûr de quitter ?
+deathScreen.quit.confirmToMainMenuWarning=§cÊtes-vous sûr de vouloir quitter ?
 deathScreen.quit.confirmToMainMenuTitleWarning=§cÊtes-vous sûr de quitter ?
 disconnectionScreen.cantConnect=Impossible de se connecter à Histeria. Si vous pensez que l'erreur vient de Histeria, merci de rejoindre §6discord.gg/histeria§r et d'y créer un ticket.
 

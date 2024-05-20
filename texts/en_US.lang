@@ -1,70 +1,95 @@
-[Inventaires]
-container.enderchest=§9§k.§f.§c.§r  §cHistChest §9§k.§f.§c.§r
+[Containers]
+container.enderchest=§9§k.§f.§c.§r  §cHisteria Ender-Chest §9§k.§f.§c.§r
 
-[Blocs]
+[Tiles]
 tile.histeria:elevator.name=Elevator
 tile.histeria:drawer.name=Drawer
-tile.histeria:histerite_anvil.name=Histerite Anil
+tile.histeria:histerite_anvil.name=Histerite anvil
 tile.histeria:fertilized_dirt.name=Fertilized dirt
 tile.histeria:reinforced_obsidian.name=Reinforced obsidian
-tile.histeria:poisonous_obsidian.name=Poisson obsidian
+tile.histeria:poisonous_obsidian.name=Poisonous obsidian
 tile.histeria:random_ore.name=Random ore
-tile.histeria:histerite_ore.name=Histerite Ore
-tile.histeria:box.name=Loot Box
+tile.histeria:histerite_ore.name=Histerite ore
+tile.histeria:box.name=Loot box
 tile.histeria:cave_block.name=Cave Block
-tile.histeria:cobble_breaker.name=Cobblestone Breaker
-tile.histeria:histerite_block.name=Histerite Block
-tile.histeria:nocturite_block.name=Nocturite Block
-tile.histeria:nocturite_chest.name=Nocturite Chest
-tile.histeria:histerite_chest.name=Histerite Chest
+tile.histeria:cobble_breaker.name=Cobble breaker
+tile.histeria:histerite_block.name=Histerite block
+tile.histeria:nocturite_block.name=Diamond block
+tile.histeria:nocturite_chest.name=Nocturite chest
+tile.histeria:histerite_chest.name=Histerite chest
 tile.histeria:lucky_block.name=Lucky Block
-tile.histeria:neon_block.name=Neon Block
+tile.histeria:neon_block.name=Neon block
 tile.histeria:spike.name=Spike
 tile.histeria:bounce.name=Bounce
 
-[Armures]
-item.histeria:nocturite_helmet=Nocturite Helmet
-item.histeria:nocturite_chestplate=Nocturite Chestplate
-item.histeria:nocturite_leggings=Nocturite Leggings
-item.histeria:nocturite_boots=Nocturite Boots
-item.histeria:histerite_helmet=Histerite Helmet
-item.histeria:histerite_chestplate=Histerite Chestplate
-item.histeria:histerite_leggings=Histerite Leggings
-item.histeria:histerite_boots=Histerite Boots
-item.histeria:hood_helmet=Hood
-item.histeria:hades_crown=Hades Crown
+tile.histeria:molten_snow.name=Molten snow
+tile.histeria:egg_basket.name=Egg basket
+
+[Armors]
+item.histeria:nocturite_helmet=Nocturite helmet
+item.histeria:nocturite_chestplate=Nocturite chestplate
+item.histeria:nocturite_leggings=Nocturite leggings
+item.histeria:nocturite_boots=Nocturite boots
+item.histeria:histerite_helmet=Histerite helmet
+item.histeria:histerite_chestplate=Histerite chestplate
+item.histeria:histerite_leggings=Histerite leggings
+item.histeria:histerite_boots=Histerite boots
+item.histeria:hood_helmet=Hood helmet
+item.histeria:hades_crown=Hades crown
 item.histeria:hermes_sandals=Hermes sandals
-item.histeria:ares_chestplate=Ares Chestplate
+item.histeria:ares_chestplate=Ares chestplate
 
 [Crafts]
-item.histeria:compressed_cobblestone=Compressed Cobblestone
+item.histeria:compressed_cobblestone=Compressed cobblestone
 item.histeria:histerite_compress=Compressed Histerite
-item.histeria:histerite_core=Histerite Core
-item.histeria:histerite_ingot=Histerite Ingot
-item.histeria:histerite_stick=Histerite Stick
+item.histeria:histerite_core=Histerite core
+item.histeria:histerite_ingot=Histerite ingot
+item.histeria:histerite_stick=Histerite stick
 item.histeria:nocturite_compress=Compressed Nocturite
-item.histeria:nocturite_core=Nocturite Core
-item.histeria:nocturite_crystal=Nocturite Crystal
-item.histeria:nocturite_fruit=Nocturite Fruit
-item.histeria:nocturite_seeds=Nocturite Seeds
+item.histeria:nocturite_core=Nocturite core
+item.histeria:nocturite_crystal=Nocturite crystal
+item.histeria:nocturite_fruit=Nocturite fruit
+item.histeria:nocturite_seeds=Nocturite seeds
 
-[Décoration]
-item.histeria:block_category=Block Category
-item.histeria:item_category=Item Category
-item.histeria:ore_category=Ores Category
-item.histeria:nature_category=Nature Category
-item.histeria:modded_item_category=Modded Items Category
-item.histeria:decoration_category=Decoration Category
+[Decorations]
+item.histeria:block_category=Blocks category
+item.histeria:item_category=Items category
+item.histeria:ore_category=Ores category
+item.histeria:nature_category=Nature category
+item.histeria:modded_item_category=Modded items category
+item.histeria:decoration_category=Decorations category
 item.histeria:buy=Buy
 item.histeria:sell=Sell
-item.histeria:valid_mark=Accept
-item.histeria:arrow_left=Left Arrow
-item.histeria:arrow_right=Right Arrow
-item.histeria:arrow_return=Return Arrow
+item.histeria:valid_mark=Valid
+item.histeria:arrow_left=Left arrow
+item.histeria:arrow_right=Right arrow
+item.histeria:arrow_return=Return arrow
 item.histeria:donator_icon=Donator
 item.histeria:omega_icon=Omega
 item.histeria:inter_icon=Interplanetary
 item.histeria:vip_icon=VIP
+
+[Events]
+item.histeria:christmas_ball=Christmas ball
+item.histeria:christmas_rocket=Christmas rocket
+item.histeria:christmas_bomb=Christmas bomb
+item.histeria:snow_shovel=Snow shovel
+item.histeria:christmas_star=Christmas star
+item.histeria:candy_cane=Candy cane
+item.histeria:red_candy=Red candy
+item.histeria:blue_candy=Blue candy
+item.histeria:yellow_candy=Yellow candy
+item.histeria:snow_globe=Snow globe
+
+item.histeria:leap=Leap
+item.histeria:normal_bomb=Bomb
+
+item.histeria:golden_egg=Golden egg
+item.histeria:egg_basket=Egg basket
+item.histeria:chocolate_bar=Chocolate bar 
+item.histeria:chocolate_staff=Chocolate staff 
+item.histeria:chocolate_egg=Chocolate egg 
+item.histerite:chocolate_rabbit=Chocolate rabbit 
 
 [Fossils]
 item.histeria:cracked_stone=Cracked stone shell
@@ -100,7 +125,7 @@ item.histeria:seed_planter=Seed Planter
 item.histeria:spear=Spear
 item.histeria:xiphos=Xiphos
 
-[Utility]
+[Utilites]
 item.histeria:banknote=Bank Note
 item.histeria:chalice=Chalice
 item.histeria:chest_explorer=Chest Explorer
@@ -121,7 +146,7 @@ item.histeria:punching_ball=Punching Ball
 item.histeria:shuriken=Shuriken
 item.histeria:thunderbolt=Thunderbolt
 
-[Autre]
+[Others]
 dayOneExperience.tab.marketplace=shop.histeria.fr
 trial.tour.marketplace=shop.histeria.fr
 menu.serverStore=shop.histeria.fr
@@ -137,8 +162,5 @@ deathScreen.quit.confirmToMainMenuWarning=§cAre you sure of ragequiting?
 deathScreen.quit.confirmToMainMenuTitleWarning=§cAre you sure of ragequiting?
 disconnectionScreen.cantConnect=Unable to connect to Histeria. If you think the error comes from Histeria, please join discord.gg/histeria.
 
-
 [Menu Pause]
 histeria.store=Visit §l§3shop.histeria.fr §rand §l§9discord.gg/histeria
-
-(outdated)
