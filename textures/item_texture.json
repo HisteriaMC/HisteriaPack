@@ -68,6 +68,9 @@
     "item_pack": {
       "textures": "textures/items/utility/item_pack"
     },
+    "backpack": {
+      "textures": "textures/items/utility/backpack"
+    },
     "tp_stick": {
       "textures": "textures/items/sticks/tpstick"
     },
