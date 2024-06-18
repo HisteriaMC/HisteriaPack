@@ -1,5 +1,5 @@
 {
-  "resource_pack_name": "Histeria V6",
+  "resource_pack_name": "Histeria V6.5",
   "texture_name": "atlas.items",
   "texture_data": {
     "ares_chestplate": {
@@ -278,6 +278,33 @@
     "minage5_icon": {
       "textures": "textures/items/decoration/minage5_icon"
     },
+    "candy_cane": {
+      "textures": "textures/items/event/candy_cane"
+    },
+    "normal_bomb": {
+      "textures": "textures/items/event/normal_bomb"
+    },
+    "christmas_bomb": {
+      "textures": "textures/items/event/christmas_bomb"
+    },
+    "christmas_ball": {
+      "textures": "textures/items/event/christmas_ball"
+    },
+    "christmas_rocket": {
+      "textures": "textures/items/event/christmas_rocket"
+    },
+    "christmas_star": {
+      "textures": "textures/items/event/christmas_star"
+    },
+    "leap": {
+      "textures": "textures/items/event/leap"
+    },
+    "snow_globe": {
+      "textures": "textures/items/event/snow_globe"
+    },
+    "snow_shovel": {
+      "textures": "textures/items/event/snow_shovel"
+    },
     "blue_candy": {
       "textures": "textures/items/event/blue_candy"
     },
@@ -285,7 +312,7 @@
       "textures": "textures/items/event/green_candy"
     },
     "red_candy": {
-      "textures": "textures/items/event/red_candy"
+      "textures": "textures/items/event/candy_cane"
     },
     "yellow_candy": {
       "textures": "textures/items/event/yellow_candy"
@@ -301,6 +328,23 @@
     },
     "love_philtre": {
       "textures": "textures/items/utility/love_philtre"
+    "chocolate_egg": {
+      "textures": "textures/items/event/chocolate_egg"
+    },
+    "chocolate_rabbit": {
+      "textures": "textures/items/event/chocolate_rabbit"
+    },
+    "golden_egg": {
+      "textures": "textures/items/event/golden_egg"
+    },
+    "chocolate_bar": {
+      "textures": "textures/items/event/chocolate_bar"
+    },
+    "chocolate_staff": {
+      "textures": "textures/items/event/chocolate_staff"
+    },
+    "egg_basket": {
+      "textures": "textures/items/event/egg_basket"
     }
   }
 }
