@@ -146,6 +146,7 @@ item.histeria:obsidian_breaker=Casseur à obsidienne
 item.histeria:punching_ball=Boule de frappe
 item.histeria:shuriken=Shuriken
 item.histeria:thunderbolt=Coup de tonnerre
+item.histeria:bottled_experience=Expérience embouteillée
 
 [Others]
 dayOneExperience.tab.marketplace=shop.histeria.fr
