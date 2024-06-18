@@ -22,6 +22,41 @@ tile.histeria:neon_block.name=Neon Block
 tile.histeria:spike.name=Spike
 tile.histeria:bounce.name=Bounce
 
+tile.histeria:event_magma.name=Melting snow
+tile.histeria:egg_basket.name=Egg basket
+
+[Decorations]
+tile.histeria:armchair.name=Armchair
+tile.histeria:big_pot.name=Big Pot
+tile.histeria:black_tile.name=Black Tile
+tile.histeria:blue_tile.name=Blue Tile
+tile.histeria:book_pile.name=Book Pile
+tile.histeria:chair.name=Chair
+tile.histeria:compressed_bricks.name=Compressed Bricks
+tile.histeria:green_tile.name=Green Tile
+tile.histeria:lamp.name=Lamp
+tile.histeria:lamp_on.name=Lamp On
+tile.histeria:orange_tile.name=Orange Tile
+tile.histeria:peony_bush.name=Peony Bush
+tile.histeria:red_tile.name=Red Tile
+tile.histeria:shelf.name=Shelf
+tile.histeria:table.name=Table
+tile.histeria:tinsel.name=Tinsel
+tile.histeria:stools.name=Stools
+tile.histeria:scoffed_bricks.name=Scoffed Bricks
+tile.histeria:picrite_bricks.name=Picrite Bricks
+tile.histeria:polished_gutter.name=Polished Gutter
+tile.histeria:polished_picrite.name=Polished Picrite
+tile.histeria:tansy.name=Tansy
+tile.histeria:carnation_field.name=Carnation Field
+tile.histeria:cloner.name=Cloner
+tile.histeria:gutter.name=Gutter
+tile.histeria:crate_side.name=Crate Side
+tile.histeria:crate_top.name=Crate Top
+tile.histeria:crate_bottom.name=Crate Bottom
+tile.histeria:couch.name=Couch
+tile.histeria:bedside_cabinet.name=Bedside Cabinet
+
 [Armures]
 item.histeria:nocturite_helmet=Nocturite Helmet
 item.histeria:nocturite_chestplate=Nocturite Chestplate
@@ -141,4 +176,4 @@ disconnectionScreen.cantConnect=Unable to connect to Histeria. If you think the 
 [Menu Pause]
 histeria.store=Visit §l§3shop.histeria.fr §rand §l§9discord.gg/histeria
 
-(outdated)
+action.hint.exit.histeria:sit=Press shift to stand up
