@@ -114,6 +114,7 @@ item.histeria:hang_glider=Glider
 item.histeria:histerite_apple=Histerite Apple
 item.histeria:histerite_totem=Histerite Totem
 item.histeria:item_pack=Bag
+item.histeria:backpack=Backpack
 item.histeria:killtag=Kill Tag
 item.histeria:lottery_ticket=Lottery ticket
 item.histeria:magic_lyre=Magic Lyre
@@ -121,6 +122,7 @@ item.histeria:obsidian_breaker=Obsidian Breaker
 item.histeria:punching_ball=Punching Ball
 item.histeria:shuriken=Shuriken
 item.histeria:thunderbolt=Thunderbolt
+item.histeria:bottled_experience=Bottled Experience
 
 [Autre]
 dayOneExperience.tab.marketplace=shop.histeria.fr
@@ -142,3 +144,4 @@ disconnectionScreen.cantConnect=Unable to connect to Histeria. If you think the 
 [Menu Pause]
 histeria.store=Visit §l§3shop.histeria.fr §rand §l§9discord.gg/histeria
 
+(outdated)

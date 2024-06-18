@@ -1,0 +1,21 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "histeria:chocolate_egg_bomb",
+      "materials": {
+        "default": "egg"
+      },
+      "textures": {
+        "default": "textures/entity/chocolate_egg_bomb"
+      },
+      "geometry": {
+        "default": "geometry.chocolate_egg_bomb"
+      },
+      "render_controllers": [ "controller.render.item_sprite" ],
+      "animations": {
+        "flying": "animation.actor.billboard"
+      }
+    }
+  }
+}

@@ -2,6 +2,10 @@
 container.enderchest=§9§k.§f.§c.§r  §cHisteria Chest §9§k.§f.§c.§r
 
 [Blocks]
+[Containers]
+container.enderchest=§9§k.§f.§c.§r  §cHisteria Chest §9§k.§f.§c.§r
+
+[Tiles]
 tile.histeria:elevator.name=Ascenceur
 tile.histeria:drawer.name=Commode
 tile.histeria:histerite_anvil.name=Enclume en Histerite
@@ -22,6 +26,8 @@ tile.histeria:neon_block.name=Bloc néon
 tile.histeria:spike.name=Épine
 tile.histeria:bounce.name=Rebond
 tile.histeria:event_magma=Neige en fusion
+tile.histeria:event_magma.name=Neige en fusion
+tile.histeria:egg_basket.name=Panier d'oeufs
 
 [Armors]
 item.histeria:nocturite_helmet=Casque en Nocturite
@@ -56,6 +62,7 @@ item.histeria:ore_category=Catégorie Minerais
 item.histeria:nature_category=Catégorie Nature
 item.histeria:modded_item_category=Catégorie Items Moddés
 item.histeria:decoration_category=Catégorie Décoration
+item.histeria:decoration_category=Catégorie Décorations
 item.histeria:buy=Acheter
 item.histeria:sell=Vendre
 item.histeria:valid_mark=Valider
@@ -72,6 +79,10 @@ item.histeria:christmas_ball=Boule de Noël
 item.histeria:leap=Plume de Noël
 item.histeria:christmas_rocket=Fusée de Noël
 item.histeria:bomb=Bombe de Noël
+[Events]
+item.histeria:christmas_ball=Boule de Noël
+item.histeria:christmas_rocket=Fusée de Noël
+item.histeria:christmas_bomb=Bombe de Noël
 item.histeria:snow_shovel=Pelle à neige
 item.histeria:christmas_star=Etoile de Noël
 item.histeria:candy_cane=Sucre d'orge
@@ -79,6 +90,15 @@ item.histeria:red_candy=Sucre d'orge
 item.histeria:blue_candy=Bonbon bleu
 item.histeria:yellow_candy=Bonbon jaune
 item.histeria:snow_globe=Boule à neige
+item.histeria:leap=Plume
+item.histeria:normal_bomb=Bombe
+
+item.histeria:golden_egg=Oeuf d'or
+item.histeria:egg_basket=Panier d'oeufs
+item.histeria:chocolate_bar=Tablette de chocolat 
+item.histeria:chocolate_staff=Sceptre en chocolat 
+item.histeria:chocolate_egg=Oeuf en chocolat 
+item.histerite:chocolate_rabbit=Lapin en chocolat 
 
 [Fossils]
 item.histeria:cracked_stone=Coquillage de pierre fissurée
@@ -89,6 +109,7 @@ item.histeria:stone_vein=Coquille de veine de pierre
 
 [Keys]
 item.histeria:boss_key=Clé de Boss
+item.histeria:boss_key=Clé Boss
 item.histeria:histerite_key=Clé en Histerite
 item.histeria:nocturite_key=Clé en Nocturite
 item.histeria:vote_key=Clé de vote
@@ -128,6 +149,8 @@ item.histeria:hang_glider=Planeur
 item.histeria:histerite_apple=Pomme en Histerite
 item.histeria:histerite_totem=Totem en Histerite
 item.histeria:item_pack=Sac à dos
+item.histeria:item_pack=Sac pochon
+item.histeria:backpack=Sac à dos
 item.histeria:killtag=Kill-Tag
 item.histeria:lottery_ticket=Ticket de loterie
 item.histeria:magic_lyre=Lyre magique
@@ -135,6 +158,7 @@ item.histeria:obsidian_breaker=Casseur à obsidienne
 item.histeria:punching_ball=Boule de frappe
 item.histeria:shuriken=Shuriken
 item.histeria:thunderbolt=Coup de tonnerre
+item.histeria:bottled_experience=Expérience embouteillée
 
 [Others]
 dayOneExperience.tab.marketplace=shop.histeria.fr

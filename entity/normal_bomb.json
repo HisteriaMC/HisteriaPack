@@ -2,15 +2,15 @@
   "format_version": "1.10.0",
   "minecraft:client_entity": {
     "description": {
-      "identifier": "histeria:bomb",
+      "identifier": "histeria:normal_bomb",
       "materials": {
         "default": "egg"
       },
       "textures": {
-        "default": "textures/entity/bomb"
+        "default": "textures/entity/normal_bomb"
       },
       "geometry": {
-        "default": "geometry.bomb"
+        "default": "geometry.normal_bomb"
       },
       "render_controllers": [ "controller.render.item_sprite" ],
       "animations": {

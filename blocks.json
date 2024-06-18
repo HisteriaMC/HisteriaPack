@@ -100,5 +100,9 @@
     "histeria:nocturite_chest" : {
         "sound" : "metal",
         "textures" : "nocturite_chest"
+    },
+    "histeria:egg_basket" : {
+        "sound" : "wood",
+        "textures" : "egg_basket"
     }
 }

@@ -83,6 +83,9 @@
       },
       "nocturite_chest" : {
          "textures" : "textures/blocks/nocturite_chest"
+      },
+      "egg_basket" : {
+         "textures" : "textures/blocks/egg_basket"
       }
    },
    "texture_name" : "atlas.terrain"
