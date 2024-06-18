@@ -317,6 +317,17 @@
     "yellow_candy": {
       "textures": "textures/items/event/yellow_candy"
     },
+    "hera_duplicator": {
+      "textures": "textures/items/utility/hera_duplicator"
+    },
+    "hermes_caduceus": {
+      "textures": "textures/items/utility/hermes_caduceus"
+    },
+    "hestia_torch": {
+      "textures": "textures/items/utility/hestia_torch"
+    },
+    "love_philtre": {
+      "textures": "textures/items/utility/love_philtre"
     "chocolate_egg": {
       "textures": "textures/items/event/chocolate_egg"
     },
