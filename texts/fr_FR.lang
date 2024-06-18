@@ -25,6 +25,38 @@ tile.histeria:bounce.name=Rebond
 tile.histeria:event_magma.name=Neige en fusion
 tile.histeria:egg_basket.name=Panier d'oeufs
 
+[Decorations]
+tile.histeria:armchair.name=Fauteuil
+tile.histeria:big_pot.name=Grand Pot
+tile.histeria:black_tile.name=Carreau Noir
+tile.histeria:blue_tile.name=Carreau Bleu
+tile.histeria:book_pile.name=Pile de Livres
+tile.histeria:chair.name=Chaise
+tile.histeria:compressed_bricks.name=Briques Compressées
+tile.histeria:green_tile.name=Carreau Vert
+tile.histeria:lamp.name=Lampe
+tile.histeria:lamp_on.name=Lampe Allumée
+tile.histeria:orange_tile.name=Carreau Orange
+tile.histeria:peony_bush.name=Buisson de Pivoines
+tile.histeria:red_tile.name=Carreau Rouge
+tile.histeria:shelf.name=Étagère
+tile.histeria:table.name=Table
+tile.histeria:tinsel.name=Guirlande
+tile.histeria:stools.name=Tabourets
+tile.histeria:scoffed_bricks.name=Briques Éraflées
+tile.histeria:picrite_bricks.name=Briques de Picrite
+tile.histeria:polished_gutter.name=Gouttière Polie
+tile.histeria:polished_picrite.name=Picrite Polie
+tile.histeria:tansy.name=Tanaisie
+tile.histeria:carnation_field.name=Champ de Œillets
+tile.histeria:cloner.name=Cloneur
+tile.histeria:gutter.name=Gouttière
+tile.histeria:crate_side.name=Côté de Caisse
+tile.histeria:crate_top.name=Haut de Caisse
+tile.histeria:crate_bottom.name=Fond de Caisse
+tile.histeria:couch.name=Canapé
+tile.histeria:bedside_cabinet.name=Table de Nuit
+
 [Armors]
 item.histeria:nocturite_helmet=Casque en Nocturite
 item.histeria:nocturite_chestplate=Plastron en Nocturite
@@ -166,3 +198,5 @@ disconnectionScreen.cantConnect=Impossible de se connecter à Histeria. Si vous 
 
 [Menu Pause]
 histeria.store=Rendez-vous sur §l§3shop.histeria.fr §ret §l§9discord.gg/histeria §r§l!
+
+action.hint.exit.histeria:sit=Appuyez sur shift pour vous lever
