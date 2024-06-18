@@ -314,8 +314,8 @@
     "yellow_candy": {
       "textures": "textures/items/event/yellow_candy"
     },
-    "lumenn_check": {
-      "textures": "textures/items/utility/lumenn_check"
+    "bottled_lumen": {
+      "textures": "textures/items/utility/bottled_lumen"
     }
   }
 }

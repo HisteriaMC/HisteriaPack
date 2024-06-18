@@ -115,7 +115,7 @@ item.histeria:spear=Lance
 item.histeria:xiphos=Xiphos
 
 [Utility]
-item.histeria:lumenn_check=Billet de Lumenn
+item.histeria:bottled_lumen=Fiole de Lumenn
 item.histeria:banknote=Billet de banque
 item.histeria:chalice=Calice
 item.histeria:chest_explorer=Explorateur de coffre
