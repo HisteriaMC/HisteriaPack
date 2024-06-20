@@ -50,12 +50,12 @@
     "histeria:drawer": {
         "sound": "wood",
         "textures": {
-            "down": "drawer_top_bottom_side",
-            "east": "drawer_top_bottom_side",
-            "north": "drawer_top_bottom_side",
-            "south": "drawer_front",
-            "up": "drawer_top_bottom_side",
-            "west": "drawer_top_bottom_side"
+            "down": "drawer_bottom",
+            "east": "drawer_side",
+            "north": "drawer_front_1",
+            "south": "drawer_side",
+            "up": "drawer_top",
+            "west": "drawer_side"
         }
     },
     "histeria:elevator": {
@@ -104,18 +104,6 @@
     "histeria:shelf": {
         "sound": "wood",
         "textures": "shelf"
-    },
-    "histeria:shelf1": {
-        "sound": "wood",
-        "textures": "shelf1"
-    },
-    "histeria:shelf2": {
-        "sound": "wood",
-        "textures": "shelf2"
-    },
-    "histeria:shelf3": {
-        "sound": "wood",
-        "textures": "shelf3"
     },
     "histeria:armchair": {
         "sound": "wood",
