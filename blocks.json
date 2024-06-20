@@ -58,6 +58,50 @@
             "west": "drawer_side"
         }
     },
+    "histeria:drawer_2": {
+        "sound": "wood",
+        "textures": {
+            "down": "drawer_bottom",
+            "east": "drawer_side",
+            "north": "drawer_side",
+            "south": "drawer_front2",
+            "up": "drawer_top",
+            "west": "drawer_side"
+        }
+    },
+    "histeria:drawer_3": {
+        "sound": "wood",
+        "textures": {
+            "down": "drawer_bottom",
+            "east": "drawer_side",
+            "north": "drawer_side",
+            "south": "drawer_front3",
+            "up": "drawer_top",
+            "west": "drawer_side"
+        }
+    },
+    "histeria:drawer_4": {
+        "sound": "wood",
+        "textures": {
+            "down": "drawer_bottom",
+            "east": "drawer_side",
+            "north": "drawer_side",
+            "south": "drawer_front4",
+            "up": "drawer_top",
+            "west": "drawer_side"
+        }
+    },
+    "histeria:drawer_5": {
+        "sound": "wood",
+        "textures": {
+            "down": "drawer_bottom",
+            "east": "drawer_side",
+            "north": "drawer_side",
+            "south": "drawer_front5",
+            "up": "drawer_top",
+            "west": "drawer_side"
+        }
+    },
     "histeria:elevator": {
         "sound": "metal",
         "textures": {
