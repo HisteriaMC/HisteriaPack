@@ -68,6 +68,9 @@
     "item_pack": {
       "textures": "textures/items/utility/item_pack"
     },
+    "backpack": {
+      "textures": "textures/items/utility/backpack"
+    },
     "tp_stick": {
       "textures": "textures/items/sticks/tpstick"
     },
@@ -334,6 +337,9 @@
     },
     "egg_basket": {
       "textures": "textures/items/event/egg_basket"
+    },
+    "bottled_experience": {
+      "textures": "textures/items/event/bottled_experience"
     }
   }
 }
