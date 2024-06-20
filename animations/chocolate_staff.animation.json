@@ -1,0 +1,26 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.chocolate_staff.first_person_hold": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"root_item": {
+					"rotation": [55.64039, 54.62154, -78.5434],
+					"position": [12, 16, 19]
+				}
+			}
+		},
+		"animation.chocolate_staff.third_person_hold": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"root_item": {
+					"rotation": [82.5, 0, 0],
+					"position": [0, 21, 7],
+					"scale": 0.6
+				}
+			}
+		}
+	}
+}

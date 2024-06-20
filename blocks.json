@@ -1,14 +1,14 @@
 {
     "histeria:box": {
-        "sound": "glass",
+        "sound": "wood",
         "textures" : "box"
     },
     "histeria:cave_block": {
-        "sound": "stone",
+        "sound": "glass",
         "textures": "cave_block"
     },
     "histeria:fertilized_dirt": {
-        "sound": "gravel",
+        "sound": "dirt",
         "textures": "fertilized_dirt"
     },
     "histeria:histerite_block": {
@@ -20,7 +20,7 @@
         "textures": "histerite_ore"
     },
     "histeria:lucky_block": {
-        "sound": "stone",
+        "sound": "metal",
         "textures": "lucky_block"
     },
     "histeria:nocturite_block": {
@@ -111,11 +111,11 @@
         }
     },
     "histeria:neon_block": {
-        "sound": "stone",
+        "sound": "glass",
         "textures": "neon_block"
     },
     "histeria:bounce": {
-        "sound": "stone",
+        "sound": "slime",
         "textures": "bounce"
     },
     "histeria:spike": {
@@ -138,11 +138,146 @@
         }
     },
     "histeria:histerite_chest" : {
-        "sound" : "stone",
+        "sound" : "metal",
         "textures" : "histerite_chest"
     },
     "histeria:nocturite_chest" : {
-        "sound" : "stone",
+        "sound" : "metal",
         "textures" : "nocturite_chest"
+	},
+    "histeria:shelf": {
+        "sound": "wood",
+        "textures": "shelf"
+    },
+    "histeria:shelf1": {
+        "sound": "wood",
+        "textures": "shelf1"
+    },
+    "histeria:shelf2": {
+        "sound": "wood",
+        "textures": "shelf2"
+    },
+    "histeria:shelf3": {
+        "sound": "wood",
+        "textures": "shelf3"
+    },
+    "histeria:armchair": {
+        "sound": "wood",
+        "textures": "armchair"
+    },
+    "histeria:big_pot": {
+        "sound": "stone",
+        "textures": "big_pot"
+    },
+    "histeria:black_tile": {
+        "sound": "stone",
+        "textures": "black_tile"
+    },
+    "histeria:blue_tile": {
+        "sound": "stone",
+        "textures": "blue_tile"
+    },
+    "histeria:book_pile": {
+        "sound": "wool",
+        "textures": "shelf"
+    },
+    "histeria:chair": {
+        "sound": "wood",
+        "textures": "chair"
+    },
+    "histeria:compressed_bricks": {
+        "sound": "stone",
+        "textures": "compressed_bricks"
+    },
+    "histeria:green_tile": {
+        "sound": "stone",
+        "textures": "green_tile"
+    },
+    "histeria:lamp": {
+        "sound": "stone",
+        "textures": "lamp"
+    },
+    "histeria:lamp_on": {
+        "sound": "stone",
+        "textures": "lamp_on"
+    },
+    "histeria:orange_tile": {
+        "sound": "wood",
+        "textures": "orange_tile"
+    },
+    "histeria:peony_bush": {
+        "sound": "grass",
+        "textures": "peony_bush"
+    },
+    "histeria:red_tile": {
+        "sound": "stone",
+        "textures": "red_tile"
+    },
+    "histeria:table": {
+        "sound": "wood",
+        "textures": "table"
+    },
+    "histeria:tinsel": {
+        "sound": "wood",
+        "textures": "tinsel"
+    },
+    "histeria:stools": {
+        "sound": "wood",
+        "textures": "stools"
+    },
+    "histeria:scoffed_bricks": {
+        "sound": "stone",
+        "textures": "scoffed_bricks"
+    },
+    "histeria:picrite_bricks": {
+        "sound": "stone",
+        "textures": "picrite_bricks"
+    },
+    "histeria:polished_gutter": {
+        "sound": "stone",
+        "textures": "polished_gutter"
+    },
+    "histeria:polished_picrite": {
+        "sound": "stone",
+        "textures": "polished_picrite"
+    },
+    "histeria:tansy": {
+        "sound": "grass",
+        "textures": "tansy"
+    },
+    "histeria:carnation_field": {
+        "sound": "grass",
+        "textures": "carnation_field"
+    },
+    "histeria:cloner": {
+        "sound": "grass",
+        "textures": "cloner"
+    },
+    "histeria:gutter": {
+        "sound": "stone",
+        "textures": "gutter"
+    },
+    "histeria:crate" : {
+        "sound" : "stone",
+        "textures" : {
+            "down" : "crate_bottom",
+            "east" : "crate_side",
+            "north" : "crate_side",
+            "south" : "crate_side",
+            "up" : "crate_top",
+            "west" : "crate_side"
+        }
+    },
+    "histeria:couch": {
+        "sound": "wood",
+        "textures": "couch"
+    },
+    "histeria:bedside_cabinet": {
+        "sound": "wood",
+        "textures": "bedside_cabinet"
+    },
+    "histeria:egg_basket" : {
+        "sound" : "wood",
+        "textures" : "egg_basket"
     }
 }
