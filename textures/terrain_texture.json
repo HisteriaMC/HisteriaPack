@@ -6,20 +6,20 @@
       "cave_block" : {
          "textures" : "textures/blocks/cave_block"
       },
-      "drawer_front" : {
-         "textures" : "textures/blocks/drawer_front"
+      "drawer_front_1" : {
+         "textures" : "textures/blocks/drawer_front_1"
       },
-      "drawer_front2" : {
-         "textures" : "textures/blocks/drawer_front2"
+      "drawer_front_2" : {
+         "textures" : "textures/blocks/drawer_front_2"
       },
-      "drawer_front3" : {
-         "textures" : "textures/blocks/drawer_front3"
+      "drawer_front_3" : {
+         "textures" : "textures/blocks/drawer_front_3"
       },
-      "drawer_front4" : {
-         "textures" : "textures/blocks/drawer_front4"
+      "drawer_front_4" : {
+         "textures" : "textures/blocks/drawer_front_4"
       },
-      "drawer_front5" : {
-         "textures" : "textures/blocks/drawer_front5"
+      "drawer_front_5" : {
+         "textures" : "textures/blocks/drawer_front_5"
       },
       "drawer_side" : {
          "textures" : "textures/blocks/drawer_side"
