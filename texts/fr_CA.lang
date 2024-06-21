@@ -1,3 +1,7 @@
+[Inventories]
+container.enderchest=§9§k.§f.§c.§r  §cHisteria Chest §9§k.§f.§c.§r
+
+[Blocks]
 [Containers]
 container.enderchest=§9§k.§f.§c.§r  §cHisteria Chest §9§k.§f.§c.§r
 
@@ -21,7 +25,7 @@ tile.histeria:lucky_block.name=Lucky Block
 tile.histeria:neon_block.name=Bloc néon
 tile.histeria:spike.name=Épine
 tile.histeria:bounce.name=Rebond
-
+tile.histeria:event_magma=Neige en fusion
 tile.histeria:event_magma.name=Neige en fusion
 tile.histeria:egg_basket.name=Panier d'oeufs
 
@@ -89,6 +93,7 @@ item.histeria:item_category=Catégorie Items
 item.histeria:ore_category=Catégorie Minerais
 item.histeria:nature_category=Catégorie Nature
 item.histeria:modded_item_category=Catégorie Items Moddés
+item.histeria:decoration_category=Catégorie Décoration
 item.histeria:decoration_category=Catégorie Décorations
 item.histeria:buy=Acheter
 item.histeria:sell=Vendre
@@ -101,6 +106,11 @@ item.histeria:omega_icon=Oméga
 item.histeria:inter_icon=Interplanétaire
 item.histeria:vip_icon=VIP
 
+[Event]
+item.histeria:christmas_ball=Boule de Noël
+item.histeria:leap=Plume de Noël
+item.histeria:christmas_rocket=Fusée de Noël
+item.histeria:bomb=Bombe de Noël
 [Events]
 item.histeria:christmas_ball=Boule de Noël
 item.histeria:christmas_rocket=Fusée de Noël
@@ -112,7 +122,6 @@ item.histeria:red_candy=Sucre d'orge
 item.histeria:blue_candy=Bonbon bleu
 item.histeria:yellow_candy=Bonbon jaune
 item.histeria:snow_globe=Boule à neige
-
 item.histeria:leap=Plume
 item.histeria:normal_bomb=Bombe
 
@@ -131,6 +140,7 @@ item.histeria:skull=Caquillage de crâne
 item.histeria:stone_vein=Coquille de veine de pierre
 
 [Keys]
+item.histeria:boss_key=Clé de Boss
 item.histeria:boss_key=Clé Boss
 item.histeria:histerite_key=Clé en Histerite
 item.histeria:nocturite_key=Clé en Nocturite
@@ -158,6 +168,7 @@ item.histeria:spear=Lance
 item.histeria:xiphos=Xiphos
 
 [Utility]
+item.histeria:bottled_lumen=Fiole de Lumenn
 item.histeria:banknote=Billet de banque
 item.histeria:chalice=Calice
 item.histeria:chest_explorer=Explorateur de coffre
@@ -169,6 +180,7 @@ item.histeria:forge_note=Parchemin d'enchantement
 item.histeria:hang_glider=Planeur
 item.histeria:histerite_apple=Pomme en Histerite
 item.histeria:histerite_totem=Totem en Histerite
+item.histeria:item_pack=Sac à dos
 item.histeria:item_pack=Sac pochon
 item.histeria:backpack=Sac à dos
 item.histeria:killtag=Kill-Tag

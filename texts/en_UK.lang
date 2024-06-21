@@ -137,6 +137,7 @@ item.histeria:xiphos=Xiphos
 
 [Utility]
 item.histeria:banknote=Bank Note
+item.histeria:bottled_lumen=Bottled Lumen
 item.histeria:chalice=Chalice
 item.histeria:chest_explorer=Chest Explorer
 item.histeria:chest_finder=Chest Finder
