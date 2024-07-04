@@ -104,5 +104,17 @@
     "histeria:egg_basket" : {
         "sound" : "wood",
         "textures" : "egg_basket"
+    },
+    "bronze_medal" : {
+        "sound" : "metal",
+        "textures" : "bronze_medal"
+    },
+    "gold_trophy" : {
+        "sound" : "metal",
+        "textures" : "gold_trophy"
+    },
+    "silver_medal" : {
+        "sound" : "metal",
+        "textures" : "silver_medal"
     }
 }
