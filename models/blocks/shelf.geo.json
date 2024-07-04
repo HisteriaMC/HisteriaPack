@@ -1,0 +1,117 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.shelf",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "shelves",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-8, 11, 2], "size": [16, 1, 6], "pivot": [0, 0, 0], "rotation": [-180, 0, 180], "uv": [24, 23]},
+						{"origin": [-8, 4, 2], "size": [16, 1, 6], "pivot": [0, 0, 0], "rotation": [-180, 0, 180], "uv": [28, 11]}
+					]
+				},
+				{
+					"name": "variant1",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-6, 5, 3], "size": [6, 2, 5], "pivot": [0, 0, 0], "rotation": [-180, 0, 180], "uv": [22, 30]},
+						{"origin": [-6, 7, 3], "size": [6, 2, 5], "pivot": [0, 0, 0], "rotation": [-180, 0, 180], "uv": [0, 30]},
+						{"origin": [3, 5, 4], "size": [3, 2, 3], "pivot": [0, 0, 0], "rotation": [-180, 0, 180], "uv": [44, 36]},
+						{"origin": [0, 12, 3], "size": [6, 2, 4], "pivot": [0, 0, 0], "rotation": [-180, 0, 180], "uv": [32, 0]},
+						{"origin": [-5, 12, 4], "size": [3, 3, 3], "pivot": [0, 0, 0], "rotation": [-180, 0, 180], "uv": [12, 45]}
+					]
+				},
+				{
+					"name": "flower",
+					"parent": "variant1",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [3.5, 9, 4.5], "size": [2, 2, 2], "pivot": [0, 0, 0], "rotation": [-180, 0, 180], "uv": [28, 37]},
+						{"origin": [5.5, 7, -5], "size": [0, 2, 1], "pivot": [0, 0, 0], "rotation": [0, 90, 0], "uv": [22, 27]},
+						{"origin": [4.5, 7, 5], "size": [0, 2, 1], "pivot": [0, 0, 0], "rotation": [-180, 0, 180], "uv": [3, 28]}
+					]
+				},
+				{
+					"name": "variant2",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-7, 5, 4], "size": [3, 2, 3], "pivot": [0, 0, 0], "rotation": [-180, 0, 180], "uv": [35, 6]},
+						{"origin": [2, 5, 3], "size": [4, 4, 4], "pivot": [0, 0, 0], "rotation": [-180, 0, 180], "uv": [32, 37]}
+					]
+				},
+				{
+					"name": "vein",
+					"parent": "variant2",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-7, 7.001, 4], "size": [3, 0, 3], "pivot": [0, 0, 0], "rotation": [-180, 0, 180], "uv": [9, 37]},
+						{"origin": [-7, 5, 3.999], "size": [3, 2, 0], "pivot": [0, 0, 0], "rotation": [-180, 0, 180], "uv": [21, 45]},
+						{"origin": [-7, 5.001, 2], "size": [3, 0, 2], "pivot": [0, 0, 0], "rotation": [-180, 0, 180], "uv": [14, 28]},
+						{"origin": [-7, 0, 1.999], "size": [5, 5, 0], "pivot": [0, 0, 0], "rotation": [-180, 0, 180], "uv": [17, 30]}
+					]
+				},
+				{
+					"name": "histerite_sword",
+					"parent": "variant2",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-7, 12, 4], "size": [2, 1, 2], "pivot": [0, 0, 0], "rotation": [-180, 0, 180], "uv": [44, 6]},
+						{"origin": [-5, 12, 4.5], "size": [2, 1, 1], "pivot": [0, 0, 0], "rotation": [-180, 0, 180], "uv": [9, 45]},
+						{"origin": [-3, 12, 4], "size": [8, 1, 2], "pivot": [0, 0, 0], "rotation": [-180, 0, 180], "uv": [32, 20]}
+					]
+				},
+				{
+					"name": "variant3",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "chalice",
+					"parent": "variant3",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-6, 12, 3], "size": [3, 1, 3], "pivot": [0, 0, 0], "rotation": [-180, 0, 180], "uv": [24, 45]},
+						{"origin": [-5, 13, 4], "size": [1, 1, 1], "pivot": [0, 0, 0], "rotation": [-180, 0, 180], "uv": [30, 9]},
+						{"origin": [-6, 14, 3], "size": [3, 3, 3], "pivot": [0, 0, 0], "rotation": [-180, 0, 180], "uv": [0, 45]}
+					]
+				},
+				{
+					"name": "chest",
+					"parent": "variant3",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [1, 5, 3], "size": [4, 4, 4], "pivot": [0, 0, 0], "rotation": [-180, 0, 180], "uv": [16, 37]},
+						{"origin": [2.5, 6, 2], "size": [1, 2, 1], "pivot": [0, 0, 0], "rotation": [-180, 0, 180], "uv": [29, 14]}
+					]
+				},
+				{
+					"name": "painting",
+					"parent": "variant3",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-6, 5.79023, 0.84709], "size": [5, 5, 1], "pivot": [0, 0, 0], "rotation": [160, 0, 180], "uv": [44, 30]},
+						{"origin": [-4, 5, 5], "size": [1, 4, 1], "pivot": [0, 0, 0], "rotation": [-180, 0, 180], "uv": [0, 30]}
+					]
+				},
+				{
+					"name": "lantern",
+					"parent": "variant3",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [2, 12, 3], "size": [4, 4, 4], "pivot": [0, 0, 0], "rotation": [-180, 0, 180], "uv": [0, 37]},
+						{"origin": [2, 16, 5], "size": [4, 2, 0], "pivot": [0, 0, 0], "rotation": [-180, 0, 180], "uv": [41, 18]},
+						{"origin": [3, 16, -4], "size": [4, 2, 0], "pivot": [0, 0, 0], "rotation": [0, 90, 0], "uv": [33, 18]}
+					]
+				}
+			]
+		}
+	]
+}
