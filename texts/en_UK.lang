@@ -100,7 +100,7 @@ item.histeria:seed_planter=Seed Planter
 item.histeria:spear=Spear
 item.histeria:xiphos=Xiphos
 
-[Utility]
+[Utilities]
 item.histeria:banknote=Bank Note
 item.histeria:chalice=Chalice
 item.histeria:chest_explorer=Chest Explorer
@@ -121,7 +121,7 @@ item.histeria:punching_ball=Punching Ball
 item.histeria:shuriken=Shuriken
 item.histeria:thunderbolt=Thunderbolt
 
-[Autre]
+[Others]
 dayOneExperience.tab.marketplace=shop.histeria.fr
 trial.tour.marketplace=shop.histeria.fr
 menu.serverStore=shop.histeria.fr
@@ -136,7 +136,6 @@ deathScreen.quit.confirm=§l§cAre you sure of ragequiting?
 deathScreen.quit.confirmToMainMenuWarning=§cAre you sure of ragequiting?
 deathScreen.quit.confirmToMainMenuTitleWarning=§cAre you sure of ragequiting?
 disconnectionScreen.cantConnect=Unable to connect to Histeria. If you think the error comes from Histeria, please join discord.gg/histeria.
-
 
 [Menu Pause]
 histeria.store=Visit §l§3shop.histeria.fr §rand §l§9discord.gg/histeria
