@@ -104,5 +104,21 @@
     "histeria:egg_basket" : {
         "sound" : "wood",
         "textures" : "egg_basket"
+    },
+    "histerite_trial_spawner" : {
+       "sound" : "trial_spawner",
+       "textures" : {
+          "down" : "histerite_trial_spawner_bottom",
+          "side" : "histerite_trial_spawner_side",
+          "up" : "histerite_trial_spawner_top"
+       }
+    },
+    "nocturite_trial_spawner" : {
+       "sound" : "trial_spawner",
+       "textures" : {
+          "down" : "nocturite_trial_spawner_bottom",
+          "side" : "nocturite_trial_spawner_side",
+          "up" : "nocturite_trial_spawner_top"
+       }
     }
 }
