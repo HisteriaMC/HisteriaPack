@@ -4,7 +4,7 @@
     "description": {
       "identifier": "histeria:air_drop",
       "materials": {
-        "default": "air_drop"
+        "default": "egg"
       },
       "textures": {
         "default": "textures/entity/air_drop"
