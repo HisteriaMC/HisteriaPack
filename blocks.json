@@ -223,5 +223,9 @@
     "histeria:egg_basket" : {
         "sound" : "wood",
         "textures" : "egg_basket"
+    },
+    "histeria:air_drop" : {
+        "sound" : "wood",
+        "textures" : "air_drop"
     }
 }

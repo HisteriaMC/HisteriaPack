@@ -21,6 +21,9 @@ tile.histeria:lucky_block.name=Lucky Block
 tile.histeria:neon_block.name=Neon Block
 tile.histeria:spike.name=Spike
 tile.histeria:bounce.name=Bounce
+tile.histeria:air_drop=Airdrop
+tile.histeria:event_magma.name=Melting snow
+tile.histeria:egg_basket.name=Egg basket
 
 tile.histeria:event_magma.name=Melting snow
 tile.histeria:egg_basket.name=Egg basket
