@@ -86,6 +86,9 @@
       },
       "egg_basket" : {
          "textures" : "textures/blocks/egg_basket"
+      },
+      "air_drop" : {
+         "textures" : "textures/blocks/air_drop"
       }
    },
    "texture_name" : "atlas.terrain"
