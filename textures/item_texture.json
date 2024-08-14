@@ -320,6 +320,8 @@
     "yellow_candy": {
       "textures": "textures/items/event/yellow_candy"
     },
+    "bottled_lumen": {
+      "textures": "textures/items/utility/bottled_lumen"
     "chocolate_egg": {
       "textures": "textures/items/event/chocolate_egg"
     },
