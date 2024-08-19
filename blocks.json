@@ -227,5 +227,72 @@
     "histeria:air_drop" : {
         "sound" : "wood",
         "textures" : "air_drop"
+    },
+    "histeria:alert_block" : {
+        "sound" : "metal",
+        "textures" : "alert_block"
+    },
+    "histeria:alert_block_off" : {
+        "sound" : "metal",
+        "textures" : "alert_block_off"
+    },
+    "duping_tnt" : {
+       "sound" : "grass",
+       "textures" : {
+          "down" : "duping_tnt_bottom",
+          "side" : "duping_tnt_side",
+          "up" : "duping_tnt_top"
+       }
+    },
+    "histeria:generator" : {
+        "sound" : "metal",
+        "textures" : "generator"
+    },
+    "histeria:generator_off" : {
+        "sound" : "metal",
+        "textures" : "generator_off"
+    },
+    "iem_tnt" : {
+       "sound" : "grass",
+       "textures" : {
+          "down" : "iem_tnt_bottom",
+          "side" : "iem_tnt_side",
+          "up" : "iem_tnt_top"
+       }
+    },
+    "histerite_tnt" : {
+       "sound" : "grass",
+       "textures" : {
+          "down" : "histerite_tnt_bottom",
+          "side" : "histerite_tnt_side",
+          "up" : "histerite_tnt_top"
+       }
+    },
+    "nocturite_tnt" : {
+       "sound" : "grass",
+       "textures" : {
+          "down" : "nocturite_tnt_bottom",
+          "side" : "nocturite_tnt_side",
+          "up" : "nocturite_tnt_top"
+       }
+    },
+    "histeria:reinforced_histerite_obsidian" : {
+        "sound" : "stone",
+        "textures" : "reinforced_histerite_obsidian"
+    },
+    "histeria:reinforced_nocturite_obsidian" : {
+        "sound" : "stone",
+        "textures" : "reinforced_nocturite_obsidian"
+    },
+    "histeria:vault": {
+        "sound": "metal",
+        "textures": {
+            "down": "vault_bottom",
+            "east": "vault_side",
+            "north": "vault_front",
+            "south": "vault_side",
+            "up": "vault_top",
+            "west": "vault_side"
+        }
     }
 }

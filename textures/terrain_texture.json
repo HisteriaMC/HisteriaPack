@@ -206,6 +206,75 @@
       },
       "air_drop" : {
          "textures" : "textures/blocks/air_drop"
+      },
+      "alert_block" : {
+         "textures" : "textures/blocks/alert_block"
+      },
+      "alert_block_off" : {
+         "textures" : "textures/blocks/alert_block_off"
+      },
+      "duping_tnt_bottom" : {
+         "textures" : "textures/blocks/duping_tnt_bottom"
+      },
+      "duping_tnt_side" : {
+         "textures" : "textures/blocks/duping_tnt_side"
+      },
+      "duping_tnt_top" : {
+         "textures" : "textures/blocks/duping_tnt_top"
+      },
+      "generator" : {
+         "textures" : "textures/blocks/generator"
+      },
+      "generator_off" : {
+         "textures" : "textures/blocks/generator_off"
+      },
+      "histerite_tnt_bottom" : {
+         "textures" : "textures/blocks/histerite_tnt_bottom"
+      },
+      "histerite_tnt_side" : {
+         "textures" : "textures/blocks/histerite_tnt_side"
+      },
+      "histerite_tnt_top" : {
+         "textures" : "textures/blocks/histerite_tnt_top"
+      },
+      "iem_tnt_bottom" : {
+         "textures" : "textures/blocks/iem_tnt_bottom"
+      },
+      "iem_tnt_side" : {
+         "textures" : "textures/blocks/iem_tnt_side"
+      },
+      "iem_tnt_top" : {
+         "textures" : "textures/blocks/iem_tnt_top"
+      },
+      "nocturite_tnt_bottom" : {
+         "textures" : "textures/blocks/nocturite_tnt_bottom"
+      },
+      "nocturite_tnt_side" : {
+         "textures" : "textures/blocks/nocturite_tnt_side"
+      },
+      "nocturite_tnt_top" : {
+         "textures" : "textures/blocks/nocturite_tnt_top"
+      },
+      "reinforced_histerite_obsidian" : {
+         "textures" : "textures/blocks/reinforced_histerite_obsidian"
+      },
+      "reinforced_nocturite_obsidian" : {
+         "textures" : "textures/blocks/reinforced_nocturite_obsidian"
+      },
+      "vault_bottom" : {
+         "textures" : "textures/blocks/vault_bottom"
+      },
+      "vault_front" : {
+         "textures" : "textures/blocks/vault_front"
+      },
+      "vault_side" : {
+         "textures" : "textures/blocks/vault_side"
+      },
+      "vault_side_og_side" : {
+         "textures" : "textures/blocks/vault_side_og_side"
+      },
+      "vault_top" : {
+         "textures" : "textures/blocks/vault_top"
       }
    },
    "texture_name" : "atlas.terrain"
