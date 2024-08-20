@@ -236,7 +236,7 @@
         "sound" : "metal",
         "textures" : "alert_block_off"
     },
-    "duping_tnt" : {
+    "histeria:duping_tnt" : {
        "sound" : "grass",
        "textures" : {
           "down" : "duping_tnt_bottom",
@@ -252,7 +252,7 @@
         "sound" : "metal",
         "textures" : "generator_off"
     },
-    "iem_tnt" : {
+    "histeria:iem_tnt" : {
        "sound" : "grass",
        "textures" : {
           "down" : "iem_tnt_bottom",
@@ -260,7 +260,7 @@
           "up" : "iem_tnt_top"
        }
     },
-    "histerite_tnt" : {
+    "histeria:histerite_tnt" : {
        "sound" : "grass",
        "textures" : {
           "down" : "histerite_tnt_bottom",
@@ -268,7 +268,7 @@
           "up" : "histerite_tnt_top"
        }
     },
-    "nocturite_tnt" : {
+    "histeria:nocturite_tnt" : {
        "sound" : "grass",
        "textures" : {
           "down" : "nocturite_tnt_bottom",
