@@ -207,11 +207,11 @@
       "air_drop" : {
          "textures" : "textures/blocks/air_drop"
       },
-      "alert_block" : {
-         "textures" : "textures/blocks/alert_block"
+      "alert_on" : {
+         "textures" : "textures/blocks/alert_on"
       },
-      "alert_block_off" : {
-         "textures" : "textures/blocks/alert_block_off"
+      "alert_off" : {
+         "textures" : "textures/blocks/alert_off"
       },
       "duping_tnt_bottom" : {
          "textures" : "textures/blocks/duping_tnt_bottom"
@@ -222,8 +222,8 @@
       "duping_tnt_top" : {
          "textures" : "textures/blocks/duping_tnt_top"
       },
-      "generator" : {
-         "textures" : "textures/blocks/generator"
+      "generator_on" : {
+         "textures" : "textures/blocks/generator_on"
       },
       "generator_off" : {
          "textures" : "textures/blocks/generator_off"
