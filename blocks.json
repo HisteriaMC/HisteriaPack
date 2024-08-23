@@ -228,13 +228,21 @@
         "sound" : "wood",
         "textures" : "air_drop"
     },
-    "histeria:alert_on" : {
-        "sound" : "metal",
-        "textures" : "alert_on"
+    "histeria:alert_on": {
+        "sound": "metal",
+        "textures": {
+            "down": "alert_on_bottom",
+            "side": "alert_on",
+            "up": "alert_on_top"
+        }
     },
-    "histeria:alert_off" : {
-        "sound" : "metal",
-        "textures" : "alert_off"
+    "histeria:alert_off": {
+        "sound": "metal",
+        "textures": {
+            "down": "alert_off_bottom",
+            "side": "alert_off",
+            "up": "alert_off_top"
+        }
     },
     "histeria:duping_tnt" : {
        "sound" : "grass",
