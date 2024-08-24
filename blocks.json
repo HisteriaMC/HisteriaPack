@@ -302,5 +302,10 @@
             "up": "vault_top",
             "west": "vault_side"
         }
+    },
+    "mixed_sand" : {
+       "isotropic" : true,
+       "sound" : "mixed_sand",
+       "textures" : "mixed_sand"
     }
 }

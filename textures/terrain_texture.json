@@ -287,6 +287,9 @@
       },
       "vault_top" : {
          "textures" : "textures/blocks/vault_top"
+      },
+      "mixed_sand" : {
+         "textures" : "textures/blocks/mixed_sand"
       }
    },
    "texture_name" : "atlas.terrain"
