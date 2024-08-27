@@ -42,6 +42,14 @@
          "sounds": [
             "sounds/random/blood_hit"
          ]
+      },
+      "block.mixed_sand" : {
+         "category" : "block",
+         "max_distance" : null,
+         "min_distance" : null,
+         "sounds": [
+            "sounds/block/mixed_sand"
+         ]
       }
    }
 }

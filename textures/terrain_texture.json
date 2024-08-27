@@ -206,6 +206,90 @@
       },
       "air_drop" : {
          "textures" : "textures/blocks/air_drop"
+      },
+      "alert_on" : {
+         "textures" : "textures/blocks/alert_on"
+      },
+      "alert_on_top" : {
+         "textures" : "textures/blocks/alert_on_top"
+      },
+      "alert_on_bottom" : {
+         "textures" : "textures/blocks/alert_on_bottom"
+      },
+      "alert_off" : {
+         "textures" : "textures/blocks/alert_off"
+      },
+      "alert_off_top" : {
+         "textures" : "textures/blocks/alert_off_top"
+      },
+      "alert_off_bottom" : {
+         "textures" : "textures/blocks/alert_off_bottom"
+      },
+      "duping_tnt_bottom" : {
+         "textures" : "textures/blocks/duping_tnt_bottom"
+      },
+      "duping_tnt_side" : {
+         "textures" : "textures/blocks/duping_tnt_side"
+      },
+      "duping_tnt_top" : {
+         "textures" : "textures/blocks/duping_tnt_top"
+      },
+      "generator_on" : {
+         "textures" : "textures/blocks/generator_on"
+      },
+      "generator_off" : {
+         "textures" : "textures/blocks/generator_off"
+      },
+      "histerite_tnt_bottom" : {
+         "textures" : "textures/blocks/histerite_tnt_bottom"
+      },
+      "histerite_tnt_side" : {
+         "textures" : "textures/blocks/histerite_tnt_side"
+      },
+      "histerite_tnt_top" : {
+         "textures" : "textures/blocks/histerite_tnt_top"
+      },
+      "iem_tnt_bottom" : {
+         "textures" : "textures/blocks/iem_tnt_bottom"
+      },
+      "iem_tnt_side" : {
+         "textures" : "textures/blocks/iem_tnt_side"
+      },
+      "iem_tnt_top" : {
+         "textures" : "textures/blocks/iem_tnt_top"
+      },
+      "nocturite_tnt_bottom" : {
+         "textures" : "textures/blocks/nocturite_tnt_bottom"
+      },
+      "nocturite_tnt_side" : {
+         "textures" : "textures/blocks/nocturite_tnt_side"
+      },
+      "nocturite_tnt_top" : {
+         "textures" : "textures/blocks/nocturite_tnt_top"
+      },
+      "reinforced_histerite_obsidian" : {
+         "textures" : "textures/blocks/reinforced_histerite_obsidian"
+      },
+      "reinforced_nocturite_obsidian" : {
+         "textures" : "textures/blocks/reinforced_nocturite_obsidian"
+      },
+      "vault_bottom" : {
+         "textures" : "textures/blocks/vault_bottom"
+      },
+      "vault_front" : {
+         "textures" : "textures/blocks/vault_front"
+      },
+      "vault_side" : {
+         "textures" : "textures/blocks/vault_side"
+      },
+      "vault_side_og_side" : {
+         "textures" : "textures/blocks/vault_side_og_side"
+      },
+      "vault_top" : {
+         "textures" : "textures/blocks/vault_top"
+      },
+      "mixed_sand" : {
+         "textures" : "textures/blocks/mixed_sand"
       }
    },
    "texture_name" : "atlas.terrain"
