@@ -1,0 +1,29 @@
+{
+	"format_version": "1.19.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.hang_glider",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 6,
+				"visible_bounds_height": 6,
+				"visible_bounds_offset": [0, 1, 0]
+			},
+			"bones": [
+				{
+					"name": "bb_main",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-14, 10, 2.5], "size": [14, 20, 0], "pivot": [0, 14, 2.5], "rotation": [-180, 25, 180], "uv": [0, 20]},
+						{"origin": [0, 10, 2.5], "size": [14, 20, 0], "pivot": [0, 14, 2.5], "rotation": [-180, -27.5, 180], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "main",
+					"pivot": [0, 0, 0]
+				}
+			]
+		}
+	]
+}
