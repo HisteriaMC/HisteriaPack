@@ -332,8 +332,8 @@
     "hestia_torch": {
       "textures": "textures/items/utility/hestia_torch"
     },
-    "love_philtre": {
-      "textures": "textures/items/utility/love_philtre"
+    "aphrodite_philter": {
+      "textures": "textures/items/utility/aphrodite_philter"
     },
     "bottled_lumen": {
       "textures": "textures/items/utility/bottled_lumen"
