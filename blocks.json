@@ -307,5 +307,41 @@
        "isotropic" : true,
        "sound" : "mixed_sand",
        "textures" : "mixed_sand"
+    },
+    "histeria:reflector_off" : {
+        "sound" : "stone",
+        "textures" : "reflector_off"
+    },
+    "histeria:reflector_on" : {
+        "sound" : "stone",
+        "textures" : "reflector_on"
+    },
+    "histeria:catalyst_blue" : {
+        "sound" : "stone",
+        "textures" : "catalyst_blue"
+    },
+    "histeria:catalyst_green" : {
+        "sound" : "stone",
+        "textures" : "catalyst_green"
+    },
+    "histeria:catalyst_off" : {
+        "sound" : "stone",
+        "textures" : "catalyst_off"
+    },
+    "histeria:catalyst_pink" : {
+        "sound" : "stone",
+        "textures" : "catalyst_pink"
+    },
+    "histeria:catalyst_purple" : {
+        "sound" : "stone",
+        "textures" : "catalyst_purple"
+    },
+    "histeria:catalyst_red" : {
+        "sound" : "stone",
+        "textures" : "catalyst_red"
+    },
+    "histeria:catalyst_yellow" : {
+        "sound" : "stone",
+        "textures" : "catalyst_yellow"
     }
 }

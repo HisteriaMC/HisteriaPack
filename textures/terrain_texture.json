@@ -290,6 +290,33 @@
       },
       "mixed_sand" : {
          "textures" : "textures/blocks/mixed_sand"
+      },
+      "reflector_on" : {
+         "textures" : "textures/blocks/reflector_on"
+      },
+      "reflector_off" : {
+         "textures" : "textures/blocks/reflector_off"
+      },
+      "catalyst_blue" : {
+         "textures" : "textures/blocks/catalyst_blue"
+      },
+      "catalyst_green" : {
+         "textures" : "textures/blocks/catalyst_green"
+      },
+      "catalyst_off" : {
+         "textures" : "textures/blocks/catalyst_off"
+      },
+      "catalyst_pink" : {
+         "textures" : "textures/blocks/catalyst_pink"
+      },
+      "catalyst_purple" : {
+         "textures" : "textures/blocks/catalyst_purple"
+      },
+      "catalyst_red" : {
+         "textures" : "textures/blocks/catalyst_red"
+      },
+      "catalyst_yellow" : {
+         "textures" : "textures/blocks/catalyst_yellow"
       }
    },
    "texture_name" : "atlas.terrain"
