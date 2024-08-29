@@ -345,7 +345,10 @@
       "textures": "textures/items/event/egg_basket"
     },
     "bottled_experience": {
-      "textures": "textures/items/event/bottled_experience"
+      "textures": "textures/items/event/bottled_experience" 
+    },
+    "crowbar": {
+      "textures": "textures/items/event/crowbar"
     }
   }
 }
