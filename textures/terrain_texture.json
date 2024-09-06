@@ -88,13 +88,13 @@
          "textures" : "textures/blocks/egg_basket"
       },
       "bronze_medal": {
-        "textures": "textures/items/event/bronze_medal"
+        "textures": "textures/blocks/bronze_medal"
       },
       "gold_trophy": {
-        "textures": "textures/items/event/gold_trophy"
+        "textures": "textures/blocks/gold_trophy"
       },
       "silver_medal": {
-        "textures": "textures/items/event/silver_medal"
+        "textures": "textures/blocks/silver_medal"
       }
    },
    "texture_name" : "atlas.terrain"
