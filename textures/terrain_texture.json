@@ -237,8 +237,20 @@
       "generator_on" : {
          "textures" : "textures/blocks/generator_on"
       },
+      "generator_on_top" : {
+         "textures" : "textures/blocks/generator_on_top"
+      },
+      "generator_on_bottom" : {
+         "textures" : "textures/blocks/generator_on_bottom"
+      },
       "generator_off" : {
          "textures" : "textures/blocks/generator_off"
+      },
+      "generator_off_top" : {
+         "textures" : "textures/blocks/generator_off_top"
+      },
+      "generator_off_bottom" : {
+         "textures" : "textures/blocks/generator_off_bottom"
       },
       "histerite_tnt_bottom" : {
          "textures" : "textures/blocks/histerite_tnt_bottom"
@@ -317,6 +329,9 @@
       },
       "catalyst_yellow" : {
          "textures" : "textures/blocks/catalyst_yellow"
+      },
+      "levitation_obsidian" : {
+         "textures" : "textures/blocks/levitation_obsidian"
       }
    },
    "texture_name" : "atlas.terrain"

@@ -253,12 +253,20 @@
        }
     },
     "histeria:generator_on" : {
-        "sound" : "metal",
-        "textures" : "generator_on"
+       "sound" : "metal",
+       "textures" : {
+          "down" : "generator_on_bottom",
+          "side" : "generator_on",
+          "up" : "generator_on_top"
+       }
     },
     "histeria:generator_off" : {
-        "sound" : "metal",
-        "textures" : "generator_off"
+       "sound" : "metal",
+       "textures" : {
+          "down" : "generator_off_bottom",
+          "side" : "generator_off",
+          "up" : "generator_off_top"
+       }
     },
     "histeria:iem_tnt" : {
        "sound" : "grass",
@@ -343,5 +351,9 @@
     "histeria:catalyst_yellow" : {
         "sound" : "stone",
         "textures" : "catalyst_yellow"
+    },
+    "histeria:levitation_obsidian" : {
+        "sound" : "stone",
+        "textures" : "levitation_obsidian"
     }
 }
