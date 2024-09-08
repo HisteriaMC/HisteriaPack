@@ -1,0 +1,21 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "histeria:iem_tnt",
+      "min_engine_version": "1.8.0",
+      "materials": {
+        "default": "iem_tnt"
+      },
+      "textures": {
+        "default": "textures/entity/tnt/iem_tnt"
+      },
+      "geometry": {
+        "default": "geometry.tnt"
+      },
+      "render_controllers": [
+        "controller.render.iem_tnt"
+      ]
+    }
+  }
+}
