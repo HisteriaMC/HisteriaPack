@@ -6,7 +6,7 @@
 			"materials": [ { "*": "Material.default" } ],
 			"textures": [ "Texture.default" ],
 			"uv_anim": {
-				"offset": [ 0.0, "math.mod(math.floor(query.life_time * 2),2) / 2" ],
+				"offset": [ 0.0, "math.mod(math.floor(query.life_time * 0.25),2) / 2" ],
 				"scale": [ 1.0, "1 / 2" ]
 			}
 		}
