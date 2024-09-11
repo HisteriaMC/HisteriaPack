@@ -2,10 +2,10 @@
 	"format_version": "1.10.0",
 	"particle_effect": {
 		"description": {
-			"identifier": "histeria:nocturite_tnt",
+			"identifier": "histeria:duping_tnt",
 			"basic_render_parameters": {
 				"material": "particles_alpha",
-				"texture": "textures/particle/tnt_particles"
+				"texture": "textures/particle/particles"
 			}
 		},
 		"components": {
@@ -29,7 +29,7 @@
 					"texture_width": 128,
 					"texture_height": 128,
 					"flipbook": {
-						"base_UV": [0, 27],
+						"base_UV": [0, 0],
 						"size_UV": [8, 8],
 						"step_UV": [8, 0],
 						"frames_per_second": 8,

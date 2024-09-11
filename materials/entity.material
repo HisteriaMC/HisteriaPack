@@ -1,0 +1,17 @@
+{
+    "materials": {
+        "version": "1.0.0",
+        "duping_tnt:entity": {
+            "+defines": ["USE_UV_ANIM"]
+        },
+        "histerite_tnt:entity": {
+            "+defines": ["USE_UV_ANIM"]
+        },
+        "nocturite_tnt:entity": {
+            "+defines": ["USE_UV_ANIM"]
+        },
+        "iem_tnt:entity": {
+            "+defines": ["USE_UV_ANIM"]
+        }
+    }
+}
