@@ -27,7 +27,7 @@ jobs:
           output_encoded_path: './encoded-pack'
 
       - name: Zip encrypted texture pack
-        run: zip -r HisteriaPack.zip ./encoded-pack/HisteriaPack/
+        run: cd ./encoded-pack/HisteriaPack && zip -r ../../HisteriaPack.zip ./*
 
       - name: Upload encrypted texture pack as artifact
         uses: actions/upload-artifact@v4
