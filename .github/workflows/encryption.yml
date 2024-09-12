@@ -3,10 +3,10 @@ name: Texturepack encryption
 on:
   push:
     branches:
-      - main
+      - '*'
   pull_request:
     branches:
-      - main
+      - '*'
   create:
     tags:
       - '*'
@@ -14,7 +14,6 @@ on:
 jobs:
   pack-encryption:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
