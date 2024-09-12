@@ -68,6 +68,9 @@
     "item_pack": {
       "textures": "textures/items/utility/item_pack"
     },
+    "backpack": {
+      "textures": "textures/items/utility/backpack"
+    },
     "tp_stick": {
       "textures": "textures/items/sticks/tpstick"
     },
@@ -109,6 +112,9 @@
     },
     "lottery_ticket": {
       "textures": "textures/items/utility/lottery_ticket"
+    },
+    "lucky_lottery_ticket": {
+      "textures": "textures/items/utility/lucky_lottery_ticket"
     },
     "forge_note": {
       "textures": "textures/items/utility/forge_note"
@@ -317,6 +323,9 @@
     "yellow_candy": {
       "textures": "textures/items/event/yellow_candy"
     },
+    "bottled_lumen": {
+      "textures": "textures/items/utility/bottled_lumen"
+    },
     "chocolate_egg": {
       "textures": "textures/items/event/chocolate_egg"
     },
@@ -334,6 +343,18 @@
     },
     "egg_basket": {
       "textures": "textures/items/event/egg_basket"
+    },
+    "bronze_medal": {
+      "textures": "textures/items/event/bronze_medal"
+    },
+    "gold_trophy": {
+      "textures": "textures/items/event/gold_trophy"
+    },
+    "silver_medal": {
+      "textures": "textures/items/event/silver_medal"
+    },
+    "bottled_experience": {
+      "textures": "textures/items/event/bottled_experience"
     }
   }
 }
