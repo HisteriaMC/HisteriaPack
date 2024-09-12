@@ -19,7 +19,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Run custom Bedrock Texturepack Encryption Action
-        uses: zelytra/bedrock-texturepack-encryption@v1.0.0-beta
+        uses: zelytra/bedrock-texturepack-encryption@v1
         with:
           private_key: ${{ secrets.ENCRYPTION_KEY }} # Replace with a test key or use secrets 32 characters (a-Z,0.9)
           texture_pack_path: 'histeria-pack' # Path to the example pack in the repo
