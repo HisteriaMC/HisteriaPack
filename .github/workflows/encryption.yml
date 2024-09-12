@@ -49,7 +49,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: zip-encrypted-texture-pack
-          path: ./encoded-pack
+          path: ./
 
       - name: Create Release
         id: create_release
@@ -68,6 +68,6 @@ jobs:
         uses: actions/upload-release-asset@v1
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./encoded-pack
+          asset_path: ./HisteriaPack.zip
           asset_name: HisteriaPack.zip
           asset_content_type: application/zip
