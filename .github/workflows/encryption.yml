@@ -21,7 +21,7 @@ jobs:
       - name: Create histeria-pack directory and move files
         run: |
           mkdir histeria-pack
-          rsync -av --exclude-from='.gitignore' ./ ./histeria-pack/ --remove-source-files
+          rsync -av --exclude-from={'.gitignore'} ./ ./histeria-pack/ --remove-source-files
         shell: bash
 
       - name: Download mcruptil tool from release and encrypt pack
