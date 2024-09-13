@@ -3,13 +3,15 @@ name: Texturepack encryption
 on:
   push:
     branches:
+      - 'main'
+      - 'v7'
+    tags:
       - '*'
   pull_request:
     branches:
-      - '*'
-  create:
-    tags:
-      - '*'
+      - 'main'
+      - 'v7'
+
 
 jobs:
   pack-encryption:
