@@ -360,7 +360,7 @@
       "textures": "textures/items/event/crowbar"
     },
     "canon": {
-      "textures": "textures/items/tools/canon"
+      "textures": "textures/items/utility/canon"
     }
   }
 }
