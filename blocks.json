@@ -264,13 +264,27 @@
           "up" : "duping_tnt_top"
        }
     },
-    "histeria:generator_on" : {
-        "sound" : "metal",
-        "textures" : "generator_on"
+    "histeria:generator_on": {
+        "sound": "metal",
+        "textures": {
+            "down": "generator_on_bottom",
+            "east": "generator_on",
+            "north": "generator_on",
+            "south": "generator_on",
+            "up": "generator_on_top",
+            "west": "generator_on"
+        }
     },
-    "histeria:generator_off" : {
-        "sound" : "metal",
-        "textures" : "generator_off"
+    "histeria:generator_off": {
+        "sound": "metal",
+        "textures": {
+            "down": "generator_off_bottom",
+            "east": "generator_off",
+            "north": "generator_off",
+            "south": "generator_off",
+            "up": "generator_off_top",
+            "west": "generator_off"
+        }
     },
     "histeria:iem_tnt" : {
        "sound" : "grass",
