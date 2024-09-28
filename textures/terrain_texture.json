@@ -69,9 +69,6 @@
       "poisonous_obsidian" : {
          "textures" : "textures/blocks/poisonous_obsidian"
       },
-      "reinforced_obsidian" : {
-         "textures" : "textures/blocks/reinforced_obsidian"
-      },
       "cobble_breaker_top": {
          "textures" : "textures/blocks/cobble_breaker_top"
       },
@@ -288,11 +285,11 @@
       "nocturite_tnt_top" : {
          "textures" : "textures/blocks/nocturite_tnt_top"
       },
-      "reinforced_histerite_obsidian" : {
-         "textures" : "textures/blocks/reinforced_histerite_obsidian"
+      "histerite_obsidian" : {
+         "textures" : "textures/blocks/histerite_obsidian"
       },
-      "reinforced_nocturite_obsidian" : {
-         "textures" : "textures/blocks/reinforced_nocturite_obsidian"
+      "nocturite_obsidian" : {
+         "textures" : "textures/blocks/nocturite_obsidian"
       },
       "vault_bottom" : {
          "textures" : "textures/blocks/vault_bottom"

@@ -35,10 +35,6 @@
         "sound": "stone",
         "textures": "random_ore"
     },
-    "histeria:reinforced_obsidian": {
-        "sound": "stone",
-        "textures": "reinforced_obsidian"
-    },
     "histeria:nocturite_plant": {
         "sound": "nether_wart",
         "textures": "nocturite_plant"
@@ -310,13 +306,13 @@
           "up" : "nocturite_tnt_top"
        }
     },
-    "histeria:reinforced_histerite_obsidian" : {
+    "histeria:histerite_obsidian" : {
         "sound" : "stone",
-        "textures" : "reinforced_histerite_obsidian"
+        "textures" : "histerite_obsidian"
     },
-    "histeria:reinforced_nocturite_obsidian" : {
+    "histeria:nocturite_obsidian" : {
         "sound" : "stone",
-        "textures" : "reinforced_nocturite_obsidian"
+        "textures" : "nocturite_obsidian"
     },
     "histeria:vault": {
         "sound": "metal",
