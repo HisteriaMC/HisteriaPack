@@ -3,9 +3,8 @@
 	"minecraft:client_entity": {
 	  "description": {
 		"identifier": "histeria:canon",
-		"min_engine_version": "1.8.0",
 		"materials": {
-		  "default": "canon"
+		  "default": "armor_stand"
 		},
 		"textures": {
 		  "default": "textures/entity/canon"
@@ -14,7 +13,7 @@
 		  "default": "geometry.canon"
 		},
 		"render_controllers": [
-		  "controller.render.canon"
+		  "controller.render.armor_stand"
 		]
 	  }
 	}
