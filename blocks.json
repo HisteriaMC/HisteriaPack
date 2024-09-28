@@ -338,33 +338,33 @@
         "sound" : "stone",
         "textures" : "reflector_on"
     },
-    "histeria:catalyst_blue" : {
+    "histeria:catalyst_on_blue" : {
         "sound" : "stone",
-        "textures" : "catalyst_blue"
+        "textures" : "catalyst_on_blue"
     },
-    "histeria:catalyst_green" : {
+    "histeria:catalyst_on_green" : {
         "sound" : "stone",
-        "textures" : "catalyst_green"
+        "textures" : "catalyst_on_green"
     },
     "histeria:catalyst_off" : {
         "sound" : "stone",
         "textures" : "catalyst_off"
     },
-    "histeria:catalyst_pink" : {
+    "histeria:catalyst_on_default" : {
         "sound" : "stone",
-        "textures" : "catalyst_pink"
+        "textures" : "catalyst_on_default"
     },
-    "histeria:catalyst_purple" : {
+    "histeria:catalyst_on_purple" : {
         "sound" : "stone",
-        "textures" : "catalyst_purple"
+        "textures" : "catalyst_on_purple"
     },
-    "histeria:catalyst_red" : {
+    "histeria:catalyst_on_red" : {
         "sound" : "stone",
-        "textures" : "catalyst_red"
+        "textures" : "catalyst_on_red"
     },
-    "histeria:catalyst_yellow" : {
+    "histeria:catalyst_on_yellow" : {
         "sound" : "stone",
-        "textures" : "catalyst_yellow"
+        "textures" : "catalyst_on_yellow"
     },
     "histeria:levitation_obsidian" : {
         "sound" : "stone",

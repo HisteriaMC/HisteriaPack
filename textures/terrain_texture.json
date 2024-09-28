@@ -315,26 +315,26 @@
       "reflector_off" : {
          "textures" : "textures/blocks/reflector_off"
       },
-      "catalyst_blue" : {
-         "textures" : "textures/blocks/catalyst_blue"
+      "catalyst_on_blue" : {
+         "textures" : "textures/blocks/catalyst_on_blue"
       },
-      "catalyst_green" : {
-         "textures" : "textures/blocks/catalyst_green"
+      "catalyst_on_green" : {
+         "textures" : "textures/blocks/catalyst_on_green"
       },
       "catalyst_off" : {
          "textures" : "textures/blocks/catalyst_off"
       },
-      "catalyst_pink" : {
-         "textures" : "textures/blocks/catalyst_pink"
+      "catalyst_on_default" : {
+         "textures" : "textures/blocks/catalyst_on_default"
       },
-      "catalyst_purple" : {
-         "textures" : "textures/blocks/catalyst_purple"
+      "catalyst_on_purple" : {
+         "textures" : "textures/blocks/catalyst_on_purple"
       },
-      "catalyst_red" : {
-         "textures" : "textures/blocks/catalyst_red"
+      "catalyst_on_red" : {
+         "textures" : "textures/blocks/catalyst_on_red"
       },
-      "catalyst_yellow" : {
-         "textures" : "textures/blocks/catalyst_yellow"
+      "catalyst_on_yellow" : {
+         "textures" : "textures/blocks/catalyst_on_yellow"
       },
       "levitation_obsidian" : {
          "textures" : "textures/blocks/levitation_obsidian"
