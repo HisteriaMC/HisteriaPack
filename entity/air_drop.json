@@ -3,8 +3,9 @@
   "minecraft:client_entity": {
     "description": {
       "identifier": "histeria:air_drop",
+      "min_engine_version": "1.8.0",
       "materials": {
-        "default": "egg"
+        "default": "air_drop"
       },
       "textures": {
         "default": "textures/entity/air_drop"
@@ -12,10 +13,9 @@
       "geometry": {
         "default": "geometry.air_drop"
       },
-      "render_controllers": [ "controller.render.item_sprite" ],
-      "animations": {
-        "flying": "animation.actor.billboard"
-      }
+      "render_controllers": [
+        "controller.render.air_drop"
+      ]
     }
   }
 }

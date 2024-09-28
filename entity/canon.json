@@ -3,6 +3,7 @@
 	"minecraft:client_entity": {
 	  "description": {
 		"identifier": "histeria:canon",
+		"min_engine_version": "1.8.0",
 		"materials": {
 		  "default": "canon"
 		},
@@ -12,10 +13,9 @@
 		"geometry": {
 		  "default": "geometry.canon"
 		},
-		"render_controllers": [ "controller.render.item_sprite" ],
-		"animations": {
-		  "flying": "animation.actor.billboard"
-		}
+		"render_controllers": [
+		  "controller.render.canon"
+		]
 	  }
 	}
   }
