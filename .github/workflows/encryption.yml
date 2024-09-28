@@ -7,10 +7,6 @@ on:
       - 'v7'
     tags:
       - '*'
-  pull_request:
-    branches:
-      - 'main'
-      - 'v7'
 
 
 jobs:
