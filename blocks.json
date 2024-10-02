@@ -28,6 +28,7 @@
         "textures": "nocturite_block"
     },
     "histeria:poisonous_obsidian": {
+        "isotropic" : true,
         "sound": "stone",
         "textures": "poisonous_obsidian"
     },
@@ -308,10 +309,12 @@
     },
     "histeria:histerite_obsidian" : {
         "sound" : "stone",
+        "isotropic" : true,
         "textures" : "histerite_obsidian"
     },
     "histeria:nocturite_obsidian" : {
         "sound" : "stone",
+        "isotropic" : true,
         "textures" : "nocturite_obsidian"
     },
     "histeria:vault": {
@@ -368,6 +371,7 @@
     },
     "histeria:levitation_obsidian" : {
         "sound" : "stone",
+        "isotropic" : true,
         "textures" : "levitation_obsidian"
     }
 }
