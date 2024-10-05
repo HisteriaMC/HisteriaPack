@@ -328,6 +328,17 @@
             "west": "vault_side"
         }
     },
+    "histeria:vault_open": {
+        "sound": "metal",
+        "textures": {
+            "down": "vault_bottom",
+            "east": "vault_side",
+            "north": "vault_front_open",
+            "south": "vault_side",
+            "up": "vault_top",
+            "west": "vault_side"
+        }
+    },
     "mixed_sand" : {
        "isotropic" : true,
        "sound" : "mixed_sand",

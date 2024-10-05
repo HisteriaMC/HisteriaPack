@@ -297,6 +297,9 @@
       "vault_front" : {
          "textures" : "textures/blocks/vault_front"
       },
+      "vault_front_open" : {
+         "textures" : "textures/blocks/vault_front_open"
+      },
       "vault_side" : {
          "textures" : "textures/blocks/vault_side"
       },
