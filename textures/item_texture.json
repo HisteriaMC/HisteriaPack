@@ -361,6 +361,9 @@
     },
     "canon": {
       "textures": "textures/items/utility/canon"
+    },
+    "send_histerite": {
+      "textures": "textures/custom_ui/generator/send_histerite"
     }
   }
 }
