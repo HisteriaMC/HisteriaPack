@@ -354,10 +354,10 @@
       "textures": "textures/items/event/silver_medal"
     },
     "bottled_experience": {
-      "textures": "textures/items/event/bottled_experience"
+      "textures": "textures/items/utility/bottled_experience"
     },
     "vault_breacher": {
-      "textures": "textures/items/event/vault_breacher"
+      "textures": "textures/items/utility/vault_breacher"
     },
     "canon": {
       "textures": "textures/items/utility/canon"
