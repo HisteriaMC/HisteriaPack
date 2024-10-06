@@ -366,13 +366,13 @@
       "textures": "textures/custom_ui/generator/inject_icon"
     },
     "vault_arrow_up": {
-      "textures": "textures/custom_ui/generator/vault_arrow_up"
+      "textures": "textures/custom_ui/vault/vault_arrow_up"
     },
     "vault_arrow_down": {
-      "textures": "textures/custom_ui/generator/vault_arrow_down"
+      "textures": "textures/custom_ui/vault/vault_arrow_down"
     },
     "vault_wheel": {
-      "textures": "textures/custom_ui/generator/vault_wheel"
+      "textures": "textures/custom_ui/vault/vault_wheel"
     }
   }
 }
