@@ -356,8 +356,8 @@
     "bottled_experience": {
       "textures": "textures/items/event/bottled_experience"
     },
-    "crowbar": {
-      "textures": "textures/items/event/crowbar"
+    "vault_breacher": {
+      "textures": "textures/items/event/vault_breacher"
     },
     "canon": {
       "textures": "textures/items/utility/canon"
