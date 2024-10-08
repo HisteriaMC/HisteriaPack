@@ -221,17 +221,17 @@
         "sound" : "wood",
         "textures" : "egg_basket"
     },
-    "bronze_medal" : {
+    "histeria:bronze_medal_block" : {
         "sound" : "metal",
-        "textures" : "bronze_medal"
+        "textures" : "bronze_medal_block"
     },
-    "gold_trophy" : {
+    "histeria:gold_trophy_block" : {
         "sound" : "metal",
-        "textures" : "gold_trophy"
+        "textures" : "gold_trophy_block"
     },
-    "silver_medal" : {
+    "histeria:silver_medal_block" : {
         "sound" : "metal",
-        "textures" : "silver_medal"
+        "textures" : "silver_medal_block"
     },
     "histeria:air_drop" : {
         "sound" : "wood",

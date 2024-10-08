@@ -201,13 +201,13 @@
       "egg_basket" : {
          "textures" : "textures/blocks/egg_basket"
       },
-      "bronze_medal": {
+      "bronze_medal_block": {
         "textures": "textures/blocks/bronze_medal"
       },
-      "gold_trophy": {
+      "gold_trophy_block": {
         "textures": "textures/blocks/gold_trophy"
       },
-      "silver_medal": {
+      "silver_medal_block": {
         "textures": "textures/blocks/silver_medal"
       },
       "air_drop" : {
