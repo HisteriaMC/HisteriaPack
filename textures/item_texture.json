@@ -354,7 +354,7 @@
       "textures": "textures/items/event/silver_medal"
     },
     "bottled_experience": {
-      "textures": "textures/items/event/bottled_experience"
+      "textures": "textures/items/utility/bottled_experience"
     },
     "crowbar": {
       "textures": "textures/items/event/crowbar"
