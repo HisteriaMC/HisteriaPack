@@ -356,11 +356,23 @@
     "bottled_experience": {
       "textures": "textures/items/utility/bottled_experience"
     },
-    "crowbar": {
-      "textures": "textures/items/event/crowbar"
+    "vault_breacher": {
+      "textures": "textures/items/utility/vault_breacher"
     },
     "canon": {
       "textures": "textures/items/utility/canon"
+    },
+    "inject_icon": {
+      "textures": "textures/custom_ui/generator/inject_icon"
+    },
+    "vault_arrow_up_icon": {
+      "textures": "textures/custom_ui/vault/vault_arrow_up"
+    },
+    "vault_arrow_down_icon": {
+      "textures": "textures/custom_ui/vault/vault_arrow_down"
+    },
+    "vault_wheel_icon": {
+      "textures": "textures/custom_ui/vault/vault_wheel"
     }
   }
 }
