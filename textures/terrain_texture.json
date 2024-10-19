@@ -341,6 +341,9 @@
       },
       "levitation_obsidian" : {
          "textures" : "textures/blocks/levitation_obsidian"
+      },
+      "altar" : {
+         "textures" : "textures/blocks/altar"
       }
    },
    "texture_name" : "atlas.terrain"

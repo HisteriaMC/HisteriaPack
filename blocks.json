@@ -384,5 +384,9 @@
         "sound" : "stone",
         "isotropic" : true,
         "textures" : "levitation_obsidian"
+    },
+    "histeria:altar" : {
+        "sound" : "stone",
+        "textures" : "altar"
     }
 }
