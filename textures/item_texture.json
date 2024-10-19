@@ -359,9 +359,6 @@
     "vault_breacher": {
       "textures": "textures/items/utility/vault_breacher"
     },
-    "canon": {
-      "textures": "textures/items/utility/canon"
-    },
     "inject_icon": {
       "textures": "textures/custom_ui/generator/inject_icon"
     },
