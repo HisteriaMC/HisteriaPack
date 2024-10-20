@@ -8,7 +8,7 @@
         "textures": "cave_block"
     },
     "histeria:fertilized_dirt": {
-        "sound": "dirt",
+        "sound": "gravel",
         "textures": "fertilized_dirt"
     },
     "histeria:histerite_block": {
