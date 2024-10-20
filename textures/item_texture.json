@@ -354,7 +354,22 @@
       "textures": "textures/items/event/silver_medal"
     },
     "bottled_experience": {
-      "textures": "textures/items/event/bottled_experience"
+      "textures": "textures/items/utility/bottled_experience"
+    },
+    "vault_breacher": {
+      "textures": "textures/items/utility/vault_breacher"
+    },
+    "inject_icon": {
+      "textures": "textures/custom_ui/generator/inject_icon"
+    },
+    "vault_arrow_up_icon": {
+      "textures": "textures/custom_ui/vault/vault_arrow_up"
+    },
+    "vault_arrow_down_icon": {
+      "textures": "textures/custom_ui/vault/vault_arrow_down"
+    },
+    "vault_wheel_icon": {
+      "textures": "textures/custom_ui/vault/vault_wheel"
     }
   }
 }
