@@ -1,0 +1,21 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "histeria:nocturite_tnt",
+      "min_engine_version": "1.8.0",
+      "materials": {
+        "default": "nocturite_tnt"
+      },
+      "textures": {
+        "default": "textures/entity/tnt/nocturite_tnt"
+      },
+      "geometry": {
+        "default": "geometry.tnt"
+      },
+      "render_controllers": [
+        "controller.render.nocturite_tnt"
+      ]
+    }
+  }
+}

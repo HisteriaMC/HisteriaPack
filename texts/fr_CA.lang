@@ -1,7 +1,3 @@
-[Inventories]
-container.enderchest=§9§k.§f.§c.§r  §cHisteria Chest §9§k.§f.§c.§r
-
-[Blocks]
 [Containers]
 container.enderchest=§9§k.§f.§c.§r  §cHisteria Chest §9§k.§f.§c.§r
 
@@ -28,38 +24,51 @@ tile.histeria:bounce.name=Rebond
 tile.histeria:air_drop.name=Largage
 tile.histeria:event_magma.name=Neige en fusion
 tile.histeria:egg_basket.name=Panier d'oeufs
+tile.histeria:mixed_sand.name=Sable mélangé
+tile.histeria:alert.name=Alarme
+tile.histeria:reflector.name=Renvoyeur
+tile.histeria:catalyst.name=Catalyseur
+tile.histeria:generator.name=Générateur
+tile.histeria:vault.name=Coffre-fort
+tile.histeria:histerite_obsidian.name=Obsidienne en Histerite
+tile.histeria:nocturite_obsidian.name=Obsidienne en Nocturite
+tile.histeria:levitation_obsidian.name=Obsidienne de lévitation
+tile.histeria:histerite_tnt.name=TNT en Histerite
+tile.histeria:nocturite_tnt.name=TNT en Nocturite
+tile.histeria:iem_tnt.name=TNT à impulsion éléctromagnétique
+tile.histeria:duping_tnt.name=TNT à dédoublement
+tile.histeria:temporary_block.name=Bloc temporaire
+
 
 [Decorations]
 tile.histeria:armchair.name=Fauteuil
-tile.histeria:big_pot.name=Grand Pot
-tile.histeria:black_tile.name=Carreau Noir
-tile.histeria:blue_tile.name=Carreau Bleu
-tile.histeria:book_pile.name=Pile de Livres
+tile.histeria:big_pot.name=Grand pot
+tile.histeria:black_tile.name=Carreau noir
+tile.histeria:blue_tile.name=Carreau bleu
+tile.histeria:book_pile.name=Pile de livres
 tile.histeria:chair.name=Chaise
-tile.histeria:compressed_bricks.name=Briques Compressées
-tile.histeria:green_tile.name=Carreau Vert
+tile.histeria:compressed_bricks.name=Briques compressées
+tile.histeria:green_tile.name=Carreau vert
 tile.histeria:lamp.name=Lampe
-tile.histeria:lamp_on.name=Lampe Allumée
-tile.histeria:orange_tile.name=Carreau Orange
-tile.histeria:peony_bush.name=Buisson de Pivoines
-tile.histeria:red_tile.name=Carreau Rouge
+tile.histeria:lamp_on.name=Lampe allumée
+tile.histeria:orange_tile.name=Carreau orange
+tile.histeria:peony_bush.name=Buisson de pivoines
+tile.histeria:red_tile.name=Carreau rouge
 tile.histeria:shelf.name=Étagère
 tile.histeria:table.name=Table
 tile.histeria:tinsel.name=Guirlande
 tile.histeria:stools.name=Tabourets
-tile.histeria:scoffed_bricks.name=Briques Éraflées
+tile.histeria:scoffed_bricks.name=Briques éraflées
 tile.histeria:picrite_bricks.name=Briques de Picrite
-tile.histeria:polished_gutter.name=Gouttière Polie
-tile.histeria:polished_picrite.name=Picrite Polie
+tile.histeria:polished_gutter.name=Calcaire brun polie
+tile.histeria:polished_picrite.name=Picrite polie
 tile.histeria:tansy.name=Tanaisie
 tile.histeria:carnation_field.name=Champ de Œillets
 tile.histeria:cloner.name=Cloneur
-tile.histeria:gutter.name=Gouttière
-tile.histeria:crate_side.name=Côté de Caisse
-tile.histeria:crate_top.name=Haut de Caisse
-tile.histeria:crate_bottom.name=Fond de Caisse
+tile.histeria:gutter.name=Calcaire brun
+tile.histeria:crate.name=Caisse
 tile.histeria:couch.name=Canapé
-tile.histeria:bedside_cabinet.name=Table de Nuit
+tile.histeria:bedside_cabinet.name=Table de nuit
 
 [Armors]
 item.histeria:nocturite_helmet=Casque en Nocturite
@@ -79,7 +88,7 @@ item.histeria:ares_chestplate=Plastron d'Arès
 item.histeria:compressed_cobblestone=Pierre taillée compressée
 item.histeria:histerite_compress=Histerite compressée
 item.histeria:histerite_core=Coeur d'Histerite
-item.histeria:histerite_ingot=Lingot d'Histerite
+item.histeria:histerite=Lingot d'Histerite
 item.histeria:histerite_stick=Bâton d'Histerite
 item.histeria:nocturite_compress=Nocturite compressée
 item.histeria:nocturite_core=Coeur de Nocturite
@@ -93,24 +102,18 @@ item.histeria:item_category=Catégorie Items
 item.histeria:ore_category=Catégorie Minerais
 item.histeria:nature_category=Catégorie Nature
 item.histeria:modded_item_category=Catégorie Items Moddés
-item.histeria:decoration_category=Catégorie Décoration
 item.histeria:decoration_category=Catégorie Décorations
 item.histeria:buy=Acheter
 item.histeria:sell=Vendre
 item.histeria:valid_mark=Valider
-item.histeria:arrow_left=Flèche Gauche
-item.histeria:arrow_right=Flèche Droite
-item.histeria:arrow_return=Flèche Retour
+item.histeria:left_arrow=Flèche gauche
+item.histeria:right_arrow=Flèche droite
+item.histeria:return_arrow=Flèche retour
 item.histeria:donator_icon=Donateur
 item.histeria:omega_icon=Oméga
 item.histeria:inter_icon=Interplanétaire
 item.histeria:vip_icon=VIP
 
-[Event]
-item.histeria:christmas_ball=Boule de Noël
-item.histeria:leap=Plume de Noël
-item.histeria:christmas_rocket=Fusée de Noël
-item.histeria:bomb=Bombe de Noël
 [Events]
 item.histeria:christmas_ball=Boule de Noël
 item.histeria:christmas_rocket=Fusée de Noël
@@ -122,6 +125,7 @@ item.histeria:red_candy=Sucre d'orge
 item.histeria:blue_candy=Bonbon bleu
 item.histeria:yellow_candy=Bonbon jaune
 item.histeria:snow_globe=Boule à neige
+
 item.histeria:leap=Plume
 item.histeria:normal_bomb=Bombe
 
@@ -130,17 +134,19 @@ item.histeria:egg_basket=Panier d'oeufs
 item.histeria:chocolate_bar=Tablette de chocolat 
 item.histeria:chocolate_staff=Sceptre en chocolat 
 item.histeria:chocolate_egg=Oeuf en chocolat 
-item.histerite:chocolate_rabbit=Lapin en chocolat 
+item.histeria:chocolate_rabbit=Lapin en chocolat 
+item.histeria:gold_trophy=Trophée en or
+item.histeria:silver_medal=Médaille d'argent
+item.histeria:bronze_medal=Médaille de bronze
 
 [Fossils]
-item.histeria:cracked_stone=Coquillage de pierre fissurée
-item.histeria:fish=Coquillage de poisson
-item.histeria:shell=Coquillage
-item.histeria:skull=Caquillage de crâne
-item.histeria:stone_vein=Coquille de veine de pierre
+item.histeria:cracked_stone_fossil=Coquillage de pierre fissurée
+item.histeria:fish_fossil=Coquillage de poisson
+item.histeria:shell_fossil=Coquillage
+item.histeria:skull_fossil=Caquillage de crâne
+item.histeria:stone_vein_fossil=Coquille de veine de pierre
 
 [Keys]
-item.histeria:boss_key=Clé de Boss
 item.histeria:boss_key=Clé Boss
 item.histeria:histerite_key=Clé en Histerite
 item.histeria:nocturite_key=Clé en Nocturite
@@ -169,7 +175,7 @@ item.histeria:xiphos=Xiphos
 
 [Utility]
 item.histeria:bottled_lumen=Fiole de Lumenn
-item.histeria:banknote=Billet de banque
+item.histeria:bank_note=Billet de banque
 item.histeria:chalice=Calice
 item.histeria:chest_explorer=Explorateur de coffre
 item.histeria:chest_finder=Chercheur de coffre
@@ -180,17 +186,32 @@ item.histeria:forge_note=Parchemin d'enchantement
 item.histeria:hang_glider=Planeur
 item.histeria:histerite_apple=Pomme en Histerite
 item.histeria:histerite_totem=Totem en Histerite
-item.histeria:item_pack=Sac à dos
 item.histeria:item_pack=Sac pochon
 item.histeria:backpack=Sac à dos
-item.histeria:killtag=Kill-Tag
+item.histeria:kill_tag=Kill-Tag
 item.histeria:lottery_ticket=Ticket de loterie
+item.histeria:lucky_lottery_ticket=Ticket de loterie
 item.histeria:magic_lyre=Lyre magique
 item.histeria:obsidian_breaker=Casseur à obsidienne
 item.histeria:punching_ball=Boule de frappe
 item.histeria:shuriken=Shuriken
 item.histeria:thunderbolt=Coup de tonnerre
 item.histeria:bottled_experience=Expérience embouteillée
+item.histeria:vault_breacher=Pied de biche
+
+[Containers]
+item.histeria:minage1_icon=Minage 1
+item.histeria:minage2_icon=Minage 2
+item.histeria:minage3_icon=Minage 3
+item.histeria:minage4_icon=Minage 4
+item.histeria:minage5_icon=Minage 5
+item.histeria:faction1_icon=Faction 1
+item.histeria:faction2_icon=Faction 2
+item.histeria:faction3_icon=Faction 3
+item.histeria:inject_icon=Injecté
+item.histeria:vault_arrow_up_icon=Flèche haut
+item.histeria:vault_arrow_down_icon=Flèche bas
+item.histeria:vault_wheel_icon=Roue de cofre-fort
 
 [Others]
 dayOneExperience.tab.marketplace=shop.histeria.fr

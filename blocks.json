@@ -28,16 +28,13 @@
         "textures": "nocturite_block"
     },
     "histeria:poisonous_obsidian": {
+        "isotropic" : true,
         "sound": "stone",
         "textures": "poisonous_obsidian"
     },
     "histeria:random_ore": {
         "sound": "stone",
         "textures": "random_ore"
-    },
-    "histeria:reinforced_obsidian": {
-        "sound": "stone",
-        "textures": "reinforced_obsidian"
     },
     "histeria:nocturite_plant": {
         "sound": "nether_wart",
@@ -224,17 +221,17 @@
         "sound" : "wood",
         "textures" : "egg_basket"
     },
-    "bronze_medal" : {
+    "histeria:bronze_medal_block" : {
         "sound" : "metal",
-        "textures" : "bronze_medal"
+        "textures" : "bronze_medal_block"
     },
-    "gold_trophy" : {
+    "histeria:gold_trophy_block" : {
         "sound" : "metal",
-        "textures" : "gold_trophy"
+        "textures" : "gold_trophy_block"
     },
-    "silver_medal" : {
+    "histeria:silver_medal_block" : {
         "sound" : "metal",
-        "textures" : "silver_medal"
+        "textures" : "silver_medal_block"
     },
     "histeria:air_drop" : {
         "sound" : "wood",
@@ -264,13 +261,27 @@
           "up" : "duping_tnt_top"
        }
     },
-    "histeria:generator_on" : {
-        "sound" : "metal",
-        "textures" : "generator_on"
+    "histeria:generator_on": {
+        "sound": "metal",
+        "textures": {
+            "down": "generator_on_bottom",
+            "east": "generator_on",
+            "north": "generator_on",
+            "south": "generator_on",
+            "up": "generator_on_top",
+            "west": "generator_on"
+        }
     },
-    "histeria:generator_off" : {
-        "sound" : "metal",
-        "textures" : "generator_off"
+    "histeria:generator_off": {
+        "sound": "metal",
+        "textures": {
+            "down": "generator_off_bottom",
+            "east": "generator_off",
+            "north": "generator_off",
+            "south": "generator_off",
+            "up": "generator_off_top",
+            "west": "generator_off"
+        }
     },
     "histeria:iem_tnt" : {
        "sound" : "grass",
@@ -296,13 +307,15 @@
           "up" : "nocturite_tnt_top"
        }
     },
-    "histeria:reinforced_histerite_obsidian" : {
+    "histeria:histerite_obsidian" : {
         "sound" : "stone",
-        "textures" : "reinforced_histerite_obsidian"
+        "isotropic" : true,
+        "textures" : "histerite_obsidian"
     },
-    "histeria:reinforced_nocturite_obsidian" : {
+    "histeria:nocturite_obsidian" : {
         "sound" : "stone",
-        "textures" : "reinforced_nocturite_obsidian"
+        "isotropic" : true,
+        "textures" : "nocturite_obsidian"
     },
     "histeria:vault": {
         "sound": "metal",
@@ -315,9 +328,65 @@
             "west": "vault_side"
         }
     },
+    "histeria:vault_open": {
+        "sound": "metal",
+        "textures": {
+            "down": "vault_bottom",
+            "east": "vault_side",
+            "north": "vault_front_open",
+            "south": "vault_side",
+            "up": "vault_top",
+            "west": "vault_side"
+        }
+    },
     "mixed_sand" : {
        "isotropic" : true,
        "sound" : "mixed_sand",
        "textures" : "mixed_sand"
+    },
+    "histeria:reflector_off" : {
+        "sound" : "stone",
+        "textures" : "reflector_off"
+    },
+    "histeria:reflector_on" : {
+        "sound" : "stone",
+        "textures" : "reflector_on"
+    },
+    "histeria:catalyst_on_blue" : {
+        "sound" : "stone",
+        "textures" : "catalyst_on_blue"
+    },
+    "histeria:catalyst_on_green" : {
+        "sound" : "stone",
+        "textures" : "catalyst_on_green"
+    },
+    "histeria:catalyst_off" : {
+        "sound" : "stone",
+        "textures" : "catalyst_off"
+    },
+    "histeria:catalyst_on_default" : {
+        "sound" : "stone",
+        "textures" : "catalyst_on_default"
+    },
+    "histeria:catalyst_on_purple" : {
+        "sound" : "stone",
+        "textures" : "catalyst_on_purple"
+    },
+    "histeria:catalyst_on_red" : {
+        "sound" : "stone",
+        "textures" : "catalyst_on_red"
+    },
+    "histeria:catalyst_on_yellow" : {
+        "sound" : "stone",
+        "textures" : "catalyst_on_yellow"
+    },
+    "histeria:levitation_obsidian" : {
+        "sound" : "stone",
+        "isotropic" : true,
+        "textures" : "levitation_obsidian"
+    },
+    "histeria:altar" : {
+        "sound" : "stone",
+        "textures" : "altar"
     }
 }
