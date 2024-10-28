@@ -388,6 +388,21 @@
     },
     "vault_wheel_icon": {
       "textures": "textures/custom_ui/vault/vault_wheel"
+    },
+    "golden_fur": {
+      "textures": "textures/items/utility/golden_fur"
+    },
+    "histerite_horn": {
+      "textures": "textures/items/utility/histerite_horn"
+    },
+    "lumen_tear": {
+      "textures": "textures/items/utility/lumen_tear"
+    },
+    "sylvan_claws": {
+      "textures": "textures/items/utility/sylvan_claws"
+    },
+    "nocturnal_filament": {
+      "textures": "textures/items/utility/nocturnal_filament"
     }
   }
 }
