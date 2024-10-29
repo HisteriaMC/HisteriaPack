@@ -356,6 +356,24 @@
     "bottled_experience": {
       "textures": "textures/items/utility/bottled_experience"
     },
+    "bursting_torch": {
+      "textures": "textures/items/utility/bursting_torch"
+    },
+    "caduceus": {
+      "textures": "textures/items/utility/caduceus"
+    },
+    "demonic_seal": {
+      "textures": "textures/items/utility/demonic_seal"
+    },
+    "dupe_spell": {
+      "textures": "textures/items/utility/dupe_spell"
+    },
+    "instant_fertilizer": {
+      "textures": "textures/items/utility/instant_fertilizer"
+    },
+    "love_potion": {
+      "textures": "textures/items/utility/love_potion"
+    },
     "vault_breacher": {
       "textures": "textures/items/utility/vault_breacher"
     },
@@ -370,6 +388,21 @@
     },
     "vault_wheel_icon": {
       "textures": "textures/custom_ui/vault/vault_wheel"
+    },
+    "golden_fur": {
+      "textures": "textures/items/utility/golden_fur"
+    },
+    "histerite_horn": {
+      "textures": "textures/items/utility/histerite_horn"
+    },
+    "lumen_tear": {
+      "textures": "textures/items/utility/lumen_tear"
+    },
+    "sylvan_claws": {
+      "textures": "textures/items/utility/sylvan_claws"
+    },
+    "nocturnal_filament": {
+      "textures": "textures/items/utility/nocturnal_filament"
     }
   }
 }
