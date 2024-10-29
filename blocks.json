@@ -388,5 +388,29 @@
     "histeria:altar" : {
         "sound" : "stone",
         "textures" : "altar"
+    },
+    "histeria:greek_chiseled_pillar" : {
+       "sound" : "stone",
+       "textures" : {
+          "down" : "greek_chiseled_pillar_top",
+          "side" : "greek_chiseled_pillar",
+          "up" : "greek_chiseled_pillar_top"
+       }
+    },
+    "histeria:greek_pillar" : {
+       "sound" : "stone",
+       "textures" : {
+          "down" : "greek_pillar_top",
+          "side" : "greek_pillar",
+          "up" : "greek_pillar_top"
+       }
+    },
+    "histeria:totem_block" : {
+       "sound" : "stone",
+       "textures" : {
+          "down" : "totem_block_top",
+          "side" : "totem_block",
+          "up" : "totem_block_top"
+       }
     }
 }

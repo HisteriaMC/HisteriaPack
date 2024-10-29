@@ -356,6 +356,12 @@
       },
       "greek_pillar_top" : {
          "textures" : "textures/blocks/greek_pillar_top"
+      },
+      "totem_block" : {
+         "textures" : "textures/blocks/totem_block"
+      },
+      "totem_block_top" : {
+         "textures" : "textures/blocks/totem_block_top"
       }
    },
    "texture_name" : "atlas.terrain"
