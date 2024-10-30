@@ -43,6 +43,20 @@
             "sounds/random/blood_hit"
          ]
       },
+      "random.weaken1" : {
+         "__use_legacy_max_distance": "true",
+         "category": "player",
+         "sounds": [
+            "sounds/random/weaken1"
+         ]
+      },
+      "random.weaken2" : {
+         "__use_legacy_max_distance": "true",
+         "category": "player",
+         "sounds": [
+            "sounds/random/weaken2"
+         ]
+      },
       "block.mixed_sand" : {
          "category" : "block",
          "max_distance" : null,
