@@ -345,12 +345,6 @@
       "altar" : {
          "textures" : "textures/blocks/altar"
       },
-      "greek_chiseled_pillar" : {
-         "textures" : "textures/blocks/greek_chiseled_pillar"
-      },
-      "greek_chiseled_pillar_top" : {
-         "textures" : "textures/blocks/greek_chiseled_pillar_top"
-      },
       "greek_pillar" : {
          "textures" : "textures/blocks/greek_pillar"
       },

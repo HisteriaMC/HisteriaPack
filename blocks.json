@@ -389,14 +389,6 @@
         "sound" : "stone",
         "textures" : "altar"
     },
-    "histeria:greek_chiseled_pillar" : {
-       "sound" : "stone",
-       "textures" : {
-          "down" : "greek_chiseled_pillar_top",
-          "side" : "greek_chiseled_pillar",
-          "up" : "greek_chiseled_pillar_top"
-       }
-    },
     "histeria:greek_pillar" : {
        "sound" : "stone",
        "textures" : {
