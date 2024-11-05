@@ -50,12 +50,20 @@
             "sounds/boss_items/demonic_hit"
          ]
       },
+      "boss_items.demonic_hit2" : {
+         "__use_legacy_max_distance": "true",
+         "category": "player",
+         "sounds": [
+            "sounds/boss_items/demonic_hit2"
+         ]
+      },
       "boss_items.demonic_seal" : {
          "__use_legacy_max_distance": "true",
          "category": "player",
          "sounds": [
             "sounds/boss_items/demonic_seal"
          ]
+         
       },
       "boss_items.dupe_sound" : {
          "__use_legacy_max_distance": "true",
