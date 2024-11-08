@@ -200,6 +200,12 @@ item.histeria:shuriken=Shuriken
 item.histeria:thunderbolt=Thunderbolt
 item.histeria:bottled_experience=Bottled Experience
 item.histeria:vault_breacher=Crowbar
+item.histeria:bursting_torch=Hestia's Torch
+item.histeria:caduceus=Caduceus
+item.histeria:demonic_seal=Demonic Seal
+item.histeria:instant_fertilizer=Instant Fertilizer
+item.histeria:love_potion=Love Potion
+item.histeria:dupe_spell=Duplication Spell
 
 [Containers]
 item.histeria:minage1_icon=Mine 1
