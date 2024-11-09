@@ -40,6 +40,8 @@ tile.histeria:nocturite_tnt.name=Nocturite TNT
 tile.histeria:iem_tnt.name=IEM TNT
 tile.histeria:duping_tnt.name=Duping TNT
 tile.histeria:temporary_block.name=Temporary Block
+tile.histeria:totem_block.name=Totem Block
+tile.histeria:totem_block.name=Totem Pillar
 
 
 [Decorations]
@@ -204,6 +206,12 @@ item.histeria:golden_fur=Golden Fur
 item.histeria:histerite_horn=Histerite Horn
 item.histeria:nocturnal_filament=Nocturnal Filament
 item.histeria:sylvan_claws=Sylvan Claws
+item.histeria:bursting_torch=Hestia's Torch
+item.histeria:caduceus=Caduceus
+item.histeria:demonic_seal=Demonic Seal
+item.histeria:instant_fertilizer=Instant Fertilizer
+item.histeria:love_potion=Love Potion
+item.histeria:dupe_spell=Duplication Spell
 
 [Containers]
 item.histeria:minage1_icon=Mine 1
