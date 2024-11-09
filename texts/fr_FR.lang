@@ -197,7 +197,10 @@ item.histeria:punching_ball=Boule de frappe
 item.histeria:shuriken=Shuriken
 item.histeria:thunderbolt=Coup de tonnerre
 item.histeria:bottled_experience=Expérience embouteillée
-item.histeria:vault_breacher=Pied de biche
+item.histeria:golden_fur=Fourrure dorée
+item.histeria:histerite_horn=Corne en Histerite
+item.histeria:nocturnal_filament=Filament nocturne
+item.histeria:sylvan_claws=Griffes sylvestres
 
 [Containers]
 item.histeria:minage1_icon=Minage 1

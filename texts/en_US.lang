@@ -200,6 +200,10 @@ item.histeria:shuriken=Shuriken
 item.histeria:thunderbolt=Thunderbolt
 item.histeria:bottled_experience=Bottled Experience
 item.histeria:vault_breacher=Crowbar
+item.histeria:golden_fur=Golden Fur
+item.histeria:histerite_horn=Histerite Horn
+item.histeria:nocturnal_filament=Nocturnal Filament
+item.histeria:sylvan_claws=Sylvan Claws
 
 [Containers]
 item.histeria:minage1_icon=Mine 1
