@@ -40,6 +40,8 @@ tile.histeria:nocturite_tnt.name=Nocturite TNT
 tile.histeria:iem_tnt.name=IEM TNT
 tile.histeria:duping_tnt.name=Duping TNT
 tile.histeria:temporary_block.name=Temporary Block
+tile.histeria:totem_block.name=Totem Block
+tile.histeria:totem_block.name=Totem Pillar
 
 
 [Decorations]

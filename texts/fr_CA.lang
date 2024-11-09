@@ -38,6 +38,8 @@ tile.histeria:nocturite_tnt.name=TNT en Nocturite
 tile.histeria:iem_tnt.name=TNT à impulsion éléctromagnétique
 tile.histeria:duping_tnt.name=TNT à dédoublement
 tile.histeria:temporary_block.name=Bloc temporaire
+tile.histeria:totem_block.name=Bloc de Totem
+tile.histeria:totem_block.name=Pilier de Totem
 
 
 [Decorations]
