@@ -389,18 +389,18 @@
         "sound" : "stone",
         "textures" : "altar"
     },
-    "histeria:greek_pillar" : {
+    "histeria:totem_pillar" : {
        "sound" : "stone",
        "textures" : {
-          "down" : "greek_pillar_top",
-          "side" : "greek_pillar",
-          "up" : "greek_pillar_top"
+          "down" : "totem_pillar_top",
+          "side" : "totem_pillar",
+          "up" : "totem_pillar_top"
        }
     },
     "histeria:totem_block" : {
        "sound" : "stone",
        "textures" : {
-          "down" : "totem_block_top",
+          "down" : "totem_block_bottom",
           "side" : "totem_block",
           "up" : "totem_block_top"
        }
