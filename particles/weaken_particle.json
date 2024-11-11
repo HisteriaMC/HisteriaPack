@@ -41,10 +41,7 @@
 				"coefficient_of_restitution": 1,
 				"collision_radius": 0.5
 			},
-			"minecraft:particle_appearance_lighting": {},
-			"minecraft:particle_appearance_tinting": {
-				"color": ["variable.color.r", "variable.color.g", "variable.color.b", 0.4]
-			}
+			"minecraft:particle_appearance_lighting": {}
 		}
 	}
 }
