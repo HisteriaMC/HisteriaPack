@@ -8,7 +8,7 @@
         "textures": "cave_block"
     },
     "histeria:fertilized_dirt": {
-        "sound": "dirt",
+        "sound": "gravel",
         "textures": "fertilized_dirt"
     },
     "histeria:histerite_block": {
@@ -388,5 +388,21 @@
     "histeria:altar" : {
         "sound" : "stone",
         "textures" : "altar"
+    },
+    "histeria:totem_pillar" : {
+       "sound" : "stone",
+       "textures" : {
+          "down" : "totem_pillar_top",
+          "side" : "totem_pillar",
+          "up" : "totem_pillar_top"
+       }
+    },
+    "histeria:totem_block" : {
+       "sound" : "stone",
+       "textures" : {
+          "down" : "totem_block_bottom",
+          "side" : "totem_block",
+          "up" : "totem_block_top"
+       }
     }
 }

@@ -344,6 +344,21 @@
       },
       "altar" : {
          "textures" : "textures/blocks/altar"
+      },
+      "totem_pillar" : {
+         "textures" : "textures/blocks/totem_pillar"
+      },
+      "totem_pillar_top" : {
+         "textures" : "textures/blocks/totem_pillar_top"
+      },
+      "totem_block" : {
+         "textures" : "textures/blocks/totem_block"
+      },
+      "totem_block_top" : {
+         "textures" : "textures/blocks/totem_block_top"
+      },
+      "totem_block_bottom" : {
+         "textures" : "textures/blocks/totem_block_bottom"
       }
    },
    "texture_name" : "atlas.terrain"
