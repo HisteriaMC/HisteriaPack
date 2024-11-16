@@ -26,7 +26,7 @@ tile.histeria:event_magma.name=Neige en fusion
 tile.histeria:egg_basket.name=Panier d'oeufs
 tile.histeria:mixed_sand.name=Sable mélangé
 tile.histeria:alert.name=Alarme
-tile.histeria:reflector.name=Renvoyeur
+tile.histeria:reflector.name=Réflecteur
 tile.histeria:catalyst.name=Catalyseur
 tile.histeria:generator.name=Générateur
 tile.histeria:vault.name=Coffre-fort
@@ -39,7 +39,8 @@ tile.histeria:iem_tnt.name=TNT à impulsion éléctromagnétique
 tile.histeria:duping_tnt.name=TNT à dédoublement
 tile.histeria:temporary_block.name=Bloc temporaire
 tile.histeria:totem_block.name=Bloc de Totem
-tile.histeria:totem_block.name=Pilier de Totem
+tile.histeria:totem_pillar.name=Pilier de Totem
+tile.histeria:altar.name=Altar
 
 [Decorations]
 tile.histeria:armchair.name=Fauteuil

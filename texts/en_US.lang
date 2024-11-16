@@ -41,8 +41,8 @@ tile.histeria:iem_tnt.name=IEM TNT
 tile.histeria:duping_tnt.name=Duping TNT
 tile.histeria:temporary_block.name=Temporary Block
 tile.histeria:totem_block.name=Totem Block
-tile.histeria:totem_block.name=Totem Pillar
-
+tile.histeria:totem_pillar.name=Totem Pillar
+tile.histeria:altar.name=Altar
 
 [Decorations]
 tile.histeria:armchair.name=Armchair
