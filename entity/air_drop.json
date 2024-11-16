@@ -1,0 +1,20 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+	  "description": {
+		"identifier": "histeria:air_drop",
+		"materials": {
+		  "default": "armor_stand"
+		},
+		"textures": {
+		  "default": "textures/entity/air_drop"
+		},
+		"geometry": {
+		  "default": "geometry.air_drop"
+		},
+		"render_controllers": [
+		  "controller.render.armor_stand"
+		]
+	  }
+	}
+  }

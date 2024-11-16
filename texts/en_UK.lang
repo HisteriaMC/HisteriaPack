@@ -5,10 +5,10 @@ container.enderchest=§9§k.§f.§c.§r  §cHistChest §9§k.§f.§c.§r
 tile.histeria:elevator.name=Elevator
 tile.histeria:drawer.name=Drawer
 tile.histeria:histerite_anvil.name=Histerite Anil
-tile.histeria:fertilized_dirt.name=Fertilized dirt
-tile.histeria:reinforced_obsidian.name=Reinforced obsidian
-tile.histeria:poisonous_obsidian.name=Poisson obsidian
-tile.histeria:random_ore.name=Random ore
+tile.histeria:fertilized_dirt.name=Fertilized Dirt
+tile.histeria:reinforced_obsidian.name=Reinforced Obsidian
+tile.histeria:poisonous_obsidian.name=Poison Obsidian
+tile.histeria:random_ore.name=Random Ore
 tile.histeria:histerite_ore.name=Histerite Ore
 tile.histeria:box.name=Loot Box
 tile.histeria:cave_block.name=Cave Block
@@ -21,6 +21,58 @@ tile.histeria:lucky_block.name=Lucky Block
 tile.histeria:neon_block.name=Neon Block
 tile.histeria:spike.name=Spike
 tile.histeria:bounce.name=Bounce
+tile.histeria:air_drop.name=Airdrop
+tile.histeria:event_magma.name=Melting snow
+tile.histeria:egg_basket.name=Egg basket
+tile.histeria:event_magma.name=Melting snow
+tile.histeria:egg_basket.name=Egg basket
+tile.histeria:mixed_sand.name=Mixed Sand
+tile.histeria:alert.name=Alarm
+tile.histeria:reflector.name=Reflector
+tile.histeria:catalyst.name=Catalyst
+tile.histeria:generator.name=Generator
+tile.histeria:vault.name=Vault
+tile.histeria:histerite_obsidian.name=Histerite Obsidian
+tile.histeria:nocturite_obsidian.name=Nocturite Obsidian
+tile.histeria:levitation_obsidian.name=Levitation Obsidian
+tile.histeria:histerite_tnt.name=Histerite TNT
+tile.histeria:nocturite_tnt.name=Nocturite TNT
+tile.histeria:iem_tnt.name=IEM TNT
+tile.histeria:duping_tnt.name=Duping TNT
+tile.histeria:temporary_block.name=Temporary Block
+tile.histeria:totem_block.name=Totem Block
+tile.histeria:totem_block.name=Totem Pillar
+
+
+[Decorations]
+tile.histeria:armchair.name=Armchair
+tile.histeria:big_pot.name=Big Pot
+tile.histeria:black_tile.name=Black Eile
+tile.histeria:blue_tile.name=Blue Tile
+tile.histeria:book_pile.name=Book Pile
+tile.histeria:chair.name=Chair
+tile.histeria:compressed_bricks.name=Compressed Bricks
+tile.histeria:green_tile.name=Green Tile
+tile.histeria:lamp.name=Lamp
+tile.histeria:lamp_on.name=Lamp on
+tile.histeria:orange_tile.name=Orange Tile
+tile.histeria:peony_bush.name=Peony Bush
+tile.histeria:red_tile.name=Red Tile
+tile.histeria:shelf.name=Shelf
+tile.histeria:table.name=Table
+tile.histeria:tinsel.name=Tinsel
+tile.histeria:stools.name=Stools
+tile.histeria:scoffed_bricks.name=Scoffed Bricks
+tile.histeria:picrite_bricks.name=Picrite Bricks
+tile.histeria:polished_gutter.name=Polished Brown Limestone
+tile.histeria:polished_picrite.name=Polished Picrite
+tile.histeria:tansy.name=Tansy
+tile.histeria:carnation_field.name=Carnation Field
+tile.histeria:cloner.name=Cloner
+tile.histeria:gutter.name=Brown Limestone
+tile.histeria:crate.name=Crate
+tile.histeria:couch.name=Couch
+tile.histeria:bedside_cabinet.name=Bedside Cabinet
 
 [Armures]
 item.histeria:nocturite_helmet=Nocturite Helmet
@@ -40,7 +92,7 @@ item.histeria:ares_chestplate=Ares Chestplate
 item.histeria:compressed_cobblestone=Compressed Cobblestone
 item.histeria:histerite_compress=Compressed Histerite
 item.histeria:histerite_core=Histerite Core
-item.histeria:histerite_ingot=Histerite Ingot
+item.histeria:histerite=Histerite Ingot
 item.histeria:histerite_stick=Histerite Stick
 item.histeria:nocturite_compress=Compressed Nocturite
 item.histeria:nocturite_core=Nocturite Core
@@ -58,20 +110,45 @@ item.histeria:decoration_category=Decoration Category
 item.histeria:buy=Buy
 item.histeria:sell=Sell
 item.histeria:valid_mark=Accept
-item.histeria:arrow_left=Left Arrow
-item.histeria:arrow_right=Right Arrow
-item.histeria:arrow_return=Return Arrow
+item.histeria:left_arrow=Left Arrow
+item.histeria:right_arrow=Right Arrow
+item.histeria:return_arrow=Return Arrow
 item.histeria:donator_icon=Donator
 item.histeria:omega_icon=Omega
 item.histeria:inter_icon=Interplanetary
 item.histeria:vip_icon=VIP
 
+[Events]
+item.histeria:christmas_ball=Christmas Ball
+item.histeria:christmas_rocket=Christmas Rocket
+item.histeria:christmas_bomb=Christmas Bomb
+item.histeria:snow_shovel=Snow Shovel
+item.histeria:christmas_star=Christmas Star
+item.histeria:candy_cane=Candy Cane
+item.histeria:red_candy=Red Candy
+item.histeria:blue_candy=Blue Candy
+item.histeria:yellow_candy=Yellow Candy
+item.histeria:snow_globe=Snow Globe
+
+item.histeria:leap=leap
+item.histeria:normal_bomb=Bomb
+
+item.histeria:golden_egg=Golden Egg
+item.histeria:egg_basket=Egg Basket
+item.histeria:chocolate_bar=Chocolate Bar
+item.histeria:chocolate_staff=Chocolate Staff
+item.histeria:chocolate_egg=Chocolate Egg
+item.histeria:chocolate_rabbit=Chocolate Rabbit
+item.histeria:gold_trophy=Gold Trophy
+item.histeria:silver_medal=Silver Medal
+item.histeria:bronze_medal=Bronze Medal
+
 [Fossils]
-item.histeria:cracked_stone=Cracked stone shell
-item.histeria:fish=Fish shell
-item.histeria:shell=Shell
-item.histeria:skull=Skull shell
-item.histeria:stone_vein=Stone Vein shell
+item.histeria:cracked_stone_fossil=Cracked Stone Fossil
+item.histeria:fish_fossil=Fish Fossil
+item.histeria:shell_fossil=Shell Fossil
+item.histeria:skull_fossil=Skull Fossil
+item.histeria:stone_vein_fossil=Stone Vein Fossil
 
 [Clés]
 item.histeria:boss_key=Boss Key
@@ -101,7 +178,8 @@ item.histeria:spear=Spear
 item.histeria:xiphos=Xiphos
 
 [Utility]
-item.histeria:banknote=Bank Note
+item.histeria:bank_note=Bank Note
+item.histeria:bottled_lumen=Bottled Lumen
 item.histeria:chalice=Chalice
 item.histeria:chest_explorer=Chest Explorer
 item.histeria:chest_finder=Chest Finder
@@ -113,13 +191,37 @@ item.histeria:hang_glider=Glider
 item.histeria:histerite_apple=Histerite Apple
 item.histeria:histerite_totem=Histerite Totem
 item.histeria:item_pack=Bag
-item.histeria:killtag=Kill Tag
+item.histeria:backpack=Backpack
+item.histeria:kill_tag=Kill Tag
 item.histeria:lottery_ticket=Lottery ticket
+item.histeria:lucky_lottery_ticket=Lucky Lottery ticket
 item.histeria:magic_lyre=Magic Lyre
 item.histeria:obsidian_breaker=Obsidian Breaker
 item.histeria:punching_ball=Punching Ball
 item.histeria:shuriken=Shuriken
 item.histeria:thunderbolt=Thunderbolt
+item.histeria:bottled_experience=Bottled Experience
+item.histeria:vault_breacher=Crowbar
+item.histeria:bursting_torch=Hestia's Torch
+item.histeria:caduceus=Caduceus
+item.histeria:demonic_seal=Demonic Seal
+item.histeria:instant_fertilizer=Instant Fertilizer
+item.histeria:love_potion=Love Potion
+item.histeria:dupe_spell=Duplication Spell
+
+[Containers]
+item.histeria:minage1_icon=Mine 1
+item.histeria:minage2_icon=Mine 2
+item.histeria:minage3_icon=Mine 3
+item.histeria:minage4_icon=Mine 4
+item.histeria:minage5_icon=Mine 5
+item.histeria:faction1_icon=Faction 1
+item.histeria:faction2_icon=Faction 2
+item.histeria:faction3_icon=Faction 3
+item.histeria:inject_icon=Inject
+item.histeria:vault_arrow_up_icon=Up Arrow
+item.histeria:vault_arrow_down_icon=Down Arrow
+item.histeria:vault_wheel_icon=Vault Wheel
 
 [Autre]
 dayOneExperience.tab.marketplace=shop.histeria.fr
@@ -141,4 +243,4 @@ disconnectionScreen.cantConnect=Unable to connect to Histeria. If you think the 
 [Menu Pause]
 histeria.store=Visit §l§3shop.histeria.fr §rand §l§9discord.gg/histeria
 
-(outdated)
+action.hint.exit.histeria:sit=Press shift to stand up
