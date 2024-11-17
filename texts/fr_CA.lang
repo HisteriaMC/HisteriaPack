@@ -39,8 +39,8 @@ tile.histeria:iem_tnt.name=TNT à impulsion éléctromagnétique
 tile.histeria:duping_tnt.name=TNT à dédoublement
 tile.histeria:temporary_block.name=Bloc temporaire
 tile.histeria:totem_block.name=Bloc de Totem
-tile.histeria:totem_block.name=Pilier de Totem
-
+tile.histeria:totem_pillar.name=Pilier de Totem
+tile.histeria:altar.name=Altar
 
 [Decorations]
 tile.histeria:armchair.name=Fauteuil
@@ -200,10 +200,6 @@ item.histeria:shuriken=Shuriken
 item.histeria:thunderbolt=Coup de tonnerre
 item.histeria:bottled_experience=Expérience embouteillée
 item.histeria:vault_breacher=Pied de biche
-item.histeria:golden_fur=Fourrure dorée
-item.histeria:histerite_horn=Corne en Histerite
-item.histeria:nocturnal_filament=Filament nocturne
-item.histeria:sylvan_claws=Griffes sylvestres
 item.histeria:bursting_torch=Torche d'Hestia
 item.histeria:caduceus=Caducée
 item.histeria:demonic_seal=Sceau Démoniaque
