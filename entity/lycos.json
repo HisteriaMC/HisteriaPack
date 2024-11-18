@@ -1,0 +1,20 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+	  "description": {
+		"identifier": "histeria:lycos",
+		"materials": {
+		  "default": "armor_stand"
+		},
+		"textures": {
+		  "default": "textures/entity/custom_mobs/lycos"
+		},
+		"geometry": {
+		  "default": "geometry.lycos"
+		},
+		"render_controllers": [
+		  "controller.render.lycos"
+		]
+	  }
+	}
+  }

@@ -1,0 +1,20 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+	  "description": {
+		"identifier": "histeria:bellum",
+		"materials": {
+		  "default": "armor_stand"
+		},
+		"textures": {
+		  "default": "textures/entity/custom_mobs/bellum"
+		},
+		"geometry": {
+		  "default": "geometry.bellum"
+		},
+		"render_controllers": [
+		  "controller.render.bellum"
+		]
+	  }
+	}
+  }

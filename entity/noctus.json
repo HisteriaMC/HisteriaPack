@@ -1,0 +1,20 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+	  "description": {
+		"identifier": "histeria:noctus",
+		"materials": {
+		  "default": "armor_stand"
+		},
+		"textures": {
+		  "default": "textures/entity/custom_mobs/noctus"
+		},
+		"geometry": {
+		  "default": "geometry.noctus"
+		},
+		"render_controllers": [
+		  "controller.render.noctus"
+		]
+	  }
+	}
+  }

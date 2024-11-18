@@ -1,0 +1,20 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+	  "description": {
+		"identifier": "histeria:sterox",
+		"materials": {
+		  "default": "armor_stand"
+		},
+		"textures": {
+		  "default": "textures/entity/custom_mobs/sterox"
+		},
+		"geometry": {
+		  "default": "geometry.sterox"
+		},
+		"render_controllers": [
+		  "controller.render.sterox"
+		]
+	  }
+	}
+  }
