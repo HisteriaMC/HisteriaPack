@@ -1,7 +1,7 @@
  {
   "format_version": "1.8.0",
   "animations": {
-    "idle": {
+    "animation.bellum.idle": {
       "loop": true,
       "animation_length": 2,
       "bones": {
@@ -1460,7 +1460,7 @@
         }
       }
     },
-    "walk": {
+    "animation.bellum.walk": {
       "loop": true,
       "animation_length": 0.7692,
       "bones": {
@@ -3090,7 +3090,7 @@
         }
       }
     },
-    "attack": {
+    "animation.bellum.attack": {
       "loop": true,
       "animation_length": 1,
       "bones": {

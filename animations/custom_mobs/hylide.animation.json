@@ -1,7 +1,7 @@
 {
     "format_version": "1.8.0",
     "animations": {
-      "jump": {
+      "animation.hylide.jump": {
         "animation_length": 1.25,
         "bones": {
           "crapaud": {
@@ -933,7 +933,7 @@
           }
         }
       },
-      "idle": {
+      "animation.hylide.idle": {
         "loop": true,
         "animation_length": 2,
         "bones": {
@@ -1458,7 +1458,7 @@
           }
         }
       },
-      "attack": {
+      "animation.hylide.attack": {
         "animation_length": 0.75,
         "bones": {
           "crapaud": {

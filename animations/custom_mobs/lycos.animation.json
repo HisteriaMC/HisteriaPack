@@ -1,7 +1,7 @@
 {
     "format_version": "1.8.0",
     "animations": {
-      "walk": {
+      "animation.lycos.walk": {
         "loop": true,
         "animation_length": 0.3333,
         "bones": {
@@ -887,7 +887,7 @@
           }
         }
       },
-      "idle": {
+      "animation.lycos.idle": {
         "loop": true,
         "animation_length": 2.0052,
         "bones": {
@@ -1042,7 +1042,7 @@
           }
         }
       },
-      "attack": {
+      "animation.lycos.attack": {
         "animation_length": 0.625,
         "bones": {
           "bone3": {

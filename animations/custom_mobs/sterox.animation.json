@@ -1,7 +1,7 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"idle": {
+		"animation.sterox.idle": {
 			"loop": true,
 			"animation_length": 2,
 			"bones": {
@@ -231,7 +231,7 @@
 				}
 			}
 		},
-		"walk": {
+		"animation.sterox.walk": {
 			"loop": true,
 			"animation_length": 2,
 			"bones": {
@@ -858,7 +858,7 @@
 				}
 			}
 		},
-		"attack": {
+		"animation.sterox.attack": {
 			"animation_length": 1.1667,
 			"bones": {
 				"OursdeNocturite": {
