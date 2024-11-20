@@ -17,6 +17,19 @@
 		  "walk": "animation.lycos.walk",
 		  "attack": "animation.lycos.attack"
 		},
+		"scripts": {
+				"animate": [
+				  {
+					"attack": "variable.attack_time > 0.0"
+				  },
+				  {
+					"idle": "query.modified_move_speed <= 0.01"
+				  },
+				  {
+					"walk": "query.is_moving"
+				  }
+				]
+			},
 		"render_controllers": [
 		  "controller.render.lycos"
 		]

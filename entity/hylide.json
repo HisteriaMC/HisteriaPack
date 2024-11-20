@@ -14,9 +14,22 @@
 		},
 		"animations": {
 		  "idle": "animation.hylide.idle",
-		  "saute": "animation.hylide.saute",
+		  "jump": "animation.hylide.jump",
 		  "attack": "animation.hylide.attack"
 		},
+		"scripts": {
+				"animate": [
+				  {
+					"attack": "variable.attack_time > 0.0"
+				  },
+				  {
+					"idle": "query.modified_move_speed <= 0.01"
+				  },
+				  {
+					"jump": "query.is_moving"
+				  }
+				]
+			},
 		"render_controllers": [
 		  "controller.render.hylide"
 		]
