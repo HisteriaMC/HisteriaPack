@@ -12,6 +12,11 @@
 		"geometry": {
 		  "default": "geometry.sterox"
 		},
+		"animations": {
+		  "idle": "animation.sterox.idle",
+		  "walk": "animation.sterox.walk",
+		  "attack": "animation.sterox.attack"
+		},
 		"render_controllers": [
 		  "controller.render.sterox"
 		]

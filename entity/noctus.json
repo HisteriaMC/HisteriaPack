@@ -12,6 +12,11 @@
 		"geometry": {
 		  "default": "geometry.noctus"
 		},
+		"animations": {
+		  "idle": "animation.noctus.idle",
+		  "walk": "animation.noctus.walk",
+		  "attack": "animation.noctus.attack"
+		},
 		"render_controllers": [
 		  "controller.render.noctus"
 		]

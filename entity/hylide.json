@@ -12,6 +12,11 @@
 		"geometry": {
 		  "default": "geometry.hylide"
 		},
+		"animations": {
+		  "idle": "animation.hylide.idle",
+		  "saute": "animation.hylide.saute",
+		  "attack": "animation.hylide.attack"
+		},
 		"render_controllers": [
 		  "controller.render.hylide"
 		]

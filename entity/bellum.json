@@ -12,6 +12,11 @@
 		"geometry": {
 		  "default": "geometry.bellum"
 		},
+		"animations": {
+		  "idle": "animation.bellum.idle",
+		  "walk": "animation.bellum.walk",
+		  "attack": "animation.bellum.attack"
+		},
 		"render_controllers": [
 		  "controller.render.bellum"
 		]

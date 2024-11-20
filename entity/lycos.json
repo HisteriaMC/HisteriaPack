@@ -12,6 +12,11 @@
 		"geometry": {
 		  "default": "geometry.lycos"
 		},
+		"animations": {
+		  "idle": "animation.lycos.idle",
+		  "walk": "animation.lycos.walk",
+		  "attack": "animation.lycos.attack"
+		},
 		"render_controllers": [
 		  "controller.render.lycos"
 		]
