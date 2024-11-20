@@ -4,7 +4,7 @@
 	  "description": {
 		"identifier": "histeria:lycos",
 		"materials": {
-		  "default": "armor_stand"
+		  "default": "entity_alphatest"
 		},
 		"textures": {
 		  "default": "textures/entity/custom_mobs/lycos"

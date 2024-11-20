@@ -4,7 +4,7 @@
 	  "description": {
 		"identifier": "histeria:bellum",
 		"materials": {
-		  "default": "armor_stand"
+		  "default": "entity_alphatest"
 		},
 		"textures": {
 		  "default": "textures/entity/custom_mobs/bellum"
@@ -16,6 +16,19 @@
 		  "idle": "animation.bellum.idle",
 		  "walk": "animation.bellum.walk",
 		  "attack": "animation.bellum.attack"
+		},
+		"scripts": {
+			"animate": [
+			  {
+				"attack": "variable.attack_time > 0.0"
+			  },
+			  {
+				"idle": "query.modified_move_speed <= 0.01"
+			  },
+			  {
+				"walk": "query.is_moving"
+			  }
+			]
 		},
 		"render_controllers": [
 		  "controller.render.bellum"
