@@ -2,12 +2,12 @@
 	"format_version": "1.10.0",
 	"minecraft:client_entity": {
 		"description": {
-			"identifier": "histeria:gobelin",
+			"identifier": "histeria:goblin",
 			"materials": {
 				"default": "entity_alphatest"
 			},
 			"textures": {
-				"default": "textures/entity/gobelin"
+				"default": "textures/entity/goblin"
 			},
 			"animations": {
 				"walk": "animation.model.walk",
@@ -28,7 +28,7 @@
 				]
 			},
 			"geometry": {
-				"default": "geometry.gobelin"
+				"default": "geometry.goblin"
 			},
 			"render_controllers": ["controller.render.default"],
 			"spawn_egg": {
