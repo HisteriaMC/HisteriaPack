@@ -104,9 +104,6 @@
     "histerite_apple": {
       "textures": "textures/items/utility/histerite_apple"
     },
-    "obsidian_breaker": {
-      "textures": "textures/items/utility/obsidian_breaker"
-    },
     "punching_ball_spawn": {
       "textures": "textures/items/utility/punching_ball_spawn"
     },
