@@ -6,8 +6,8 @@
 			"animation_length": 1,
 			"bones": {
 				"root_item": {
-					"rotation": [55.64039, 54.62154, -78.5434],
-					"position": [12, 16, 19]
+					"rotation": [65.64039, 54.62154, -78.5434],
+					"position": [9, 16, 22]
 				}
 			}
 		},
