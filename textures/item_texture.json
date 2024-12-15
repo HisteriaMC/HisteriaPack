@@ -388,6 +388,21 @@
     },
     "vault_wheel_icon": {
       "textures": "textures/custom_ui/vault/vault_wheel"
+    },
+    "gift": {
+      "textures": "textures/items/event/gift"
+    },
+    "nocturite_gift": {
+      "textures": "textures/items/event/nocturite_gift"
+    },
+    "gift_wrap": {
+      "textures": "textures/items/event/gift_wrap"
+    },
+    "ice_blade": {
+      "textures": "textures/items/event/ice_blade"
+    },
+    "turkey": {
+      "textures": "textures/items/event/turkey"
     }
   }
 }
