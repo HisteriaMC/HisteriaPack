@@ -144,7 +144,7 @@ item.histeria:gift=Cadeau
 item.histeria:nocturite_gift=Cadeau en nocturite
 item.histeria:gift_wrap=Papier cadeau
 item.histeria:ice_blade=Lame de glace
-item.histeria:turkey=Dinde
+item.histeria:christmas_turkey=Dinde
 tile.histeria:christmas_lucky_block.name=Lucky Block de Noël
 
 [Fossils]

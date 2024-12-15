@@ -401,7 +401,7 @@
     "ice_blade": {
       "textures": "textures/items/event/ice_blade"
     },
-    "turkey": {
+    "christmas_turkey": {
       "textures": "textures/items/event/turkey"
     }
   }
