@@ -142,6 +142,12 @@ item.histeria:chocolate_rabbit=Chocolate Rabbit
 item.histeria:gold_trophy=Gold Trophy
 item.histeria:silver_medal=Silver Medal
 item.histeria:bronze_medal=Bronze Medal
+item.histeria:gift=Gift
+item.histeria:nocturite_gift=Nocturite Gift
+item.histeria:gift_wrap=Gift wrap
+item.histeria:ice_blade=Ice Blade
+item.histeria:turkey=Turkey
+tile.histeria:christmas_lucky_block.name=Lucky Block of Christmas
 
 [Fossils]
 item.histeria:cracked_stone_fossil=Cracked Stone Fossil

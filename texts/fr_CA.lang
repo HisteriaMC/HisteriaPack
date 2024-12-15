@@ -140,6 +140,12 @@ item.histeria:chocolate_rabbit=Lapin en chocolat
 item.histeria:gold_trophy=Trophée en or
 item.histeria:silver_medal=Médaille d'argent
 item.histeria:bronze_medal=Médaille de bronze
+item.histeria:gift=Cadeau
+item.histeria:nocturite_gift=Cadeau en nocturite
+item.histeria:gift_wrap=Papier cadeau
+item.histeria:ice_blade=Lame de glace
+item.histeria:turkey=Dinde
+tile.histeria:christmas_lucky_block.name=Lucky Block de Noël
 
 [Fossils]
 item.histeria:cracked_stone_fossil=Coquillage de pierre fissurée
