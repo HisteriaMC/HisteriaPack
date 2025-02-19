@@ -387,6 +387,30 @@
       "textures": "textures/custom_ui/vault/vault_arrow_down"
     },
     "vault_wheel_icon": {
+      "textures": "textures/items/mobs_loot/vault_wheel"
+    },
+    "golden_fur": {
+      "textures": "textures/items/mobs_loot/golden_fur"
+    },
+    "histerite_horn": {
+      "textures": "textures/items/mobs_loot/histerite_horn"
+    },
+    "lumen_tear": {
+      "textures": "textures/items/mobs_loot/lumen_tear"
+    },
+    "nocturnal_filament": {
+      "textures": "textures/items/mobs_loot/nocturnal_filament"
+    },
+    "sylvan_claws": {
+      "textures": "textures/items/mobs_loot/sylvan_claws"
+    },
+    "vault_wheel_icon": {
+      "textures": "textures/items/mobs_loot/golden_fur"
+    },
+    "vault_wheel_icon": {
+      "textures": "textures/custom_ui/vault/vault_wheel"
+    },
+    "vault_wheel_icon": {
       "textures": "textures/custom_ui/vault/vault_wheel"
     }
   }
