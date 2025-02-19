@@ -404,14 +404,20 @@
     "sylvan_claws": {
       "textures": "textures/items/mobs_loot/sylvan_claws"
     },
-    "vault_wheel_icon": {
-      "textures": "textures/items/mobs_loot/golden_fur"
+    "bellum_spawn_egg": {
+      "textures": "textures/items/spawn_eggs/bellum_spawn_egg"
     },
-    "vault_wheel_icon": {
-      "textures": "textures/custom_ui/vault/vault_wheel"
+    "hylide_spawn_egg": {
+      "textures": "textures/items/spawn_eggs/hylide_spawn_egg"
     },
-    "vault_wheel_icon": {
-      "textures": "textures/custom_ui/vault/vault_wheel"
+    "lycos_spawn_egg": {
+      "textures": "textures/items/spawn_eggs/lycos_spawn_egg"
+    },
+    "noctus_spawn_egg": {
+      "textures": "textures/items/spawn_eggs/noctus_spawn_egg"
+    },
+    "sterox_spawn_egg": {
+      "textures": "textures/items/spawn_eggs/sterox_spawn_egg"
     }
   }
 }
