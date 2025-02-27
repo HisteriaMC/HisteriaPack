@@ -404,5 +404,9 @@
           "side" : "totem_block",
           "up" : "totem_block_top"
        }
+    },
+    "histeria:christmas_lucky_block" : {
+        "sound" : "stone",
+        "textures" : "christmas_lucky_block"
     }
 }
