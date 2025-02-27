@@ -401,8 +401,8 @@
     "nocturnal_filament": {
       "textures": "textures/items/mobs_loot/nocturnal_filament"
     },
-    "sylvan_claws": {
-      "textures": "textures/items/mobs_loot/sylvan_claws"
+    "sylvan_claw": {
+      "textures": "textures/items/mobs_loot/sylvan_claw"
     },
     "bellum_spawn_egg": {
       "textures": "textures/items/spawn_eggs/bellum_spawn_egg"
