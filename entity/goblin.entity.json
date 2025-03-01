@@ -1,0 +1,40 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "histeria:goblin",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/goblin"
+			},
+			"animations": {
+				"walk": "animation.model.walk",
+				"idle": "animation.model.idle",
+				"attack": "animation.model.attack"
+			},
+			"scripts": {
+				"animate": [
+				  {
+					"attack": "variable.attack_time > 0.0"
+				  },
+				  {
+					"idle": "query.modified_move_speed <= 0.01"
+				  },
+				  {
+					"walk": "query.is_moving"
+				  }
+				]
+			},
+			"geometry": {
+				"default": "geometry.goblin"
+			},
+			"render_controllers": ["controller.render.default"],
+			"spawn_egg": {
+				"base_color": "#24c6c3",
+				"overlay_color": "#ad002f"
+			}
+		}
+	}
+}

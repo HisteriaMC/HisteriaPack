@@ -1,0 +1,38 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+	  "description": {
+		"identifier": "histeria:hylide",
+		"materials": {
+		  "default": "entity_alphatest"
+		},
+		"textures": {
+		  "default": "textures/entity/custom_mobs/hylide"
+		},
+		"geometry": {
+		  "default": "geometry.hylide"
+		},
+		"animations": {
+		  "idle": "animation.hylide.idle",
+		  "jump": "animation.hylide.jump",
+		  "attack": "animation.hylide.attack"
+		},
+		"scripts": {
+				"animate": [
+				  {
+					"attack": "variable.attack_time > 0.0"
+				  },
+				  {
+					"idle": "query.modified_move_speed <= 0.01"
+				  },
+				  {
+					"jump": "query.is_moving"
+				  }
+				]
+			},
+		"render_controllers": [
+		  "controller.render.hylide"
+		]
+	  }
+	}
+  }

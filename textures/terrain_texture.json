@@ -360,6 +360,27 @@
       "totem_block_bottom" : {
          "textures" : "textures/blocks/totem_block_bottom"
       },
+      "bellum_spawner" : {
+         "textures" : "textures/blocks/bellum_spawner"
+      },
+      "bellum_spawner_bottom" : {
+         "textures" : "textures/blocks/bellum_spawner_bottom"
+      },
+      "bellum_spawner_top" : {
+         "textures" : "textures/blocks/bellum_spawner_top"
+      },
+      "lycos_spawner" : {
+         "textures" : "textures/blocks/lycos_spawner"
+      },
+      "noctus_spawner" : {
+         "textures" : "textures/blocks/noctus_spawner"
+      },
+      "sterox_spawner" : {
+         "textures" : "textures/blocks/sterox_spawner"
+      },
+      "hylide_spawner" : {
+         "textures" : "textures/blocks/hylide_spawner"
+      },
       "christmas_lucky_block" : {
          "textures" : "textures/blocks/christmas_lucky_block"
       }
