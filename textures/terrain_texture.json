@@ -380,6 +380,9 @@
       },
       "hylide_spawner" : {
          "textures" : "textures/blocks/hylide_spawner"
+      },
+      "christmas_lucky_block" : {
+         "textures" : "textures/blocks/christmas_lucky_block"
       }
    },
    "texture_name" : "atlas.terrain"

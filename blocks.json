@@ -428,5 +428,9 @@
     "histeria:sterox_spawner" : {
       "sound" : "mob_spawner",
       "textures" : "sterox_spawner"
-   }
+   },
+    "histeria:christmas_lucky_block" : {
+        "sound" : "stone",
+        "textures" : "christmas_lucky_block"
+    }
 }
