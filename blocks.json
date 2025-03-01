@@ -404,5 +404,29 @@
           "side" : "totem_block",
           "up" : "totem_block_top"
        }
-    }
+    },
+    "histeria:bellum_spawner" : {
+      "sound" : "mob_spawner",
+      "textures" : {
+          "down" : "bellum_spawner_bottom",
+          "side" : "bellum_spawner",
+          "up" : "bellum_spawner_top"
+       }
+    },
+    "histeria:hylide_spawner" : {
+      "sound" : "mob_spawner",
+      "textures" : "hylide_spawner"
+    },
+    "histeria:lycos_spawner" : {
+      "sound" : "mob_spawner",
+      "textures" : "lycos_spawner"
+    },
+    "histeria:noctus_spawner" : {
+      "sound" : "mob_spawner",
+      "textures" : "noctus_spawner"
+    },
+    "histeria:sterox_spawner" : {
+      "sound" : "mob_spawner",
+      "textures" : "sterox_spawner"
+   }
 }
