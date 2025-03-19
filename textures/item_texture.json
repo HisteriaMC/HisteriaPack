@@ -433,6 +433,21 @@
     },
     "christmas_turkey": {
       "textures": "textures/items/event/turkey"
+    },
+    "event_talisman": {
+      "textures": "textures/items/utility/event_talisman"
+    },
+    "farmer_talisman": {
+      "textures": "textures/items/utility/farmer_talisman"
+    },
+    "killer_talisman": {
+      "textures": "textures/items/utility/killer_talisman"
+    },
+    "lumberjack_talisman": {
+      "textures": "textures/items/utility/lumberjack_talisman"
+    },
+    "miner_talisman": {
+      "textures": "textures/items/utility/miner_talisman"
     }
   }
 }
