@@ -383,6 +383,9 @@
       },
       "christmas_lucky_block" : {
          "textures" : "textures/blocks/christmas_lucky_block"
+      },
+      "mail_box" : {
+         "textures" : "textures/blocks/mail_box"
       }
    },
    "texture_name" : "atlas.terrain"
