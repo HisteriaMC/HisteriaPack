@@ -213,7 +213,6 @@ item.histeria:instant_fertilizer=Engrais Instantané
 item.histeria:love_potion=Potion de l'amour
 item.histeria:dupe_spell=Sort de duplication
 
-
 [Containers]
 item.histeria:minage1_icon=Minage 1
 item.histeria:minage2_icon=Minage 2
