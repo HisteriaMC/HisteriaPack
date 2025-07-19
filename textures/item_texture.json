@@ -434,6 +434,9 @@
     "christmas_turkey": {
       "textures": "textures/items/event/turkey"
     },
+    "mailbox": {
+      "textures": "textures/items/utility/mailbox"
+    },
     "event_booster": {
       "textures": "textures/items/utility/event_booster"
     },

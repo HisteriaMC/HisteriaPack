@@ -432,5 +432,9 @@
     "histeria:christmas_lucky_block" : {
         "sound" : "stone",
         "textures" : "christmas_lucky_block"
+    },
+    "histeria:mail_box" : {
+        "sound" : "stone",
+        "textures" : "mail_box"
     }
 }
