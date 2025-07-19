@@ -4,16 +4,26 @@
 	  "description": {
 		"identifier": "histeria:mailbox",
 		"materials": {
-		  "default": "arrow"
+		  "default": "entity_alphatest"
 		},
 		"textures": {
-		  "default": "textures/entity/mail_box"
+		  "default": "textures/entity/mailbox"
 		},
 		"geometry": {
 		  "default": "geometry.mailbox"
 		},
+		"animations": {
+		  "letter_inside": "animation.mailbox.letter_inside_box"
+		},
+		"scripts": {
+			"animate": [
+			  {
+				"letter_inside": "query.modified_move_speed <= 0.01"
+			  }
+			]
+		},
 		"render_controllers": [
-		  "controller.render.arrow"
+		  "controller.render.mailbox"
 		]
 	  }
 	}
