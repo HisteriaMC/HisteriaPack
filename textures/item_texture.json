@@ -451,6 +451,9 @@
     },
     "miner_booster": {
       "textures": "textures/items/utility/miner_booster"
+    },
+    "blood_key": {
+      "textures": "textures/items/keys/blood_key"
     }
   }
 }
