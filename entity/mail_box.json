@@ -7,7 +7,7 @@
 		  "default": "entity_alphatest"
 		},
 		"textures": {
-		  "default": "textures/entity/mailbox"
+		  "default": "textures/entity/mail_box"
 		},
 		"geometry": {
 		  "default": "geometry.mailbox"
