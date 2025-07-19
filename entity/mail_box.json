@@ -4,7 +4,7 @@
 	  "description": {
 		"identifier": "histeria:mailbox",
 		"materials": {
-		  "default": "armor_stand"
+		  "default": "arrow"
 		},
 		"textures": {
 		  "default": "textures/entity/mail_box"
@@ -13,7 +13,7 @@
 		  "default": "geometry.mailbox"
 		},
 		"render_controllers": [
-		  "controller.render.armor_stand"
+		  "controller.render.arrow"
 		]
 	  }
 	}
