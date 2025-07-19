@@ -1,8 +1,8 @@
 {
   "format_version": 1,
   "header": {
-    "description": "§9Le pack de texture officiel de la §cV6.5 §9d'§cHisteria §9!",
-    "name": "§l§cHist§f-§cPack §f[§6V7§f]",
+    "description": "§6Le pack de texture officiel de la version §b7.5§6 d'§bHisteria",
+    "name": "§l§cHisteriaPack §r§9| §bV7.5",
     "uuid": "7bccb0c0-e678-4d9d-aed6-886c213bda6b",
     "version": [
       0,
@@ -17,7 +17,7 @@
   },
   "modules": [
     {
-      "description": "§9Le pack de texture officiel de la §cV6.5 §9d'§cHisteria §9!",
+      "description": "§6Le pack de texture officiel de la version §b7.5§6 d'§bHisteria",
       "version": [
         0,
         16,
