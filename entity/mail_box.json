@@ -1,0 +1,20 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+	  "description": {
+		"identifier": "histeria:mail_box",
+		"materials": {
+		  "default": "armor_stand"
+		},
+		"textures": {
+		  "default": "textures/entity/mail_box"
+		},
+		"geometry": {
+		  "default": "geometry.mail_box"
+		},
+		"render_controllers": [
+		  "controller.render.armor_stand"
+		]
+	  }
+	}
+  }
