@@ -454,6 +454,9 @@
     },
     "blood_key": {
       "textures": "textures/items/keys/blood_key"
+    },
+    "blood_key_model": {
+      "textures": "textures/items/keys/blood_key_model"
     }
   }
 }
