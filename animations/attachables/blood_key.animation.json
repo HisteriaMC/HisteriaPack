@@ -1,7 +1,7 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"animation.blood_key": {
+		"animation.blood_key_first_person": {
 			"loop": true,
 			"animation_length": 2.25,
 			"bones": {
@@ -31,7 +31,7 @@
 				},
 				"main": {
 					"rotation": [32.71367, -9.94828, -166.25543],
-					"position": [1.87773, -7.82359, 13.79643]
+					"position": [1.87773, 20.17641, 13.79643]
 				}
 			}
 		},
@@ -65,7 +65,7 @@
 				},
 				"main": {
 					"rotation": [87.19273, 319.96712, -87.27784],
-					"position": [0.06795, -4.37087, -0.82341],
+					"position": [0.06795, 19.62913, -0.82341],
 					"scale": 0.5
 				}
 			}

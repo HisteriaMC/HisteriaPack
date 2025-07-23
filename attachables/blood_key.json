@@ -16,7 +16,7 @@
 				"default": "geometry.blood_key"
 			},
 			"animations": {
-				"first_person_hold": "animation.blood_key",
+				"first_person_hold": "animation.blood_key_first_person",
 				"third_person_hold": "animation.blood_key_third_person"
 			},
 			"scripts": {
