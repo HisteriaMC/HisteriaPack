@@ -3,7 +3,7 @@
 	"minecraft:geometry": [
 		{
 			"description": {
-				"identifier": "geometry.histerite_box",
+				"identifier": "geometry.nocturite_box",
 				"texture_width": 128,
 				"texture_height": 128,
 				"visible_bounds_width": 2,
@@ -11,6 +11,16 @@
 				"visible_bounds_offset": [0, 0.75, 0]
 			},
 			"bones": [
+				{
+					"name": "bb_main2",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-7.5, 2, -5.5], "size": [2, 6, 2], "uv": [0, 70]},
+						{"origin": [5.5, 2, -5.5], "size": [2, 6, 2], "uv": [9, 79]},
+						{"origin": [5.5, 2, 3.5], "size": [2, 6, 2], "uv": [0, 79]},
+						{"origin": [-7.5, 2, 3.5], "size": [2, 6, 2], "uv": [9, 70]}
+					]
+				},
 				{
 					"name": "bb_main",
 					"pivot": [0, 0, 0],
@@ -28,10 +38,6 @@
 						{"origin": [-5, 8.5, -7], "size": [3, 3, 1], "pivot": [0, -0.5, 0], "rotation": [0, 0, 45], "uv": [56, 51]},
 						{"origin": [-6, 13, -3.5], "size": [2, 2, 7], "uv": [48, 28]},
 						{"origin": [4, 13, -3.5], "size": [2, 2, 7], "uv": [48, 37]},
-						{"origin": [-7.5, 2, -5.5], "size": [2, 2, 2], "uv": [56, 55]},
-						{"origin": [5.5, 2, -5.5], "size": [2, 2, 2], "uv": [0, 58]},
-						{"origin": [5.5, 2, 3.5], "size": [2, 2, 2], "uv": [8, 58]},
-						{"origin": [-7.5, 2, 3.5], "size": [2, 2, 2], "uv": [16, 58]},
 						{"origin": [-7.5, 2, -1], "size": [2, 6, 2], "uv": [9, 62]},
 						{"origin": [5.5, 2, -1], "size": [2, 6, 2], "uv": [0, 62]}
 					]
