@@ -461,6 +461,9 @@
     "blood_key_shard": {
       "textures": "textures/items/keys/blood_key_shard"
     },
+    "boss_key_shard": {
+      "textures": "textures/items/keys/boss_key_shard"
+    },
     "common_money_bag": {
       "textures": "textures/items/utility/common_money_bag"
     },
