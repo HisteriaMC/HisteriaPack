@@ -458,8 +458,8 @@
     "blood_key_model": {
       "textures": "textures/items/keys/blood_key_model"
     },
-    "blood_key_fragment": {
-      "textures": "textures/items/keys/blood_key_fragment"
+    "blood_key_shard": {
+      "textures": "textures/items/keys/blood_key_shard"
     }
   }
 }

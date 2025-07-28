@@ -437,9 +437,9 @@
         "sound" : "stone",
         "textures" : "mail_box"
     },
-    "histeria:boss_box" : {
+    "histeria:blood_box" : {
         "sound" : "bone_block",
-        "textures" : "boss_box"
+        "textures" : "blood_box"
     },
     "histeria:histerite_box" : {
         "sound" : "metal",
