@@ -397,6 +397,9 @@
          "textures" : "textures/blocks/nocturite_box"
       },
       "blood_box" : {
+         "textures" : "textures/blocks/blood_box"
+      },
+      "boss_box" : {
          "textures" : "textures/blocks/boss_box"
       }
    },
