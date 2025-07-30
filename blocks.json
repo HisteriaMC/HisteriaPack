@@ -436,5 +436,25 @@
     "histeria:mail_box" : {
         "sound" : "stone",
         "textures" : "mail_box"
+    },
+    "histeria:blood_box" : {
+        "sound" : "bone_block",
+        "textures" : "blood_box"
+    },
+    "histeria:histerite_box" : {
+        "sound" : "metal",
+        "textures" : "histerite_box"
+    },
+    "histeria:nocturite_box" : {
+        "sound" : "metal",
+        "textures" : "nocturite_box"
+    },
+    "histeria:vote_box" : {
+        "sound" : "metal",
+        "textures" : "nocturite_box"
+    },
+    "histeria:boss_box" : {
+        "sound" : "metal",
+        "textures" : "boss_box"
     }
 }

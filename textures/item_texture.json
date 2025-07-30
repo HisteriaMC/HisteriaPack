@@ -451,6 +451,33 @@
     },
     "miner_booster": {
       "textures": "textures/items/utility/miner_booster"
+    },
+    "blood_key": {
+      "textures": "textures/items/keys/blood_key"
+    },
+    "blood_key_model": {
+      "textures": "textures/items/keys/blood_key_model"
+    },
+    "blood_key_shard": {
+      "textures": "textures/items/keys/blood_key_shard"
+    },
+    "boss_key_shard": {
+      "textures": "textures/items/keys/boss_key_shard"
+    },
+    "common_money_bag": {
+      "textures": "textures/items/utility/common_money_bag"
+    },
+    "epic_money_bag": {
+      "textures": "textures/items/utility/epic_money_bag"
+    },
+    "legendary_money_bag": {
+      "textures": "textures/items/utility/legendary_money_bag"
+    },
+    "uncommon_money_bag": {
+      "textures": "textures/items/utility/uncommon_money_bag"
+    },
+    "rare_money_bag": {
+      "textures": "textures/items/utility/rare_money_bag"
     }
   }
 }
