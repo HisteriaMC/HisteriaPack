@@ -452,6 +452,10 @@
     "histeria:vote_box" : {
         "sound" : "metal",
         "textures" : "nocturite_box"
+        },
+   "histeria:boss_box" : {
+        "sound" : "metal",
+        "textures" : "boss_box"
     },
     "histeria:cobblestone_floor_generator" : {
         "sound" : "stone",
