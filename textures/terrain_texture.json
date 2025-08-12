@@ -410,6 +410,21 @@
       },
       "water_wall_generator" : {
          "textures" : "textures/blocks/water_wall_generator"
+      },
+      "vote_box" : {
+         "textures" : "textures/blocks/vote_box"
+      },
+      "histerite_box" : {
+         "textures" : "textures/blocks/histerite_box"
+      },
+      "nocturite_box" : {
+         "textures" : "textures/blocks/nocturite_box"
+      },
+      "blood_box" : {
+         "textures" : "textures/blocks/blood_box"
+      },
+      "boss_box" : {
+         "textures" : "textures/blocks/boss_box"
       }
    },
    "texture_name" : "atlas.terrain"
