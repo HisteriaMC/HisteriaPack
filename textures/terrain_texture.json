@@ -386,6 +386,30 @@
       },
       "mail_box" : {
          "textures" : "textures/blocks/mail_box"
+      },
+      "cobblestone_floor_generator" : {
+         "textures" : "textures/blocks/cobblestone_floor_generator"
+      },
+      "cobblestone_wall_generator" : {
+         "textures" : "textures/blocks/cobblestone_wall_generator"
+      },
+      "histerite_obisidian_floor_generator" : {
+         "textures" : "textures/blocks/histerite_obisidian_floor_generator"
+      },
+      "histerite_obsidian_wall_generator" : {
+         "textures" : "textures/blocks/histerite_obsidian_wall_generator"
+      },
+      "obisidian_floor_generator" : {
+         "textures" : "textures/blocks/obisidian_floor_generator"
+      },
+      "obisidian_wall_generator" : {
+         "textures" : "textures/blocks/obisidian_wall_generator"
+      },
+      "water_floor_generator" : {
+         "textures" : "textures/blocks/water_floor_generator"
+      },
+      "water_wall_generator" : {
+         "textures" : "textures/blocks/water_wall_generator"
       }
    },
    "texture_name" : "atlas.terrain"
