@@ -453,7 +453,7 @@
         "sound" : "metal",
         "textures" : "nocturite_box"
     },
-    "histeria:boss_box" : {
+   "histeria:boss_box" : {
         "sound" : "metal",
         "textures" : "boss_box"
     },
@@ -532,5 +532,45 @@
     },
     "histeria:lumen_water_still" : {
         "textures" : "lumen_water_still"
+    },
+    "histeria:cobblestone_floor_generator" : {
+        "sound" : "stone",
+        "textures" : "cobblestone_floor_generator"
+    },
+    "histeria:cobblestone_wall_generator" : {
+        "sound" : "stone",
+        "textures" : "cobblestone_wall_generator"
+    },
+    "histeria:histerite_obisidian_floor_generator" : {
+        "sound" : "stone",
+        "textures" : "histerite_obisidian_floor_generator"
+    },
+    "histeria:histerite_obsidian_wall_generator" : {
+        "sound" : "stone",
+        "textures" : "histerite_obsidian_wall_generator"
+    },
+    "histeria:obisidian_floor_generator" : {
+        "sound" : "stone",
+        "textures" : "obisidian_floor_generator"
+    },
+    "histeria:obisidian_wall_generator" : {
+        "sound" : "stone",
+        "textures" : "obisidian_wall_generator"
+    },
+    "histeria:lava_floor_generator" : {
+        "sound" : "stone",
+        "textures" : "lava_floor_generator"
+    },
+    "histeria:lava_wall_generator" : {
+        "sound" : "stone",
+        "textures" : "lava_wall_generator"
+    },
+    "histeria:water_floor_generator" : {
+        "sound" : "stone",
+        "textures" : "water_floor_generator"
+    },
+    "histeria:water_wall_generator" : {
+        "sound" : "stone",
+        "textures" : "water_wall_generator"
     }
 }

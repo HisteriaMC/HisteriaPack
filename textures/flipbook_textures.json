@@ -17,6 +17,26 @@
   {
     "flipbook_texture": "textures/blocks/lumen_water_flow",
     "atlas_tile": "lumen_water_flow",
+  },
+  {
+    "flipbook_texture": "textures/blocks/water_floor_generator",
+    "atlas_tile": "water_floor_generator",
+    "ticks_per_frame": 2
+  },
+  {
+    "flipbook_texture": "textures/blocks/water_wall_generator",
+    "atlas_tile": "water_wall_generator",
+    "ticks_per_frame": 2
+  },
+  {
+    "flipbook_texture": "textures/blocks/lava_floor_generator",
+    "atlas_tile": "lava_floor_generator",
+    "ticks_per_frame": 16
+  },
+  {
+    "flipbook_texture": "textures/blocks/lava_wall_generator",
+    "atlas_tile": "lava_wall_generator",
+    "ticks_per_frame": 10,
     "replicate": 2
   }
 ]
