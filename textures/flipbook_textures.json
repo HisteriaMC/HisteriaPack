@@ -8,6 +8,15 @@
     "flipbook_texture": "textures/blocks/tinsel",
     "atlas_tile": "tinsel",
     "ticks_per_frame": 5
-  
+  },
+  {
+    "flipbook_texture": "textures/blocks/lumen_water_still",
+    "atlas_tile": "lumen_water_still",
+    "ticks_per_frame": 2
+  },
+  {
+    "flipbook_texture": "textures/blocks/lumen_water_flow",
+    "atlas_tile": "lumen_water_flow",
+    "replicate": 2
   }
 ]

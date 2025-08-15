@@ -401,6 +401,72 @@
       },
       "boss_box" : {
          "textures" : "textures/blocks/boss_box"
+      },
+      "black_calcite" : {
+         "textures" : "textures/blocks/black_calcite"
+      },
+      "black_marble" : {
+         "textures" : "textures/blocks/black_marble"
+      },
+      "chiaroscuro_lichen" : {
+         "textures" : "textures/blocks/chiaroscuro_lichen"
+      },
+      "chiaroscuro_mushroom" : {
+         "textures" : "textures/blocks/chiaroscuro_mushroom"
+      },
+      "life_blossom" : {
+         "textures" : "textures/blocks/life_blossom"
+      },
+      "gloom_dirt" : {
+         "textures" : "textures/blocks/gloom_dirt"
+      },
+      "gloom_leaves" : {
+         "textures" : "textures/blocks/gloom_leaves"
+      },
+      "gloom_log" : {
+         "textures" : "textures/blocks/gloom_log"
+      },
+      "gloom_log_top" : {
+         "textures" : "textures/blocks/gloom_log_top"
+      },
+      "gloom_veil" : {
+         "textures" : "textures/blocks/gloom_veil"
+      },
+      "gloom_veil_tip" : {
+         "textures" : "textures/blocks/gloom_veil_tip"
+      },
+      "gloomy_planks" : {
+         "textures" : "textures/blocks/gloomy_planks"
+      },
+      "lumen_clay" : {
+         "textures" : "textures/blocks/lumen_clay"
+      },
+      "lumen_leaves" : {
+         "textures" : "textures/blocks/lumen_leaves"
+      },
+      "lumen_lily_pad" : {
+         "textures" : "textures/blocks/lumen_lily_pad"
+      },
+      "lumen_log" : {
+         "textures" : "textures/blocks/lumen_log"
+      },
+      "lumen_log_top" : {
+         "textures" : "textures/blocks/lumen_log_top"
+      },
+      "lumen_planks" : {
+         "textures" : "textures/blocks/lumen_planks"
+      },
+      "lumen_water_flow" : {
+         "textures" : "textures/blocks/lumen_water_flow"
+      },
+      "lumen_water_still" : {
+         "textures" : "textures/blocks/lumen_water_still"
+      },
+      "chiaroscuro_mushroom_carried" : {
+         "textures" : "textures/blocks/chiaroscuro_mushroom_carried"
+      },
+      "lumen_lily_pad_caried" : {
+         "textures" : "textures/blocks/lumen_lily_pad_caried"
       }
    },
    "texture_name" : "atlas.terrain"
