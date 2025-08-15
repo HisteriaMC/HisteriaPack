@@ -457,6 +457,86 @@
         "sound" : "metal",
         "textures" : "boss_box"
     },
+    "histeria:black_calcite" : {
+      "sound" : "calcite",
+      "textures" : "black_calcite"
+    },
+    "histeria:black_marble" : {
+        "sound" : "stone",
+        "textures" : "black_marble"
+    },
+    "histeria:chiaroscuro_lichen" : {
+        "sound" : "glow_lichen",
+        "textures" : "chiaroscuro_lichen"
+    },
+    "histeria:chiaroscuro_mushroom" : {
+        "carried_textures" : "chiaroscuro_mushroom_carried",
+        "sound" : "grass",
+        "textures" : "chiaroscuro_mushroom"
+    },
+    "histeria:gloom_dirt" : {
+        "sound" : "gravel",
+        "textures" : "gloom_dirt"
+    },
+    "histeria:gloom_leaves" : {
+        "sound" : "grass",
+        "textures" : "gloom_leaves"
+    },
+    "histeria:gloom_log" : {
+        "sound" : "wood",
+      "textures" : {
+         "down" : "gloom_log_top",
+         "side" : "gloom_log",
+         "up" : "gloom_log_top"
+      }
+    },
+    "histeria:gloom_veil" : {
+        "sound" : "grass",
+        "textures" : "gloom_veil"
+    },
+    "histeria:gloomy_planks" : {
+        "sound" : "wood",
+        "textures" : "gloomy_planks"
+    },
+    "histeria:life_blossom" : {
+        "sound" : "grass",
+        "textures" : "life_blossom"
+    },
+    "histeria:lumen_clay" : {
+        "sound" : "gravel",
+        "textures" : "lumen_clay"
+    },
+    "histeria:lumen_leaves" : {
+        "sound" : "grass",
+        "textures" : "lumen_leaves"
+    },
+    "histeria:lumen_lily_pad" : {
+        "carried_textures" : "lumen_lily_pad_carried",
+        "sound" : "grass",
+        "textures" : "lumen_lily_pad"
+    },
+    "histeria:lumen_log" : {
+        "sound" : "wood",
+      "textures" : {
+         "down" : "lumen_log_top",
+         "side" : "lumen_log",
+         "up" : "lumen_log_top"
+      }
+   },
+    "histeria:lumen_planks" : {
+        "sound" : "wood",
+        "textures" : "lumen_planks"
+    },
+    "histeria:lumen_water_flow" : {
+        "textures" : "lumen_water_flow"
+    },
+    "histeria:lumen_water_still" : {
+        "textures" : "lumen_water_still"
+    },
+    "histeria:raw_golden_nocturite_block" : {
+        "sound" : "stone",
+        "textures" : "raw_golden_nocturite_block"
+    },
     "histeria:cobblestone_floor_generator" : {
         "sound" : "stone",
         "textures" : "cobblestone_floor_generator"
