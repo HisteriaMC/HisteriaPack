@@ -533,6 +533,10 @@
     "histeria:lumen_water_still" : {
         "textures" : "lumen_water_still"
     },
+    "histeria:raw_golden_nocturite_block" : {
+        "sound" : "stone",
+        "textures" : "raw_golden_nocturite_block"
+    },
     "histeria:cobblestone_floor_generator" : {
         "sound" : "stone",
         "textures" : "cobblestone_floor_generator"
