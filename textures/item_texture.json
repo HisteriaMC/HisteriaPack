@@ -478,6 +478,21 @@
     },
     "rare_money_bag": {
       "textures": "textures/items/utility/rare_money_bag"
+    },
+    "lumen_boots": {
+      "textures": "textures/items/armors/lumen_boots"
+    },
+    "lumen_chestplate": {
+      "textures": "textures/items/armors/lumen_chestplate"
+    },
+    "lumen_helmet": {
+      "textures": "textures/items/armors/lumen_helmet"
+    },
+    "lumen_leggings": {
+      "textures": "textures/items/armors/lumen_leggings"
+    },
+    "lumen_sword": {
+      "textures": "textures/items/tools/lumen_sword"
     }
   }
 }
