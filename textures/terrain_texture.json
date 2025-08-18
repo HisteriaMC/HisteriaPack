@@ -497,6 +497,9 @@
       },
       "meteoric_stone" : {
          "textures" : "textures/blocks/meteoric_stone"
+      },
+      "meteoric_stone_holes" : {
+         "textures" : "textures/blocks/meteoric_stone_holes"
       }
    },
    "texture_name" : "atlas.terrain"

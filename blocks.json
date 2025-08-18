@@ -580,5 +580,9 @@
     "histeria:meteoric_stone" : {
         "sound" : "stone",
         "textures" : "meteoric_stone"
+    },
+    "histeria:meteoric_stone_holes" : {
+        "sound" : "stone",
+        "textures" : "meteoric_stone_holes"
     }
 }
