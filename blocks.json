@@ -576,5 +576,9 @@
     "histeria:water_wall_generator" : {
         "sound" : "stone",
         "textures" : "water_wall_generator"
+    },
+    "histeria:meteoric_stone" : {
+        "sound" : "stone",
+        "textures" : "meteoric_stone"
     }
 }

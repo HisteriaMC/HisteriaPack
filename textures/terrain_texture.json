@@ -494,6 +494,9 @@
       },
       "raw_golden_nocturite_block" : {
          "textures" : "textures/blocks/raw_golden_nocturite_block"
+      },
+      "meteoric_stone" : {
+         "textures" : "textures/blocks/meteoric_stone"
       }
    },
    "texture_name" : "atlas.terrain"
