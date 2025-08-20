@@ -2,3 +2,17 @@
 .idea
 LICENCE
 README.md
+
+# Build artifacts
+build/
+encoded-pack/
+tools/
+
+# Tools and temporary files
+bedrockpack*
+*.tar.gz
+*.tmp
+
+# IDE and system files
+.DS_Store
+Thumbs.db
