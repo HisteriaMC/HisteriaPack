@@ -1,3 +1,5 @@
+# Since Microsoft tends to takedown with DMCA repositories to encrypt packs here's a link to an archive of the tool below in case it gets taken down
+# https://drive.histeria.fr/d/66a436d728744530b042/
 name: BedrockPack Encryption & uploading
 
 on:
@@ -14,8 +16,13 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Create tools and build directories
+        run: |
+          mkdir -p tools build
+
       - name: Download and extract bedrockpack
         run: |
+          cd tools
           wget -O bedrockpack.tar.gz https://github.com/AkmalFairuz/bedrockpack/releases/download/v1.2.1/bedrockpack-v1.2.1-linux-amd64.tar.gz
           tar -xzf bedrockpack.tar.gz
           chmod +x bedrockpack
@@ -25,11 +32,11 @@ jobs:
 
       - name: Zip texture pack (with manifest.json)
         run: |
-          zip -r build/HisteriaPack.zip pack
+          zip -r build/HisteriaPack.zip .
 
       - name: Encrypt, minify & compress with bedrockpack
         run: |
-          ./bedrockpack encrypt build/HisteriaPack.zip "${{ secrets.ENCRYPTION_KEY }}" || ./bedrockpack encrypt build/HisteriaPack.zip
+          ./tools/bedrockpack encrypt build/HisteriaPack.zip "${{ secrets.ENCRYPTION_KEY }}" || ./tools/bedrockpack encrypt build/HisteriaPack.zip
 
       - name: Move encrypted pack to encoded-pack
         run: |
@@ -47,18 +54,18 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          VERSION=$(jq -r '.header.version | join(".")' pack/manifest.json)
+          VERSION=$(jq -r '.header.version | join(".")' manifest.json)
           TAG="v$VERSION"
           if git ls-remote --tags origin | grep -q "refs/tags/$TAG$"; then
-            MAJOR=$(jq -r '.header.version[0]' pack/manifest.json)
-            MINOR=$(jq -r '.header.version[1]' pack/manifest.json)
-            PATCH=$(jq -r '.header.version[2]' pack/manifest.json)
+            MAJOR=$(jq -r '.header.version[0]' manifest.json)
+            MINOR=$(jq -r '.header.version[1]' manifest.json)
+            PATCH=$(jq -r '.header.version[2]' manifest.json)
             PATCH=$((PATCH + 1))
             TAG="v${MAJOR}.${MINOR}.${PATCH}"
-            jq ".header.version = [$MAJOR, $MINOR, $PATCH] | .modules[0].version = [$MAJOR, $MINOR, $PATCH]" pack/manifest.json > pack/manifest.json.tmp && mv pack/manifest.json.tmp pack/manifest.json
+            jq ".header.version = [$MAJOR, $MINOR, $PATCH] | .modules[0].version = [$MAJOR, $MINOR, $PATCH]" manifest.json > manifest.json.tmp && mv manifest.json.tmp manifest.json
             git config user.name "github-actions"
             git config user.email "github-actions@github.com"
-            git add pack/manifest.json
+            git add manifest.json
             git commit -m "Bump version to $TAG [CI skip]"
             git push origin HEAD:${GITHUB_REF#refs/heads/}
           fi
