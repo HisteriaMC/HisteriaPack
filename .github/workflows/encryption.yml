@@ -1,42 +1,40 @@
-name: Texturepack encryption
+name: BedrockPack Encryption & uploading
 
 on:
   push:
     branches:
-      - 'main'
-      - 'build'
-    tags:
       - '*'
 
 jobs:
-  pack-encryption:
+  encrypt-and-publish:
     runs-on: ubuntu-latest
+    if: contains(github.event.head_commit.message, '[Publish]')
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Ensure Java 21 is installed
-        uses: actions/setup-java@v4
-        with:
-          distribution: 'temurin'
-          java-version: '21'
+      - name: Download and extract bedrockpack
+        run: |
+          wget -O bedrockpack.tar.gz https://github.com/AkmalFairuz/bedrockpack/releases/download/v1.2.1/bedrockpack-v1.2.1-linux-amd64.tar.gz
+          tar -xzf bedrockpack.tar.gz
+          chmod +x bedrockpack
+
+      - name: Create build directory
+        run: mkdir -p build
 
       - name: Zip texture pack (with manifest.json)
         run: |
-          mkdir -p build
-          zip -r build/HisteriaPack.zip . -x '*.git*' -x 'build/*' -x 'encoded-pack/*'
+          zip -r build/HisteriaPack.zip . -x '*.git*' -x 'build/*' -x '.github/*'
 
-      - name: Download EncryptMyPack
+      - name: Encrypt, minify & compress with bedrockpack
         run: |
-          wget -O EncryptMyPack.jar https://github.com/AllayMC/EncryptMyPack/releases/download/2.0.1/EncryptMyPack-2.0.1-shaded.jar
+          ./bedrockpack encrypt build/HisteriaPack.zip "${{ secrets.ENCRYPTION_KEY }}" || ./bedrockpack encrypt build/HisteriaPack.zip
 
-      - name: Encrypt texture pack
+      - name: Move encrypted pack to encoded-pack
         run: |
           mkdir -p encoded-pack
-          java -jar EncryptMyPack.jar encrypt \
-            --input build/HisteriaPack.zip \
-            --output encoded-pack/HisteriaPack.zip \
-            --key "${{ secrets.ENCRYPTION_KEY }}"
+          mv build/HisteriaPack_encrypted.zip encoded-pack/HisteriaPack.zip || mv build/HisteriaPack.zip encoded-pack/HisteriaPack.zip
 
       - name: Upload encrypted texture pack as artifact
         uses: actions/upload-artifact@v4
@@ -44,50 +42,14 @@ jobs:
           name: zip-encrypted-texture-pack
           path: encoded-pack/HisteriaPack.zip
 
-  minify-and-publish:
-    needs: pack-encryption
-    runs-on: ubuntu-latest
-    if: startsWith(github.ref, 'refs/tags/') || contains(github.event.head_commit.message, '[Publish]')
-
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      - name: Install pngquant
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y pngquant
-
-      - name: Compress PNG files
-        run: find . -name '*.png' -type f -exec pngquant --strip --quality=65-80 --ext .png --force "{}" \;
-
-      - name: Compile json_comments
-        run: |
-          git clone https://github.com/mewalig/json-comments /tmp/json-comments
-          cc -o /tmp/json-comments/json_comment /tmp/json-comments/json_comment.c
-
-      - name: Minify JSON files
-        run: |
-          find . -name '*.json' -type f | while read fjson; do
-            cat "$fjson" | /tmp/json-comments/json_comment --strip /dev/null > "$fjson.tmp"
-            mv "$fjson.tmp" "$fjson"
-          done
-
-      - name: Download encrypted texture pack artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: zip-encrypted-texture-pack
-          path: ./
-
       - name: Create Release
         id: create_release
+        if: startsWith(github.ref, 'refs/tags/') || contains(github.event.head_commit.message, '[Publish]')
         uses: actions/create-release@v1
         with:
           tag_name: ${{ github.ref }}
           release_name: HisteriaPack ${{ github.ref }}
-          body: "Automated release of encrypted texture pack."
+          body: "Automated release of encrypted texture pack (bedrockpack)."
           draft: false
           prerelease: false
           generate_release_notes: true
@@ -95,9 +57,57 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Upload encrypted texture pack to Release
+        if: steps.create_release.outputs.upload_url != ''
         uses: actions/upload-release-asset@v1
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./HisteriaPack.zip
+          asset_path: encoded-pack/HisteriaPack.zip
           asset_name: HisteriaPack.zip
           asset_content_type: application/zip
+
+          
+  deploy-to-server:
+    runs-on: ubuntu-latest
+    needs: encrypt-and-publish
+    if: contains(github.event.head_commit.message, '[Publish]')
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download encrypted pack artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: zip-encrypted-texture-pack
+          path: encoded-pack
+
+      - name: Install sshpass
+        run: sudo apt-get install -y sshpass
+
+      - name: Upload encrypted pack to production server
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+          SSH_USERNAME: ${{ vars.SSH_USERNAME }}
+          HOST: ${{ vars.HOST }}
+          SSH_PORT: ${{ vars.SSH_PORT }}
+          DIRECTORY: ${{ vars.DIRECTORY }}
+        run: |
+          echo "SSH_USERNAME: $SSH_USERNAME"
+          echo "HOST: $HOST"
+          echo "SSH_PORT: $SSH_PORT"
+          echo "DIRECTORY: $DIRECTORY"
+
+          eval "$(ssh-agent -s)"
+          SSH_KEY_FILE=$(mktemp)
+          echo "${SSH_PRIVATE_KEY}" > "${SSH_KEY_FILE}"
+          chmod 600 "${SSH_KEY_FILE}"
+          ssh-add "${SSH_KEY_FILE}"
+
+          sudo ip li set mtu 1400 dev eth0
+
+          rsync -avz -e "ssh -o StrictHostKeyChecking=no -p $SSH_PORT" encoded-pack/HisteriaPack.zip $SSH_USERNAME@$HOST:$DIRECTORY/HisteriaPack.zip
+
+          ssh -p $SSH_PORT $SSH_USERNAME@$HOST "cd $DIRECTORY && ./upload.sh resource_packs HisteriaPack.zip"
+
+          ssh-agent -k
+          if [ -f "$SSH_KEY_FILE" ]; then rm -f "$SSH_KEY_FILE"; fi
