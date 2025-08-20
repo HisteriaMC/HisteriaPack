@@ -387,7 +387,37 @@
       "textures": "textures/custom_ui/vault/vault_arrow_down"
     },
     "vault_wheel_icon": {
-      "textures": "textures/custom_ui/vault/vault_wheel"
+      "textures": "textures/items/mobs_loot/vault_wheel"
+    },
+    "golden_fur": {
+      "textures": "textures/items/mobs_loot/golden_fur"
+    },
+    "histerite_horn": {
+      "textures": "textures/items/mobs_loot/histerite_horn"
+    },
+    "lumen_tear": {
+      "textures": "textures/items/mobs_loot/lumen_tear"
+    },
+    "nocturnal_filament": {
+      "textures": "textures/items/mobs_loot/nocturnal_filament"
+    },
+    "sylvan_claw": {
+      "textures": "textures/items/mobs_loot/sylvan_claw"
+    },
+    "bellum_spawn_egg": {
+      "textures": "textures/items/spawn_eggs/bellum_spawn_egg"
+    },
+    "hylide_spawn_egg": {
+      "textures": "textures/items/spawn_eggs/hylide_spawn_egg"
+    },
+    "lycos_spawn_egg": {
+      "textures": "textures/items/spawn_eggs/lycos_spawn_egg"
+    },
+    "noctus_spawn_egg": {
+      "textures": "textures/items/spawn_eggs/noctus_spawn_egg"
+    },
+    "sterox_spawn_egg": {
+      "textures": "textures/items/spawn_eggs/sterox_spawn_egg"
     },
     "gift": {
       "textures": "textures/items/event/gift"
@@ -403,6 +433,51 @@
     },
     "christmas_turkey": {
       "textures": "textures/items/event/turkey"
+    },
+    "mailbox": {
+      "textures": "textures/items/utility/mailbox"
+    },
+    "event_booster": {
+      "textures": "textures/items/utility/event_booster"
+    },
+    "farmer_booster": {
+      "textures": "textures/items/utility/farmer_booster"
+    },
+    "killer_booster": {
+      "textures": "textures/items/utility/killer_booster"
+    },
+    "lumberjack_booster": {
+      "textures": "textures/items/utility/lumberjack_booster"
+    },
+    "miner_booster": {
+      "textures": "textures/items/utility/miner_booster"
+    },
+    "blood_key": {
+      "textures": "textures/items/keys/blood_key"
+    },
+    "blood_key_model": {
+      "textures": "textures/items/keys/blood_key_model"
+    },
+    "blood_key_shard": {
+      "textures": "textures/items/keys/blood_key_shard"
+    },
+    "boss_key_shard": {
+      "textures": "textures/items/keys/boss_key_shard"
+    },
+    "common_money_bag": {
+      "textures": "textures/items/utility/common_money_bag"
+    },
+    "epic_money_bag": {
+      "textures": "textures/items/utility/epic_money_bag"
+    },
+    "legendary_money_bag": {
+      "textures": "textures/items/utility/legendary_money_bag"
+    },
+    "uncommon_money_bag": {
+      "textures": "textures/items/utility/uncommon_money_bag"
+    },
+    "rare_money_bag": {
+      "textures": "textures/items/utility/rare_money_bag"
     }
   }
 }

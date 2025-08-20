@@ -1,0 +1,30 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+	  "description": {
+		"identifier": "histeria:mailbox",
+		"materials": {
+		  "default": "entity_alphatest"
+		},
+		"textures": {
+		  "default": "textures/entity/mail_box"
+		},
+		"geometry": {
+		  "default": "geometry.mailbox"
+		},
+		"animations": {
+		  "letter_inside": "animation.mailbox.letter_inside_box"
+		},
+		"scripts": {
+			"animate": [
+			  {
+				"letter_inside": "query.modified_move_speed <= 0.01"
+			  }
+			]
+		},
+		"render_controllers": [
+		  "controller.render.mailbox"
+		]
+	  }
+	}
+  }

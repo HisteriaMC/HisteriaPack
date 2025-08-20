@@ -360,8 +360,150 @@
       "totem_block_bottom" : {
          "textures" : "textures/blocks/totem_block_bottom"
       },
+      "bellum_spawner" : {
+         "textures" : "textures/blocks/bellum_spawner"
+      },
+      "bellum_spawner_bottom" : {
+         "textures" : "textures/blocks/bellum_spawner_bottom"
+      },
+      "bellum_spawner_top" : {
+         "textures" : "textures/blocks/bellum_spawner_top"
+      },
+      "lycos_spawner" : {
+         "textures" : "textures/blocks/lycos_spawner"
+      },
+      "noctus_spawner" : {
+         "textures" : "textures/blocks/noctus_spawner"
+      },
+      "sterox_spawner" : {
+         "textures" : "textures/blocks/sterox_spawner"
+      },
+      "hylide_spawner" : {
+         "textures" : "textures/blocks/hylide_spawner"
+      },
       "christmas_lucky_block" : {
          "textures" : "textures/blocks/christmas_lucky_block"
+      },
+      "mail_box" : {
+         "textures" : "textures/blocks/mail_box"
+      },
+      "cobblestone_floor_generator" : {
+         "textures" : "textures/blocks/cobblestone_floor_generator"
+      },
+      "cobblestone_wall_generator" : {
+         "textures" : "textures/blocks/cobblestone_wall_generator"
+      },
+      "histerite_obsidian_floor_generator" : {
+         "textures" : "textures/blocks/histerite_obsidian_floor_generator"
+      },
+      "histerite_obsidian_wall_generator" : {
+         "textures" : "textures/blocks/histerite_obsidian_wall_generator"
+      },
+      "obsidian_floor_generator" : {
+         "textures" : "textures/blocks/obsidian_floor_generator"
+      },
+      "obsidian_wall_generator" : {
+      "histerite_obsidian_floor_generator" : {
+         "textures" : "textures/blocks/histerite_obsidian_floor_generator"
+      },
+      "histerite_obsidian_wall_generator" : {
+         "textures" : "textures/blocks/histerite_obsidian_wall_generator"
+      },
+      "obsidian_floor_generator" : {
+         "textures" : "textures/blocks/obsidian_floor_generator"
+      },
+      "obsidian_wall_generator" : {
+         "textures" : "textures/blocks/obsidian_wall_generator"
+      },
+      "water_floor_generator" : {
+         "textures" : "textures/blocks/water_floor_generator"
+      },
+      "water_wall_generator" : {
+         "textures" : "textures/blocks/water_wall_generator"
+      },
+      "vote_box" : {
+         "textures" : "textures/blocks/vote_box"
+      },
+      "histerite_box" : {
+         "textures" : "textures/blocks/histerite_box"
+      },
+      "nocturite_box" : {
+         "textures" : "textures/blocks/nocturite_box"
+      },
+      "blood_box" : {
+         "textures" : "textures/blocks/blood_box"
+      },
+      "boss_box" : {
+         "textures" : "textures/blocks/boss_box"
+      },
+      "black_calcite" : {
+         "textures" : "textures/blocks/black_calcite"
+      },
+      "black_marble" : {
+         "textures" : "textures/blocks/black_marble"
+      },
+      "chiaroscuro_lichen" : {
+         "textures" : "textures/blocks/chiaroscuro_lichen"
+      },
+      "chiaroscuro_mushroom" : {
+         "textures" : "textures/blocks/chiaroscuro_mushroom"
+      },
+      "life_blossom" : {
+         "textures" : "textures/blocks/life_blossom"
+      },
+      "gloom_dirt" : {
+         "textures" : "textures/blocks/gloom_dirt"
+      },
+      "gloom_leaves" : {
+         "textures" : "textures/blocks/gloom_leaves"
+      },
+      "gloom_log" : {
+         "textures" : "textures/blocks/gloom_log"
+      },
+      "gloom_log_top" : {
+         "textures" : "textures/blocks/gloom_log_top"
+      },
+      "gloom_veil" : {
+         "textures" : "textures/blocks/gloom_veil"
+      },
+      "gloom_veil_tip" : {
+         "textures" : "textures/blocks/gloom_veil_tip"
+      },
+      "gloomy_planks" : {
+         "textures" : "textures/blocks/gloomy_planks"
+      },
+      "lumen_clay" : {
+         "textures" : "textures/blocks/lumen_clay"
+      },
+      "lumen_leaves" : {
+         "textures" : "textures/blocks/lumen_leaves"
+      },
+      "lumen_lily_pad" : {
+         "textures" : "textures/blocks/lumen_lily_pad"
+      },
+      "lumen_log" : {
+         "textures" : "textures/blocks/lumen_log"
+      },
+      "lumen_log_top" : {
+         "textures" : "textures/blocks/lumen_log_top"
+      },
+      "lumen_planks" : {
+         "textures" : "textures/blocks/lumen_planks"
+      },
+      "lumen_water_flow" : {
+         "textures" : "textures/blocks/lumen_water_flow"
+      },
+      "lumen_water_still" : {
+         "textures" : "textures/blocks/lumen_water_still"
+      },
+      "chiaroscuro_mushroom_carried" : {
+         "textures" : "textures/blocks/chiaroscuro_mushroom_carried"
+      },
+      "lumen_lily_pad_caried" : {
+         "textures" : "textures/blocks/lumen_lily_pad_caried"
+      },
+      "raw_golden_nocturite_block" : {
+         "textures" : "textures/blocks/raw_golden_nocturite_block"
       }
    },
    "texture_name" : "atlas.terrain"

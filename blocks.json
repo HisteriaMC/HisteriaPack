@@ -405,8 +405,190 @@
           "up" : "totem_block_top"
        }
     },
+    "histeria:bellum_spawner" : {
+      "sound" : "mob_spawner",
+      "textures" : {
+          "down" : "bellum_spawner_bottom",
+          "side" : "bellum_spawner",
+          "up" : "bellum_spawner_top"
+       }
+    },
+    "histeria:hylide_spawner" : {
+      "sound" : "mob_spawner",
+      "textures" : "hylide_spawner"
+    },
+    "histeria:lycos_spawner" : {
+      "sound" : "mob_spawner",
+      "textures" : "lycos_spawner"
+    },
+    "histeria:noctus_spawner" : {
+      "sound" : "mob_spawner",
+      "textures" : "noctus_spawner"
+    },
+    "histeria:sterox_spawner" : {
+      "sound" : "mob_spawner",
+      "textures" : "sterox_spawner"
+   },
     "histeria:christmas_lucky_block" : {
         "sound" : "stone",
         "textures" : "christmas_lucky_block"
+    },
+    "histeria:mail_box" : {
+        "sound" : "stone",
+        "textures" : "mail_box"
+    },
+    "histeria:blood_box" : {
+        "sound" : "bone_block",
+        "textures" : "blood_box"
+    },
+    "histeria:histerite_box" : {
+        "sound" : "metal",
+        "textures" : "histerite_box"
+    },
+    "histeria:nocturite_box" : {
+        "sound" : "metal",
+        "textures" : "nocturite_box"
+    },
+    "histeria:vote_box" : {
+        "sound" : "metal",
+        "textures" : "nocturite_box"
+    },
+   "histeria:boss_box" : {
+        "sound" : "metal",
+        "textures" : "boss_box"
+    },
+    "histeria:black_calcite" : {
+      "sound" : "calcite",
+      "textures" : "black_calcite"
+    },
+    "histeria:black_marble" : {
+        "sound" : "stone",
+        "textures" : "black_marble"
+    },
+    "histeria:chiaroscuro_lichen" : {
+        "sound" : "glow_lichen",
+        "textures" : "chiaroscuro_lichen"
+    },
+    "histeria:chiaroscuro_mushroom" : {
+        "carried_textures" : "chiaroscuro_mushroom_carried",
+        "sound" : "grass",
+        "textures" : "chiaroscuro_mushroom"
+    },
+    "histeria:gloom_dirt" : {
+        "sound" : "gravel",
+        "textures" : "gloom_dirt"
+    },
+    "histeria:gloom_leaves" : {
+        "sound" : "grass",
+        "textures" : "gloom_leaves"
+    },
+    "histeria:gloom_log" : {
+        "sound" : "wood",
+      "textures" : {
+         "down" : "gloom_log_top",
+         "side" : "gloom_log",
+         "up" : "gloom_log_top"
+      }
+    },
+    "histeria:gloom_veil" : {
+        "sound" : "grass",
+        "textures" : "gloom_veil"
+    },
+    "histeria:gloomy_planks" : {
+        "sound" : "wood",
+        "textures" : "gloomy_planks"
+    },
+    "histeria:life_blossom" : {
+        "sound" : "grass",
+        "textures" : "life_blossom"
+    },
+    "histeria:lumen_clay" : {
+        "sound" : "gravel",
+        "textures" : "lumen_clay"
+    },
+    "histeria:lumen_leaves" : {
+        "sound" : "grass",
+        "textures" : "lumen_leaves"
+    },
+    "histeria:lumen_lily_pad" : {
+        "carried_textures" : "lumen_lily_pad_carried",
+        "sound" : "grass",
+        "textures" : "lumen_lily_pad"
+    },
+    "histeria:lumen_log" : {
+        "sound" : "wood",
+      "textures" : {
+         "down" : "lumen_log_top",
+         "side" : "lumen_log",
+         "up" : "lumen_log_top"
+      }
+   },
+    "histeria:lumen_planks" : {
+        "sound" : "wood",
+        "textures" : "lumen_planks"
+    },
+    "histeria:lumen_water_flow" : {
+        "textures" : "lumen_water_flow"
+    },
+    "histeria:lumen_water_still" : {
+        "textures" : "lumen_water_still"
+    },
+    "histeria:raw_golden_nocturite_block" : {
+        "sound" : "stone",
+        "textures" : "raw_golden_nocturite_block"
+    },
+    "histeria:cobblestone_floor_generator" : {
+        "sound" : "stone",
+        "textures" : "cobblestone_floor_generator"
+    },
+    "histeria:cobblestone_wall_generator" : {
+        "sound" : "stone",
+        "textures" : "cobblestone_wall_generator"
+    },
+    "histeria:histerite_obsidian_floor_generator" : {
+        "sound" : "stone",
+        "textures" : "histerite_obsidian_floor_generator"
+    },
+    "histeria:histerite_obsidian_wall_generator" : {
+        "sound" : "stone",
+        "textures" : "histerite_obsidian_wall_generator"
+    },
+    "histeria:obsidian_floor_generator" : {
+        "sound" : "stone",
+        "textures" : "obsidian_floor_generator"
+    },
+    "histeria:obsidian_wall_generator" : {
+        "sound" : "stone",
+    "histeria:histerite_obsidian_floor_generator" : {
+        "sound" : "stone",
+        "textures" : "histerite_obsidian_floor_generator"
+    },
+    "histeria:histerite_obsidian_wall_generator" : {
+        "sound" : "stone",
+        "textures" : "histerite_obsidian_wall_generator"
+    },
+    "histeria:obsidian_floor_generator" : {
+        "sound" : "stone",
+        "textures" : "obsidian_floor_generator"
+    },
+    "histeria:obsidian_wall_generator" : {
+        "sound" : "stone",
+        "textures" : "obsidian_wall_generator"
+    },
+    "histeria:lava_floor_generator" : {
+        "sound" : "stone",
+        "textures" : "lava_floor_generator"
+    },
+    "histeria:lava_wall_generator" : {
+        "sound" : "stone",
+        "textures" : "lava_wall_generator"
+    },
+    "histeria:water_floor_generator" : {
+        "sound" : "stone",
+        "textures" : "water_floor_generator"
+    },
+    "histeria:water_wall_generator" : {
+        "sound" : "stone",
+        "textures" : "water_wall_generator"
     }
 }
