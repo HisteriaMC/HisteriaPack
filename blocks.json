@@ -545,19 +545,19 @@
         "sound" : "stone",
         "textures" : "cobblestone_wall_generator"
     },
-    "histeria:histerite_obisidian_floor_generator" : {
+    "histeria:histerite_obsidian_floor_generator" : {
         "sound" : "stone",
-        "textures" : "histerite_obisidian_floor_generator"
+        "textures" : "histerite_obsidian_floor_generator"
     },
     "histeria:histerite_obsidian_wall_generator" : {
         "sound" : "stone",
         "textures" : "histerite_obsidian_wall_generator"
     },
-    "histeria:obisidian_floor_generator" : {
+    "histeria:obsidian_floor_generator" : {
         "sound" : "stone",
-        "textures" : "obisidian_floor_generator"
+        "textures" : "obsidian_floor_generator"
     },
-    "histeria:obisidian_wall_generator" : {
+    "histeria:obsidian_wall_generator" : {
         "sound" : "stone",
     "histeria:histerite_obsidian_floor_generator" : {
         "sound" : "stone",

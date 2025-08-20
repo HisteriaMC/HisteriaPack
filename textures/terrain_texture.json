@@ -393,16 +393,16 @@
       "cobblestone_wall_generator" : {
          "textures" : "textures/blocks/cobblestone_wall_generator"
       },
-      "histerite_obisidian_floor_generator" : {
-         "textures" : "textures/blocks/histerite_obisidian_floor_generator"
+      "histerite_obsidian_floor_generator" : {
+         "textures" : "textures/blocks/histerite_obsidian_floor_generator"
       },
       "histerite_obsidian_wall_generator" : {
          "textures" : "textures/blocks/histerite_obsidian_wall_generator"
       },
-      "obisidian_floor_generator" : {
-         "textures" : "textures/blocks/obisidian_floor_generator"
+      "obsidian_floor_generator" : {
+         "textures" : "textures/blocks/obsidian_floor_generator"
       },
-      "obisidian_wall_generator" : {
+      "obsidian_wall_generator" : {
       "histerite_obsidian_floor_generator" : {
          "textures" : "textures/blocks/histerite_obsidian_floor_generator"
       },
