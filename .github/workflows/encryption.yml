@@ -25,7 +25,7 @@ jobs:
 
       - name: Zip texture pack (with manifest.json)
         run: |
-          zip -r build/HisteriaPack.zip . -x '*.git*' -x 'build/*' -x '.github/*'
+          zip -r build/HisteriaPack.zip pack
 
       - name: Encrypt, minify & compress with bedrockpack
         run: |
@@ -42,12 +42,26 @@ jobs:
           name: zip-encrypted-texture-pack
           path: encoded-pack/HisteriaPack.zip
 
-      - name: Create and push tag if [Publish] (auto-tag)
+      - name: Create and push tag from manifest version
         if: "!startsWith(github.ref, 'refs/tags/')"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          TAG="auto-$(date +'%Y%m%d-%H%M%S')"
+          VERSION=$(jq -r '.header.version | join(".")' pack/manifest.json)
+          TAG="v$VERSION"
+          if git ls-remote --tags origin | grep -q "refs/tags/$TAG$"; then
+            MAJOR=$(jq -r '.header.version[0]' pack/manifest.json)
+            MINOR=$(jq -r '.header.version[1]' pack/manifest.json)
+            PATCH=$(jq -r '.header.version[2]' pack/manifest.json)
+            PATCH=$((PATCH + 1))
+            TAG="v${MAJOR}.${MINOR}.${PATCH}"
+            jq ".header.version = [$MAJOR, $MINOR, $PATCH] | .modules[0].version = [$MAJOR, $MINOR, $PATCH]" pack/manifest.json > pack/manifest.json.tmp && mv pack/manifest.json.tmp pack/manifest.json
+            git config user.name "github-actions"
+            git config user.email "github-actions@github.com"
+            git add pack/manifest.json
+            git commit -m "Bump version to $TAG [CI skip]"
+            git push origin HEAD:${GITHUB_REF#refs/heads/}
+          fi
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           git tag "$TAG"
@@ -58,12 +72,11 @@ jobs:
         if: startsWith(github.ref, 'refs/tags/')
         uses: actions/create-release@v1
         with:
-          tag_name: ${{ github.ref }}
-          release_name: HisteriaPack ${{ github.ref }}
+          tag_name: ${{ github.ref_name }}
+          release_name: HisteriaPack ${{ github.ref_name }}
           body: "Automated release of encrypted texture pack (bedrockpack)."
           draft: false
           prerelease: false
-          generate_release_notes: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
