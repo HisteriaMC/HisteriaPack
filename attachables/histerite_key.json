@@ -2,22 +2,22 @@
 	"format_version": "1.10.0",
 	"minecraft:attachable": {
 		"description": {
-			"identifier": "histeria:boss_key",
+			"identifier": "histeria:histerite_key",
 			"render_controllers": ["controller.render.item_default"],
 			"materials": {
 				"default": "entity_alphatest",
 				"enchanted": "entity_alphatest_glint"
 			},
 			"textures": {
-				"default": "textures/items/keys/boss_key_model",
+				"default": "textures/items/keys/histerite_key_model",
 				"enchanted": "textures/misc/enchanted_item_glint"
 			},
 			"geometry": {
-				"default": "geometry.boss_key"
+				"default": "geometry.histerite_key"
 			},
 			"animations": {
-				"first_person_hold": "animation.boss_key_first_person",
-				"third_person_hold": "animation.boss_key_third_person"
+				"first_person_hold": "animation.histerite_key_first_person",
+				"third_person_hold": "animation.histerite_key_third_person"
 			},
 			"scripts": {
 				"animate": [
