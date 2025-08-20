@@ -3,7 +3,7 @@
 	"minecraft:geometry": [
 		{
 			"description": {
-				"identifier": "geometry.histerite_key",
+				"identifier": "geometry.boss_key",
 				"texture_width": 32,
 				"texture_height": 32,
 				"visible_bounds_width": 3,
@@ -19,11 +19,30 @@
 				{
 					"name": "particles",
 					"parent": "main",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "bone3",
+					"parent": "particles",
 					"pivot": [0, 0, 0],
 					"cubes": [
-						{"origin": [-1, 2, -3], "size": [1, 2, 1], "uv": [0, 20]},
-						{"origin": [2, 3, 0], "size": [1, 2, 1], "uv": [0, 20]},
 						{"origin": [-2, 5, 3], "size": [1, 2, 1], "uv": [0, 20]}
+					]
+				},
+				{
+					"name": "bone2",
+					"parent": "particles",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-1, 2, -3], "size": [1, 2, 1], "uv": [0, 20]}
+					]
+				},
+				{
+					"name": "bone",
+					"parent": "particles",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [2, 3, 0], "size": [1, 2, 1], "uv": [0, 20]}
 					]
 				},
 				{
