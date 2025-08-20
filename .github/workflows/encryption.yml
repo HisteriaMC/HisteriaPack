@@ -10,6 +10,47 @@ on:
 
 
 jobs:
+  build:
+    runs-on: ubuntu-latest
+    if: "contains(github.event.head_commit.message, '[Build]')"
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install pngquant
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pngquant
+
+      - name: Compress PNG files
+        run: find . -name '*.png' -type f -exec pngquant --strip --quality=65-80 --ext .png --force "{}" \;
+
+      - name: Compile json_comments
+        run: |
+          git clone https://github.com/mewalig/json-comments /tmp/json-comments
+          echo "Compiling json_comment"
+          cc -o /tmp/json-comments/json_comment /tmp/json-comments/json_comment.c
+
+      - name: Minify JSON files
+        run: |
+          find . -name '*.json' -type f | while read fjson; do
+            echo "Stripping comments from $fjson"
+            cat "$fjson" | /tmp/json-comments/json_comment --strip /dev/null > "$fjson.tmp"
+            mv "$fjson.tmp" "$fjson"
+          done
+
+      - name: Push changes to build branch
+        run: |
+          git config --global user.name 'github-actions'
+          git config --global user.email 'github-actions@github.com'
+          git checkout -B build
+          git add .
+          git commit -m 'Compressed PNG files and minified JSON' || echo "No changes to commit"
+          git push origin build --force
+          
   pack-encryption:
     runs-on: ubuntu-latest
     steps:
