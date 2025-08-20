@@ -55,29 +55,36 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
-      - name: Create histeria-pack directory and move files
+      - name: Ensure Java 21 is installed
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '21'
+
+      - name: Zip texture pack (with manifest.json)
         run: |
-          mkdir histeria-pack
-          rsync -av --exclude-from=./.gitignore ./ ./histeria-pack/ --remove-source-files
-        shell: bash
+          mkdir -p build
+          zip -r build/HisteriaPack.zip . -x '*.git*' -x 'build/*' -x 'encoded-pack/*'
 
-      - name: Download mcruptil tool from release and encrypt pack
+      - name: Download EncryptMyPack
         run: |
-          wget -O ./mcrputil https://github.com/valaphee/mcrputil/releases/download/1.2.0/mcrputil
-          chmod +x ./mcrputil
-          ./mcrputil encrypt "histeria-pack" "./encoded-pack/HisteriaPack" --key "${{ secrets.ENCRYPTION_KEY }}"
-        shell: bash
+          wget -O EncryptMyPack.jar https://github.com/AllayMC/EncryptMyPack/releases/download/2.0.1/EncryptMyPack-2.0.1-shaded.jar
 
-      - name: Zip encrypted texture pack
-        run: cd ./encoded-pack/HisteriaPack && zip -r ../../HisteriaPack.zip ./*
+      - name: Encrypt texture pack
+        run: |
+          mkdir -p encoded-pack
+          java -jar EncryptMyPack.jar encrypt \
+            --input build/HisteriaPack.zip \
+            --output encoded-pack/HisteriaPack.zip \
+            --key "${{ secrets.ENCRYPTION_KEY }}"
 
       - name: Upload encrypted texture pack as artifact
         uses: actions/upload-artifact@v4
         with:
           name: zip-encrypted-texture-pack
-          path: HisteriaPack.zip
+          path: encoded-pack/HisteriaPack.zip
 
   publish-release:
     # This job triggers only on tag creation
