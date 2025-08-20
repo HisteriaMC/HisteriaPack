@@ -16,9 +16,9 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Create tools and build directories
+      - name: Create tools directory
         run: |
-          mkdir -p tools build
+          mkdir -p tools
 
       - name: Download and extract bedrockpack
         run: |
@@ -32,7 +32,7 @@ jobs:
 
       - name: Zip texture pack (with manifest.json)
         run: |
-          zip -r build/HisteriaPack.zip .
+          zip -r build/HisteriaPack.zip . -x ".git/*" ".github/*" "tools/*" "build/*" ".gitignore" ".LICENCE" ".README.md"
 
       - name: Encrypt, minify & compress with bedrockpack
         run: |
