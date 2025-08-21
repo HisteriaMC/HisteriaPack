@@ -1,76 +1,144 @@
-name: Texturepack encryption
+# Since Microsoft tends to takedown with DMCA repositories to encrypt packs here's a link to an archive of the tool below in case it gets taken down
+# https://drive.histeria.fr/d/66a436d728744530b042/
+name: BedrockPack Encryption & uploading
 
 on:
   push:
     branches:
-      - 'main'
-      - 'v7'
-    tags:
       - '*'
 
-
 jobs:
-  pack-encryption:
+  encrypt-and-publish:
     runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-
-      - name: Create histeria-pack directory and move files
-        run: |
-          mkdir histeria-pack
-          rsync -av --exclude-from=./.gitignore ./ ./histeria-pack/ --remove-source-files
-        shell: bash
-
-      - name: Download mcruptil tool from release and encrypt pack
-        run: |
-          wget -O ./mcrputil https://github.com/valaphee/mcrputil/releases/download/1.2.0/mcrputil
-          chmod +x ./mcrputil
-          ./mcrputil encrypt "histeria-pack" "./encoded-pack/HisteriaPack" --key "${{ secrets.ENCRYPTION_KEY }}"
-        shell: bash
-
-      - name: Zip encrypted texture pack
-        run: cd ./encoded-pack/HisteriaPack && zip -r ../../HisteriaPack.zip ./*
-
-      - name: Upload encrypted texture pack as artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: zip-encrypted-texture-pack
-          path: HisteriaPack.zip
-
-  publish-release:
-    # This job triggers only on tag creation
-    needs: pack-encryption
-    runs-on: ubuntu-latest
-    if: startsWith(github.ref, 'refs/tags/')
+    if: contains(github.event.head_commit.message, '[Publish]')
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Download encrypted texture pack artifact
-        uses: actions/download-artifact@v4
+      - name: Create tools directory
+        run: |
+          mkdir -p tools
+
+      - name: Download and extract bedrockpack
+        run: |
+          cd tools
+          wget -O bedrockpack.tar.gz https://github.com/AkmalFairuz/bedrockpack/releases/download/v1.2.1/bedrockpack-v1.2.1-linux-amd64.tar.gz
+          tar -xzf bedrockpack.tar.gz
+          chmod +x bedrockpack
+
+      - name: Create build directory
+        run: mkdir -p build
+
+      - name: Zip texture pack (with manifest.json)
+        run: |
+          zip -r build/HisteriaPack.zip . -x ".git/*" ".github/*" "tools/*" "build/*" ".gitignore" ".LICENCE" ".README.md"
+
+      - name: Encrypt, minify & compress with bedrockpack
+        run: |
+          ./tools/bedrockpack encrypt build/HisteriaPack.zip "${{ secrets.ENCRYPTION_KEY }}" || ./tools/bedrockpack encrypt build/HisteriaPack.zip
+
+      - name: Move encrypted pack to encoded-pack
+        run: |
+          mkdir -p encoded-pack
+          mv build/HisteriaPack_encrypted.zip encoded-pack/HisteriaPack.zip || mv build/HisteriaPack.zip encoded-pack/HisteriaPack.zip
+
+      - name: Upload encrypted texture pack as artifact
+        uses: actions/upload-artifact@v4
         with:
           name: zip-encrypted-texture-pack
-          path: ./
+          path: encoded-pack/HisteriaPack.zip
+
+      - name: Create and push tag from manifest version
+        if: "!startsWith(github.ref, 'refs/tags/')"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          VERSION=$(jq -r '.header.version | join(".")' manifest.json)
+          TAG="v$VERSION"
+          if git ls-remote --tags origin | grep -q "refs/tags/$TAG$"; then
+            MAJOR=$(jq -r '.header.version[0]' manifest.json)
+            MINOR=$(jq -r '.header.version[1]' manifest.json)
+            PATCH=$(jq -r '.header.version[2]' manifest.json)
+            PATCH=$((PATCH + 1))
+            TAG="v${MAJOR}.${MINOR}.${PATCH}"
+            jq ".header.version = [$MAJOR, $MINOR, $PATCH] | .modules[0].version = [$MAJOR, $MINOR, $PATCH]" manifest.json > manifest.json.tmp && mv manifest.json.tmp manifest.json
+            git config user.name "github-actions"
+            git config user.email "github-actions@github.com"
+            git add manifest.json
+            git commit -m "Bump version to $TAG [CI skip]"
+            git push origin HEAD:${GITHUB_REF#refs/heads/}
+          fi
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git tag "$TAG"
+          git push origin "$TAG"
 
       - name: Create Release
         id: create_release
+        if: startsWith(github.ref, 'refs/tags/')
         uses: actions/create-release@v1
         with:
-          tag_name: ${{ github.ref }} # Tag that triggered the workflow
-          release_name: HisteriaPack ${{ github.ref }}
-          body: "Automated release of encrypted texture pack."
+          tag_name: ${{ github.ref_name }}
+          release_name: HisteriaPack ${{ github.ref_name }}
+          body: "Automated release of encrypted texture pack (bedrockpack)."
           draft: false
           prerelease: false
-          generate_release_notes: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Upload encrypted texture pack to Release
+        if: steps.create_release.outputs.upload_url != ''
         uses: actions/upload-release-asset@v1
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./HisteriaPack.zip
+          asset_path: encoded-pack/HisteriaPack.zip
           asset_name: HisteriaPack.zip
           asset_content_type: application/zip
+
+          
+  deploy-to-server:
+    runs-on: ubuntu-latest
+    needs: encrypt-and-publish
+    if: contains(github.event.head_commit.message, '[Publish]')
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download encrypted pack artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: zip-encrypted-texture-pack
+          path: encoded-pack
+
+      - name: Install sshpass
+        run: sudo apt-get install -y sshpass
+
+      - name: Upload encrypted pack to production server
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+          SSH_USERNAME: ${{ vars.SSH_USERNAME }}
+          HOST: ${{ vars.HOST }}
+          SSH_PORT: ${{ vars.SSH_PORT }}
+          DIRECTORY: ${{ vars.DIRECTORY }}
+        run: |
+          echo "SSH_USERNAME: $SSH_USERNAME"
+          echo "HOST: $HOST"
+          echo "SSH_PORT: $SSH_PORT"
+          echo "DIRECTORY: $DIRECTORY"
+
+          eval "$(ssh-agent -s)"
+          SSH_KEY_FILE=$(mktemp)
+          echo "${SSH_PRIVATE_KEY}" > "${SSH_KEY_FILE}"
+          chmod 600 "${SSH_KEY_FILE}"
+          ssh-add "${SSH_KEY_FILE}"
+
+          sudo ip li set mtu 1400 dev eth0
+
+          rsync -avz -e "ssh -o StrictHostKeyChecking=no -p $SSH_PORT" encoded-pack/HisteriaPack.zip $SSH_USERNAME@$HOST:$DIRECTORY/HisteriaPack.zip
+
+          ssh -p $SSH_PORT $SSH_USERNAME@$HOST "cd $DIRECTORY && ./upload.sh resource_packs HisteriaPack.zip"
+
+          ssh-agent -k
+          if [ -f "$SSH_KEY_FILE" ]; then rm -f "$SSH_KEY_FILE"; fi

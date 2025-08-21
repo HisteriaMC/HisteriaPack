@@ -561,6 +561,22 @@
         "sound" : "stone",
         "textures" : "obisidian_wall_generator"
     },
+    "histeria:histerite_obsidian_floor_generator" : {
+        "sound" : "stone",
+        "textures" : "histerite_obsidian_floor_generator"
+    },
+    "histeria:obsidian_floor_generator" : {
+        "sound" : "stone",
+        "textures" : "obsidian_floor_generator"
+    },
+    "histeria:histerite_obsidian_wall_generator" : {
+        "sound" : "stone",
+        "textures" : "histerite_obsidian_wall_generator"
+    },
+    "histeria:obsidian_wall_generator" : {
+        "sound" : "stone",
+        "textures" : "obsidian_wall_generator"
+    },
     "histeria:lava_floor_generator" : {
         "sound" : "stone",
         "textures" : "lava_floor_generator"
@@ -576,5 +592,21 @@
     "histeria:water_wall_generator" : {
         "sound" : "stone",
         "textures" : "water_wall_generator"
+    },
+    "histeria:meteoric_stone" : {
+        "sound" : "stone",
+        "textures" : "meteoric_stone"
+    },
+    "histeria:hollow_meteoric_stone" : {
+        "sound" : "stone",
+        "textures" : "hollow_meteoric_stone"
+    },
+    "histeria:cracked_stone_holes" : {
+        "sound" : "stone",
+        "textures" : "cracked_stone_holes"
+    },
+    "histeria:pierced_stone_holes" : {
+        "sound" : "stone",
+        "textures" : "pierced_stone_holes"
     }
 }
