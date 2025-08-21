@@ -549,13 +549,13 @@
         "sound" : "stone",
         "textures" : "histerite_obsidian_floor_generator"
     },
-    "histeria:obsidian_floor_generator" : {
-        "sound" : "stone",
-        "textures" : "obsidian_floor_generator"
-    },
     "histeria:histerite_obsidian_wall_generator" : {
         "sound" : "stone",
         "textures" : "histerite_obsidian_wall_generator"
+    },
+    "histeria:obsidian_floor_generator" : {
+        "sound" : "stone",
+        "textures" : "obsidian_floor_generator"
     },
     "histeria:obsidian_wall_generator" : {
         "sound" : "stone",

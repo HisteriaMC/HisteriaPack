@@ -412,6 +412,12 @@
       "water_wall_generator" : {
          "textures" : "textures/blocks/water_wall_generator"
       },
+      "lava_floor_generator" : {
+         "textures" : "textures/blocks/lava_floor_generator"
+      },
+      "lava_wall_generator" : {
+         "textures" : "textures/blocks/lava_wall_generator"
+      },
       "vote_box" : {
          "textures" : "textures/blocks/vote_box"
       },
