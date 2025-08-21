@@ -1,5 +1,6 @@
 {
    "num_mip_levels" : 4,
+   "texture_name" : "atlas.terrain",
    "padding" : 8,
    "resource_pack_name" : "vanilla",
    "texture_data" : {
@@ -403,16 +404,6 @@
          "textures" : "textures/blocks/obsidian_floor_generator"
       },
       "obsidian_wall_generator" : {
-      "histerite_obsidian_floor_generator" : {
-         "textures" : "textures/blocks/histerite_obsidian_floor_generator"
-      },
-      "histerite_obsidian_wall_generator" : {
-         "textures" : "textures/blocks/histerite_obsidian_wall_generator"
-      },
-      "obsidian_floor_generator" : {
-         "textures" : "textures/blocks/obsidian_floor_generator"
-      },
-      "obsidian_wall_generator" : {
          "textures" : "textures/blocks/obsidian_wall_generator"
       },
       "water_floor_generator" : {
@@ -504,7 +495,18 @@
       },
       "raw_golden_nocturite_block" : {
          "textures" : "textures/blocks/raw_golden_nocturite_block"
-      }
-   },
-   "texture_name" : "atlas.terrain"
+      },
+      "meteoric_stone" : {
+         "textures" : "textures/blocks/meteoric_stone"
+      },
+      "hollow_meteoric_stone" : {
+         "textures" : "textures/blocks/hollow_meteoric_stone"
+      },
+      "cracked_stone_holes" : {
+         "textures" : "textures/blocks/cracked_stone_holes"
+      },
+      "pierced_stone_holes" : {
+         "textures" : "textures/blocks/pierced_stone_holes"
+    }
+  }
 }
