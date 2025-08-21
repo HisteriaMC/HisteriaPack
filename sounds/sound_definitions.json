@@ -93,6 +93,13 @@
          "sounds": [
             "sounds/block/mixed_sand"
          ]
+      },
+      "structure.ruin_discovery" : {
+         "__use_legacy_max_distance": "true",
+         "category": "player",
+         "sounds": [
+            "sounds/structure/ruin_discovery"
+         ]
       }
    }
 }
