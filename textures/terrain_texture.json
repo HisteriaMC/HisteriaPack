@@ -466,8 +466,8 @@
       "gloom_veil_tip" : {
          "textures" : "textures/blocks/gloom_veil_tip"
       },
-      "gloomy_planks" : {
-         "textures" : "textures/blocks/gloomy_planks"
+      "gloom_planks" : {
+         "textures" : "textures/blocks/gloom_planks"
       },
       "lumen_clay" : {
          "textures" : "textures/blocks/lumen_clay"
@@ -508,11 +508,11 @@
       "hollow_meteoric_stone" : {
          "textures" : "textures/blocks/hollow_meteoric_stone"
       },
-      "cracked_stone_holes" : {
-         "textures" : "textures/blocks/cracked_stone_holes"
+      "cracked_meteoric_stone" : {
+         "textures" : "textures/blocks/cracked_meteoric_stone"
       },
-      "pierced_stone_holes" : {
-         "textures" : "textures/blocks/pierced_stone_holes"
+      "pierced_meteoric_stone" : {
+         "textures" : "textures/blocks/pierced_meteoric_stone"
     }
   }
 }
