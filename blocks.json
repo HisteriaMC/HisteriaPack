@@ -581,8 +581,16 @@
         "sound" : "stone",
         "textures" : "meteoric_stone"
     },
-    "histeria:meteoric_stone_holes" : {
+    "histeria:hollow_meteoric_stone" : {
         "sound" : "stone",
-        "textures" : "meteoric_stone_holes"
+        "textures" : "hollow_meteoric_stone"
+    },
+    "histeria:cracked_stone_holes" : {
+        "sound" : "stone",
+        "textures" : "cracked_stone_holes"
+    },
+    "histeria:pierced_stone_holes" : {
+        "sound" : "stone",
+        "textures" : "pierced_stone_holes"
     }
 }
