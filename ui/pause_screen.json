@@ -604,7 +604,7 @@
         "requires": "$ignore_edu_pause",
         "$screen_content": "pause.pause_screen_content",
         "$screen_bg_content": "common.screen_background",
-        "$screen_background_alpha": 0.1
+        "$screen_background_alpha": 0.4
       },
       {
         "requires": "(not $ignore_edu_pause)",
