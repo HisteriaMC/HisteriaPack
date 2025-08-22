@@ -3,8 +3,9 @@
 	"minecraft:client_entity": {
 	  "description": {
 		"identifier": "histeria:boss_spirit",
+		"min_engine_version": "1.8.0",
 		"materials": {
-		  "default": "entity_alphatest"
+		  "default": "entity_beam_additive"
 		},
 		"textures": {
 		  "default": "textures/entity/boss_spirit"
