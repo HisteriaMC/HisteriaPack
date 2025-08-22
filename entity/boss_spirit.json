@@ -1,39 +1,42 @@
 {
-	"format_version": "1.10.0",
-	"minecraft:client_entity": {
-	  "description": {
-		"identifier": "histeria:boss_spirit",
-		"min_engine_version": "1.8.0",
-		"materials": {
-		  "default": "entity_beam_additive"
-		},
-		"textures": {
-		  "default": "textures/entity/boss_spirit"
-		},
-		"geometry": {
-		  "default": "geometry.boss_spirit"
-		},
-		"animations": {
-		  "idle": "animation.boss_spirit.idle",
-		  "walk": "animation.boss_spirit.walk",
-		  "attack": "animation.boss_spirit.attack"
-		},
-		"scripts": {
-			"animate": [
-			  {
-				"attack": "variable.attack_time > 0.0"
-			  },
-			  {
-				"idle": "query.modified_move_speed <= 0.01"
-			  },
-			  {
-				"walk": "query.is_moving"
-			  }
-			]
-		},
-		"render_controllers": [
-		  "controller.render.boss_spirit"
-		]
-	  }
-	}
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "histeria:boss_spirit",
+      "min_engine_version": "1.8.0",
+      "materials": {
+        "default": "entity_beam_additive"
+      },
+      "textures": {
+        "default": "textures/entity/boss_spirit"
+      },
+      "geometry": {
+        "default": "geometry.boss_spirit"
+      },
+      "animations": {
+        "idle": "animation.boss_spirit.idle",
+        "walk": "animation.boss_spirit.walk",
+        "attack": "animation.boss_spirit.attack",
+        "look_at_target_default": "animation.humanoid.look_at_target.default",
+        "look_at_target_gliding": "animation.humanoid.look_at_target.gliding",
+        "look_at_target_swimming": "animation.humanoid.look_at_target.swimming"
+      },
+      "scripts": {
+        "animate": [
+          {
+            "attack": "variable.attack_time > 0.0"
+          },
+          {
+            "idle": "query.modified_move_speed <= 0.01"
+          },
+          {
+            "walk": "query.is_moving"
+          }
+        ]
+      },
+      "render_controllers": [
+        "controller.render.boss_spirit"
+      ]
+    }
   }
+}
