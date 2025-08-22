@@ -14,7 +14,7 @@
 		},
 		"animations": {
 		  "idle": "animation.hylide.idle",
-		  "jump": "animation.hylide.jump",
+		  "walk": "animation.hylide.walk",
 		  "attack": "animation.hylide.attack"
 		},
 		"scripts": {
@@ -26,7 +26,7 @@
 					"idle": "query.modified_move_speed <= 0.01"
 				  },
 				  {
-					"jump": "query.is_moving"
+					"walk": "query.is_moving"
 				  }
 				]
 			},

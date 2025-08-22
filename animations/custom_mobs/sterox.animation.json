@@ -235,10 +235,6 @@
 			"loop": true,
 			"animation_length": 2,
 			"bones": {
-				"OursdeNocturite": {
-					"position": [0, 4.375, 0],
-					"scale": 1.3
-				},
 				"bone7": {
 					"rotation": [0, 0, -45],
 					"position": [-0.293, -0.293, 0],
