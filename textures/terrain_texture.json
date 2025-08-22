@@ -499,8 +499,8 @@
       "lumen_lily_pad_caried" : {
          "textures" : "textures/blocks/lumen_lily_pad_caried"
       },
-      "raw_golden_nocturite_block" : {
-         "textures" : "textures/blocks/raw_golden_nocturite_block"
+      "raw_golden_nocturite" : {
+         "textures" : "textures/blocks/raw_golden_nocturite"
       },
       "meteoric_stone" : {
          "textures" : "textures/blocks/meteoric_stone"
