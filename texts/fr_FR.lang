@@ -70,11 +70,6 @@ tile.histeria:histerite_box.name=Box en Histerite
 tile.histeria:nocturite_box.name=Box en Nocturite
 tile.histeria:silver_medal_block.name=Médaille d'argent
 tile.histeria:bronze_medal_block.name=Médaille de bronze
-tile.histeria:gloom_dirt.name=Terre lugubre
-tile.histeria:gloom_leaves.name=Feuilles lugubres
-tile.histeria:gloom_log.name=Bois lugubre
-tile.histeria:gloom_planks.name=Planche lugubre
-tile.histeria:gloom_veil.name=Feuilles lugubre
 
 [Decorations]
 tile.histeria:armchair.name=Fauteuil
@@ -105,6 +100,11 @@ tile.histeria:gutter.name=Calcaire brun
 tile.histeria:crate.name=Caisse
 tile.histeria:couch.name=Canapé
 tile.histeria:bedside_cabinet.name=Table de nuit
+tile.histeria:gloom_dirt.name=Terre lugubre
+tile.histeria:gloom_leaves.name=Feuilles lugubres
+tile.histeria:gloom_log.name=Bois lugubre
+tile.histeria:gloom_planks.name=Planche lugubre
+tile.histeria:gloom_veil.name=Feuilles lugubre
 
 [Armors]
 item.histeria:nocturite_helmet=Casque en Nocturite
