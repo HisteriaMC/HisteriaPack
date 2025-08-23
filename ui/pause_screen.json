@@ -101,7 +101,7 @@
     "anchor_from": "bottom_middle",
     "anchor_to": "bottom_middle",
     "size": [ "100%", "100px" ],
-    "$skin_viewer_panel_offset|default": [ 0, 16 ],
+    "$skin_viewer_panel_offset|default": [ 0, 11 ],
     "offset": "$skin_viewer_panel_offset",
     "gesture_tracking_button": "button.turn_doll",
     "button_mappings": [
@@ -603,7 +603,8 @@
       {
         "requires": "$ignore_edu_pause",
         "$screen_content": "pause.pause_screen_content",
-        "$screen_bg_content": "common.screen_background"
+        "$screen_bg_content": "common.screen_background",
+        "$screen_background_alpha": 0.4
       },
       {
         "requires": "(not $ignore_edu_pause)",
