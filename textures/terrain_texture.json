@@ -412,6 +412,12 @@
       "water_wall_generator" : {
          "textures" : "textures/blocks/water_wall_generator"
       },
+      "lava_floor_generator" : {
+         "textures" : "textures/blocks/lava_floor_generator"
+      },
+      "lava_wall_generator" : {
+         "textures" : "textures/blocks/lava_wall_generator"
+      },
       "vote_box" : {
          "textures" : "textures/blocks/vote_box"
       },
@@ -460,8 +466,8 @@
       "gloom_veil_tip" : {
          "textures" : "textures/blocks/gloom_veil_tip"
       },
-      "gloomy_planks" : {
-         "textures" : "textures/blocks/gloomy_planks"
+      "gloom_planks" : {
+         "textures" : "textures/blocks/gloom_planks"
       },
       "lumen_clay" : {
          "textures" : "textures/blocks/lumen_clay"
@@ -493,8 +499,8 @@
       "lumen_lily_pad_caried" : {
          "textures" : "textures/blocks/lumen_lily_pad_caried"
       },
-      "raw_golden_nocturite_block" : {
-         "textures" : "textures/blocks/raw_golden_nocturite_block"
+      "raw_golden_nocturite" : {
+         "textures" : "textures/blocks/raw_golden_nocturite"
       },
       "meteoric_stone" : {
          "textures" : "textures/blocks/meteoric_stone"
@@ -502,11 +508,11 @@
       "hollow_meteoric_stone" : {
          "textures" : "textures/blocks/hollow_meteoric_stone"
       },
-      "cracked_stone_holes" : {
-         "textures" : "textures/blocks/cracked_stone_holes"
+      "cracked_meteoric_stone" : {
+         "textures" : "textures/blocks/cracked_meteoric_stone"
       },
-      "pierced_stone_holes" : {
-         "textures" : "textures/blocks/pierced_stone_holes"
+      "pierced_meteoric_stone" : {
+         "textures" : "textures/blocks/pierced_meteoric_stone"
     }
   }
 }

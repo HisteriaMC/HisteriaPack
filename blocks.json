@@ -494,9 +494,9 @@
         "sound" : "grass",
         "textures" : "gloom_veil"
     },
-    "histeria:gloomy_planks" : {
+    "histeria:gloom_planks" : {
         "sound" : "wood",
-        "textures" : "gloomy_planks"
+        "textures" : "gloom_planks"
     },
     "histeria:life_blossom" : {
         "sound" : "grass",
@@ -533,9 +533,9 @@
     "histeria:lumen_water_still" : {
         "textures" : "lumen_water_still"
     },
-    "histeria:raw_golden_nocturite_block" : {
+    "histeria:raw_golden_nocturite" : {
         "sound" : "stone",
-        "textures" : "raw_golden_nocturite_block"
+        "textures" : "raw_golden_nocturite"
     },
     "histeria:cobblestone_floor_generator" : {
         "sound" : "stone",
@@ -545,17 +545,33 @@
         "sound" : "stone",
         "textures" : "cobblestone_wall_generator"
     },
-    "histeria:histerite_obsidian_floor_generator" : {
+    "histeria:histerite_obisidian_floor_generator" : {
         "sound" : "stone",
-        "textures" : "histerite_obsidian_floor_generator"
-    },
-    "histeria:obsidian_floor_generator" : {
-        "sound" : "stone",
-        "textures" : "obsidian_floor_generator"
+        "textures" : "histerite_obisidian_floor_generator"
     },
     "histeria:histerite_obsidian_wall_generator" : {
         "sound" : "stone",
         "textures" : "histerite_obsidian_wall_generator"
+    },
+    "histeria:obisidian_floor_generator" : {
+        "sound" : "stone",
+        "textures" : "obisidian_floor_generator"
+    },
+    "histeria:obisidian_wall_generator" : {
+        "sound" : "stone",
+        "textures" : "obisidian_wall_generator"
+    },
+    "histeria:histerite_obsidian_floor_generator" : {
+        "sound" : "stone",
+        "textures" : "histerite_obsidian_floor_generator"
+    },
+    "histeria:histerite_obsidian_wall_generator" : {
+        "sound" : "stone",
+        "textures" : "histerite_obsidian_wall_generator"
+    },
+    "histeria:obsidian_floor_generator" : {
+        "sound" : "stone",
+        "textures" : "obsidian_floor_generator"
     },
     "histeria:obsidian_wall_generator" : {
         "sound" : "stone",
@@ -585,12 +601,12 @@
         "sound" : "stone",
         "textures" : "hollow_meteoric_stone"
     },
-    "histeria:cracked_stone_holes" : {
+    "histeria:cracked_meteoric_stone" : {
         "sound" : "stone",
-        "textures" : "cracked_stone_holes"
+        "textures" : "cracked_meteoric_stone"
     },
-    "histeria:pierced_stone_holes" : {
+    "histeria:pierced_meteoric_stone" : {
         "sound" : "stone",
-        "textures" : "pierced_stone_holes"
+        "textures" : "pierced_meteoric_stone"
     }
 }
