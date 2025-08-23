@@ -499,6 +499,12 @@
     },
     "void_star": {
       "textures": "textures/items/craft/void_star"
+    },
+    "gravitational_stone": {
+      "textures": "textures/items/utility/gravitational_stone"
+    },
+    "blood_shuriken": {
+      "textures": "textures/items/utility/blood_shuriken"
     }
   }
 }
