@@ -54,6 +54,8 @@ tile.histeria:histerite_obsidian_wall_generator.name=Générateur de mur d'obsid
 tile.histeria:hollow_meteoric_stone.name=Pierre météorique creuse
 tile.histeria:lava_floor_generator.name=Générateur de sol de lave
 tile.histeria:lava_wall_generator.name=Générateur de mur de lave
+tile.histeria:water_floor_generator.name=Générateur de sol d'eau
+tile.histeria:water_wall_generator.name=Générateur de mur d'eau
 tile.histeria:life_blossom.name=Fleur de vie
 tile.histeria:lumen_clay.name=Argile de Lumen
 tile.histeria:lumen_leaves.name=Feuilles de Lumen
@@ -68,8 +70,15 @@ tile.histeria:raw_golden_nocturite.name=Nocturite en or brute
 tile.histeria:vote_box.name=Box de Vote
 tile.histeria:histerite_box.name=Box en Histerite
 tile.histeria:nocturite_box.name=Box en Nocturite
+tile.histeria:gold_trophy_block.name=Trophée en or
 tile.histeria:silver_medal_block.name=Médaille d'argent
 tile.histeria:bronze_medal_block.name=Médaille de bronze
+tile.histeria:sterox_spawner.name=Spawner de Sterox
+tile.histeria:noctus_spawner.name=Spawner de Noctus
+tile.histeria:lycos_spawner.name=Spawner de Lycos
+tile.histeria:hylide_spawner.name=Spawner d'Hylide
+tile.histeria:bellum_spawner.name=Spawner de Bellum
+
 
 [Decorations]
 tile.histeria:armchair.name=Fauteuil
@@ -271,6 +280,7 @@ item.histeria:blood_key=Clé de sang
 [Spawn Eggs]
 item.histeria:sterox_spawn_egg=Oeuf de Sterox
 item.histeria:noctus_spawn_egg=Oeuf de Noctus
+item.histeria:lycos_spawn_egg=Oeuf de Lycos
 item.histeria:hylide_spawn_egg=Oeuf d'Hylide
 item.histeria:bellum_spawn_egg=Oeuf de Bellum
 

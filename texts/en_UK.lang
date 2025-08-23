@@ -57,6 +57,8 @@ tile.histeria:histerite_obsidian_wall_generator.name=Histerite Obsidian Wall Gen
 tile.histeria:hollow_meteoric_stone.name=Hollow Meteoric Stone
 tile.histeria:lava_floor_generator.name=Lava Floor Generator
 tile.histeria:lava_wall_generator.name=Lava Wall Generator
+tile.histeria:water_floor_generator.name=Water Floor Generator
+tile.histeria:water_wall_generator.name=Water Wall Generator
 tile.histeria:life_blossom.name=Life Blossom
 tile.histeria:lumen_clay.name=Lumen Clay
 tile.histeria:lumen_leaves.name=Lumen Leaves
@@ -71,8 +73,14 @@ tile.histeria:raw_golden_nocturite.name=Raw Golden Nocturite
 tile.histeria:vote_box.name=Vote Box
 tile.histeria:histerite_box.name=Histerite Box
 tile.histeria:nocturite_box.name=Nocturite Box
+tile.histeria:gold_trophy_block.name=Gold Trophy Block
 tile.histeria:silver_medal_block.name=Silver Medal Block
 tile.histeria:bronze_medal_block.name=Bronze Medal Block
+tile.histeria:sterox_spawner.name=Sterox Spawner
+tile.histeria:noctus_spawner.name=Noctus Spawner
+tile.histeria:lycos_spawner.name=Lycos Spawner
+tile.histeria:hylide_spawner.name=Hylide Spawner
+tile.histeria:bellum_spawner.name=Bellum Spawner
 
 [Decorations]
 tile.histeria:armchair.name=Armchair
@@ -274,6 +282,7 @@ item.histeria:blood_key=Blood Key
 [Spawn Eggs]
 item.histeria:sterox_spawn_egg=Sterox Spawn Egg
 item.histeria:noctus_spawn_egg=Noctus Spawn Egg
+item.Histeria:lycos_spawn_egg=Lycos Spawn Egg
 item.histeria:hylide_spawn_egg=Hylide Spawn Egg
 item.histeria:bellum_spawn_egg=Bellum Spawn Egg
 
