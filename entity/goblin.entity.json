@@ -10,9 +10,9 @@
 				"default": "textures/entity/goblin"
 			},
 			"animations": {
-				"walk": "animation.model.walk",
-				"idle": "animation.model.idle",
-				"attack": "animation.model.attack"
+				"walk": "animation.goblin.walk",
+				"idle": "animation.goblin.idle",
+				"attack": "animation.goblin.attack"
 			},
 			"scripts": {
 				"animate": [
