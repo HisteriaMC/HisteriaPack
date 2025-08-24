@@ -25,7 +25,7 @@ tile.histeria:event_magma.name=Neige en fusion
 tile.histeria:egg_basket.name=Panier d'oeufs
 tile.histeria:mixed_sand.name=Sable mélangé
 tile.histeria:alert.name=Alarme
-tile.histeria:reflector.name=Renvoyeur
+tile.histeria:reflector.name=Réflecteur
 tile.histeria:catalyst.name=Catalyseur
 tile.histeria:generator.name=Générateur
 tile.histeria:vault.name=Coffre-fort
@@ -79,7 +79,6 @@ tile.histeria:lycos_spawner.name=Spawner de Lycos
 tile.histeria:hylide_spawner.name=Spawner d'Hylide
 tile.histeria:bellum_spawner.name=Spawner de Bellum
 
-
 [Decorations]
 tile.histeria:armchair.name=Fauteuil
 tile.histeria:big_pot.name=Grand pot
@@ -128,6 +127,7 @@ item.histeria:hood_helmet=Capuche
 item.histeria:hades_crown=Couronne d'Hadès
 item.histeria:hermes_sandals=Sandales d'Hermès
 item.histeria:ares_chestplate=Plastron d'Arès
+item.histeria:hestia_veil=Voile d'Hestia
 
 [Crafts]
 item.histeria:compressed_cobblestone=Pierre taillée compressée
@@ -194,7 +194,7 @@ tile.histeria:christmas_lucky_block.name=Lucky Block de Noël
 item.histeria:cracked_stone_fossil=Coquillage de pierre fissurée
 item.histeria:fish_fossil=Coquillage de poisson
 item.histeria:shell_fossil=Coquillage
-item.histeria:skull_fossil=Caquillage de crâne
+item.histeria:skull_fossil=Coquillage de crâne
 item.histeria:stone_vein_fossil=Coquille de veine de pierre
 
 [Keys]
