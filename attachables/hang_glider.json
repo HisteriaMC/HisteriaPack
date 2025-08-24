@@ -10,8 +10,7 @@
       },
       "textures": {
         "default": "textures/items/utility/hang_glider",
-        "enchanted": "textures/misc/enchanted_item_glint",
-        "item": "textures/items/apple"
+        "enchanted": "textures/misc/enchanted_item_glint"
       },
       "geometry": {
         "default": "geometry.hang_glider"
