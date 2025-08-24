@@ -127,6 +127,7 @@ item.histeria:hood_helmet=Capuche
 item.histeria:hades_crown=Couronne d'Hadès
 item.histeria:hermes_sandals=Sandales d'Hermès
 item.histeria:ares_chestplate=Plastron d'Arès
+item.histeria:hestia_veil=Voile d'Hestia
 
 [Crafts]
 item.histeria:compressed_cobblestone=Pierre taillée compressée
@@ -193,7 +194,7 @@ tile.histeria:christmas_lucky_block.name=Lucky Block de Noël
 item.histeria:cracked_stone_fossil=Coquillage de pierre fissurée
 item.histeria:fish_fossil=Coquillage de poisson
 item.histeria:shell_fossil=Coquillage
-item.histeria:skull_fossil=Caquillage de crâne
+item.histeria:skull_fossil=Coquillage de crâne
 item.histeria:stone_vein_fossil=Coquille de veine de pierre
 
 [Keys]
