@@ -2,7 +2,7 @@
   "format_version": "1.10.0",
   "minecraft:attachable": {
     "description": {
-      "identifier": "minecraft:hang_glider",
+      "identifier": "histeria:hang_glider",
       "render_controllers": ["controller.render.item_default"],
       "materials": {
         "default": "entity_alphatest",
