@@ -505,6 +505,9 @@
     },
     "blood_shuriken": {
       "textures": "textures/items/utility/blood_shuriken"
+    },
+    "hestia_veil": {
+      "textures": "textures/items/armors/hestia_veil"
     }
   }
 }
