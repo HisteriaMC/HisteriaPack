@@ -1,27 +1,33 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"animation.hang_glider.first_person_hold": {
+		"animation.hang_glider.third_person_hold": {
 			"loop": true,
+			"animation_length": 10,
 			"bones": {
 				"root_item": {
-					"rotation": [90, 56, -32],
-					"position": [9, 18, 5]
+					"rotation": [283.00481, -107.53494, -439.9079],
+					"position": [1.29869, 28.09352, -7.93738],
+					"scale": 0
 				},
-				"bb_main": {
-					"rotation": [164.08473, 19.291, 52.11848],
-					"position": [3, 1, 17],
-					"scale": [0.8, 0.8, 1]
+				"back": {
+					"rotation": [90.58556, 75.39379, -269.24658],
+					"position": [5.9136, 23.45987, 4.01742],
+					"scale": [1, 0.9, 0.9]
 				}
 			}
 		},
-		"animation.hang_glider.third_person_hold": {
+		"animation.hang_glider.first_person_hold": {
 			"loop": true,
+			"animation_length": 10,
 			"bones": {
 				"root_item": {
-					"rotation": [25, 0, 0],
-					"position": [0.5, 19, -2.5],
-					"scale": 0.85
+					"rotation": [271.13165, -26.19883, -69.62689],
+					"position": [-5.02343, 13.98217, -3.72306],
+					"scale": 1.4
+				},
+				"back": {
+					"scale": 0
 				}
 			}
 		}
