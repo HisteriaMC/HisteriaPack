@@ -6,9 +6,9 @@
 				"identifier": "geometry.hang_glider",
 				"texture_width": 16,
 				"texture_height": 16,
-				"visible_bounds_width": 1,
-				"visible_bounds_height": 1,
-				"visible_bounds_offset": [0, 0, 0]
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
 			},
 			"bones": [
 				{
@@ -28,20 +28,35 @@
 				{
 					"name": "back",
 					"pivot": [0, 0, 0],
-					"texture_meshes": [
+					"binding": "'body'",
+					"cubes": [
 						{
-							"texture": "default",
-							"position": [-3.82635, 15, 0.80438],
-							"rotation": [-10, 0, -90],
-							"local_pivot": [-15, -4, 16],
-							"scale": [1, 0, 1]
+							"origin": [-8, 0, -9],
+							"size": [0, 16, 16],
+							"pivot": [0, 0, -1],
+							"rotation": [0, -12.5, 0],
+							"uv": {
+								"north": {"uv": [16, 0], "uv_size": [0, 16]},
+								"east": {"uv": [16, 16], "uv_size": [0, 0]},
+								"south": {"uv": [16, 0], "uv_size": [0, 16]},
+								"west": {"uv": [0, 0], "uv_size": [16, 16]},
+								"up": {"uv": [16, 16], "uv_size": [0, -16]},
+								"down": {"uv": [16, 16], "uv_size": [0, -16]}
+							}
 						},
 						{
-							"texture": "default",
-							"position": [-4, 15, 0.4],
-							"rotation": [-170, 0, -90],
-							"local_pivot": [-15, 4, 15],
-							"scale": [1, 0, 1]
+							"origin": [5.10029, 0, 2.23391],
+							"size": [0, 16, 16],
+							"pivot": [0.10029, 0, -3.76609],
+							"rotation": [0, -167.5, 0],
+							"uv": {
+								"north": {"uv": [16, 0], "uv_size": [0, 16]},
+								"east": {"uv": [16, 0], "uv_size": [-16, 16]},
+								"south": {"uv": [16, 0], "uv_size": [0, 16]},
+								"west": {"uv": [0, 15], "uv_size": [0, 1]},
+								"up": {"uv": [16, 16], "uv_size": [0, -16]},
+								"down": {"uv": [16, 16], "uv_size": [0, -16]}
+							}
 						}
 					]
 				}
