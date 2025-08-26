@@ -387,7 +387,7 @@
       "textures": "textures/custom_ui/vault/vault_arrow_down"
     },
     "vault_wheel_icon": {
-      "textures": "textures/items/mobs_loot/vault_wheel"
+      "textures": "textures/custom_ui/vault/vault_wheel"
     },
     "golden_fur": {
       "textures": "textures/items/mobs_loot/golden_fur"
