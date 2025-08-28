@@ -16,7 +16,7 @@
   },
   {
     "flipbook_texture": "textures/blocks/lumen_water_flow",
-    "atlas_tile": "lumen_water_flow",
+    "atlas_tile": "lumen_water_flow"
   },
   {
     "flipbook_texture": "textures/blocks/water_floor_generator",
