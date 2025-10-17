@@ -513,6 +513,12 @@
       },
       "pierced_meteoric_stone" : {
          "textures" : "textures/blocks/pierced_meteoric_stone"
+      },
+      "halloween_lucky_block" : {
+         "textures" : "textures/blocks/event/halloween_lucky_block"
+      },
+      "halloween_lucky_block_top" : {
+         "textures" : "textures/blocks/event/halloween_lucky_block_top"
     }
   }
 }

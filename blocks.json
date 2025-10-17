@@ -565,10 +565,6 @@
         "sound" : "stone",
         "textures" : "histerite_obsidian_floor_generator"
     },
-    "histeria:histerite_obsidian_wall_generator" : {
-        "sound" : "stone",
-        "textures" : "histerite_obsidian_wall_generator"
-    },
     "histeria:obsidian_floor_generator" : {
         "sound" : "stone",
         "textures" : "obsidian_floor_generator"
@@ -608,5 +604,13 @@
     "histeria:pierced_meteoric_stone" : {
         "sound" : "stone",
         "textures" : "pierced_meteoric_stone"
+    },
+    "histeria:halloween_lucky_block" : {
+        "sound" : "stone",
+      "textures" : {
+         "down" : "halloween_lucky_block_top",
+         "side" : "halloween_lucky_block_log",
+         "up" : "halloween_lucky_block_top"
+      }
     }
 }
