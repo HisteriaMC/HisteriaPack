@@ -192,6 +192,17 @@ item.histeria:gift_wrap=Gift wrap
 item.histeria:ice_blade=Ice Blade
 item.histeria:christmas_turkey=Turkey
 tile.histeria:christmas_lucky_block.name=Lucky Block of Christmas
+tile.histeria:halloween_lucky_block.name=Halloween Lucky Block 
+item.histeria:blue_candy_shards=Blue Candy Shards
+item.histeria:candy_bucket=Candy Bucket
+item.histeria:green_candy_shards=Green Candy Shards
+item.histeria:red_candy_shards=Red Candy Shards
+item.histeria:yellow_candy_shards=Yellow Candy Shards
+item.histeria:cursed_helmet=Cursed Helmet
+item.histeria:cursed_sword=Cursed Sword
+item.histeria:red_candy=Red Candy
+
+
 
 [Fossils]
 item.histeria:cracked_stone_fossil=Cracked Stone Fossil
