@@ -317,9 +317,6 @@
     "green_candy": {
       "textures": "textures/items/event/green_candy"
     },
-    "red_candy": {
-      "textures": "textures/items/event/candy_cane"
-    },
     "yellow_candy": {
       "textures": "textures/items/event/yellow_candy"
     },
@@ -529,6 +526,9 @@
     },
     "yellow_candy_shards": {
       "textures": "textures/items/event/yellow_candy_shards"
+    },
+    "red_candy": {
+      "textures": "textures/items/event/red_candy"
     }
   }
 }
