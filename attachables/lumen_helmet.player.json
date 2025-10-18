@@ -2,14 +2,14 @@
   "format_version": "1.10.0",
   "minecraft:attachable": {
     "description": {
-      "identifier": "histeria:cursed_helmet.player",
-      "item": { "histeria:cursed_helmet": "query.owner_identifier == 'minecraft:player'" },
+      "identifier": "histeria:lumen_helmet.player",
+      "item": { "histeria:lumen_helmet": "query.owner_identifier == 'minecraft:player'" },
       "materials": {
         "default": "armor",
         "enchanted": "armor_enchanted"
       },
       "textures": {
-        "default": "textures/models/armor/cursed_helmet_1",
+        "default": "textures/models/armor/lumen_1",
         "enchanted": "textures/misc/enchanted_item_glint"
       },
       "geometry": {

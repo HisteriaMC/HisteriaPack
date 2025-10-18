@@ -514,6 +514,21 @@
     },
     "cursed_sword": {
       "textures": "textures/items/event/cursed_sword"
+    },
+    "blue_candy_shards": {
+      "textures": "textures/items/event/blue_candy_shards"
+    },
+    "candy_bucket": {
+      "textures": "textures/items/event/candy_bucket"
+    },
+    "green_candy_shards": {
+      "textures": "textures/items/event/green_candy_shards"
+    },
+    "red_candy_shards": {
+      "textures": "textures/items/event/red_candy_shards"
+    },
+    "yellow_candy_shards": {
+      "textures": "textures/items/event/yellow_candy_shards"
     }
   }
 }
