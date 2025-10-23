@@ -607,10 +607,10 @@
     },
     "histeria:halloween_lucky_block" : {
         "sound" : "stone",
-      "textures" : {
-         "down" : "halloween_lucky_block_top",
-         "side" : "halloween_lucky_block_log",
-         "up" : "halloween_lucky_block_top"
-      }
+        "textures" : {
+            "down" : "halloween_lucky_block_top",
+            "side" : "halloween_lucky_block",
+            "up" : "halloween_lucky_block_top"
+        }
     }
 }
