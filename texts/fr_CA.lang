@@ -166,7 +166,6 @@ item.histeria:christmas_bomb=Bombe de Noël
 item.histeria:snow_shovel=Pelle à neige
 item.histeria:christmas_star=Etoile de Noël
 item.histeria:candy_cane=Sucre d'orge
-item.histeria:red_candy=Sucre d'orge
 item.histeria:blue_candy=Bonbon bleu
 item.histeria:yellow_candy=Bonbon jaune
 item.histeria:snow_globe=Boule à neige
@@ -189,6 +188,19 @@ item.histeria:gift_wrap=Papier cadeau
 item.histeria:ice_blade=Lame de glace
 item.histeria:christmas_turkey=Dinde
 tile.histeria:christmas_lucky_block.name=Lucky Block de Noël
+tile.histeria:halloween_lucky_block.name=Lucky Block d'Halloween
+item.histeria:blue_candy_shards=Morceaux de bonbons bleus
+item.histeria:candy_bucket=Sceau de bonbons
+item.histeria:green_candy_shards=Morceaux de bonbons verts
+item.histeria:red_candy_shards=Morceaux de bonbons rouges
+item.histeria:yellow_candy_shards=Morceaux de bonbons jaunes
+item.histeria:cursed_helmet=Casque maudit 
+item.histeria:cursed_sword=Épée maudite
+item.histeria:red_candy=Bonbon rouge
+
+
+
+
 
 [Fossils]
 item.histeria:cracked_stone_fossil=Coquillage de pierre fissurée
