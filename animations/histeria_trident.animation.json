@@ -1,7 +1,7 @@
 {
   "format_version": "1.10.0",
   "animations": {
-    "animation.trident.wield_first_person": {
+    "animation.histeria_trident.wield_first_person": {
       "loop": true,
       "bones": {
         "pole": {
@@ -10,7 +10,7 @@
         }
       }
     },
-    "animation.trident.wield_first_person_raise": {
+    "animation.histeria_trident.wield_first_person_raise": {
       "loop": true,
       "bones": {
         "pole": {
@@ -19,7 +19,7 @@
         }
       }
     },
-    "animation.trident.wield_first_person_raise_shake": {
+    "animation.histeria_trident.wield_first_person_raise_shake": {
       "loop": true,
       "bones": {
         "pole": {
@@ -28,7 +28,7 @@
         }
       }
     },
-  "animation.trident.wield_first_person_riptide": {
+  "animation.histeria_trident.wield_first_person_riptide": {
     "loop": true,
     "override_previous_animation": true,
     "bones": {
@@ -38,7 +38,7 @@
       }
     }
   },
-  "animation.trident.wield_third_person": {
+  "animation.histeria_trident.wield_third_person": {
     "loop": true,
     "bones": {
       "pole": {
@@ -47,7 +47,7 @@
       }
     }
   },
-  "animation.trident.wield_third_person_raise": {
+  "animation.histeria_trident.wield_third_person_raise": {
     "loop": true,
     "bones": {
       "pole": {
