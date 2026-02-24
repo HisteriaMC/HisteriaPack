@@ -155,8 +155,8 @@
     "bank_note": {
       "textures": "textures/items/utility/banknote"
     },
-    "trident": {
-      "textures": "textures/items/tools/trident"
+    "histeria_trident": {
+      "textures": "textures/items/tools/histeria_trident"
     },
     "harpe": {
       "textures": "textures/items/tools/harpe"

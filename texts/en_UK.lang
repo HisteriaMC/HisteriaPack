@@ -237,6 +237,7 @@ item.histeria:lotus_staff=Lotus Staff
 item.histeria:seed_planter=Seed Planter
 item.histeria:spear=Spear
 item.histeria:xiphos=Xiphos
+item.histeria:histeria_trident=Histeria Trident
 
 [Utility]
 item.histeria:bank_note=Bank Note
