@@ -529,6 +529,27 @@
     },
     "red_candy": {
       "textures": "textures/items/event/red_candy"
+    },
+    "histerite_seeds": {
+      "textures": "textures/items/craft/histerite_seeds"
+    },
+    "histerite_string": {
+      "textures": "textures/items/craft/histerite_string"
+    },
+    "strenght_stick": {
+      "textures": "textures/items/sticks/strenght_stick"
+    },
+    "histerite_bow_pulling_0": {
+      "textures": "textures/items/tools/histerite_bow_pulling_0"
+    },
+    "histerite_bow_pulling_1": {
+      "textures": "textures/items/tools/histerite_bow_pulling_1"
+    },
+    "histerite_bow_pulling_2": {
+      "textures": "textures/items/tools/histerite_bow_pulling_2"
+    },
+    "histerite_bow_standby": {
+      "textures": "textures/items/tools/histerite_bow_standby"
     }
   }
 }

@@ -612,5 +612,29 @@
             "side" : "halloween_lucky_block",
             "up" : "halloween_lucky_block_top"
         }
+    },
+    "histeria:histerite_lucky_block" : {
+        "sound" : "metal",
+        "textures" : "histerite_lucky_block"
+    },
+    "histeria:histerite_plant_stage_0" : {
+        "sound" : "grass",
+        "textures" : "histerite_plant_stage_0"
+    },
+    "histeria:histerite_plant_stage_1" : {
+        "sound" : "grass",
+        "textures" : "histerite_plant_stage_1"
+    },
+    "histeria:histerite_plant_stage_2" : {
+        "sound" : "grass",
+        "textures" : "histerite_plant_stage_2"
+    },
+    "histeria:histerite_plant_stage_3" : {
+        "sound" : "grass",
+        "textures" : "histerite_plant_stage_3"
+    },
+    "histeria:nocturite_lucky_block" : {
+        "sound" : "metal",
+        "textures" : "nocturite_lucky_block"
     }
 }

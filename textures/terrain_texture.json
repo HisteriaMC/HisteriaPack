@@ -519,6 +519,24 @@
       },
       "halloween_lucky_block_top" : {
          "textures" : "textures/blocks/event/halloween_lucky_block_top"
+      },
+      "histerite_lucky_block" : {
+         "textures" : "textures/blocks/histerite_lucky_block"
+      },
+      "histerite_plant_stage_0" : {
+         "textures" : "textures/blocks/histerite_plant_stage_0"
+      },
+      "histerite_plant_stage_1" : {
+         "textures" : "textures/blocks/histerite_plant_stage_1"
+      },
+      "histerite_plant_stage_2" : {
+         "textures" : "textures/blocks/histerite_plant_stage_2"
+      },
+      "histerite_plant_stage_3" : {
+         "textures" : "textures/blocks/histerite_plant_stage_3"
+      },
+      "nocturite_lucky_block" : {
+         "textures" : "textures/blocks/nocturite_lucky_block"
     }
   }
 }
