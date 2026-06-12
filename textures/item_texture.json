@@ -536,8 +536,8 @@
     "histerite_string": {
       "textures": "textures/items/craft/histerite_string"
     },
-    "strenght_stick": {
-      "textures": "textures/items/sticks/strenght_stick"
+    "strength_stick": {
+      "textures": "textures/items/sticks/strength_stick"
     },
     "histerite_bow_pulling_0": {
       "textures": "textures/items/tools/histerite_bow_pulling_0"
