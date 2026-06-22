@@ -88,6 +88,9 @@
       "random_ore" : {
          "textures" : "textures/blocks/random_ore"
       },
+      "deepslate_random_ore" : {
+         "textures" : "textures/blocks/deepslate_random_ore"
+      },
       "histerite_anvil" : {
          "textures" : "textures/blocks/histerite_anvil"
       },
