@@ -19,6 +19,11 @@
         "sound": "stone",
         "textures": "histerite_ore"
     },
+    "histeria:deepslate_histerite_ore": {
+        "isotropic" : false,
+        "sound" : "deepslate",
+        "textures": "deepslate_histerite_ore"
+    },
     "histeria:lucky_block": {
         "sound": "metal",
         "textures": "lucky_block"
@@ -35,6 +40,11 @@
     "histeria:random_ore": {
         "sound": "stone",
         "textures": "random_ore"
+    },
+    "histeria:deepslate_random_ore": {
+        "isotropic" : false,
+        "sound" : "deepslate",
+        "textures": "deepslate_random_ore"
     },
     "histeria:nocturite_plant": {
         "sound": "nether_wart",

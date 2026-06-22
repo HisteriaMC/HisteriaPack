@@ -46,6 +46,9 @@
       "histerite_ore" : {
          "textures" : "textures/blocks/histerite_ore"
       },
+      "deepslate_histerite_ore" : {
+         "textures" : "textures/blocks/deepslate_histerite_ore"
+      },
       "lucky_block" : {
          "textures" : "textures/blocks/lucky_block"
       },
