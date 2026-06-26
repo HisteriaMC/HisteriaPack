@@ -78,6 +78,10 @@ tile.histeria:noctus_spawner.name=Spawner de Noctus
 tile.histeria:lycos_spawner.name=Spawner de Lycos
 tile.histeria:hylide_spawner.name=Spawner d'Hylide
 tile.histeria:bellum_spawner.name=Spawner de Bellum
+tile.histeria:histerite_lucky_block.name=Lucky Block en Hiserite
+tile.histeria:nocturite_lucky_block.name=Lucky Block en Nocturite
+tile.histeria:deepslate_histerite_ore.name=Minerai d'Histerite des abîmes
+tile.histeria:deepslate_random_ore.name=Minerai aléatoire des abîmes
 
 [Decorations]
 tile.histeria:armchair.name=Fauteuil
@@ -140,6 +144,10 @@ item.histeria:nocturite_core=Coeur de Nocturite
 item.histeria:nocturite_crystal=Cristal de Nocturite
 item.histeria:nocturite_fruit=Fruit de Nocturite
 item.histeria:nocturite_seeds=Graines de Nocturite
+item.histeria:histerite_seeds=Graines de Histerite
+item.histeria:histerite_strings=Fil de Histerite
+
+
 
 [Decorations]
 item.histeria:block_category=Catégorie Blocs
@@ -221,6 +229,7 @@ item.histeria:jump_stick=Bâton de saut
 item.histeria:speed_stick=Bâton de vitesse
 item.histeria:sponger=Bâton de sécheresse
 item.histeria:tpstick=Bâton de téléportation
+item.histeria:strength_stick=Bâton de force
 
 [Tools]
 item.histeria:grapnel=Grappin
@@ -236,6 +245,7 @@ item.histeria:seed_planter=Planteur à graines
 item.histeria:spear=Lance
 item.histeria:xiphos=Xiphos
 item.histeria:histeria_trident=Trident d'Histeria
+item.histeria:histerite_bow=Arc en Histerite
 
 [Utility]
 item.histeria:bottled_lumen=Fiole de Lumenn

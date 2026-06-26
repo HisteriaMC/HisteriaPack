@@ -81,6 +81,10 @@ tile.histeria:noctus_spawner.name=Noctus Spawner
 tile.histeria:lycos_spawner.name=Lycos Spawner
 tile.histeria:hylide_spawner.name=Hylide Spawner
 tile.histeria:bellum_spawner.name=Bellum Spawner
+tile.histeria:histerite_lucky_block.name=Hiserite Lucky Block
+tile.histeria:nocturite_lucky_block.name=Nocturite Lucky Block
+tile.histeria:deepslate_histerite_ore.name=Hiserite Deeplsate Ore
+tile.histeria:deepslate_random_ore.name=Random Deepslate Ore
 
 [Decorations]
 tile.histeria:armchair.name=Armchair
@@ -143,6 +147,8 @@ item.histeria:nocturite_core=Nocturite Core
 item.histeria:nocturite_crystal=Nocturite Crystal
 item.histeria:nocturite_fruit=Nocturite Fruit
 item.histeria:nocturite_seeds=Nocturite Seeds
+item.histeria:histerite_seeds=Histerite Seeds
+item.histeria:histerite_strings=Histerite Strings
 
 [Décoration]
 item.histeria:block_category=Block Category
@@ -223,6 +229,7 @@ item.histeria:jump_stick=Jump stick
 item.histeria:speed_stick=Speed stick
 item.histeria:sponger=Dryness stick
 item.histeria:tpstick=Teleportation stick
+item.histeria:strength_stick=Strength Stick
 
 [Tools]
 item.histeria:grapnel=Grapple
@@ -238,6 +245,7 @@ item.histeria:seed_planter=Seed Planter
 item.histeria:spear=Spear
 item.histeria:xiphos=Xiphos
 item.histeria:histeria_trident=Histeria Trident
+item.histeria:histerite_bow=Histerite Bow
 
 [Utility]
 item.histeria:bank_note=Bank Note
