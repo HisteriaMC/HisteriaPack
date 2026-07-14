@@ -543,6 +543,15 @@
       },
       "nocturite_lucky_block" : {
          "textures" : "textures/blocks/nocturite_lucky_block"
+      },
+      "nuke_tnt_bottom" : {
+         "textures" : "textures/blocks/nuke_tnt_bottom"
+      },
+      "nuke_tnt_side" : {
+         "textures" : "textures/blocks/nuke_tnt_side"
+      },
+      "nuke_tnt_top" : {
+         "textures" : "textures/blocks/nuke_tnt_top"
     }
   }
 }

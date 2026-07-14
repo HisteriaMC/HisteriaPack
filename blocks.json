@@ -646,5 +646,13 @@
     "histeria:nocturite_lucky_block" : {
         "sound" : "metal",
         "textures" : "nocturite_lucky_block"
+    },
+    "histeria:nuke_tnt" : {
+        "sound" : "grass",
+       "textures" : {
+          "down" : "nuke_tnt_bottom",
+          "side" : "nuke_tnt_side",
+          "up" : "nuke_tnt_top"
+       }
     }
 }

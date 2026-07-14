@@ -85,6 +85,7 @@ tile.histeria:histerite_lucky_block.name=Hiserite Lucky Block
 tile.histeria:nocturite_lucky_block.name=Nocturite Lucky Block
 tile.histeria:deepslate_histerite_ore.name=Hiserite Deeplsate Ore
 tile.histeria:deepslate_random_ore.name=Random Deepslate Ore
+tile.histeria:nuke_tnt.name=Nuke TNT
 
 [Decorations]
 tile.histeria:armchair.name=Armchair
