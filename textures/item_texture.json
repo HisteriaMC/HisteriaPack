@@ -550,6 +550,9 @@
     },
     "histerite_bow_standby": {
       "textures": "textures/items/tools/histerite_bow_standby"
+    },
+    "bow_standby": {
+      "textures": "textures/items/tools/histerite_bow_standby"
     }
   }
 }
