@@ -2,16 +2,16 @@
   "format_version": "1.10.0",
   "minecraft:attachable": {
     "description": {
-      "identifier": "minecraft:histerite_bow",
+      "identifier": "minecraft:bow",
       "materials": {
         "default": "entity_alphatest",
         "enchanted": "entity_alphatest_glint"
       },
       "textures": {
         "default": "textures/items/tools/histerite_bow_standby",
-        "bow_pulling_0": "textures/items/tools/histerite_pulling_0",
-        "bow_pulling_1": "textures/items/tools/histerite_pulling_1",
-        "bow_pulling_2": "textures/items/tools/histerite_pulling_2",
+        "bow_pulling_0": "textures/items/tools/histerite_bow_pulling_0",
+        "bow_pulling_1": "textures/items/tools/histerite_bow_pulling_1",
+        "bow_pulling_2": "textures/items/tools/histerite_bow_pulling_2",
         "enchanted": "textures/misc/enchanted_item_glint"
       },
       "geometry": {

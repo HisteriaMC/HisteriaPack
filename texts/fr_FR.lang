@@ -247,6 +247,7 @@ item.histeria:spear=Lance
 item.histeria:xiphos=Xiphos
 item.histeria:histeria_trident=Trident d'Histeria
 item.histeria:histerite_bow=Arc en Histerite
+item.bow.name=Arc en Histerite
 
 [Utility]
 item.histeria:bottled_lumen=Fiole de Lumenn

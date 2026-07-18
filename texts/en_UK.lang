@@ -247,6 +247,7 @@ item.histeria:spear=Spear
 item.histeria:xiphos=Xiphos
 item.histeria:histeria_trident=Histeria Trident
 item.histeria:histerite_bow=Histerite Bow
+item.bow.name=Histerite Bow
 
 [Utility]
 item.histeria:bank_note=Bank Note
