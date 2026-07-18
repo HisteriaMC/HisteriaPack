@@ -553,6 +553,13 @@
     },
     "bow_standby": {
       "textures": "textures/items/tools/histerite_bow_standby"
+    },
+    "bow_pulling": {
+      "textures": [
+        "textures/items/tools/histerite_bow_pulling_0",
+        "textures/items/tools/histerite_bow_pulling_1",
+        "textures/items/tools/histerite_bow_pulling_2"
+      ]
     }
   }
 }
