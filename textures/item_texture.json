@@ -560,6 +560,30 @@
         "textures/items/tools/histerite_bow_pulling_1",
         "textures/items/tools/histerite_bow_pulling_2"
       ]
+    },
+    "cime_star": {
+      "textures": "textures/craft/tools/cime_star"
+    },
+    "fusing_powder": {
+      "textures": "textures/items/craft/fusing_powder"
+    },
+    "life_star": {
+      "textures": "textures/items/craft/life_star"
+    },
+    "tellure_star": {
+      "textures": "textures/items/craft/tellure_star"
+    },
+    "beer_model": {
+      "textures": "textures/items/event/beer_model"
+    },
+    "beer": {
+      "textures": "textures/items/event/beer"
+    },
+    "lumen_ball": {
+      "textures": "textures/items/utilty/lumen_ball"
+    },
+    "kukri": {
+      "textures": "textures/items/tools/kukri"
     }
   }
 }

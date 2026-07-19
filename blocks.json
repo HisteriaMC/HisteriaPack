@@ -686,5 +686,9 @@
           "side" : "star_tnt_side",
           "up" : "star_tnt_top"
        }
+    },
+    "histeria:fossil_block" : {
+        "sound" : "stone",
+        "textures" : "fossil_block"
     }
 }

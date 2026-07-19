@@ -585,6 +585,9 @@
       },
       "star_tnt_top" : {
          "textures" : "textures/blocks/star_tnt_top"
+      },
+      "fossil_block" : {
+         "textures" : "textures/blocks/fossil_block"
     }
   }
 }
