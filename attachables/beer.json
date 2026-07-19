@@ -1,39 +1,38 @@
 {
-	"format_version": "1.10.0",
-	"minecraft:attachable": {
-		"description": {
-			"identifier": "histeria:beer",
-			"render_controllers": ["controller.render.item_default"],
-			"materials": {
-				"default": "entity_alphatest",
-				"enchanted": "entity_alphatest_glint"
-			},
-			"textures": {
-				"default": "textures/items/event/beer_model",
-				"enchanted": "textures/misc/enchanted_item_glint"
-			},
-			"geometry": {
-				"default": "geometry.beer"
-			},
-			"animations": {
-				"first_person_hold": "controller.animation.beer.first_person",
-				"first_person_hold_drink": "controller.animation.beer.first_person_drink",
-				"third_person_hold": "animation.beer.third_person",
-				"drink_anim": "animation.beer.first_person_drink"
-			},
-			"scripts": {
-				"animate": [
-					{
-						"first_person_hold": "c.is_first_person"
-					},
-					{
-						"first_person_hold_drink": "query.main_hand_item_use_duration > 0.0f && c.is_first_person"
-					},
-					{
-						"third_person_hold": "!c.is_first_person"
-					}
-				]
-			}
-		}
-	}
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "histeria:beer",
+      "render_controllers": [
+        "controller.render.item_default"
+      ],
+      "materials": {
+        "default": "entity_alphatest",
+        "enchanted": "entity_alphatest_glint"
+      },
+      "textures": {
+        "default": "textures/items/event/beer_model",
+        "enchanted": "textures/misc/enchanted_item_glint"
+      },
+      "geometry": {
+        "default": "geometry.beer"
+      },
+      "animations": {
+        "beer_controller": "controller.animation.beer.first_person_drink",
+        "hold": "animation.beer.first_person",
+        "drink_anim": "animation.beer.first_person_drink",
+        "third_person_hold": "animation.beer.third_person"
+      },
+      "scripts": {
+        "animate": [
+          {
+            "beer_controller": "c.is_first_person"
+          },
+          {
+            "third_person_hold": "!c.is_first_person"
+          }
+        ]
+      }
+    }
+  }
 }

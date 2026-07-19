@@ -2,15 +2,15 @@
   "format_version": "1.10.0",
   "animation_controllers": {
     "controller.animation.beer.first_person_drink": {
-      "initial_state": "idle",
+      "initial_state": "hold",
       "states": {
-        "idle": {
+        "hold": {
           "animations": [
-            "first_person"
+            "hold"
           ],
           "transitions": [
             {
-              "drink": "query.main_hand_item_use_duration > 0.0"
+              "drink": "query.main_hand_item_use_duration>0.0"
             }
           ]
         },
@@ -21,7 +21,7 @@
           "blend_transition": 0.15,
           "transitions": [
             {
-              "idle": "query.main_hand_item_use_duration <= 0.0"
+              "hold": "query.main_hand_item_use_duration<=0.0"
             }
           ]
         }
