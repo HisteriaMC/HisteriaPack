@@ -16,14 +16,17 @@
 				"default": "geometry.beer"
 			},
 			"animations": {
-				"first_person_hold": "animation.beer_first_person",
-				"first_person_hold_drink": "animation.beer_first_person_drink",
-				"third_person_hold": "animation.beer_key_third_person"
+				"first_person_hold": "controller.animation.beer.first_person",
+				"first_person_hold_drink": "animation.beer.first_person_drink",
+				"third_person_hold": "animation.beer.third_person"
 			},
 			"scripts": {
 				"animate": [
 					{
 						"first_person_hold": "c.is_first_person"
+					},
+					{
+						"first_person_hold_drink": "query.main_hand_item_use_duration > 0.0f && c.is_first_person"
 					},
 					{
 						"third_person_hold": "!c.is_first_person"

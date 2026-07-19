@@ -1,0 +1,24 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.beer.first_person_drink": {
+			"initial_state": "first_person",
+			"states": {
+				"first_person": {
+					"animations": [
+						"first_person_drink",
+						{
+							"first_person_drink": "query.is_using_item"
+						}
+					],
+					"blend_transition": 0.1,
+					"transitions": [
+						{
+							"first_person": "c.is_first_person"
+						}
+					]
+				}
+			}
+		}
+	}
+}
