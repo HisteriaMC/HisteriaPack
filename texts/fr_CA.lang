@@ -83,6 +83,10 @@ tile.histeria:nocturite_lucky_block.name=Lucky Block en Nocturite
 tile.histeria:deepslate_histerite_ore.name=Minerai d'Histerite des abîmes
 tile.histeria:deepslate_random_ore.name=Minerai aléatoire des abîmes
 tile.histeria:nuke_tnt.name=TNT Nucléaire
+tile.histeria:blast_tnt.name=TNT à rafale
+tile.histeria:cluster_tnt.name=TNT grappe
+tile.histeria:spiral_tnt.name=TNT spirale
+tile.histeria:star_tnt.name=TNT étoile
 
 [Decorations]
 tile.histeria:armchair.name=Fauteuil

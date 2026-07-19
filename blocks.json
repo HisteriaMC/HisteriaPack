@@ -654,5 +654,37 @@
           "side" : "nuke_tnt_side",
           "up" : "nuke_tnt_top"
        }
+    },
+    "histeria:blast_tnt" : {
+        "sound" : "grass",
+       "textures" : {
+          "down" : "blast_tnt_bottom",
+          "side" : "blast_tnt_side",
+          "up" : "blast_tnt_top"
+       }
+    },
+    "histeria:cluster_tnt" : {
+        "sound" : "grass",
+       "textures" : {
+          "down" : "cluster_tnt_bottom",
+          "side" : "cluster_tnt_side",
+          "up" : "cluster_tnt_top"
+       }
+    },
+    "histeria:spiral_tnt" : {
+        "sound" : "grass",
+       "textures" : {
+          "down" : "spiral_tnt_bottom",
+          "side" : "spiral_tnt_side",
+          "up" : "spiral_tnt_top"
+       }
+    },
+    "histeria:star_tnt" : {
+        "sound" : "grass",
+       "textures" : {
+          "down" : "star_tnt_bottom",
+          "side" : "star_tnt_side",
+          "up" : "star_tnt_top"
+       }
     }
 }

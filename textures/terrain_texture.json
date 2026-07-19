@@ -552,6 +552,39 @@
       },
       "nuke_tnt_top" : {
          "textures" : "textures/blocks/nuke_tnt_top"
+      },
+      "blast_tnt_bottom" : {
+         "textures" : "textures/blocks/blast_tnt_bottom"
+      },
+      "blast_tnt_side" : {
+         "textures" : "textures/blocks/blast_tnt_side"
+      },
+      "blast_tnt_top" : {
+         "textures" : "textures/blocks/blast_tnt_top"
+      },
+      "cluster_tnt_side" : {
+         "textures" : "textures/blocks/cluster_tnt_side"
+      },
+      "cluster_tnt_top" : {
+         "textures" : "textures/blocks/cluster_tnt_top"
+      },
+      "spiral_tnt_bottom" : {
+         "textures" : "textures/blocks/spiral_tnt_bottom"
+      },
+      "spiral_tnt_side" : {
+         "textures" : "textures/blocks/spiral_tnt_side"
+      },
+      "spiral_tnt_top" : {
+         "textures" : "textures/blocks/spiral_tnt_top"
+      },
+      "star_tnt_bottom" : {
+         "textures" : "textures/blocks/star_tnt_bottom"
+      },
+      "star_tnt_side" : {
+         "textures" : "textures/blocks/star_tnt_side"
+      },
+      "star_tnt_top" : {
+         "textures" : "textures/blocks/star_tnt_top"
     }
   }
 }
