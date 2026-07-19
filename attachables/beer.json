@@ -17,8 +17,9 @@
 			},
 			"animations": {
 				"first_person_hold": "controller.animation.beer.first_person",
-				"first_person_hold_drink": "animation.beer.first_person_drink",
-				"third_person_hold": "animation.beer.third_person"
+				"first_person_hold_drink": "controller.animation.beer.first_person_drink",
+				"third_person_hold": "animation.beer.third_person",
+				"drink_anim": "animation.beer.first_person_drink"
 			},
 			"scripts": {
 				"animate": [
