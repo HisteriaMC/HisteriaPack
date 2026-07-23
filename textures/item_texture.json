@@ -627,14 +627,14 @@
     "item_shield": {
       "textures": "textures/items/utility/item_shield"
     },
-    "marks_blocks": {
-      "textures": "textures/items/marks/marks_blocks"
+    "blocks_mark": {
+      "textures": "textures/items/marks/blocks_mark"
     },
-    "marks_kills": {
-      "textures": "textures/items/marks/marks_kills"
+    "kills_mark": {
+      "textures": "textures/items/marks/kills_mark"
     },
-    "marks_player": {
-      "textures": "textures/items/marks/marks_player"
+    "player_mark": {
+      "textures": "textures/items/marks/player_mark"
     }
   }
 }
