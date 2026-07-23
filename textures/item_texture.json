@@ -571,7 +571,7 @@
       "textures": "textures/items/event/beer"
     },
     "lumen_ball": {
-      "textures": "textures/items/utilty/lumen_ball"
+      "textures": "textures/items/utility/lumen_ball"
     },
     "kukri": {
       "textures": "textures/items/tools/kukri"
