@@ -530,6 +530,9 @@
     "red_candy": {
       "textures": "textures/items/event/red_candy"
     },
+    "air_thruster": {
+      "textures": "textures/items/utility/air_thruster"
+    },
     "histerite_seeds": {
       "textures": "textures/items/craft/histerite_seeds"
     },
