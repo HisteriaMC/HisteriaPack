@@ -626,6 +626,15 @@
     },
     "item_shield": {
       "textures": "textures/items/utility/item_shield"
+    },
+    "marks_blocks": {
+      "textures": "textures/items/marks/marks_blocks"
+    },
+    "marks_kills": {
+      "textures": "textures/items/marks/marks_kills"
+    },
+    "marks_player": {
+      "textures": "textures/items/marks/marks_player"
     }
   }
 }
