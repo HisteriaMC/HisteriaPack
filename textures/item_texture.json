@@ -500,8 +500,8 @@
     "gravitational_stone": {
       "textures": "textures/items/utility/gravitational_stone"
     },
-    "bloody_shuriken": {
-      "textures": "textures/items/tools/bloody_shuriken"
+    "blood_shuriken": {
+      "textures": "textures/items/tools/blood_shuriken"
     },
     "hestia_veil": {
       "textures": "textures/items/armors/hestia_veil"
@@ -594,23 +594,23 @@
     "split_pearl": {
       "textures": "textures/items/utility/split_pearl"
     },
-    "rune_armor": {
-      "textures": "textures/items/rune/rune_armor"
+    "armor_rune": {
+      "textures": "textures/items/runes/armor_rune"
     },
-    "rune_axe": {
-      "textures": "textures/items/rune/rune_axe"
+    "axe_rune": {
+      "textures": "textures/items/runes/axe_rune"
     },
-    "rune_bow": {
-      "textures": "textures/items/rune/rune_bow"
+    "bow_rune": {
+      "textures": "textures/items/runes/bow_rune"
     },
-    "rune_mobs": {
-      "textures": "textures/items/rune/rune_mobs"
+    "mob_rune": {
+      "textures": "textures/items/runes/mob_rune"
     },
-    "rune_pickaxe": {
-      "textures": "textures/items/rune/rune_pickaxe"
+    "pickaxe_rune": {
+      "textures": "textures/items/runes/pickaxe_rune"
     },
-    "rune_sword": {
-      "textures": "textures/items/rune/rune_sword"
+    "sword_rune": {
+      "textures": "textures/items/runes/sword_rune"
     },
     "crown_star": {
       "textures": "textures/items/craft/crown_star"
