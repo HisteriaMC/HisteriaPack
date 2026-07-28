@@ -2,26 +2,30 @@
   "format_version": "1.10.0",
   "animation_controllers": {
     "controller.animation.beer.first_person_drink": {
-      "initial_state": "hold",
+      "initial_state": "first_person",
       "states": {
-        "hold": {
+        "first_person": {
           "animations": [
-            "hold"
+            {
+              "first_person_hold": "query.main_hand_item_use_duration <= 0.0"
+            },
+            {
+              "first_person_drink": "query.main_hand_item_use_duration > 0.0"
+            }
           ],
           "transitions": [
             {
-              "drink": "query.main_hand_item_use_duration>0.0"
+              "third_person": "!c.is_first_person"
             }
           ]
         },
-        "drink": {
+        "third_person": {
           "animations": [
-            "drink_anim"
+            "third_person_hold"
           ],
-          "blend_transition": 0.15,
           "transitions": [
             {
-              "hold": "query.main_hand_item_use_duration<=0.0"
+              "first_person": "c.is_first_person"
             }
           ]
         }

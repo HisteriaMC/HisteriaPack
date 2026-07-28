@@ -3,9 +3,6 @@
   "minecraft:attachable": {
     "description": {
       "identifier": "histeria:beer",
-      "render_controllers": [
-        "controller.render.item_default"
-      ],
       "materials": {
         "default": "entity_alphatest",
         "enchanted": "entity_alphatest_glint"
@@ -18,21 +15,19 @@
         "default": "geometry.beer"
       },
       "animations": {
-        "beer_controller": "controller.animation.beer.first_person_drink",
-        "hold": "animation.beer.first_person",
-        "drink_anim": "animation.beer.first_person_drink",
-        "third_person_hold": "animation.beer.third_person"
+        "first_person_drink": "controller.animation.beer.first_person_drink",
+        "first_person_hold": "animation.beer.first_person_hold",
+        "third_person_hold": "animation.beer.third_person_hold"
       },
       "scripts": {
-        "animate": [
-          {
-            "beer_controller": "c.is_first_person"
-          },
-          {
-            "third_person_hold": "!c.is_first_person"
-          }
+        "pre_animation": [
+          "variable.charge_amount = math.clamp((query.main_hand_item_max_duration - (query.main_hand_item_use_duration - query.frame_alpha + 1.0)) / 10.0, 0.0, 1.0f);"
+        ],
+      "animate": [
+        "first_person_drink"
         ]
-      }
+      },
+      "render_controllers": [ "controller.render.item_default" ]
     }
   }
 }
