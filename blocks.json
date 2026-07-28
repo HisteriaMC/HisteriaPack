@@ -687,8 +687,28 @@
           "up" : "star_tnt_top"
        }
     },
-    "histeria:fossil_block" : {
-        "sound" : "stone",
-        "textures" : "fossil_block"
+    "histeria:golden_potatoes" : {
+        "sound" : "grass",
+        "textures" : "golden_potatoes"
+    },
+    "histeria:golden_carrots" : {
+        "sound" : "grass",
+        "textures" : "golden_carrots"
+    },
+    "histeria:golden_beetroot" : {
+        "sound" : "grass",
+        "textures" : "golden_beetroot"
+    },
+    "histeria:golden_wheat" : {
+        "sound" : "grass",
+        "textures" : "golden_wheat"
+    },
+    "histeria:golden_melon_stem" : {
+        "sound" : "grass",
+        "textures" : "golden_melon_stem"
+    },
+    "histeria:golden_pumpkin_stem" : {
+        "sound" : "grass",
+        "textures" : "golden_pumpkin_stem"
     }
 }

@@ -638,6 +638,9 @@
     },
     "player_mark": {
       "textures": "textures/items/marks/player_mark"
+    },
+    "olympus_glaive": {
+      "textures": "textures/items/tools/olympus_glaive"
     }
   }
 }
