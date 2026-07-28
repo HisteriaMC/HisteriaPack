@@ -687,6 +687,10 @@
           "up" : "star_tnt_top"
        }
     },
+    "histeria:fossil_block" : {
+        "sound" : "stone",
+        "textures" : "fossil_block"
+    },
     "histeria:golden_potatoes" : {
         "sound" : "grass",
         "textures" : "golden_potatoes"
