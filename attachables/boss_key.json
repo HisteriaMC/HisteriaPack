@@ -2,23 +2,22 @@
 	"format_version": "1.10.0",
 	"minecraft:attachable": {
 		"description": {
-			"identifier": "histeria:beer",
+			"identifier": "histeria:boss_key",
 			"render_controllers": ["controller.render.item_default"],
 			"materials": {
 				"default": "entity_alphatest",
 				"enchanted": "entity_alphatest_glint"
 			},
 			"textures": {
-				"default": "textures/items/event/beer_model",
+				"default": "textures/items/keys/boss_key_model",
 				"enchanted": "textures/misc/enchanted_item_glint"
 			},
 			"geometry": {
-				"default": "geometry.beer"
+				"default": "geometry.boss_key"
 			},
 			"animations": {
-				"first_person_hold": "animation.beer_first_person",
-				"first_person_hold_drink": "animation.beer_first_person_drink",
-				"third_person_hold": "animation.beer_key_third_person"
+				"first_person_hold": "animation.boss_key_first_person",
+				"third_person_hold": "animation.boss_key_third_person"
 			},
 			"scripts": {
 				"animate": [
