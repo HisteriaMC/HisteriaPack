@@ -1,718 +1,734 @@
 {
-    "histeria:box": {
-        "sound": "wood",
-        "textures" : "box"
-    },
-    "histeria:cave_block": {
-        "sound": "glass",
-        "textures": "cave_block"
-    },
-    "histeria:fertilized_dirt": {
-        "sound": "gravel",
-        "textures": "fertilized_dirt"
-    },
-    "histeria:histerite_block": {
-        "sound": "metal",
-        "textures": "histerite_block"
-    },
-    "histeria:histerite_ore": {
-        "sound": "stone",
-        "textures": "histerite_ore"
-    },
-    "histeria:deepslate_histerite_ore": {
-        "isotropic" : false,
-        "sound" : "deepslate",
-        "textures": "deepslate_histerite_ore"
-    },
-    "histeria:lucky_block": {
-        "sound": "metal",
-        "textures": "lucky_block"
-    },
-    "histeria:nocturite_block": {
-        "sound": "metal",
-        "textures": "nocturite_block"
-    },
-    "histeria:poisonous_obsidian": {
-        "isotropic" : true,
-        "sound": "stone",
-        "textures": "poisonous_obsidian"
-    },
-    "histeria:random_ore": {
-        "sound": "stone",
-        "textures": "random_ore"
-    },
-    "histeria:deepslate_random_ore": {
-        "isotropic" : false,
-        "sound" : "deepslate",
-        "textures": "deepslate_random_ore"
-    },
-    "histeria:nocturite_plant": {
-        "sound": "nether_wart",
-        "textures": "nocturite_plant"
-    },
-    "histeria:event_magma": {
-        "sound": "stone",
-        "textures": "magma"
-    },
-    "histeria:drawer": {
-        "sound": "wood",
-        "textures": {
-            "down": "drawer_bottom",
-            "east": "drawer_side",
-            "north": "drawer_front_1",
-            "south": "drawer_side",
-            "up": "drawer_top",
-            "west": "drawer_side"
-        }
-    },
-    "histeria:elevator": {
-        "sound": "metal",
-        "textures": {
-            "down": "elevator_top_bottom",
-            "side": "elevator_side",
-            "up": "elevator_top_bottom"
-        }
-    },
-    "histeria:neon_block": {
-        "sound": "glass",
-        "textures": "neon_block"
-    },
-    "histeria:bounce": {
-        "sound": "slime",
-        "textures": "bounce"
-    },
-    "histeria:spike": {
-        "sound": "stone",
-        "textures": "spike"
-    },
-    "histeria:histerite_anvil": {
-        "sound": "anvil",
-        "textures": "histerite_anvil"
-    },
-    "histeria:cobble_breaker" : {
-        "sound" : "stone",
-        "textures" : {
-            "down" : "cobble_breaker_bottom",
-            "east" : "cobble_breaker_side",
-            "north" : "cobble_breaker_side",
-            "south" : "cobble_breaker_side",
-            "up" : "cobble_breaker_top",
-            "west" : "cobble_breaker_side"
-        }
-    },
-    "histeria:histerite_chest" : {
-        "sound" : "metal",
-        "textures" : "histerite_chest"
-    },
-    "histeria:nocturite_chest" : {
-        "sound" : "metal",
-        "textures" : "nocturite_chest"
-	},
-    "histeria:shelf": {
-        "sound": "wood",
-        "textures": "shelf"
-    },
-    "histeria:armchair": {
-        "sound": "wood",
-        "textures": "armchair"
-    },
-    "histeria:big_pot": {
-        "sound": "stone",
-        "textures": "big_pot"
-    },
-    "histeria:black_tile": {
-        "sound": "stone",
-        "textures": "black_tile"
-    },
-    "histeria:blue_tile": {
-        "sound": "stone",
-        "textures": "blue_tile"
-    },
-    "histeria:book_pile": {
-        "sound": "wool",
-        "textures": "shelf"
-    },
-    "histeria:chair": {
-        "sound": "wood",
-        "textures": "chair"
-    },
-    "histeria:compressed_bricks": {
-        "sound": "stone",
-        "textures": "compressed_bricks"
-    },
-    "histeria:green_tile": {
-        "sound": "stone",
-        "textures": "green_tile"
-    },
-    "histeria:lamp": {
-        "sound": "stone",
-        "textures": "lamp"
-    },
-    "histeria:lamp_on": {
-        "sound": "stone",
-        "textures": "lamp_on"
-    },
-    "histeria:orange_tile": {
-        "sound": "wood",
-        "textures": "orange_tile"
-    },
-    "histeria:peony_bush": {
-        "sound": "grass",
-        "textures": "peony_bush"
-    },
-    "histeria:red_tile": {
-        "sound": "stone",
-        "textures": "red_tile"
-    },
-    "histeria:table": {
-        "sound": "wood",
-        "textures": "table"
-    },
-    "histeria:tinsel": {
-        "sound": "wood",
-        "textures": "tinsel"
-    },
-    "histeria:stools": {
-        "sound": "wood",
-        "textures": "stools"
-    },
-    "histeria:scoffed_bricks": {
-        "sound": "stone",
-        "textures": "scoffed_bricks"
-    },
-    "histeria:picrite_bricks": {
-        "sound": "stone",
-        "textures": "picrite_bricks"
-    },
-    "histeria:polished_gutter": {
-        "sound": "stone",
-        "textures": "polished_gutter"
-    },
-    "histeria:polished_picrite": {
-        "sound": "stone",
-        "textures": "polished_picrite"
-    },
-    "histeria:tansy": {
-        "sound": "grass",
-        "textures": "tansy"
-    },
-    "histeria:carnation_field": {
-        "sound": "grass",
-        "textures": "carnation_field"
-    },
-    "histeria:cloner": {
-        "sound": "grass",
-        "textures": "cloner"
-    },
-    "histeria:gutter": {
-        "sound": "stone",
-        "textures": "gutter"
-    },
-    "histeria:crate" : {
-        "sound" : "stone",
-        "textures" : {
-            "down" : "crate_bottom",
-            "east" : "crate_side",
-            "north" : "crate_side",
-            "south" : "crate_side",
-            "up" : "crate_top",
-            "west" : "crate_side"
-        }
-    },
-    "histeria:couch": {
-        "sound": "wood",
-        "textures": "couch"
-    },
-    "histeria:bedside_cabinet": {
-        "sound": "wood",
-        "textures": "bedside_cabinet"
-    },
-    "histeria:egg_basket" : {
-        "sound" : "wood",
-        "textures" : "egg_basket"
-    },
-    "histeria:bronze_medal_block" : {
-        "sound" : "metal",
-        "textures" : "bronze_medal_block"
-    },
-    "histeria:gold_trophy_block" : {
-        "sound" : "metal",
-        "textures" : "gold_trophy_block"
-    },
-    "histeria:silver_medal_block" : {
-        "sound" : "metal",
-        "textures" : "silver_medal_block"
-    },
-    "histeria:air_drop" : {
-        "sound" : "wood",
-        "textures" : "air_drop"
-    },
-    "histeria:alert_on": {
-        "sound": "metal",
-        "textures": {
-            "down": "alert_on_bottom",
-            "side": "alert_on",
-            "up": "alert_on_top"
-        }
-    },
-    "histeria:alert_off": {
-        "sound": "metal",
-        "textures": {
-            "down": "alert_off_bottom",
-            "side": "alert_off",
-            "up": "alert_off_top"
-        }
-    },
-    "histeria:duping_tnt" : {
-       "sound" : "grass",
-       "textures" : {
-          "down" : "duping_tnt_bottom",
-          "side" : "duping_tnt_side",
-          "up" : "duping_tnt_top"
-       }
-    },
-    "histeria:generator_on": {
-        "sound": "metal",
-        "textures": {
-            "down": "generator_on_bottom",
-            "east": "generator_on",
-            "north": "generator_on",
-            "south": "generator_on",
-            "up": "generator_on_top",
-            "west": "generator_on"
-        }
-    },
-    "histeria:generator_off": {
-        "sound": "metal",
-        "textures": {
-            "down": "generator_off_bottom",
-            "east": "generator_off",
-            "north": "generator_off",
-            "south": "generator_off",
-            "up": "generator_off_top",
-            "west": "generator_off"
-        }
-    },
-    "histeria:iem_tnt" : {
-       "sound" : "grass",
-       "textures" : {
-          "down" : "iem_tnt_bottom",
-          "side" : "iem_tnt_side",
-          "up" : "iem_tnt_top"
-       }
-    },
-    "histeria:histerite_tnt" : {
-       "sound" : "grass",
-       "textures" : {
-          "down" : "histerite_tnt_bottom",
-          "side" : "histerite_tnt_side",
-          "up" : "histerite_tnt_top"
-       }
-    },
-    "histeria:nocturite_tnt" : {
-       "sound" : "grass",
-       "textures" : {
-          "down" : "nocturite_tnt_bottom",
-          "side" : "nocturite_tnt_side",
-          "up" : "nocturite_tnt_top"
-       }
-    },
-    "histeria:histerite_obsidian" : {
-        "sound" : "stone",
-        "isotropic" : true,
-        "textures" : "histerite_obsidian"
-    },
-    "histeria:nocturite_obsidian" : {
-        "sound" : "stone",
-        "isotropic" : true,
-        "textures" : "nocturite_obsidian"
-    },
-    "histeria:vault": {
-        "sound": "metal",
-        "textures": {
-            "down": "vault_bottom",
-            "east": "vault_side",
-            "north": "vault_front",
-            "south": "vault_side",
-            "up": "vault_top",
-            "west": "vault_side"
-        }
-    },
-    "histeria:vault_open": {
-        "sound": "metal",
-        "textures": {
-            "down": "vault_bottom",
-            "east": "vault_side",
-            "north": "vault_front_open",
-            "south": "vault_side",
-            "up": "vault_top",
-            "west": "vault_side"
-        }
-    },
-    "mixed_sand" : {
-       "isotropic" : true,
-       "sound" : "mixed_sand",
-       "textures" : "mixed_sand"
-    },
-    "histeria:reflector_off" : {
-        "sound" : "stone",
-        "textures" : "reflector_off"
-    },
-    "histeria:reflector_on" : {
-        "sound" : "stone",
-        "textures" : "reflector_on"
-    },
-    "histeria:catalyst_on_blue" : {
-        "sound" : "stone",
-        "textures" : "catalyst_on_blue"
-    },
-    "histeria:catalyst_on_green" : {
-        "sound" : "stone",
-        "textures" : "catalyst_on_green"
-    },
-    "histeria:catalyst_off" : {
-        "sound" : "stone",
-        "textures" : "catalyst_off"
-    },
-    "histeria:catalyst_on_default" : {
-        "sound" : "stone",
-        "textures" : "catalyst_on_default"
-    },
-    "histeria:catalyst_on_purple" : {
-        "sound" : "stone",
-        "textures" : "catalyst_on_purple"
-    },
-    "histeria:catalyst_on_red" : {
-        "sound" : "stone",
-        "textures" : "catalyst_on_red"
-    },
-    "histeria:catalyst_on_yellow" : {
-        "sound" : "stone",
-        "textures" : "catalyst_on_yellow"
-    },
-    "histeria:levitation_obsidian" : {
-        "sound" : "stone",
-        "isotropic" : true,
-        "textures" : "levitation_obsidian"
-    },
-    "histeria:altar" : {
-        "sound" : "stone",
-        "textures" : "altar"
-    },
-    "histeria:totem_pillar" : {
-       "sound" : "stone",
-       "textures" : {
-          "down" : "totem_pillar_top",
-          "side" : "totem_pillar",
-          "up" : "totem_pillar_top"
-       }
-    },
-    "histeria:totem_block" : {
-       "sound" : "stone",
-       "textures" : {
-          "down" : "totem_block_bottom",
-          "side" : "totem_block",
-          "up" : "totem_block_top"
-       }
-    },
-    "histeria:bellum_spawner" : {
-      "sound" : "mob_spawner",
-      "textures" : {
-          "down" : "bellum_spawner_bottom",
-          "side" : "bellum_spawner",
-          "up" : "bellum_spawner_top"
-       }
-    },
-    "histeria:hylide_spawner" : {
-      "sound" : "mob_spawner",
-      "textures" : "hylide_spawner"
-    },
-    "histeria:lycos_spawner" : {
-      "sound" : "mob_spawner",
-      "textures" : "lycos_spawner"
-    },
-    "histeria:noctus_spawner" : {
-      "sound" : "mob_spawner",
-      "textures" : "noctus_spawner"
-    },
-    "histeria:sterox_spawner" : {
-      "sound" : "mob_spawner",
-      "textures" : "sterox_spawner"
-   },
-    "histeria:christmas_lucky_block" : {
-        "sound" : "stone",
-        "textures" : "christmas_lucky_block"
-    },
-    "histeria:mail_box" : {
-        "sound" : "stone",
-        "textures" : "mail_box"
-    },
-    "histeria:blood_box" : {
-        "sound" : "bone_block",
-        "textures" : "blood_box"
-    },
-    "histeria:histerite_box" : {
-        "sound" : "metal",
-        "textures" : "histerite_box"
-    },
-    "histeria:nocturite_box" : {
-        "sound" : "metal",
-        "textures" : "nocturite_box"
-    },
-    "histeria:vote_box" : {
-        "sound" : "metal",
-        "textures" : "nocturite_box"
-    },
-   "histeria:boss_box" : {
-        "sound" : "metal",
-        "textures" : "boss_box"
-    },
-    "histeria:black_calcite" : {
-      "sound" : "calcite",
-      "textures" : "black_calcite"
-    },
-    "histeria:black_marble" : {
-        "sound" : "stone",
-        "textures" : "black_marble"
-    },
-    "histeria:chiaroscuro_lichen" : {
-        "sound" : "glow_lichen",
-        "textures" : "chiaroscuro_lichen"
-    },
-    "histeria:chiaroscuro_mushroom" : {
-        "carried_textures" : "chiaroscuro_mushroom_carried",
-        "sound" : "grass",
-        "textures" : "chiaroscuro_mushroom"
-    },
-    "histeria:gloom_dirt" : {
-        "sound" : "gravel",
-        "textures" : "gloom_dirt"
-    },
-    "histeria:gloom_leaves" : {
-        "sound" : "grass",
-        "textures" : "gloom_leaves"
-    },
-    "histeria:gloom_log" : {
-        "sound" : "wood",
-      "textures" : {
-         "down" : "gloom_log_top",
-         "side" : "gloom_log",
-         "up" : "gloom_log_top"
-      }
-    },
-    "histeria:gloom_veil" : {
-        "sound" : "grass",
-        "textures" : "gloom_veil"
-    },
-    "histeria:gloom_planks" : {
-        "sound" : "wood",
-        "textures" : "gloom_planks"
-    },
-    "histeria:life_blossom" : {
-        "sound" : "grass",
-        "textures" : "life_blossom"
-    },
-    "histeria:lumen_clay" : {
-        "sound" : "gravel",
-        "textures" : "lumen_clay"
-    },
-    "histeria:lumen_leaves" : {
-        "sound" : "grass",
-        "textures" : "lumen_leaves"
-    },
-    "histeria:lumen_lily_pad" : {
-        "carried_textures" : "lumen_lily_pad_carried",
-        "sound" : "grass",
-        "textures" : "lumen_lily_pad"
-    },
-    "histeria:lumen_log" : {
-        "sound" : "wood",
-      "textures" : {
-         "down" : "lumen_log_top",
-         "side" : "lumen_log",
-         "up" : "lumen_log_top"
-      }
-   },
-    "histeria:lumen_planks" : {
-        "sound" : "wood",
-        "textures" : "lumen_planks"
-    },
-    "histeria:lumen_water_flow" : {
-        "textures" : "lumen_water_flow"
-    },
-    "histeria:lumen_water_still" : {
-        "textures" : "lumen_water_still"
-    },
-    "histeria:raw_golden_nocturite" : {
-        "sound" : "stone",
-        "textures" : "raw_golden_nocturite"
-    },
-    "histeria:cobblestone_floor_generator" : {
-        "sound" : "stone",
-        "textures" : "cobblestone_floor_generator"
-    },
-    "histeria:cobblestone_wall_generator" : {
-        "sound" : "stone",
-        "textures" : "cobblestone_wall_generator"
-    },
-    "histeria:histerite_obisidian_floor_generator" : {
-        "sound" : "stone",
-        "textures" : "histerite_obisidian_floor_generator"
-    },
-    "histeria:histerite_obsidian_wall_generator" : {
-        "sound" : "stone",
-        "textures" : "histerite_obsidian_wall_generator"
-    },
-    "histeria:obisidian_floor_generator" : {
-        "sound" : "stone",
-        "textures" : "obisidian_floor_generator"
-    },
-    "histeria:obisidian_wall_generator" : {
-        "sound" : "stone",
-        "textures" : "obisidian_wall_generator"
-    },
-    "histeria:histerite_obsidian_floor_generator" : {
-        "sound" : "stone",
-        "textures" : "histerite_obsidian_floor_generator"
-    },
-    "histeria:obsidian_floor_generator" : {
-        "sound" : "stone",
-        "textures" : "obsidian_floor_generator"
-    },
-    "histeria:obsidian_wall_generator" : {
-        "sound" : "stone",
-        "textures" : "obsidian_wall_generator"
-    },
-    "histeria:lava_floor_generator" : {
-        "sound" : "stone",
-        "textures" : "lava_floor_generator"
-    },
-    "histeria:lava_wall_generator" : {
-        "sound" : "stone",
-        "textures" : "lava_wall_generator"
-    },
-    "histeria:water_floor_generator" : {
-        "sound" : "stone",
-        "textures" : "water_floor_generator"
-    },
-    "histeria:water_wall_generator" : {
-        "sound" : "stone",
-        "textures" : "water_wall_generator"
-    },
-    "histeria:meteoric_stone" : {
-        "sound" : "stone",
-        "textures" : "meteoric_stone"
-    },
-    "histeria:hollow_meteoric_stone" : {
-        "sound" : "stone",
-        "textures" : "hollow_meteoric_stone"
-    },
-    "histeria:cracked_meteoric_stone" : {
-        "sound" : "stone",
-        "textures" : "cracked_meteoric_stone"
-    },
-    "histeria:pierced_meteoric_stone" : {
-        "sound" : "stone",
-        "textures" : "pierced_meteoric_stone"
-    },
-    "histeria:halloween_lucky_block" : {
-        "sound" : "stone",
-        "textures" : {
-            "down" : "halloween_lucky_block_top",
-            "side" : "halloween_lucky_block",
-            "up" : "halloween_lucky_block_top"
-        }
-    },
-    "histeria:histerite_lucky_block" : {
-        "sound" : "metal",
-        "textures" : "histerite_lucky_block"
-    },
-    "histeria:histerite_plant_stage_0" : {
-        "sound" : "grass",
-        "textures" : "histerite_plant_stage_0"
-    },
-    "histeria:histerite_plant_stage_1" : {
-        "sound" : "grass",
-        "textures" : "histerite_plant_stage_1"
-    },
-    "histeria:histerite_plant_stage_2" : {
-        "sound" : "grass",
-        "textures" : "histerite_plant_stage_2"
-    },
-    "histeria:histerite_plant_stage_3" : {
-        "sound" : "grass",
-        "textures" : "histerite_plant_stage_3"
-    },
-    "histeria:nocturite_lucky_block" : {
-        "sound" : "metal",
-        "textures" : "nocturite_lucky_block"
-    },
-    "histeria:nuke_tnt" : {
-        "sound" : "grass",
-       "textures" : {
-          "down" : "nuke_tnt_bottom",
-          "side" : "nuke_tnt_side",
-          "up" : "nuke_tnt_top"
-       }
-    },
-    "histeria:blast_tnt" : {
-        "sound" : "grass",
-       "textures" : {
-          "down" : "blast_tnt_bottom",
-          "side" : "blast_tnt_side",
-          "up" : "blast_tnt_top"
-       }
-    },
-    "histeria:cluster_tnt" : {
-        "sound" : "grass",
-       "textures" : {
-          "down" : "cluster_tnt_bottom",
-          "side" : "cluster_tnt_side",
-          "up" : "cluster_tnt_top"
-       }
-    },
-    "histeria:spiral_tnt" : {
-        "sound" : "grass",
-       "textures" : {
-          "down" : "spiral_tnt_bottom",
-          "side" : "spiral_tnt_side",
-          "up" : "spiral_tnt_top"
-       }
-    },
-    "histeria:star_tnt" : {
-        "sound" : "grass",
-       "textures" : {
-          "down" : "star_tnt_bottom",
-          "side" : "star_tnt_side",
-          "up" : "star_tnt_top"
-       }
-    },
-    "histeria:fossil_block" : {
-        "sound" : "stone",
-        "textures" : "fossil_block"
-    },
-    "histeria:golden_potatoes" : {
-        "sound" : "grass",
-        "textures" : "golden_potatoes"
-    },
-    "histeria:golden_carrots" : {
-        "sound" : "grass",
-        "textures" : "golden_carrots"
-    },
-    "histeria:golden_beetroot" : {
-        "sound" : "grass",
-        "textures" : "golden_beetroot"
-    },
-    "histeria:golden_wheat" : {
-        "sound" : "grass",
-        "textures" : "golden_wheat"
-    },
-    "histeria:golden_melon_stem" : {
-        "sound" : "grass",
-        "textures" : "golden_melon_stem"
-    },
-    "histeria:golden_pumpkin_stem" : {
-        "sound" : "grass",
-        "textures" : "golden_pumpkin_stem"
+  "histeria:box": {
+    "sound": "wood",
+    "textures": "box"
+  },
+  "histeria:cave_block": {
+    "sound": "glass",
+    "textures": "cave_block"
+  },
+  "histeria:fertilized_dirt": {
+    "sound": "gravel",
+    "textures": "fertilized_dirt"
+  },
+  "histeria:histerite_block": {
+    "sound": "metal",
+    "textures": "histerite_block"
+  },
+  "histeria:histerite_ore": {
+    "sound": "stone",
+    "textures": "histerite_ore"
+  },
+  "histeria:deepslate_histerite_ore": {
+    "isotropic": false,
+    "sound": "deepslate",
+    "textures": "deepslate_histerite_ore"
+  },
+  "histeria:lucky_block": {
+    "sound": "metal",
+    "textures": "lucky_block"
+  },
+  "histeria:nocturite_block": {
+    "sound": "metal",
+    "textures": "nocturite_block"
+  },
+  "histeria:poisonous_obsidian": {
+    "isotropic": true,
+    "sound": "stone",
+    "textures": "poisonous_obsidian"
+  },
+  "histeria:random_ore": {
+    "sound": "stone",
+    "textures": "random_ore"
+  },
+  "histeria:deepslate_random_ore": {
+    "isotropic": false,
+    "sound": "deepslate",
+    "textures": "deepslate_random_ore"
+  },
+  "histeria:nocturite_plant": {
+    "sound": "nether_wart",
+    "textures": "nocturite_plant"
+  },
+  "histeria:event_magma": {
+    "sound": "stone",
+    "textures": "magma"
+  },
+  "histeria:drawer": {
+    "sound": "wood",
+    "textures": {
+      "down": "drawer_bottom",
+      "east": "drawer_side",
+      "north": "drawer_front_1",
+      "south": "drawer_side",
+      "up": "drawer_top",
+      "west": "drawer_side"
     }
+  },
+  "histeria:elevator": {
+    "sound": "metal",
+    "textures": {
+      "down": "elevator_top_bottom",
+      "side": "elevator_side",
+      "up": "elevator_top_bottom"
+    }
+  },
+  "histeria:neon_block": {
+    "sound": "glass",
+    "textures": "neon_block"
+  },
+  "histeria:bounce": {
+    "sound": "slime",
+    "textures": "bounce"
+  },
+  "histeria:spike": {
+    "sound": "stone",
+    "textures": "spike"
+  },
+  "histeria:histerite_anvil": {
+    "sound": "anvil",
+    "textures": "histerite_anvil"
+  },
+  "histeria:cobble_breaker": {
+    "sound": "stone",
+    "textures": {
+      "down": "cobble_breaker_bottom",
+      "east": "cobble_breaker_side",
+      "north": "cobble_breaker_side",
+      "south": "cobble_breaker_side",
+      "up": "cobble_breaker_top",
+      "west": "cobble_breaker_side"
+    }
+  },
+  "histeria:histerite_chest": {
+    "sound": "metal",
+    "textures": "histerite_chest"
+  },
+  "histeria:nocturite_chest": {
+    "sound": "metal",
+    "textures": "nocturite_chest"
+  },
+  "histeria:shelf": {
+    "sound": "wood",
+    "textures": "shelf"
+  },
+  "histeria:armchair": {
+    "sound": "wood",
+    "textures": "armchair"
+  },
+  "histeria:big_pot": {
+    "sound": "stone",
+    "textures": "big_pot"
+  },
+  "histeria:black_tile": {
+    "sound": "stone",
+    "textures": "black_tile"
+  },
+  "histeria:blue_tile": {
+    "sound": "stone",
+    "textures": "blue_tile"
+  },
+  "histeria:book_pile": {
+    "sound": "wool",
+    "textures": "shelf"
+  },
+  "histeria:chair": {
+    "sound": "wood",
+    "textures": "chair"
+  },
+  "histeria:compressed_bricks": {
+    "sound": "stone",
+    "textures": "compressed_bricks"
+  },
+  "histeria:green_tile": {
+    "sound": "stone",
+    "textures": "green_tile"
+  },
+  "histeria:lamp": {
+    "sound": "stone",
+    "textures": "lamp"
+  },
+  "histeria:lamp_on": {
+    "sound": "stone",
+    "textures": "lamp_on"
+  },
+  "histeria:orange_tile": {
+    "sound": "wood",
+    "textures": "orange_tile"
+  },
+  "histeria:peony_bush": {
+    "sound": "grass",
+    "textures": "peony_bush"
+  },
+  "histeria:red_tile": {
+    "sound": "stone",
+    "textures": "red_tile"
+  },
+  "histeria:table": {
+    "sound": "wood",
+    "textures": "table"
+  },
+  "histeria:tinsel": {
+    "sound": "wood",
+    "textures": "tinsel"
+  },
+  "histeria:stools": {
+    "sound": "wood",
+    "textures": "stools"
+  },
+  "histeria:scoffed_bricks": {
+    "sound": "stone",
+    "textures": "scoffed_bricks"
+  },
+  "histeria:picrite_bricks": {
+    "sound": "stone",
+    "textures": "picrite_bricks"
+  },
+  "histeria:polished_gutter": {
+    "sound": "stone",
+    "textures": "polished_gutter"
+  },
+  "histeria:polished_picrite": {
+    "sound": "stone",
+    "textures": "polished_picrite"
+  },
+  "histeria:tansy": {
+    "sound": "grass",
+    "textures": "tansy"
+  },
+  "histeria:carnation_field": {
+    "sound": "grass",
+    "textures": "carnation_field"
+  },
+  "histeria:cloner": {
+    "sound": "grass",
+    "textures": "cloner"
+  },
+  "histeria:gutter": {
+    "sound": "stone",
+    "textures": "gutter"
+  },
+  "histeria:crate": {
+    "sound": "stone",
+    "textures": {
+      "down": "crate_bottom",
+      "east": "crate_side",
+      "north": "crate_side",
+      "south": "crate_side",
+      "up": "crate_top",
+      "west": "crate_side"
+    }
+  },
+  "histeria:couch": {
+    "sound": "wood",
+    "textures": "couch"
+  },
+  "histeria:bedside_cabinet": {
+    "sound": "wood",
+    "textures": "bedside_cabinet"
+  },
+  "histeria:egg_basket": {
+    "sound": "wood",
+    "textures": "egg_basket"
+  },
+  "histeria:bronze_medal_block": {
+    "sound": "metal",
+    "textures": "bronze_medal_block"
+  },
+  "histeria:gold_trophy_block": {
+    "sound": "metal",
+    "textures": "gold_trophy_block"
+  },
+  "histeria:silver_medal_block": {
+    "sound": "metal",
+    "textures": "silver_medal_block"
+  },
+  "histeria:air_drop": {
+    "sound": "wood",
+    "textures": "air_drop"
+  },
+  "histeria:alert_on": {
+    "sound": "metal",
+    "textures": {
+      "down": "alert_on_bottom",
+      "side": "alert_on",
+      "up": "alert_on_top"
+    }
+  },
+  "histeria:alert_off": {
+    "sound": "metal",
+    "textures": {
+      "down": "alert_off_bottom",
+      "side": "alert_off",
+      "up": "alert_off_top"
+    }
+  },
+  "histeria:duping_tnt": {
+    "sound": "grass",
+    "textures": {
+      "down": "duping_tnt_bottom",
+      "side": "duping_tnt_side",
+      "up": "duping_tnt_top"
+    }
+  },
+  "histeria:generator_on": {
+    "sound": "metal",
+    "textures": {
+      "down": "generator_on_bottom",
+      "east": "generator_on",
+      "north": "generator_on",
+      "south": "generator_on",
+      "up": "generator_on_top",
+      "west": "generator_on"
+    }
+  },
+  "histeria:generator_off": {
+    "sound": "metal",
+    "textures": {
+      "down": "generator_off_bottom",
+      "east": "generator_off",
+      "north": "generator_off",
+      "south": "generator_off",
+      "up": "generator_off_top",
+      "west": "generator_off"
+    }
+  },
+  "histeria:iem_tnt": {
+    "sound": "grass",
+    "textures": {
+      "down": "iem_tnt_bottom",
+      "side": "iem_tnt_side",
+      "up": "iem_tnt_top"
+    }
+  },
+  "histeria:histerite_tnt": {
+    "sound": "grass",
+    "textures": {
+      "down": "histerite_tnt_bottom",
+      "side": "histerite_tnt_side",
+      "up": "histerite_tnt_top"
+    }
+  },
+  "histeria:nocturite_tnt": {
+    "sound": "grass",
+    "textures": {
+      "down": "nocturite_tnt_bottom",
+      "side": "nocturite_tnt_side",
+      "up": "nocturite_tnt_top"
+    }
+  },
+  "histeria:histerite_obsidian": {
+    "sound": "stone",
+    "isotropic": true,
+    "textures": "histerite_obsidian"
+  },
+  "histeria:nocturite_obsidian": {
+    "sound": "stone",
+    "isotropic": true,
+    "textures": "nocturite_obsidian"
+  },
+  "histeria:vault": {
+    "sound": "metal",
+    "textures": {
+      "down": "vault_bottom",
+      "east": "vault_side",
+      "north": "vault_front",
+      "south": "vault_side",
+      "up": "vault_top",
+      "west": "vault_side"
+    }
+  },
+  "histeria:vault_open": {
+    "sound": "metal",
+    "textures": {
+      "down": "vault_bottom",
+      "east": "vault_side",
+      "north": "vault_front_open",
+      "south": "vault_side",
+      "up": "vault_top",
+      "west": "vault_side"
+    }
+  },
+  "mixed_sand": {
+    "isotropic": true,
+    "sound": "mixed_sand",
+    "textures": "mixed_sand"
+  },
+  "histeria:reflector_off": {
+    "sound": "stone",
+    "textures": "reflector_off"
+  },
+  "histeria:reflector_on": {
+    "sound": "stone",
+    "textures": "reflector_on"
+  },
+  "histeria:catalyst_on_blue": {
+    "sound": "stone",
+    "textures": "catalyst_on_blue"
+  },
+  "histeria:catalyst_on_green": {
+    "sound": "stone",
+    "textures": "catalyst_on_green"
+  },
+  "histeria:catalyst_off": {
+    "sound": "stone",
+    "textures": "catalyst_off"
+  },
+  "histeria:catalyst_on_default": {
+    "sound": "stone",
+    "textures": "catalyst_on_default"
+  },
+  "histeria:catalyst_on_purple": {
+    "sound": "stone",
+    "textures": "catalyst_on_purple"
+  },
+  "histeria:catalyst_on_red": {
+    "sound": "stone",
+    "textures": "catalyst_on_red"
+  },
+  "histeria:catalyst_on_yellow": {
+    "sound": "stone",
+    "textures": "catalyst_on_yellow"
+  },
+  "histeria:levitation_obsidian": {
+    "sound": "stone",
+    "isotropic": true,
+    "textures": "levitation_obsidian"
+  },
+  "histeria:altar": {
+    "sound": "stone",
+    "textures": "altar"
+  },
+  "histeria:totem_pillar": {
+    "sound": "stone",
+    "textures": {
+      "down": "totem_pillar_top",
+      "side": "totem_pillar",
+      "up": "totem_pillar_top"
+    }
+  },
+  "histeria:totem_block": {
+    "sound": "stone",
+    "textures": {
+      "down": "totem_block_bottom",
+      "side": "totem_block",
+      "up": "totem_block_top"
+    }
+  },
+  "histeria:bellum_spawner": {
+    "sound": "mob_spawner",
+    "textures": {
+      "down": "bellum_spawner_bottom",
+      "side": "bellum_spawner",
+      "up": "bellum_spawner_top"
+    }
+  },
+  "histeria:hylide_spawner": {
+    "sound": "mob_spawner",
+    "textures": "hylide_spawner"
+  },
+  "histeria:lycos_spawner": {
+    "sound": "mob_spawner",
+    "textures": "lycos_spawner"
+  },
+  "histeria:noctus_spawner": {
+    "sound": "mob_spawner",
+    "textures": "noctus_spawner"
+  },
+  "histeria:sterox_spawner": {
+    "sound": "mob_spawner",
+    "textures": "sterox_spawner"
+  },
+  "histeria:christmas_lucky_block": {
+    "sound": "stone",
+    "textures": "christmas_lucky_block"
+  },
+  "histeria:mail_box": {
+    "sound": "stone",
+    "textures": "mail_box"
+  },
+  "histeria:blood_box": {
+    "sound": "bone_block",
+    "textures": "blood_box"
+  },
+  "histeria:histerite_box": {
+    "sound": "metal",
+    "textures": "histerite_box"
+  },
+  "histeria:nocturite_box": {
+    "sound": "metal",
+    "textures": "nocturite_box"
+  },
+  "histeria:vote_box": {
+    "sound": "metal",
+    "textures": "nocturite_box"
+  },
+  "histeria:boss_box": {
+    "sound": "metal",
+    "textures": "boss_box"
+  },
+  "histeria:black_calcite": {
+    "sound": "calcite",
+    "textures": "black_calcite"
+  },
+  "histeria:black_marble": {
+    "sound": "stone",
+    "textures": "black_marble"
+  },
+  "histeria:chiaroscuro_lichen": {
+    "sound": "glow_lichen",
+    "textures": "chiaroscuro_lichen"
+  },
+  "histeria:chiaroscuro_mushroom": {
+    "carried_textures": "chiaroscuro_mushroom_carried",
+    "sound": "grass",
+    "textures": "chiaroscuro_mushroom"
+  },
+  "histeria:gloom_dirt": {
+    "sound": "gravel",
+    "textures": "gloom_dirt"
+  },
+  "histeria:gloom_leaves": {
+    "sound": "grass",
+    "textures": "gloom_leaves"
+  },
+  "histeria:gloom_log": {
+    "sound": "wood",
+    "textures": {
+      "down": "gloom_log_top",
+      "side": "gloom_log",
+      "up": "gloom_log_top"
+    }
+  },
+  "histeria:gloom_veil": {
+    "sound": "grass",
+    "textures": "gloom_veil"
+  },
+  "histeria:gloom_planks": {
+    "sound": "wood",
+    "textures": "gloom_planks"
+  },
+  "histeria:life_blossom": {
+    "sound": "grass",
+    "textures": "life_blossom"
+  },
+  "histeria:lumen_clay": {
+    "sound": "gravel",
+    "textures": "lumen_clay"
+  },
+  "histeria:lumen_leaves": {
+    "sound": "grass",
+    "textures": "lumen_leaves"
+  },
+  "histeria:lumen_lily_pad": {
+    "carried_textures": "lumen_lily_pad_carried",
+    "sound": "grass",
+    "textures": "lumen_lily_pad"
+  },
+  "histeria:lumen_log": {
+    "sound": "wood",
+    "textures": {
+      "down": "lumen_log_top",
+      "side": "lumen_log",
+      "up": "lumen_log_top"
+    }
+  },
+  "histeria:lumen_planks": {
+    "sound": "wood",
+    "textures": "lumen_planks"
+  },
+  "histeria:lumen_water_flow": {
+    "textures": "lumen_water_flow"
+  },
+  "histeria:lumen_water_still": {
+    "textures": "lumen_water_still"
+  },
+  "histeria:raw_golden_nocturite": {
+    "sound": "stone",
+    "textures": "raw_golden_nocturite"
+  },
+  "histeria:cobblestone_floor_generator": {
+    "sound": "stone",
+    "textures": "cobblestone_floor_generator"
+  },
+  "histeria:cobblestone_wall_generator": {
+    "sound": "stone",
+    "textures": "cobblestone_wall_generator"
+  },
+  "histeria:histerite_obisidian_floor_generator": {
+    "sound": "stone",
+    "textures": "histerite_obisidian_floor_generator"
+  },
+  "histeria:histerite_obsidian_wall_generator": {
+    "sound": "stone",
+    "textures": "histerite_obsidian_wall_generator"
+  },
+  "histeria:obisidian_floor_generator": {
+    "sound": "stone",
+    "textures": "obisidian_floor_generator"
+  },
+  "histeria:obisidian_wall_generator": {
+    "sound": "stone",
+    "textures": "obisidian_wall_generator"
+  },
+  "histeria:histerite_obsidian_floor_generator": {
+    "sound": "stone",
+    "textures": "histerite_obsidian_floor_generator"
+  },
+  "histeria:obsidian_floor_generator": {
+    "sound": "stone",
+    "textures": "obsidian_floor_generator"
+  },
+  "histeria:obsidian_wall_generator": {
+    "sound": "stone",
+    "textures": "obsidian_wall_generator"
+  },
+  "histeria:lava_floor_generator": {
+    "sound": "stone",
+    "textures": "lava_floor_generator"
+  },
+  "histeria:lava_wall_generator": {
+    "sound": "stone",
+    "textures": "lava_wall_generator"
+  },
+  "histeria:water_floor_generator": {
+    "sound": "stone",
+    "textures": "water_floor_generator"
+  },
+  "histeria:water_wall_generator": {
+    "sound": "stone",
+    "textures": "water_wall_generator"
+  },
+  "histeria:meteoric_stone": {
+    "sound": "stone",
+    "textures": "meteoric_stone"
+  },
+  "histeria:hollow_meteoric_stone": {
+    "sound": "stone",
+    "textures": "hollow_meteoric_stone"
+  },
+  "histeria:cracked_meteoric_stone": {
+    "sound": "stone",
+    "textures": "cracked_meteoric_stone"
+  },
+  "histeria:pierced_meteoric_stone": {
+    "sound": "stone",
+    "textures": "pierced_meteoric_stone"
+  },
+  "histeria:halloween_lucky_block": {
+    "sound": "stone",
+    "textures": {
+      "down": "halloween_lucky_block_top",
+      "side": "halloween_lucky_block",
+      "up": "halloween_lucky_block_top"
+    }
+  },
+  "histeria:histerite_lucky_block": {
+    "sound": "metal",
+    "textures": "histerite_lucky_block"
+  },
+  "histeria:histerite_plant_stage_0": {
+    "sound": "grass",
+    "textures": "histerite_plant_stage_0"
+  },
+  "histeria:histerite_plant_stage_1": {
+    "sound": "grass",
+    "textures": "histerite_plant_stage_1"
+  },
+  "histeria:histerite_plant_stage_2": {
+    "sound": "grass",
+    "textures": "histerite_plant_stage_2"
+  },
+  "histeria:histerite_plant_stage_3": {
+    "sound": "grass",
+    "textures": "histerite_plant_stage_3"
+  },
+  "histeria:nocturite_lucky_block": {
+    "sound": "metal",
+    "textures": "nocturite_lucky_block"
+  },
+  "histeria:nuke_tnt": {
+    "sound": "grass",
+    "textures": {
+      "down": "nuke_tnt_bottom",
+      "side": "nuke_tnt_side",
+      "up": "nuke_tnt_top"
+    }
+  },
+  "histeria:blast_tnt": {
+    "sound": "grass",
+    "textures": {
+      "down": "blast_tnt_bottom",
+      "side": "blast_tnt_side",
+      "up": "blast_tnt_top"
+    }
+  },
+  "histeria:cluster_tnt": {
+    "sound": "grass",
+    "textures": {
+      "down": "cluster_tnt_bottom",
+      "side": "cluster_tnt_side",
+      "up": "cluster_tnt_top"
+    }
+  },
+  "histeria:spiral_tnt": {
+    "sound": "grass",
+    "textures": {
+      "down": "spiral_tnt_bottom",
+      "side": "spiral_tnt_side",
+      "up": "spiral_tnt_top"
+    }
+  },
+  "histeria:star_tnt": {
+    "sound": "grass",
+    "textures": {
+      "down": "star_tnt_bottom",
+      "side": "star_tnt_side",
+      "up": "star_tnt_top"
+    }
+  },
+  "histeria:fossil_block": {
+    "sound": "stone",
+    "textures": "fossil_block"
+  },
+  "histeria:golden_potatoes": {
+    "sound": "grass",
+    "textures": "golden_potatoes"
+  },
+  "histeria:golden_carrots": {
+    "sound": "grass",
+    "textures": "golden_carrots"
+  },
+  "histeria:golden_beetroot": {
+    "sound": "grass",
+    "textures": "golden_beetroot"
+  },
+  "histeria:golden_wheat": {
+    "sound": "grass",
+    "textures": "golden_wheat"
+  },
+  "histeria:golden_melon_stem": {
+    "sound": "grass",
+    "textures": "golden_melon_stem"
+  },
+  "histeria:golden_pumpkin_stem": {
+    "sound": "grass",
+    "textures": "golden_pumpkin_stem"
+  },
+  "histeria:golden_melon_block": {
+    "sound": "wood",
+    "textures": {
+      "down": "golden_melon_top",
+      "side": "golden_melon_side",
+      "up": "golden_melon_top"
+    }
+  },
+  "histeria:golden_pumpkin_block": {
+    "sound": "wood",
+    "textures": {
+      "down": "golden_pumpkin_top",
+      "side": "golden_pumpkin_side",
+      "up": "golden_pumpkin_top"
+    }
+  }
 }

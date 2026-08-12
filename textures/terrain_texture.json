@@ -636,6 +636,18 @@
         "textures/blocks/golden_pumpkin_stem_disconnected",
         "textures/blocks/golden_pumpkin_stem_connected"
       ]
+    },
+    "golden_melon_top": {
+      "textures": "textures/blocks/golden_melon_top"
+    },
+    "golden_melon_side": {
+      "textures": "textures/blocks/golden_melon_side"
+    },
+    "golden_pumpkin_top": {
+      "textures": "textures/blocks/golden_pumpkin_top"
+    },
+    "golden_pumpkin_side": {
+      "textures": "textures/blocks/golden_pumpkin_side"
     }
   }
 }
