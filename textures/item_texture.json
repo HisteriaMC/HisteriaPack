@@ -630,11 +630,11 @@
     "item_shield": {
       "textures": "textures/items/utility/item_shield"
     },
-    "blocks_mark": {
-      "textures": "textures/items/marks/blocks_mark"
+    "block_mark": {
+      "textures": "textures/items/marks/block_mark"
     },
-    "kills_mark": {
-      "textures": "textures/items/marks/kills_mark"
+    "kill_mark": {
+      "textures": "textures/items/marks/kill_mark"
     },
     "player_mark": {
       "textures": "textures/items/marks/player_mark"
