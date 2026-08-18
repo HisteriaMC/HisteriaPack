@@ -239,9 +239,11 @@ item.histeria:blood_key_shard=Fragment de clé de sang
 item.histeria:blood_key=Clé de sang
 
 [Marks]
-item.histeria:blocks_mark=Marqueur de blocs
-item.histeria:kills_mark=Marqueur d'éliminations
+item.histeria:block_mark=Marqueur de blocs
+item.histeria:kill_mark=Marqueur d'éliminations
 item.histeria:player_mark=Marqueur du joueur
+item.histeria:mob_kill_mark=Marqueur d'éliminations de créatures
+
 
 [Mob Loots]
 item.histeria:lumen_tear=Larme de Lumen

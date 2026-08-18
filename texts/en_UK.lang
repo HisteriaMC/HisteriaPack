@@ -238,9 +238,10 @@ item.histeria:blood_key_shard=Blood Key Shard
 item.histeria:blood_key=Blood Key
 
 [Marks]
-item.histeria:blocks_mark=Marqueur de blocs
-item.histeria:kills_mark=Marqueur d'éliminations
-item.histeria:player_mark=Marqueur du joueur
+item.histeria:block_mark=Block Mark
+item.histeria:kill_mark=Kill Mark
+item.histeria:player_mark=Player Mark
+item.histeria:mob_kill_mark=Mob Kill
 
 [Mob Loots]
 item.histeria:lumen_tear=Lumen Tear
