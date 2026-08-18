@@ -2,12 +2,12 @@
   "format_version": "1.10.0",
   "minecraft:client_entity": {
     "description": {
-      "identifier": "histeria:blood_shuriken",
+      "identifier": "histeria:bloody_shuriken",
       "materials": {
         "default": "egg"
       },
       "textures": {
-        "default": "textures/items/utility/blood_shuriken"
+        "default": "textures/items/tools/bloody_shuriken"
       },
       "geometry": {
         "default": "geometry.item_sprite"

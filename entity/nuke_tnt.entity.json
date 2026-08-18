@@ -1,0 +1,21 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "histeria:nuke_tnt",
+      "min_engine_version": "1.8.0",
+      "materials": {
+        "default": "nuke_tnt"
+      },
+      "textures": {
+        "default": "textures/entity/tnt/nuke_tnt"
+      },
+      "geometry": {
+        "default": "geometry.tnt"
+      },
+      "render_controllers": [
+        "controller.render.nuke_tnt"
+      ]
+    }
+  }
+}

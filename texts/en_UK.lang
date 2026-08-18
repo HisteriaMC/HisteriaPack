@@ -81,6 +81,16 @@ tile.histeria:noctus_spawner.name=Noctus Spawner
 tile.histeria:lycos_spawner.name=Lycos Spawner
 tile.histeria:hylide_spawner.name=Hylide Spawner
 tile.histeria:bellum_spawner.name=Bellum Spawner
+tile.histeria:histerite_lucky_block.name=Hiserite Lucky Block
+tile.histeria:nocturite_lucky_block.name=Nocturite Lucky Block
+tile.histeria:deepslate_histerite_ore.name=Hiserite Deeplsate Ore
+tile.histeria:deepslate_random_ore.name=Random Deepslate Ore
+tile.histeria:nuke_tnt.name=Nuke TNT
+tile.histeria:blast_tnt.name=Blast TNT
+tile.histeria:cluster_tnt.name=Cluster TNT
+tile.histeria:spiral_tnt.name=Spiral TNT
+tile.histeria:star_tnt.name=Star TNT
+tile.histeria:fossil_block.name=Fossil Block
 
 [Decorations]
 tile.histeria:armchair.name=Armchair
@@ -143,6 +153,13 @@ item.histeria:nocturite_core=Nocturite Core
 item.histeria:nocturite_crystal=Nocturite Crystal
 item.histeria:nocturite_fruit=Nocturite Fruit
 item.histeria:nocturite_seeds=Nocturite Seeds
+item.histeria:histerite_seeds=Histerite Seeds
+item.histeria:histerite_strings=Histerite Strings
+item.histeria:crown_star=Crown Star
+item.histeria:forge_dust=Forge Dust
+item.histeria:life_star=Life Star
+item.histeria:telluric_star=Telluric Star
+item.histeria:void_star=Void Star
 
 [Décoration]
 item.histeria:block_category=Block Category
@@ -201,7 +218,7 @@ item.histeria:yellow_candy_shards=Yellow Candy Shards
 item.histeria:cursed_helmet=Cursed Helmet
 item.histeria:cursed_sword=Cursed Sword
 item.histeria:red_candy=Red Candy
-
+item.histeria:beer=Beer
 
 
 [Fossils]
@@ -216,6 +233,29 @@ item.histeria:boss_key=Boss Key
 item.histeria:histerite_key=Histerite Key
 item.histeria:nocturite_key=Nocturite Key
 item.histeria:vote_key=Vote Key
+item.histeria:boss_key_shard=Boss Key Shard
+item.histeria:blood_key_shard=Blood Key Shard
+item.histeria:blood_key=Blood Key
+
+[Marks]
+item.histeria:blocks_mark=Marqueur de blocs
+item.histeria:kills_mark=Marqueur d'éliminations
+item.histeria:player_mark=Marqueur du joueur
+
+[Mob Loots]
+item.histeria:lumen_tear=Lumen Tear
+item.histeria:histerite_horn=Histerite Horn
+item.histeria:nocturnal_filament=Nocturnal Filament
+item.histeria:sylvan_claw=Sylvan Claw
+item.histeria:golden_fur=Golden Fur
+
+[Runes]
+item.histeria:armor_rune=Armor Rune
+item.histeria:axe_rune=Axe Rune
+item.histeria:bow_rune=Bow Rune
+item.histeria:mob_rune=Mob Rune
+item.histeria:pickaxe_rune=Pickaxe Rune
+item.histeria:sword_rune=Sword Rune
 
 [Sticks]
 item.histeria:heal_stick=Heal stick
@@ -223,6 +263,7 @@ item.histeria:jump_stick=Jump stick
 item.histeria:speed_stick=Speed stick
 item.histeria:sponger=Dryness stick
 item.histeria:tpstick=Teleportation stick
+item.histeria:strength_stick=Strength Stick
 
 [Tools]
 item.histeria:grapnel=Grapple
@@ -238,6 +279,10 @@ item.histeria:seed_planter=Seed Planter
 item.histeria:spear=Spear
 item.histeria:xiphos=Xiphos
 item.histeria:histeria_trident=Histeria Trident
+item.histeria:histerite_bow=Histerite Bow
+item.bow.name=Histerite Bow
+item.kukri.name=Kukri
+item.olympus_glaive.name=Olympus Glaive
 
 [Utility]
 item.histeria:bank_note=Bank Note
@@ -280,17 +325,16 @@ item.histeria:lumberjack_booster=Lumberjack Booster
 item.histeria:miner_booster=Miner Booster
 item.histeria:farmer_booster=Farmer Booster
 item.histeria:killer_booster=Killer Booster
-item.histeria:lumen_tear=Lumen Tear
-item.histeria:histerite_horn=Histerite Horn
-item.histeria:nocturnal_filament=Nocturnal Filament
-item.histeria:sylvan_claw=Sylvan Claw
-item.histeria:golden_fur=Golden Fur
 item.histeria:air_thruster=Air Thruster
-item.histeria:fireball=Fireball
-item.histeria:tp_stick=Teleportation Stick
-item.histeria:boss_key_shard=Boss Key Shard
-item.histeria:blood_key_shard=Blood Key Shard
-item.histeria:blood_key=Blood Key
+item.histeria:caged_goblin=Caged Goblin
+item.histeria:chest_finder_level_2=Chest Finder Level 3
+item.histeria:chest_finder_level_3=Chest Finder Level 3
+item.histeria:cleanse_potion=Cleanse Potion
+item.histeria:forge_book=Forge Book
+item.histeria:item_shield=Item Shield
+item.histeria:lumen_ball=Lumen Ball
+item.histeria:split_pearl=Split Pearl
+
 
 [Spawn Eggs]
 item.histeria:sterox_spawn_egg=Sterox Spawn Egg

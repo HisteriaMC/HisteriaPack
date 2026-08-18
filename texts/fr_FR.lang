@@ -78,6 +78,16 @@ tile.histeria:noctus_spawner.name=Spawner de Noctus
 tile.histeria:lycos_spawner.name=Spawner de Lycos
 tile.histeria:hylide_spawner.name=Spawner d'Hylide
 tile.histeria:bellum_spawner.name=Spawner de Bellum
+tile.histeria:histerite_lucky_block.name=Lucky Block en Hiserite
+tile.histeria:nocturite_lucky_block.name=Lucky Block en Nocturite
+tile.histeria:deepslate_histerite_ore.name=Minerai d'Histerite des abîmes
+tile.histeria:deepslate_random_ore.name=Minerai aléatoire des abîmes
+tile.histeria:nuke_tnt.name=TNT Nucléaire
+tile.histeria:blast_tnt.name=TNT à rafale
+tile.histeria:cluster_tnt.name=TNT grappe
+tile.histeria:spiral_tnt.name=TNT spirale
+tile.histeria:star_tnt.name=TNT étoile
+tile.histeria:fossil_block.name=Bloc fossilifère
 
 [Decorations]
 tile.histeria:armchair.name=Fauteuil
@@ -140,6 +150,16 @@ item.histeria:nocturite_core=Coeur de Nocturite
 item.histeria:nocturite_crystal=Cristal de Nocturite
 item.histeria:nocturite_fruit=Fruit de Nocturite
 item.histeria:nocturite_seeds=Graines de Nocturite
+item.histeria:histerite_seeds=Graines de Histerite
+item.histeria:histerite_strings=Fil de Histerite
+item.histeria:crown_star=Étoile de la couronne
+item.histeria:forge_dust=Poudre de fusion
+item.histeria:life_star=Fil de la vie
+item.histeria:telluric_star=Étoile tellurique
+item.histeria:void_star=Étoile du vide
+
+
+
 
 [Decorations]
 item.histeria:block_category=Catégorie Blocs
@@ -197,7 +217,7 @@ item.histeria:yellow_candy_shards=Morceaux de bonbons jaunes
 item.histeria:cursed_helmet=Casque maudit 
 item.histeria:cursed_sword=Épée maudite
 item.histeria:red_candy=Bonbon rouge
-
+item.histeria:beer=Bière
 
 
 
@@ -214,6 +234,29 @@ item.histeria:boss_key=Clé Boss
 item.histeria:histerite_key=Clé en Histerite
 item.histeria:nocturite_key=Clé en Nocturite
 item.histeria:vote_key=Clé de vote
+item.histeria:boss_key_shard=Fragment de clé de boss
+item.histeria:blood_key_shard=Fragment de clé de sang
+item.histeria:blood_key=Clé de sang
+
+[Marks]
+item.histeria:blocks_mark=Marqueur de blocs
+item.histeria:kills_mark=Marqueur d'éliminations
+item.histeria:player_mark=Marqueur du joueur
+
+[Mob Loots]
+item.histeria:lumen_tear=Larme de Lumen
+item.histeria:histerite_horn=Corne d'Histerite
+item.histeria:nocturnal_filament=Filament nocturne
+item.histeria:sylvan_claw=Griffe sylvestre
+item.histeria:golden_fur=Fourrure dorée
+
+[Runes]
+item.histeria:armor_rune=Rune d'armure
+item.histeria:axe_rune=Rune d'hache
+item.histeria:bow_rune=Rune d'arc
+item.histeria:mob_rune=Rune de créatures
+item.histeria:pickaxe_rune=Rune de pioche
+item.histeria:sword_rune=Rune d'épée
 
 [Sticks]
 item.histeria:heal_stick=Bâton de soin
@@ -221,6 +264,7 @@ item.histeria:jump_stick=Bâton de saut
 item.histeria:speed_stick=Bâton de vitesse
 item.histeria:sponger=Bâton de sécheresse
 item.histeria:tpstick=Bâton de téléportation
+item.histeria:strength_stick=Bâton de force
 
 [Tools]
 item.histeria:grapnel=Grappin
@@ -236,6 +280,10 @@ item.histeria:seed_planter=Planteur à graines
 item.histeria:spear=Lance
 item.histeria:xiphos=Xiphos
 item.histeria:histeria_trident=Trident d'Histeria
+item.histeria:histerite_bow=Arc en Histerite
+item.bow.name=Arc en Histerite
+item.kukri.name=Kukri
+item.olympus_glaive.name=Glaive olympique
 
 [Utility]
 item.histeria:bottled_lumen=Fiole de Lumenn
@@ -278,17 +326,16 @@ item.histeria:lumberjack_booster=Booster de bûcheron
 item.histeria:miner_booster=Booster de mineur
 item.histeria:farmer_booster=Booster d'agriculteur
 item.histeria:killer_booster=Booster de tueur
-item.histeria:lumen_tear=Larme de Lumen
-item.histeria:histerite_horn=Corne d'Histerite
-item.histeria:nocturnal_filament=Filament nocturne
-item.histeria:sylvan_claw=Griffe sylvestre
-item.histeria:golden_fur=Fourrure dorée
 item.histeria:air_thruster=Propulseur à air
-item.histeria:fireball=Fireball
-item.histeria:tp_stick=Bâton de téléportation
-item.histeria:boss_key_shard=Fragment de clé de boss
-item.histeria:blood_key_shard=Fragment de clé de sang
-item.histeria:blood_key=Clé de sang
+item.histeria:caged_goblin=Gobelin en cage
+item.histeria:chest_finder_level_2=Chercheur de coffre niveau 2
+item.histeria:chest_finder_level_3=Chercheur de coffre niveau 3
+item.histeria:cleanse_potion=Potion de purification
+item.histeria:forge_book=Codex d'enchantement
+item.histeria:item_shield=Bouclier d'objets
+item.histeria:lumen_ball=Boule de Lumen
+item.histeria:split_pearl=Ender Pearl divisé
+
 
 [Spawn Eggs]
 item.histeria:sterox_spawn_egg=Oeuf de Sterox

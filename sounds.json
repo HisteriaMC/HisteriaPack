@@ -1,0 +1,49 @@
+{
+  "block_sounds": {
+    "mixed_sand": {
+      "events": {
+        "break": {
+          "pitch": [
+            0.8,
+            1
+          ],
+          "sound": "dig.mixed_sand",
+          "volume": 1
+        },
+        "default": "",
+        "hit": {
+          "pitch": 0.5,
+          "sound": "hit.mixed_sand",
+          "volume": 0.23
+        },
+        "item.use.on": {
+          "pitch": 0.8,
+          "sound": "use.mixed_sand"
+        },
+        "place": {
+          "pitch": [
+            0.8,
+            1
+          ],
+          "sound": "place.mixed_sand",
+          "volume": 1
+        },
+        "power.off": {
+          "pitch": 0.5,
+          "sound": "block.click"
+        },
+        "power.on": {
+          "pitch": 0.6,
+          "sound": "block.click"
+        }
+      },
+      "pitch": 1,
+      "volume": 1
+    },
+    "boss.ambient": {
+      "pitch": 1,
+      "sound": "boss_ambient",
+      "volume": 1
+    }
+  }
+}

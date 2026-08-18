@@ -12,6 +12,9 @@
         },
         "iem_tnt:entity": {
             "+defines": ["USE_UV_ANIM"]
+        },
+        "nuke_tnt:entity": {
+            "+defines": ["USE_UV_ANIM"]
         }
     }
 }

@@ -501,7 +501,7 @@
       "textures": "textures/items/utility/gravitational_stone"
     },
     "blood_shuriken": {
-      "textures": "textures/items/utility/blood_shuriken"
+      "textures": "textures/items/tools/blood_shuriken"
     },
     "hestia_veil": {
       "textures": "textures/items/armors/hestia_veil"
@@ -529,6 +529,118 @@
     },
     "red_candy": {
       "textures": "textures/items/event/red_candy"
+    },
+    "air_thruster": {
+      "textures": "textures/items/utility/air_thruster"
+    },
+    "histerite_seeds": {
+      "textures": "textures/items/craft/histerite_seeds"
+    },
+    "histerite_string": {
+      "textures": "textures/items/craft/histerite_string"
+    },
+    "strength_stick": {
+      "textures": "textures/items/sticks/strength_stick"
+    },
+    "histerite_bow_pulling_0": {
+      "textures": "textures/items/tools/histerite_bow_pulling_0"
+    },
+    "histerite_bow_pulling_1": {
+      "textures": "textures/items/tools/histerite_bow_pulling_1"
+    },
+    "histerite_bow_pulling_2": {
+      "textures": "textures/items/tools/histerite_bow_pulling_2"
+    },
+    "histerite_bow_standby": {
+      "textures": "textures/items/tools/histerite_bow_standby"
+    },
+    "bow_standby": {
+      "textures": "textures/items/tools/histerite_bow_standby"
+    },
+    "bow_pulling": {
+      "textures": [
+        "textures/items/tools/histerite_bow_pulling_0",
+        "textures/items/tools/histerite_bow_pulling_1",
+        "textures/items/tools/histerite_bow_pulling_2"
+      ]
+    },
+    "cime_star": {
+      "textures": "textures/craft/tools/cime_star"
+    },
+    "beer_model": {
+      "textures": "textures/items/event/beer_model"
+    },
+    "beer": {
+      "textures": "textures/items/event/beer"
+    },
+    "lumen_ball": {
+      "textures": "textures/items/utility/lumen_ball"
+    },
+    "kukri": {
+      "textures": "textures/items/tools/kukri"
+    },
+    "caged_goblin": {
+      "textures": "textures/items/utility/caged_goblin"
+    },
+    "chest_finder_level_2": {
+      "textures": "textures/items/utility/chest_finder_level_2"
+    },
+    "chest_finder_level_3": {
+      "textures": "textures/items/utility/chest_finder_level_3"
+    },
+    "cleanse_potion": {
+      "textures": "textures/items/utility/cleanse_potion"
+    },
+    "forge_book": {
+      "textures": "textures/items/utility/forge_book"
+    },
+    "split_pearl": {
+      "textures": "textures/items/utility/split_pearl"
+    },
+    "armor_rune": {
+      "textures": "textures/items/runes/armor_rune"
+    },
+    "axe_rune": {
+      "textures": "textures/items/runes/axe_rune"
+    },
+    "bow_rune": {
+      "textures": "textures/items/runes/bow_rune"
+    },
+    "mob_rune": {
+      "textures": "textures/items/runes/mob_rune"
+    },
+    "pickaxe_rune": {
+      "textures": "textures/items/runes/pickaxe_rune"
+    },
+    "sword_rune": {
+      "textures": "textures/items/runes/sword_rune"
+    },
+    "crown_star": {
+      "textures": "textures/items/craft/crown_star"
+    },
+    "forge_dust": {
+      "textures": "textures/items/craft/forge_dust"
+    },
+    "life_star": {
+      "textures": "textures/items/craft/life_star"
+    },
+    "telluric_star": {
+      "textures": "textures/items/craft/telluric_star"
+    },
+    "item_shield": {
+      "textures": "textures/items/utility/item_shield"
+    },
+    "block_mark": {
+      "textures": "textures/items/marks/block_mark"
+    },
+    "kill_mark": {
+      "textures": "textures/items/marks/kill_mark"
+    },
+    "player_mark": {
+      "textures": "textures/items/marks/player_mark"
+    },
+    "olympus_glaive": {
+      "textures": "textures/items/tools/olympus_glaive"
     }
   }
 }
