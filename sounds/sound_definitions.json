@@ -94,11 +94,67 @@
             "sounds/block/mixed_sand"
          ]
       },
+      "bleed.bleed" : {
+         "__use_legacy_max_distance": "true",
+         "category": "player",
+         "sounds": [
+            "sounds/bleed/bleed"
+         ]
+      },
       "structure.ruin_discovery" : {
          "__use_legacy_max_distance": "true",
          "category": "player",
          "sounds": [
             "sounds/structure/ruin_discovery"
+         ]
+      },
+      "freeze.phase_freeze" : {
+         "__use_legacy_max_distance": "true",
+         "category": "player",
+         "sounds": [
+            "sounds/freeze/phase_freeze"
+         ]
+      },
+      "freeze.phase_unfreeze" : {
+         "__use_legacy_max_distance": "true",
+         "category": "player",
+         "sounds": [
+            "sounds/freeze/phase_unfreeze"
+         ]
+      },
+      "laser.laser" : {
+         "__use_legacy_max_distance": "true",
+         "category": "player",
+         "sounds": [
+            "sounds/laser/laser"
+         ]
+      },
+      "nihil.nihil" : {
+         "__use_legacy_max_distance": "true",
+         "category": "player",
+         "sounds": [
+            "sounds/nihil/nihil"
+         ]
+      },
+      "pulse.pulse_ch" : {
+         "__use_legacy_max_distance": "true",
+         "category": "player",
+         "sounds": [
+            "sounds/pulse/pulse_ch"
+         ]
+      },
+      "pulse.pulse_explode" : {
+         "__use_legacy_max_distance": "true",
+         "category": "player",
+         "sounds": [
+            "sounds/pulse/pulse_explode"
+         ]
+      },
+      "pulse.pulse_shoot" : {
+         "__use_legacy_max_distance": "true",
+         "category": "player",
+         "sounds": [
+            "sounds/pulse/pulse_shoot"
          ]
       }
    }
