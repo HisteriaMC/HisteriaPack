@@ -2,12 +2,12 @@
   "format_version": "1.10.0",
   "minecraft:client_entity": {
     "description": {
-      "identifier": "histeria:cleanse_potion",
+      "identifier": "histeria:lumen_ball",
       "materials": {
         "default": "ender_pearl"
       },
       "textures": {
-        "default": "textures/items/utility/cleanse_potion"
+        "default": "textures/items/utility/lumen_ball"
       },
       "geometry": {
         "default": "geometry.item_sprite"
