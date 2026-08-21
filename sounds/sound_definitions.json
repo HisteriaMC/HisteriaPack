@@ -136,13 +136,6 @@
             "sounds/nihil/nihil"
          ]
       },
-      "pulse.pulse_ch" : {
-         "__use_legacy_max_distance": "true",
-         "category": "player",
-         "sounds": [
-            "sounds/pulse/pulse_ch"
-         ]
-      },
       "pulse.pulse_explode" : {
          "__use_legacy_max_distance": "true",
          "category": "player",
