@@ -284,6 +284,7 @@ item.histeria:histerite_bow=Histerite Bow
 item.bow.name=Histerite Bow
 item.kukri.name=Kukri
 item.olympus_glaive.name=Olympus Glaive
+item.bloody_shuriken.name=Bloody Shuriken
 
 [Utility]
 item.histeria:bank_note=Bank Note
@@ -335,6 +336,7 @@ item.histeria:forge_book=Forge Book
 item.histeria:item_shield=Item Shield
 item.histeria:lumen_ball=Lumen Ball
 item.histeria:split_pearl=Split Pearl
+item.histeria:polynectar=Polyjuice Potion
 
 
 [Spawn Eggs]
