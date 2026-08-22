@@ -286,6 +286,7 @@ item.histeria:histerite_bow=Arc en Histerite
 item.bow.name=Arc en Histerite
 item.kukri.name=Kukri
 item.olympus_glaive.name=Glaive olympique
+item.bloody_shuriken.name=Shuriken ensanglanté
 
 [Utility]
 item.histeria:bottled_lumen=Fiole de Lumenn
@@ -337,6 +338,7 @@ item.histeria:forge_book=Codex d'enchantement
 item.histeria:item_shield=Bouclier d'objets
 item.histeria:lumen_ball=Boule de Lumen
 item.histeria:split_pearl=Ender Pearl divisé
+item.histeria:polynectar=Polynectar
 
 
 [Spawn Eggs]

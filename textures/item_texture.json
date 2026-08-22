@@ -500,8 +500,8 @@
     "gravitational_stone": {
       "textures": "textures/items/utility/gravitational_stone"
     },
-    "blood_shuriken": {
-      "textures": "textures/items/tools/blood_shuriken"
+    "bloody_shuriken": {
+      "textures": "textures/items/tools/bloody_shuriken"
     },
     "hestia_veil": {
       "textures": "textures/items/armors/hestia_veil"
@@ -644,6 +644,10 @@
     },
     "olympus_glaive": {
       "textures": "textures/items/tools/olympus_glaive"
+    },
+    "polynectar": {
+      "textures": "textures/items/utility/polynectar"
     }
   }
 }
+
