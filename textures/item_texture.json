@@ -639,8 +639,8 @@
     "player_mark": {
       "textures": "textures/items/marks/player_mark"
     },
-    "mob_kill_mark": {
-      "textures": "textures/items/marks/mob_kill_mark"
+    "mob_mark": {
+      "textures": "textures/items/marks/mob_mark"
     },
     "olympus_glaive": {
       "textures": "textures/items/tools/olympus_glaive"
