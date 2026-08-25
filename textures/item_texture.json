@@ -491,9 +491,6 @@
     "lumen_sword": {
       "textures": "textures/items/tools/lumen_sword"
     },
-    "health_star": {
-      "textures": "textures/items/craft/health_star"
-    },
     "void_star": {
       "textures": "textures/items/craft/void_star"
     },
@@ -647,6 +644,9 @@
     },
     "polynectar": {
       "textures": "textures/items/utility/polynectar"
+    },
+    "ban_hammer": {
+      "textures": "textures/items/event/ban_hammer"
     }
   }
 }
