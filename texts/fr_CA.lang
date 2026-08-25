@@ -138,6 +138,10 @@ item.histeria:hades_crown=Couronne d'Hadès
 item.histeria:hermes_sandals=Sandales d'Hermès
 item.histeria:ares_chestplate=Plastron d'Arès
 item.histeria:hestia_veil=Voile d'Hestia
+item.histeria:lumen_boots=Bottes en Lumen
+item.histeria:lumen_chestplate=Plastron en Lumen
+item.histeria:lumen_helmet=Casque en Lumen
+item.histeria:lumen_leggings=Jambières en Lumen
 
 [Crafts]
 item.histeria:compressed_cobblestone=Pierre taillée compressée
@@ -266,7 +270,7 @@ item.histeria:heal_stick=Bâton de soin
 item.histeria:jump_stick=Bâton de saut
 item.histeria:speed_stick=Bâton de vitesse
 item.histeria:sponger=Bâton de sécheresse
-item.histeria:tpstick=Bâton de téléportation
+item.histeria:tp_stick=Bâton de téléportation
 item.histeria:strength_stick=Bâton de force
 
 [Tools]
@@ -285,9 +289,10 @@ item.histeria:xiphos=Xiphos
 item.histeria:histeria_trident=Trident d'Histeria
 item.histeria:histerite_bow=Arc en Histerite
 item.bow.name=Arc en Histerite
-item.kukri.name=Kukri
-item.olympus_glaive.name=Glaive olympique
-item.bloody_shuriken.name=Shuriken ensanglanté
+item.histeria:kukri=Kukri
+item.histeria:olympus_glaive=Glaive d'Olympus
+item.histeria:bloody_shuriken=Shuriken ensanglanté
+item.histeria:lumen_sword=Épée en Lumen
 
 [Utility]
 item.histeria:bottled_lumen=Fiole de Lumenn
@@ -340,6 +345,8 @@ item.histeria:item_shield=Bouclier d'objets
 item.histeria:lumen_ball=Boule de Lumen
 item.histeria:split_pearl=Ender Pearl divisé
 item.histeria:polynectar=Polynectar
+item.histeria:gravitational_stone=Pierre gravitationnelle
+item.histeria:fireball=Boule de feu
 
 
 [Spawn Eggs]
