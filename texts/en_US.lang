@@ -219,6 +219,7 @@ item.histeria:cursed_helmet=Cursed Helmet
 item.histeria:cursed_sword=Cursed Sword
 item.histeria:red_candy=Red Candy
 item.histeria:beer=Beer
+item.histeria:ban_hammer=Ban Hammer
 
 
 [Fossils]
@@ -241,7 +242,7 @@ item.histeria:blood_key=Blood Key
 item.histeria:block_mark=Block Mark
 item.histeria:kill_mark=Kill Mark
 item.histeria:player_mark=Player Mark
-item.histeria:mob_kill_mark=Mob Kill
+item.histeria:mob_mark=Mob Mark
 
 [Mob Loots]
 item.histeria:lumen_tear=Lumen Tear
@@ -284,6 +285,7 @@ item.histeria:histerite_bow=Histerite Bow
 item.bow.name=Histerite Bow
 item.kukri.name=Kukri
 item.olympus_glaive.name=Olympus Glaive
+item.bloody_shuriken.name=Bloody Shuriken
 
 [Utility]
 item.histeria:bank_note=Bank Note
@@ -335,6 +337,7 @@ item.histeria:forge_book=Forge Book
 item.histeria:item_shield=Item Shield
 item.histeria:lumen_ball=Lumen Ball
 item.histeria:split_pearl=Split Pearl
+item.histeria:polynectar=Polyjuice Potion
 
 
 [Spawn Eggs]

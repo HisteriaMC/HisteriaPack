@@ -491,17 +491,14 @@
     "lumen_sword": {
       "textures": "textures/items/tools/lumen_sword"
     },
-    "health_star": {
-      "textures": "textures/items/craft/health_star"
-    },
     "void_star": {
       "textures": "textures/items/craft/void_star"
     },
     "gravitational_stone": {
       "textures": "textures/items/utility/gravitational_stone"
     },
-    "blood_shuriken": {
-      "textures": "textures/items/tools/blood_shuriken"
+    "bloody_shuriken": {
+      "textures": "textures/items/tools/bloody_shuriken"
     },
     "hestia_veil": {
       "textures": "textures/items/armors/hestia_veil"
@@ -639,11 +636,18 @@
     "player_mark": {
       "textures": "textures/items/marks/player_mark"
     },
-    "mob_kill_mark": {
-      "textures": "textures/items/marks/mob_kill_mark"
+    "mob_mark": {
+      "textures": "textures/items/marks/mob_mark"
     },
     "olympus_glaive": {
       "textures": "textures/items/tools/olympus_glaive"
+    },
+    "polynectar": {
+      "textures": "textures/items/utility/polynectar"
+    },
+    "ban_hammer": {
+      "textures": "textures/items/tools/ban_hammer"
     }
   }
 }
+

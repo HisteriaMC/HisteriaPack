@@ -218,6 +218,7 @@ item.histeria:cursed_helmet=Casque maudit
 item.histeria:cursed_sword=Épée maudite
 item.histeria:red_candy=Bonbon rouge
 item.histeria:beer=Bière
+item.histeria:ban_hammer=Marteau de bannissement
 
 
 
@@ -242,7 +243,7 @@ item.histeria:blood_key=Clé de sang
 item.histeria:block_mark=Marqueur de blocs
 item.histeria:kill_mark=Marqueur d'éliminations
 item.histeria:player_mark=Marqueur du joueur
-item.histeria:mob_kill_mark=Marqueur d'éliminations de créatures
+item.histeria:mob_mark=Marqueur d'éliminations de créatures
 
 
 [Mob Loots]
@@ -286,6 +287,7 @@ item.histeria:histerite_bow=Arc en Histerite
 item.bow.name=Arc en Histerite
 item.kukri.name=Kukri
 item.olympus_glaive.name=Glaive olympique
+item.bloody_shuriken.name=Shuriken ensanglanté
 
 [Utility]
 item.histeria:bottled_lumen=Fiole de Lumenn
@@ -337,6 +339,7 @@ item.histeria:forge_book=Codex d'enchantement
 item.histeria:item_shield=Bouclier d'objets
 item.histeria:lumen_ball=Boule de Lumen
 item.histeria:split_pearl=Ender Pearl divisé
+item.histeria:polynectar=Polynectar
 
 
 [Spawn Eggs]
