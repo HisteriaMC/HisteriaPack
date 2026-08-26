@@ -1,0 +1,141 @@
+name: Release Pack
+
+on:
+  push:
+    branches:
+      - '*'
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-minify:
+    runs-on: ubuntu-latest
+    if: startsWith(github.ref, 'refs/tags/v') || contains(github.event.head_commit.message, '[Publish]')
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install optipng
+        run: sudo apt-get update && sudo apt-get install -y optipng
+
+      - name: Stage pack for build
+        run: |
+          mkdir -p build/pack dist
+          rsync -a \
+            --exclude='.git/' \
+            --exclude='.github/' \
+            --exclude='tools/' \
+            --exclude='build/' \
+            --exclude='dist/' \
+            --exclude='.gitignore' \
+            --exclude='.LICENCE' \
+            --exclude='.README.md' \
+            ./ build/pack/
+
+      - name: Minify JSON files
+        run: |
+          python3 <<'PY'
+          import json, re
+          from pathlib import Path
+
+          comment_line = re.compile(r"(?im)^\s+//.*$")
+          comment_trail = re.compile(r"(?im)//[^\"\[\]]+$")
+          root = Path("build/pack")
+
+          for path in root.rglob("*.json"):
+              raw = path.read_text(encoding="utf-8", errors="replace")
+              stripped = comment_line.sub("", raw)
+              stripped = comment_trail.sub("", stripped)
+              try:
+                  data = json.loads(stripped)
+              except json.JSONDecodeError:
+                  continue
+              path.write_text(
+                  json.dumps(data, separators=(",", ":"), ensure_ascii=False),
+                  encoding="utf-8",
+              )
+          PY
+
+      - name: Compress PNG files
+        run: find build/pack -type f -name '*.png' -exec optipng -o7 -quiet {} +
+
+      - name: Zip texture pack
+        run: |
+          cd build/pack
+          zip -r ../../dist/HisteriaPack.zip .
+
+      - name: Upload texture pack artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: zip-texture-pack
+          path: dist/HisteriaPack.zip
+
+  github-release:
+    runs-on: ubuntu-latest
+    needs: build-and-minify
+    if: startsWith(github.ref, 'refs/tags/v')
+
+    steps:
+      - name: Download texture pack artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: zip-texture-pack
+          path: dist
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          name: HisteriaPack ${{ github.ref_name }}
+          body: Automated release of the texture pack.
+          files: dist/HisteriaPack.zip
+          fail_on_unmatched_files: true
+
+  deploy-to-server:
+    runs-on: ubuntu-latest
+    needs: build-and-minify
+    if: startsWith(github.ref, 'refs/heads/') && contains(github.event.head_commit.message, '[Publish]')
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download texture pack artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: zip-texture-pack
+          path: dist
+
+      - name: Install sshpass
+        run: sudo apt-get install -y sshpass
+
+      - name: Upload pack to production server
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+          SSH_USERNAME: ${{ vars.SSH_USERNAME }}
+          HOST: ${{ vars.HOST }}
+          SSH_PORT: ${{ vars.SSH_PORT }}
+          DIRECTORY: ${{ vars.DIRECTORY }}
+        run: |
+          echo "SSH_USERNAME: $SSH_USERNAME"
+          echo "HOST: $HOST"
+          echo "SSH_PORT: $SSH_PORT"
+          echo "DIRECTORY: $DIRECTORY"
+
+          eval "$(ssh-agent -s)"
+          SSH_KEY_FILE=$(mktemp)
+          echo "${SSH_PRIVATE_KEY}" > "${SSH_KEY_FILE}"
+          chmod 600 "${SSH_KEY_FILE}"
+          ssh-add "${SSH_KEY_FILE}"
+
+          sudo ip li set mtu 1400 dev eth0
+
+          rsync -avz -e "ssh -o StrictHostKeyChecking=no -p $SSH_PORT" dist/HisteriaPack.zip $SSH_USERNAME@$HOST:$DIRECTORY/HisteriaPack.zip
+
+          ssh -p $SSH_PORT $SSH_USERNAME@$HOST "cd $DIRECTORY && ./upload.sh resource_packs HisteriaPack.zip"
+
+          ssh-agent -k
+          if [ -f "$SSH_KEY_FILE" ]; then rm -f "$SSH_KEY_FILE"; fi
