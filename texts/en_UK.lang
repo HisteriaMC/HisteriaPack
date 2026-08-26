@@ -141,6 +141,10 @@ item.histeria:hades_crown=Hades Crown
 item.histeria:hermes_sandals=Hermes sandals
 item.histeria:ares_chestplate=Ares Chestplate
 item.histeria:hestia_veil=Hestia Veil
+item.histeria:lumen_boots=Lumen Boots
+item.histeria:lumen_chestplate=Lumen Chestplate
+item.histeria:lumen_helmet=Lumen Helmet
+item.histeria:lumen_leggings=Lumen Leggings
 
 [Crafts]
 item.histeria:compressed_cobblestone=Compressed Cobblestone
@@ -264,7 +268,7 @@ item.histeria:heal_stick=Heal stick
 item.histeria:jump_stick=Jump stick
 item.histeria:speed_stick=Speed stick
 item.histeria:sponger=Dryness stick
-item.histeria:tpstick=Teleportation stick
+item.histeria:tp_stick=Teleportation stick
 item.histeria:strength_stick=Strength Stick
 
 [Tools]
@@ -283,9 +287,10 @@ item.histeria:xiphos=Xiphos
 item.histeria:histeria_trident=Histeria Trident
 item.histeria:histerite_bow=Histerite Bow
 item.bow.name=Histerite Bow
-item.kukri.name=Kukri
-item.olympus_glaive.name=Olympus Glaive
-item.bloody_shuriken.name=Bloody Shuriken
+item.histeria:kukri=Kukri
+item.histeria:olympus_glaive=Olympus Glaive
+item.histeria:bloody_shuriken=Bloody Shuriken
+item.histeria:lumen_sword=Lumen Sword
 
 [Utility]
 item.histeria:bank_note=Bank Note
@@ -338,6 +343,8 @@ item.histeria:item_shield=Item Shield
 item.histeria:lumen_ball=Lumen Ball
 item.histeria:split_pearl=Split Pearl
 item.histeria:polynectar=Polyjuice Potion
+item.histeria:gravitational_stone=Gravitational Stone
+item.histeria:fireball=Fireball
 
 
 [Spawn Eggs]
