@@ -39,14 +39,14 @@ jobs:
         run: |
           mkdir -p build/pack dist
           rsync -a \
-            --exclude='.git/' \
-            --exclude='.github/' \
-            --exclude='tools/' \
-            --exclude='build/' \
-            --exclude='dist/' \
-            --exclude='.gitignore' \
-            --exclude='.LICENCE' \
-            --exclude='.README.md' \
+            --exclude='/.git/' \
+            --exclude='/.github/' \
+            --exclude='/tools/' \
+            --exclude='/build/' \
+            --exclude='/dist/' \
+            --exclude='/.gitignore' \
+            --exclude='/.LICENCE' \
+            --exclude='/.README.md' \
             ./ build/pack/
 
       - name: Minify JSON files
