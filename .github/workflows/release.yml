@@ -22,6 +22,19 @@ jobs:
       - name: Install optipng
         run: sudo apt-get update && sudo apt-get install -y optipng
 
+      - name: Bump manifest version
+        if: startsWith(github.ref, 'refs/heads/')
+        id: bump
+        run: |
+          MAJOR=$(jq -r '.header.version[0]' manifest.json)
+          MINOR=$(jq -r '.header.version[1]' manifest.json)
+          PATCH=$(jq -r '.header.version[2]' manifest.json)
+          PATCH=$((PATCH + 1))
+          TAG="v${MAJOR}.${MINOR}.${PATCH}"
+          jq ".header.version = [$MAJOR, $MINOR, $PATCH] | .modules[0].version = [$MAJOR, $MINOR, $PATCH]" manifest.json > manifest.json.tmp && mv manifest.json.tmp manifest.json
+          echo "tag=$TAG" >> "$GITHUB_OUTPUT"
+          echo "Bumped manifest version to $TAG"
+
       - name: Stage pack for build
         run: |
           mkdir -p build/pack dist
@@ -73,6 +86,17 @@ jobs:
         with:
           name: zip-texture-pack
           path: dist/HisteriaPack.zip
+
+      - name: Commit and push version bump
+        if: startsWith(github.ref, 'refs/heads/')
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add manifest.json
+          git commit -m "Bump version to ${{ steps.bump.outputs.tag }} [CI skip]"
+          git push origin HEAD:${GITHUB_REF#refs/heads/}
 
   github-release:
     runs-on: ubuntu-latest
