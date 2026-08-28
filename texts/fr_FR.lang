@@ -155,12 +155,13 @@ item.histeria:nocturite_crystal=Cristal de Nocturite
 item.histeria:nocturite_fruit=Fruit de Nocturite
 item.histeria:nocturite_seeds=Graines de Nocturite
 item.histeria:histerite_seeds=Graines de Histerite
-item.histeria:histerite_strings=Fil de Histerite
+item.histeria:histerite_string=Fil de Histerite
 item.histeria:crown_star=Étoile de la couronne
 item.histeria:forge_dust=Poudre de fusion
 item.histeria:life_star=Fil de la vie
 item.histeria:telluric_star=Étoile tellurique
 item.histeria:void_star=Étoile du vide
+
 
 
 
@@ -192,6 +193,7 @@ item.histeria:christmas_star=Etoile de Noël
 item.histeria:candy_cane=Sucre d'orge
 item.histeria:blue_candy=Bonbon bleu
 item.histeria:yellow_candy=Bonbon jaune
+item.histeria:green_candy=Bonbon vert
 item.histeria:snow_globe=Boule à neige
 
 item.histeria:leap=Plume
