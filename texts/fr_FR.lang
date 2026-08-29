@@ -122,7 +122,7 @@ tile.histeria:gloom_dirt.name=Terre lugubre
 tile.histeria:gloom_leaves.name=Feuilles lugubres
 tile.histeria:gloom_log.name=Bois lugubre
 tile.histeria:gloom_planks.name=Planche lugubre
-tile.histeria:gloom_veil.name=Feuilles lugubre
+tile.histeria:gloom_veil.name=Voile lugubre
 
 [Armors]
 item.histeria:nocturite_helmet=Casque en Nocturite
