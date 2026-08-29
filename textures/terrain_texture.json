@@ -307,9 +307,6 @@
     "vault_side": {
       "textures": "textures/blocks/vault_side"
     },
-    "vault_side_og_side": {
-      "textures": "textures/blocks/vault_side_og_side"
-    },
     "vault_top": {
       "textures": "textures/blocks/vault_top"
     },
