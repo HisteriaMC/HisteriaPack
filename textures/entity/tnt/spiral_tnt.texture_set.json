@@ -1,0 +1,7 @@
+{
+    "format_version": "1.21.30",
+    "minecraft:texture_set": {
+        "color": "spiral_tnt",
+        "metalness_emissive_roughness_subsurface": "spiral_tnt_mers"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "format_version": "1.21.30",
+    "minecraft:texture_set": {
+        "color": "cleanse_potion",
+        "metalness_emissive_roughness_subsurface": "cleanse_potion_mers"
+    }
+}

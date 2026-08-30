@@ -1,0 +1,7 @@
+{
+    "format_version": "1.21.30",
+    "minecraft:texture_set": {
+        "color": "common_money_bag",
+        "metalness_emissive_roughness_subsurface": "common_money_bag_mers"
+    }
+}
