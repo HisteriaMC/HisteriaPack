@@ -82,9 +82,6 @@
     "cobble_breaker_side": {
       "textures": "textures/blocks/cobble_breaker_side"
     },
-    "box": {
-      "textures": "textures/blocks/box"
-    },
     "random_ore": {
       "textures": "textures/blocks/random_ore"
     },
@@ -310,9 +307,6 @@
     "vault_side": {
       "textures": "textures/blocks/vault_side"
     },
-    "vault_side_og_side": {
-      "textures": "textures/blocks/vault_side_og_side"
-    },
     "vault_top": {
       "textures": "textures/blocks/vault_top"
     },
@@ -498,12 +492,6 @@
     },
     "lumen_water_still": {
       "textures": "textures/blocks/lumen_water_still"
-    },
-    "chiaroscuro_mushroom_carried": {
-      "textures": "textures/blocks/chiaroscuro_mushroom_carried"
-    },
-    "lumen_lily_pad_caried": {
-      "textures": "textures/blocks/lumen_lily_pad_caried"
     },
     "raw_golden_nocturite": {
       "textures": "textures/blocks/raw_golden_nocturite"
