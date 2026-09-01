@@ -158,7 +158,7 @@ item.histeria:nocturite_crystal=Nocturite Crystal
 item.histeria:nocturite_fruit=Nocturite Fruit
 item.histeria:nocturite_seeds=Nocturite Seeds
 item.histeria:histerite_seeds=Histerite Seeds
-item.histeria:histerite_strings=Histerite Strings
+item.histeria:histerite_string=Histerite Strings
 item.histeria:crown_star=Crown Star
 item.histeria:forge_dust=Forge Dust
 item.histeria:life_star=Life Star
@@ -193,6 +193,7 @@ item.histeria:candy_cane=Candy Cane
 item.histeria:red_candy=Red Candy
 item.histeria:blue_candy=Blue Candy
 item.histeria:yellow_candy=Yellow Candy
+item.histeria:green_candy=Green Candy
 item.histeria:snow_globe=Snow Globe
 
 item.histeria:leap=leap
