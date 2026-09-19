@@ -1,0 +1,54 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.bellum.general": {
+      "initial_state": "idle",
+      "states": {
+        "idle": {
+          "animations": [
+            "idle"
+          ],
+          "transitions": [
+            {
+              "attack": "variable.attack_time > 0.0"
+            },
+            {
+              "walk": "query.modified_move_speed > 0.01"
+            }
+          ],
+          "blend_transition": 0.2
+        },
+        "walk": {
+          "animations": [
+            {
+              "walk": "math.min(1.0, math.lerp(0.4, 1.2, query.modified_move_speed))"
+            }
+          ],
+          "transitions": [
+            {
+              "attack": "variable.attack_time > 0.0"
+            },
+            {
+              "idle": "query.modified_move_speed <= 0.01"
+            }
+          ],
+          "blend_transition": 0.18
+        },
+        "attack": {
+          "animations": [
+            "attack"
+          ],
+          "transitions": [
+            {
+              "walk": "variable.attack_time <= 0.0 && query.modified_move_speed > 0.01"
+            },
+            {
+              "idle": "variable.attack_time <= 0.0 && query.modified_move_speed <= 0.01"
+            }
+          ],
+          "blend_transition": 0.12
+        }
+      }
+    }
+  }
+}
