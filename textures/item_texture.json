@@ -503,8 +503,8 @@
     "hestia_veil": {
       "textures": "textures/items/armors/hestia_veil"
     },
-    "cursed_helmet": {
-      "textures": "textures/items/event/cursed_helmet"
+    "event_helmet": {
+      "textures": "textures/items/event/event_helmet"
     },
     "cursed_sword": {
       "textures": "textures/items/event/cursed_sword"
