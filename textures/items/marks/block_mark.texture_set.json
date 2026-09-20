@@ -1,0 +1,7 @@
+{
+    "format_version": "1.21.30",
+    "minecraft:texture_set": {
+        "color": "block_mark",
+        "metalness_emissive_roughness_subsurface": "block_mark_mers"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "format_version": "1.21.30",
+    "minecraft:texture_set": {
+        "color": "lumen_sword",
+        "metalness_emissive_roughness_subsurface": "lumen_sword_mers"
+    }
+}

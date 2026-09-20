@@ -1,0 +1,7 @@
+{
+    "format_version": "1.21.30",
+    "minecraft:texture_set": {
+        "color": "hestia_veil",
+        "metalness_emissive_roughness_subsurface": "hestia_veil_mers"
+    }
+}

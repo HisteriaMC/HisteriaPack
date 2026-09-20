@@ -1,0 +1,7 @@
+{
+    "format_version": "1.21.30",
+    "minecraft:texture_set": {
+        "color": "punching_ball",
+        "metalness_emissive_roughness_subsurface": "punching_ball_mers"
+    }
+}

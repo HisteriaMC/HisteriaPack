@@ -1,0 +1,7 @@
+{
+    "format_version": "1.21.30",
+    "minecraft:texture_set": {
+        "color": "grapling_hook",
+        "metalness_emissive_roughness_subsurface": "grapling_hook_mers"
+    }
+}

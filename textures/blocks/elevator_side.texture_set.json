@@ -1,0 +1,7 @@
+{
+    "format_version": "1.21.30",
+    "minecraft:texture_set": {
+        "color": "elevator_side",
+        "metalness_emissive_roughness_subsurface": "elevator_side_mers"
+    }
+}
