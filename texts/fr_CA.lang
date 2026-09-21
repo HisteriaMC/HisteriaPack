@@ -220,12 +220,17 @@ item.histeria:candy_bucket=Sceau de bonbons
 item.histeria:green_candy_shards=Morceaux de bonbons verts
 item.histeria:red_candy_shards=Morceaux de bonbons rouges
 item.histeria:yellow_candy_shards=Morceaux de bonbons jaunes
-item.histeria:cursed_helmet=Casque maudit 
 item.histeria:cursed_sword=Épée maudite
 item.histeria:red_candy=Bonbon rouge
 item.histeria:beer=Bière
-item.histeria:ban_hammer=Marteau de bannissement
-
+item.histeria:event_helmet=Casque citrouille
+item.histeria:death_apple=Pomme de la mort
+item.histeria:death_star=Étoile de la mort
+item.histeria:event_boots=Bottes d'Hiver
+item.histeria:event_chestplate=Plastron lapin
+item.histeria:event_leggings=Pantalon d'Été
+item.histeria:pumpkin_soup=Soupe de citrouille
+item.histeria:scythe=Faux
 
 
 

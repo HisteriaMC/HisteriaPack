@@ -2,14 +2,14 @@
   "format_version": "1.10.0",
   "minecraft:attachable": {
     "description": {
-      "identifier": "histeria:cursed_helmet.player",
-      "item": { "histeria:cursed_helmet": "query.owner_identifier == 'minecraft:player'" },
+      "identifier": "histeria:event_helmet.player",
+      "item": { "histeria:event_helmet": "query.owner_identifier == 'minecraft:player'" },
       "materials": {
         "default": "armor",
         "enchanted": "armor_enchanted"
       },
       "textures": {
-        "default": "textures/models/armor/event/cursed_helmet_1",
+        "default": "textures/models/armor/event/event_helmet_1",
         "enchanted": "textures/misc/enchanted_item_glint"
       },
       "geometry": {

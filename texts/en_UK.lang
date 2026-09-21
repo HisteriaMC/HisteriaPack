@@ -220,11 +220,19 @@ item.histeria:candy_bucket=Candy Bucket
 item.histeria:green_candy_shards=Green Candy Shards
 item.histeria:red_candy_shards=Red Candy Shards
 item.histeria:yellow_candy_shards=Yellow Candy Shards
-item.histeria:cursed_helmet=Cursed Helmet
 item.histeria:cursed_sword=Cursed Sword
 item.histeria:red_candy=Red Candy
 item.histeria:beer=Beer
 item.histeria:ban_hammer=Ban Hammer
+item.histeria:event_helmet=Pumpkin Helmet
+item.histeria:death_apple=Death Apple
+item.histeria:death_star=Death Star
+item.histeria:event_boots=Winter Boots
+item.histeria:event_chestplate=Rabbit Chestplate
+item.histeria:event_leggings=Summer Pants
+item.histeria:pumpkin_soup=Pumpkin Soup
+item.histeria:scythe=Scythe
+
 
 
 [Fossils]

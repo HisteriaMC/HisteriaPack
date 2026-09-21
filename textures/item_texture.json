@@ -503,8 +503,8 @@
     "hestia_veil": {
       "textures": "textures/items/armors/hestia_veil"
     },
-    "cursed_helmet": {
-      "textures": "textures/items/event/cursed_helmet"
+    "event_helmet": {
+      "textures": "textures/items/event/event_helmet"
     },
     "cursed_sword": {
       "textures": "textures/items/event/cursed_sword"
@@ -647,6 +647,27 @@
     },
     "ban_hammer": {
       "textures": "textures/items/tools/ban_hammer"
+    },
+    "event_boots": {
+      "textures": "textures/items/event/event_boots"
+    },
+    "event_chestplate": {
+      "textures": "textures/items/event/event_chestplate"
+    },
+    "event_leggings": {
+      "textures": "textures/items/event/event_leggings"
+    },
+    "scythe": {
+      "textures": "textures/items/event/scythe"
+    },
+    "death_apple": {
+      "textures": "textures/items/event/death_apple"
+    },
+    "death_star": {
+      "textures": "textures/items/event/death_star"
+    },
+    "pumpkin_soup": {
+      "textures": "textures/items/event/pumpkin_soup"
     }
   }
 }
