@@ -5,7 +5,7 @@
 			"identifier": "histeria:ghostly_skull",
 			"basic_render_parameters": {
 				"material": "particles_alpha",
-				"texture": "textures/particle/flame_atlas"
+				"texture": "textures/particle/event/ghostly_skull"
 			}
 		},
 		"components": {
