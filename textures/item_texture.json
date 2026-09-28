@@ -659,6 +659,9 @@
     },
     "scythe": {
       "textures": "textures/items/event/scythe"
+      },
+    "scythe_model": {
+      "textures": "textures/items/event/scythe_model"
     },
     "death_apple": {
       "textures": "textures/items/event/death_apple"

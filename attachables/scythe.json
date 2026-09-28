@@ -9,7 +9,7 @@
 				"enchanted": "entity_alphatest_glint"
 			},
 			"textures": {
-				"default": "textures/items/event/scythe",
+				"default": "textures/items/event/scythe_model",
 				"enchanted": "textures/misc/enchanted_item_glint"
 			},
 			"geometry": {
