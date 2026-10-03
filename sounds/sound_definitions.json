@@ -149,6 +149,13 @@
          "sounds": [
             "sounds/pulse/pulse_shoot"
          ]
+      },
+      "event.ghostly_scream" : {
+         "__use_legacy_max_distance": "true",
+         "category": "player",
+         "sounds": [
+            "sounds/event/ghostly_scream"
+         ]
       }
    }
 }
