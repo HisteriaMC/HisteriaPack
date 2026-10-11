@@ -16,7 +16,10 @@
         "default": "geometry.player.armor.boots"
       },
       "scripts": {
-        "parent_setup": "variable.boot_layer_visible = 0.0;"
+        "parent_setup": "variable.boot_layer_visible = 0.0;",
+        "animate": [
+          "offset"
+        ]
       },
       "render_controllers": [ "controller.render.armor" ]
     }
