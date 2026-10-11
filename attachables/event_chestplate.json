@@ -8,7 +8,7 @@
         "enchanted": "armor_enchanted"
       },
       "textures": {
-        "default": "textures/models/armor/event_chestplate_1",
+        "default": "textures/models/armor/event/event_chestplate_1",
         "enchanted": "textures/misc/enchanted_item_glint"
       },
       "geometry": {

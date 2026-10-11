@@ -9,7 +9,7 @@
         "enchanted": "armor_enchanted"
       },
       "textures": {
-        "default": "textures/models/armor/event_boots_1",
+        "default": "textures/models/armor/event/event_boots_1",
         "enchanted": "textures/misc/enchanted_item_glint"
       },
       "geometry": {
