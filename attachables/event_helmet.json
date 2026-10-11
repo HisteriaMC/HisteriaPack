@@ -2,13 +2,13 @@
   "format_version": "1.8.0",
   "minecraft:attachable": {
     "description": {
-      "identifier": "histeria:cursed_helmet",
+      "identifier": "histeria:event_helmet",
       "materials": {
         "default": "armor",
         "enchanted": "armor_enchanted"
       },
       "textures": {
-        "default": "textures/models/armor/event/cursed_helmet_1",
+        "default": "textures/models/armor/event/event_helmet_1",
         "enchanted": "textures/misc/enchanted_item_glint"
       },
       "geometry": {
