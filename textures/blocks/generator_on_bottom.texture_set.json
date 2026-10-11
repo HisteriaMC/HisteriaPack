@@ -1,0 +1,7 @@
+{
+    "format_version": "1.21.30",
+    "minecraft:texture_set": {
+        "color": "generator_on_bottom",
+        "metalness_emissive_roughness_subsurface": "generator_on_bottom_mers"
+    }
+}

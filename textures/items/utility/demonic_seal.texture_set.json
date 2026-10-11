@@ -1,0 +1,7 @@
+{
+    "format_version": "1.21.30",
+    "minecraft:texture_set": {
+        "color": "demonic_seal",
+        "metalness_emissive_roughness_subsurface": "demonic_seal_mers"
+    }
+}
