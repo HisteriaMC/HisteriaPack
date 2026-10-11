@@ -556,6 +556,9 @@
     "cluster_tnt_top": {
       "textures": "textures/blocks/cluster_tnt_top"
     },
+    "cluster_tnt_bottom": {
+      "textures": "textures/blocks/cluster_tnt_bottom"
+    },
     "spiral_tnt_bottom": {
       "textures": "textures/blocks/spiral_tnt_bottom"
     },
