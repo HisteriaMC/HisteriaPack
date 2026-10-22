@@ -1,0 +1,7 @@
+{
+    "format_version": "1.21.30",
+    "minecraft:texture_set": {
+        "color": "ares_chestplate_1",
+        "metalness_emissive_roughness_subsurface": "ares_chestplate_1_mers"
+    }
+}

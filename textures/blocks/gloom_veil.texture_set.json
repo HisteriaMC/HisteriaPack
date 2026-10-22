@@ -1,0 +1,7 @@
+{
+    "format_version": "1.21.30",
+    "minecraft:texture_set": {
+        "color": "gloom_veil",
+        "metalness_emissive_roughness_subsurface": "gloom_veil_mers"
+    }
+}

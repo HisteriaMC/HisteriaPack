@@ -1,0 +1,7 @@
+{
+    "format_version": "1.21.30",
+    "minecraft:texture_set": {
+        "color": "histerite_obsidian_floor_generator",
+        "metalness_emissive_roughness_subsurface": "histerite_obsidian_floor_generator_mers"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "format_version": "1.21.30",
+    "minecraft:texture_set": {
+        "color": "christmas_gift",
+        "metalness_emissive_roughness_subsurface": "christmas_gift_mers"
+    }
+}
