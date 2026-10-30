@@ -1,8 +1,4 @@
 {
-  "histeria:box": {
-    "sound": "wood",
-    "textures": "box"
-  },
   "histeria:cave_block": {
     "sound": "glass",
     "textures": "cave_block"
@@ -480,7 +476,6 @@
     "textures": "chiaroscuro_lichen"
   },
   "histeria:chiaroscuro_mushroom": {
-    "carried_textures": "chiaroscuro_mushroom_carried",
     "sound": "grass",
     "textures": "chiaroscuro_mushroom"
   },
@@ -521,7 +516,6 @@
     "textures": "lumen_leaves"
   },
   "histeria:lumen_lily_pad": {
-    "carried_textures": "lumen_lily_pad_carried",
     "sound": "grass",
     "textures": "lumen_lily_pad"
   },

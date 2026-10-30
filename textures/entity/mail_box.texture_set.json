@@ -1,0 +1,7 @@
+{
+    "format_version": "1.21.30",
+    "minecraft:texture_set": {
+        "color": "mail_box",
+        "metalness_emissive_roughness_subsurface": "mail_box_mers"
+    }
+}
