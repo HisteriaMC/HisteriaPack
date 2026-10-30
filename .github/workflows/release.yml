@@ -133,10 +133,7 @@ jobs:
           name: zip-texture-pack
           path: dist
 
-      - name: Install sshpass
-        run: sudo apt-get install -y sshpass
-
-      - name: Upload pack to production server
+      - name: Upload pack to the proxy
         env:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
           SSH_USERNAME: ${{ vars.SSH_USERNAME }}
@@ -157,9 +154,11 @@ jobs:
 
           sudo ip li set mtu 1400 dev eth0
 
-          rsync -avz -e "ssh -o StrictHostKeyChecking=no -p $SSH_PORT" dist/HisteriaPack.zip $SSH_USERNAME@$HOST:$DIRECTORY/HisteriaPack.zip
-
-          ssh -p $SSH_PORT $SSH_USERNAME@$HOST "cd $DIRECTORY && ./upload.sh resource_packs HisteriaPack.zip"
+          # The proxy serves the pack from DIRECTORY and reloads it when the file changes (no restart needed).
+          # Write to a temp file then rename, so the proxy never reads a partial upload.
+          ssh -o StrictHostKeyChecking=no -p $SSH_PORT $SSH_USERNAME@$HOST \
+            "mkdir -p '$DIRECTORY' && cat > '$DIRECTORY/.HisteriaPack.zip.tmp' && mv '$DIRECTORY/.HisteriaPack.zip.tmp' '$DIRECTORY/HisteriaPack.zip'" \
+            < dist/HisteriaPack.zip
 
           ssh-agent -k
           if [ -f "$SSH_KEY_FILE" ]; then rm -f "$SSH_KEY_FILE"; fi
